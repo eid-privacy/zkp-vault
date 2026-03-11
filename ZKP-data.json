@@ -1,0 +1,122 @@
+{
+  "summary": [],
+  "frameworks": [
+    {
+      "name": "Docknetwork",
+      "based_on": "Bulletproofs, LegoGroth, ZKAttest, Pedersen Commitments",
+      "easyness": "medium",
+      "fast_and_short": true,
+      "post_quantum": "yes/no",
+      "mobile_and_web": true,
+      "maintained": "medium/bad",
+      "open_source": true,
+      "security_review": false,
+      "sign_and_hash": true,
+      "url": "https://github.com/docknetwork/crypto"
+    },
+    {
+      "name": "Noir",
+      "based_on": "ACIR + Barretenberg (Plonk-based Ultrahonk)",
+      "easyness": "easy",
+      "fast_and_short": true,
+      "post_quantum": false,
+      "mobile_and_web": true,
+      "maintained": "yes",
+      "open_source": true,
+      "security_review": false,
+      "sign_and_hash": true,
+      "url": "https://github.com/noir-lang/noir"
+    },
+    {
+      "name": "Circom 2",
+      "based_on": "ZK-SNARK",
+      "easyness": "so-so",
+      "fast_and_short": "unclear",
+      "post_quantum": false,
+      "mobile_and_web": true,
+      "maintained": "ecosystem",
+      "open_source": true,
+      "security_review": false,
+      "sign_and_hash": "hash yes, signature maybe",
+      "url": "https://github.com/iden3/circom"
+    },
+    {
+      "name": "Ligero",
+      "based_on": "Ligero",
+      "easyness": true,
+      "fast_and_short": "half (simple examples <1s, proof ~2MB)",
+      "post_quantum": true,
+      "mobile_and_web": true,
+      "maintained": "yes",
+      "open_source": true,
+      "security_review": false,
+      "sign_and_hash": true,
+      "url": "https://github.com/ligeroinc/ligero-prover"
+    },
+    {
+      "name": "Spartan",
+      "based_on": "Spartan paper SNARK",
+      "easyness": "yes for low-level circuits, no for complex",
+      "fast_and_short": true,
+      "post_quantum": false,
+      "mobile_and_web": true,
+      "maintained": "meh",
+      "open_source": true,
+      "security_review": false,
+      "sign_and_hash": true,
+      "url": "https://github.com/microsoft/Spartan"
+    },
+    {
+      "name": "Halo 2",
+      "based_on": "UltraPLONK / PLONKish",
+      "easyness": "hard",
+      "fast_and_short": "probably",
+      "post_quantum": false,
+      "mobile_and_web": false,
+      "maintained": "some activity",
+      "open_source": true,
+      "security_review": false,
+      "sign_and_hash": "sha256, no signature verification",
+      "url": "https://github.com/zcash/halo2"
+    },
+    {
+      "name": "RISC Zero",
+      "based_on": "zk-STARKS",
+      "easyness": "easy to medium",
+      "fast_and_short": "yes (per Claude)",
+      "post_quantum": true,
+      "mobile_and_web": true,
+      "maintained": "very active",
+      "open_source": true,
+      "security_review": true,
+      "sign_and_hash": true,
+      "url": "https://risczero.com/"
+    },
+    {
+      "name": "gnark",
+      "based_on": "Groth16, PLONK",
+      "easyness": "easy to medium",
+      "fast_and_short": true,
+      "post_quantum": false,
+      "mobile_and_web": false,
+      "maintained": true,
+      "open_source": true,
+      "security_review": true,
+      "sign_and_hash": true,
+      "url": "https://github.com/ConsenSys/gnark"
+    },
+    {
+      "name": "ZoKrates",
+      "based_on": "",
+      "easyness": "lowest learning curve",
+      "fast_and_short": "",
+      "post_quantum": "",
+      "mobile_and_web": "",
+      "maintained": "dead",
+      "open_source": true,
+      "security_review": false,
+      "sign_and_hash": "",
+      "url": "https://github.com/Zokrates/ZoKrates"
+    }
+  ]
+}

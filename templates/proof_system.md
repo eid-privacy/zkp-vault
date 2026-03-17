@@ -1,80 +1,43 @@
 ---
 type: proof_system
-status:
-  - research/production/deprecated
+status: research
 year:
-year_update:
+abbreviation:
 authors: []
 predecessors: []
 tags:
   - zkp
 ---
----
-type: proof_system
-status: [research/production/deprecated]
-year: 
-authors: []
-predecessors: []
-tags: [zkp, ]
----
 
 # {{title}}
 
-Paper:: 
-Implementation:: 
+Paper::
+DOI::
 
 ## Description
-[Brief overview]
+[Brief overview — what contribution this proof system makes]
 
 ## Technical Characteristics
 
 **Complexity:**
-- Prover: 
-- Verifier: 
-- Proof Size: 
+- Prover:
+- Verifier:
+- Proof Size:
 - Setup: [transparent/trusted/universal]
 
 **Security:**
 - Assumption: [computational/information-theoretic]
-- Basis: 
+- Post-quantum: [yes/no]
+- Basis:
 
 ## Dependencies
-Uses: [[]], [[]]
+Based on: [[]], [[]]
+Circuit representation: [[]]
 
 ## Applications
 Used by: [[]], [[]]
 
 ## Resources
-- Paper: 
-- Code: 
-- Explainer:
-# {{title}}
-
-Paper:: 
-Implementation:: 
-
-## Description
-[Brief overview]
-
-## Technical Characteristics
-
-**Complexity:**
-- Prover: 
-- Verifier: 
-- Proof Size: 
-- Setup: [transparent/trusted/universal]
-
-**Security:**
-- Assumption: [computational/information-theoretic]
-- Basis: 
-
-## Dependencies
-Uses: [[]], [[]]
-
-## Applications
-Used by: [[]], [[]]
-
-## Resources
-- Paper: 
-- Code: 
+- Paper:
+- Code:
 - Explainer:

@@ -1,80 +1,40 @@
 ---
-type: proof_system
-status:
-  - research/production/deprecated
+type: tooling_application
+subtype: circuit_dsl
+status: active
 year:
-year_update:
-authors: []
-predecessors: []
 tags:
   - zkp
 ---
----
-type: proof_system
-status: [research/production/deprecated]
-year: 
-authors: []
-predecessors: []
-tags: [zkp, ]
----
 
 # {{title}}
 
-Paper:: 
-Implementation:: 
+URL::
+Github::
 
 ## Description
-[Brief overview]
+[What this tool/framework/library is and its purpose]
 
-## Technical Characteristics
+## Evaluation
 
-**Complexity:**
-- Prover: 
-- Verifier: 
-- Proof Size: 
-- Setup: [transparent/trusted/universal]
+| Criterion | Value |
+| - | - |
+| Based on | |
+| Easiness | |
+| Fast and short (<1s, <1MB) | |
+| Post-quantum | |
+| Mobile and web | |
+| Maintained | |
+| Open source | |
+| Security review | |
+| secp256k1 signature + sha256 | |
 
-**Security:**
-- Assumption: [computational/information-theoretic]
-- Basis: 
+## Notes
+[Additional observations, caveats, context]
 
-## Dependencies
-Uses: [[]], [[]]
-
-## Applications
-Used by: [[]], [[]]
-
-## Resources
-- Paper: 
-- Code: 
-- Explainer:
-# {{title}}
-
-Paper:: 
-Implementation:: 
-
-## Description
-[Brief overview]
-
-## Technical Characteristics
-
-**Complexity:**
-- Prover: 
-- Verifier: 
-- Proof Size: 
-- Setup: [transparent/trusted/universal]
-
-**Security:**
-- Assumption: [computational/information-theoretic]
-- Basis: 
-
-## Dependencies
-Uses: [[]], [[]]
-
-## Applications
-Used by: [[]], [[]]
+## Based on
+[[]], [[]]
 
 ## Resources
-- Paper: 
-- Code: 
-- Explainer:
+- Docs:
+- Blog:

@@ -1,80 +1,26 @@
 ---
-type: proof_system
-status:
-  - research/production/deprecated
+type: theoretical_model
 year:
-year_update:
 authors: []
-predecessors: []
 tags:
   - zkp
----
----
-type: proof_system
-status: [research/production/deprecated]
-year: 
-authors: []
-predecessors: []
-tags: [zkp, ]
+  - theory
 ---
 
 # {{title}}
 
-Paper:: 
-Implementation:: 
+Paper::
+DOI::
 
 ## Description
-[Brief overview]
+[What this theoretical model defines or proves]
 
-## Technical Characteristics
+## Significance
+[What it enables — what classes of protocols or proofs it justifies]
 
-**Complexity:**
-- Prover: 
-- Verifier: 
-- Proof Size: 
-- Setup: [transparent/trusted/universal]
-
-**Security:**
-- Assumption: [computational/information-theoretic]
-- Basis: 
-
-## Dependencies
-Uses: [[]], [[]]
-
-## Applications
-Used by: [[]], [[]]
+## Built upon by
+[[]], [[]]
 
 ## Resources
-- Paper: 
-- Code: 
-- Explainer:
-# {{title}}
-
-Paper:: 
-Implementation:: 
-
-## Description
-[Brief overview]
-
-## Technical Characteristics
-
-**Complexity:**
-- Prover: 
-- Verifier: 
-- Proof Size: 
-- Setup: [transparent/trusted/universal]
-
-**Security:**
-- Assumption: [computational/information-theoretic]
-- Basis: 
-
-## Dependencies
-Uses: [[]], [[]]
-
-## Applications
-Used by: [[]], [[]]
-
-## Resources
-- Paper: 
-- Code: 
+- Paper:
 - Explainer:

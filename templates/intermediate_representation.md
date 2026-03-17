@@ -1,80 +1,21 @@
 ---
-type: proof_system
-status:
-  - research/production/deprecated
-year:
-year_update:
-authors: []
-predecessors: []
+type: intermediate_representation
 tags:
   - zkp
----
----
-type: proof_system
-status: [research/production/deprecated]
-year: 
-authors: []
-predecessors: []
-tags: [zkp, ]
+  - circuit
 ---
 
 # {{title}}
 
-Paper:: 
-Implementation:: 
-
 ## Description
-[Brief overview]
+[What this IR is and what kind of statements it can represent]
 
-## Technical Characteristics
+## Used by Proof Systems
+[[]], [[]]
 
-**Complexity:**
-- Prover: 
-- Verifier: 
-- Proof Size: 
-- Setup: [transparent/trusted/universal]
-
-**Security:**
-- Assumption: [computational/information-theoretic]
-- Basis: 
-
-## Dependencies
-Uses: [[]], [[]]
-
-## Applications
-Used by: [[]], [[]]
+## Supported by Tools
+[[]], [[]]
 
 ## Resources
-- Paper: 
-- Code: 
-- Explainer:
-# {{title}}
-
-Paper:: 
-Implementation:: 
-
-## Description
-[Brief overview]
-
-## Technical Characteristics
-
-**Complexity:**
-- Prover: 
-- Verifier: 
-- Proof Size: 
-- Setup: [transparent/trusted/universal]
-
-**Security:**
-- Assumption: [computational/information-theoretic]
-- Basis: 
-
-## Dependencies
-Uses: [[]], [[]]
-
-## Applications
-Used by: [[]], [[]]
-
-## Resources
-- Paper: 
-- Code: 
+- Spec:
 - Explainer:

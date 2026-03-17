@@ -1,80 +1,31 @@
 ---
-type: proof_system
-status:
-  - research/production/deprecated
+type: cryptographic_primitive
 year:
-year_update:
 authors: []
-predecessors: []
 tags:
   - zkp
----
----
-type: proof_system
-status: [research/production/deprecated]
-year: 
-authors: []
-predecessors: []
-tags: [zkp, ]
+  - sigma
 ---
 
 # {{title}}
 
-Paper:: 
-Implementation:: 
+Paper::
+DOI::
 
 ## Description
-[Brief overview]
+[What this primitive is and what it enables]
 
-## Technical Characteristics
+## Properties
+- Completeness:
+- Soundness:
+- Zero-knowledge:
 
-**Complexity:**
-- Prover: 
-- Verifier: 
-- Proof Size: 
-- Setup: [transparent/trusted/universal]
+## Based on
+[[]]
 
-**Security:**
-- Assumption: [computational/information-theoretic]
-- Basis: 
-
-## Dependencies
-Uses: [[]], [[]]
-
-## Applications
-Used by: [[]], [[]]
+## Used by
+[[]], [[]]
 
 ## Resources
-- Paper: 
-- Code: 
-- Explainer:
-# {{title}}
-
-Paper:: 
-Implementation:: 
-
-## Description
-[Brief overview]
-
-## Technical Characteristics
-
-**Complexity:**
-- Prover: 
-- Verifier: 
-- Proof Size: 
-- Setup: [transparent/trusted/universal]
-
-**Security:**
-- Assumption: [computational/information-theoretic]
-- Basis: 
-
-## Dependencies
-Uses: [[]], [[]]
-
-## Applications
-Used by: [[]], [[]]
-
-## Resources
-- Paper: 
-- Code: 
+- Paper:
 - Explainer:

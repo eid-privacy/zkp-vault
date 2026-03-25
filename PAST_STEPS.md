@@ -15,6 +15,11 @@ A ZKP (Zero-Knowledge Proof) knowledge vault — an Obsidian-based collection of
 
 ## Work Done
 
+### Session 2026-03-25
+- Created all 69 tag definition files in `Tags/` following `templates/tags.md`
+- Each file has `type: tag` frontmatter, H1 title, description, and a Dataview query auto-listing entries with that tag
+- Tags span 9 groups: foundational/meta, proof system families, properties, arithmetization/IR, cryptographic primitives, tooling/impl, application domain, resource type, ecosystem
+
 ### Session 2026-03-17
 - Created `CLAUDE.md` and `PAST_STEPS.md` for session continuity
 - Analyzed all source files (`ZKP-frameworks.md`, `ZKP-summary.csv`, `ZKP-data.json`, templates)
@@ -30,7 +35,7 @@ A ZKP (Zero-Knowledge Proof) knowledge vault — an Obsidian-based collection of
 
 ## Open Tasks / Next Steps
 - **README**: write a proper entry-point README (3 candidate approaches proposed to user — see session 2026-03-17b)
-- **Tags/**: tag definition files not yet created
+- ~~**Tags/**: tag definition files not yet created~~ — done (see Session 2026-03-25)
 - **Applications/**: no individual application notes created (only the generic index.md exists)
 - `ZKP-data.json` could be replaced by / kept in sync with the ToolingApplication notes
 - Longfellow and Crescent entries in CSV are empty — fill when data is available

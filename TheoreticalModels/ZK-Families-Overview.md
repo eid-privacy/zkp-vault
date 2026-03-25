@@ -39,4 +39,4 @@ ZKP systems can be organized by their arithmetic layer (constraint system), info
 [[GMR85-Knowledge-Complexity]], [[Fiat-Shamir]], [[NIZK-Blum]]
 
 ## Resources
-- Explainer: https://people.cs.georgetown.edu/jthaler/ProofsArgsAndZK.pdf
+- Explainer: [[Thaler-Proofs-Arguments-ZK]]

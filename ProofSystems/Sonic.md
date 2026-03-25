@@ -38,6 +38,6 @@ Circuit representation: [[R1CS]]
 Used by: [[PLONK]]
 
 ## Resources
-- Paper: https://dl.acm.org/doi/pdf/10.1145/3319535.3339817
-- Code: https://github.com/ebfull/sonic
+- Paper: [[Sonic-Paper]]
+- Code: [[Sonic-Code]]
 - Explainer:

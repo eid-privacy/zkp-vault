@@ -8,7 +8,7 @@ type: tag
 Tags the broader family of PLONK-derived protocols sharing the permutation-based constraint system: PLONK, TurboPlonk, UltraPlonk, Honk, and variants.
 
 ## Canonical entry
-→ [[Resources/Plonk-Family-Note]]
+→ [[Plonk-Family-Note]]
 
 ## Entries tagged
 

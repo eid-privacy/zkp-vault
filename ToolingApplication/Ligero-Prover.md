@@ -42,5 +42,5 @@ Commercial prover from Ligero Inc. based on the [[Ligero]] paper. Supports Rust,
 [[Ligero]]
 
 ## Resources
-- Docs: https://platform.ligetron.com/marketplace
-- Paper: https://acmccs.github.io/papers/p2087-amesA.pdf
+- Docs: [[Ligero-Prover-Docs]]
+- Paper: [[Ligero-Paper]]

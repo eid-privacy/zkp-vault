@@ -42,5 +42,5 @@ Best choice if the backend is Go-based and small proof size + fast verification 
 [[Groth16]], [[PLONK]]
 
 ## Resources
-- Docs: https://docs.gnark.consensys.io/
+- Docs: [[gnark-Docs]]
 - Blog:

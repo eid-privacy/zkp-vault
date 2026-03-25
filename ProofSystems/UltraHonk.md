@@ -38,5 +38,5 @@ Circuit representation: [[ACIR]] (via Barretenberg)
 Used by: [[Barretenberg]], [[Noir]]
 
 ## Resources
-- Code: https://github.com/AztecProtocol/aztec-packages/blob/f9431cdade270f3046c474d7f07e96f74d9d9747/barretenberg/cpp/scripts/audit/audit_scopes/honk_proving_system_audit_scope.md
-- Explainer: https://jtriley.substack.com/p/noirs-circuit-backend
+- Code: [[AztecProtocol-aztec-packages]]
+- Explainer: [[noirs-circuit-backend]]

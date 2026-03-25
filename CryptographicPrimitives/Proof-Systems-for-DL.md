@@ -31,5 +31,5 @@ Establishes a general framework and notation for constructing zero-knowledge pro
 [[Docknetwork]], [[ZKAttest]]
 
 ## Resources
-- Paper: https://crypto.ethz.ch/publications/files/CamSta97b.pdf
+- Paper: [[CamSta97b]]
 - Explainer:

@@ -40,6 +40,6 @@ Circuit representation: [[R1CS]]
 Used by: [[gnark]], [[Circom2]], [[Docknetwork]], Zcash
 
 ## Resources
-- Paper: https://eprint.iacr.org/2016/260.pdf
+- Paper: [[IACR-2016-260]]
 - Code:
-- Explainer: https://alinush.github.io/groth16
+- Explainer: [[groth16]]

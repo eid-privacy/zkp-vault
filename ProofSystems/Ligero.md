@@ -44,7 +44,7 @@ Circuit representation: [[R1CS]]
 Used by: [[Ligero-Prover]], [[Ligero-Plus-Plus]]
 
 ## Resources
-- Paper: https://acmccs.github.io/papers/p2087-amesA.pdf
-- Paper (updated): https://eprint.iacr.org/2022/1608
+- Paper: [[Ligero-Paper]]
+- Paper (updated): [[IACR-2022-1608]]
 - Code:
 - Explainer:

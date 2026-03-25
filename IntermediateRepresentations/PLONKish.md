@@ -35,5 +35,5 @@ The constraint system underlying the PLONK family. Uses a table of columns (wire
 [[Noir]], [[Barretenberg]], [[Halo2]]
 
 ## Resources
-- Spec: https://zkjargon.github.io/definitions/plonkish_arithmetization.html
-- Explainer: https://www.emergentmind.com/topics/plonkish-arithmetization
+- Spec: [[plonkish_arithmetization]]
+- Explainer: [[plonkish-arithmetization]]

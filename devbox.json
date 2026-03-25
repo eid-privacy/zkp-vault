@@ -10,9 +10,11 @@
       "npm install"
     ],
     "scripts": {
-      "breadcrumbs:dry": "npx ts-node utils/addBreadcrumbs.ts --dry-run",
-      "breadcrumbs":     "npx ts-node utils/addBreadcrumbs.ts",
-      "verify":          "bun run verify"
+      "breadcrumbs:dry":      "npx ts-node utils/addBreadcrumbs.ts --dry-run",
+      "breadcrumbs":          "npx ts-node utils/addBreadcrumbs.ts",
+      "verify":               "bun run verify",
+      "migrate-resources":    "bun run utils/migrateResources.ts",
+      "gen-resources-readme": "bun run utils/generateResourcesReadme.ts"
     }
   }
 }

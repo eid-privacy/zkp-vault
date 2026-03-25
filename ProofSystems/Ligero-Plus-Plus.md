@@ -45,6 +45,6 @@ Circuit representation:
 Used by:
 
 ## Resources
-- Paper: https://acm-stag.literatumonline.com/doi/pdf/10.1145/3372297.3417893
+- Paper: [[Ligero-Plus-Plus-Paper]]
 - Code:
 - Explainer:

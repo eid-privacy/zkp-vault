@@ -40,5 +40,5 @@ Current base for the C4DT e-ID ZKP solution. Maintenance concerns are a risk for
 [[Bulletproofs]], [[Groth16]], [[ZKAttest]], [[Pedersen-Commitments]]
 
 ## Resources
-- Docs: https://eid-privacy.github.io/wp2/2026/01/27/docknetwork-crypto-library.html
+- Docs: [[docknetwork-crypto-library]]
 - Blog:

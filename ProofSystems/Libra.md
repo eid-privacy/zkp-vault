@@ -45,6 +45,6 @@ Circuit representation:
 Used by:
 
 ## Resources
-- Paper: https://eprint.iacr.org/2019/317
+- Paper: [[IACR-2019-317]]
 - Code:
 - Explainer:

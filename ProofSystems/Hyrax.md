@@ -44,6 +44,6 @@ Circuit representation: [[R1CS]]
 Used by: [[Spartan]]
 
 ## Resources
-- Paper: https://eprint.iacr.org/2017/1132.pdf
+- Paper: [[IACR-2017-1132]]
 - Code:
 - Explainer:

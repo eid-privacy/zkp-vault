@@ -45,6 +45,6 @@ Circuit representation: [[AIR]]
 Used by: [[RISC-Zero]], [[SP1]], [[OpenVM]], [[Pico]], StarkWare
 
 ## Resources
-- Paper: https://eprint.iacr.org/2018/046.pdf
+- Paper: [[IACR-2018-046]]
 - Code:
 - Explainer:

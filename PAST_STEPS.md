@@ -33,6 +33,20 @@ A ZKP (Zero-Knowledge Proof) knowledge vault — an Obsidian-based collection of
   - `ToolingApplication/`: 15 files (Noir, Barretenberg, Circom2, Docknetwork, Ligero-Prover, Spartan-Framework, Halo2, RISC-Zero, gnark, ZoKrates, SP1, OpenVM, Pico, Valida, Powdr)
   - `Resources/`: 5 files (Thaler book, Evolution of ZKPs, ZKProof Wiki, PLONK Family Note, Tomescu blog)
 
+### Session 2026-03-25 (Resources restructuring)
+- Merged `Applications/index.md` → `Applications/README.md`; deleted `index.md`
+- Decided to keep `README.md` (not `index.md`) as section landing pages for GitHub compatibility
+- Restructured `Resources/` into subdirectories by resource type: `papers/`, `blogs/`, `books/`, `wikis/`, `docs/`, `code/`, `videos/`, `presentations/`
+- Moved 5 existing `Resources/*.md` files to appropriate subdirs
+- Wrote `utils/migrateResources.ts`: scans all content dirs for `## Resources` URLs, creates canonical stub files in `Resources/type/`, rewrites source files to use wikilinks; supports dedup and `--dry-run`
+- Wrote `utils/generateResourcesReadme.ts`: generates `Resources/README.md` with "By Type" and "By Topic" views from subdirectory frontmatter
+- Deleted `Resources/index.md` and `Resources/README.md` (replaced by generated file)
+- Updated `verify.ts` to scan subdirectories and handle `\|` in table wikilinks
+- Added `migrate-resources` and `gen-resources-readme` to `devbox.json`
+- Fixed `Tags/plonk-family.md` to use bare wikilink `[[Plonk-Family-Note]]`
+- Result: 59 resource files across 8 types; wiki-links ✓, markdown links ✓, file coverage ✓, tag consistency ✓
+- Pre-existing failures (not introduced here): breadcrumbs (all 186 files), README frontmatter (5 section READMEs)
+
 ## Open Tasks / Next Steps
 - **README**: write a proper entry-point README (3 candidate approaches proposed to user — see session 2026-03-17b)
 - ~~**Tags/**: tag definition files not yet created~~ — done (see Session 2026-03-25)

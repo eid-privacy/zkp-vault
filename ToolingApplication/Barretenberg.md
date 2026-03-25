@@ -40,4 +40,4 @@ Slower prover than some alternatives. The prover/verifier split is intentional: 
 
 ## Resources
 - Docs:
-- Blog: https://jtriley.substack.com/p/noirs-circuit-backend
+- Blog: [[noirs-circuit-backend]]

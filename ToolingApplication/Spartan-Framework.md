@@ -45,7 +45,7 @@ Integration work needed:
 [[Spartan]]
 
 ## Resources
-- Code (original): https://github.com/microsoft/Spartan/commits/master/
-- Code (v2): https://github.com/microsoft/Spartan2
-- Code (Crescent T-256 fork): https://github.com/microsoft/crescent-credentials/tree/main/forks/Spartan-t256
+- Code (original): [[Spartan-Framework-Code]]
+- Code (v2): [[microsoft-Spartan2]]
+- Code (Crescent T-256 fork): [[microsoft-crescent-credentials]]
 - Blog:

@@ -44,6 +44,6 @@ Circuit representation: [[R1CS]]
 Used by:
 
 ## Resources
-- Paper: https://eprint.iacr.org/2020/735
+- Paper: [[IACR-2020-735]]
 - Code:
 - Explainer:

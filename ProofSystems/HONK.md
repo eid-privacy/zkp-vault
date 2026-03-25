@@ -38,4 +38,4 @@ Used by: [[UltraHonk]], [[Barretenberg]]
 
 ## Resources
 - Code:
-- Explainer: https://hackmd.io/@learn-zkp/note-plonk-family
+- Explainer: [[Plonk-Family-Note]]

@@ -40,5 +40,5 @@ Very complex internally — implements a full compiler pipeline with optimizatio
 [[ACIR]], [[UltraHonk]]
 
 ## Resources
-- Docs: https://noir-lang.org/docs/
+- Docs: [[Noir-Docs]]
 - Blog:

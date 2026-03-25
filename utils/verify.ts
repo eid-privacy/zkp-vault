@@ -28,13 +28,29 @@ function getAllMdFiles(): { rel: string; abs: string; dir: string; file: string 
   for (const dir of Object.keys(SECTION_LABELS)) {
     const dirPath = path.join(VAULT_ROOT, dir);
     if (!fs.existsSync(dirPath)) continue;
-    for (const file of fs.readdirSync(dirPath).filter(f => f.endsWith('.md'))) {
-      results.push({
-        rel: `${dir}/${file}`,
-        abs: path.join(dirPath, file),
-        dir,
-        file,
-      });
+    // Scan top-level files
+    for (const entry of fs.readdirSync(dirPath, { withFileTypes: true })) {
+      if (entry.isFile() && entry.name.endsWith('.md')) {
+        results.push({
+          rel: `${dir}/${entry.name}`,
+          abs: path.join(dirPath, entry.name),
+          dir,
+          file: entry.name,
+        });
+      } else if (entry.isDirectory()) {
+        // Scan one level of subdirectories (e.g. Resources/papers/, Resources/blogs/)
+        const subDir = path.join(dirPath, entry.name);
+        for (const subEntry of fs.readdirSync(subDir, { withFileTypes: true })) {
+          if (subEntry.isFile() && subEntry.name.endsWith('.md')) {
+            results.push({
+              rel: `${dir}/${entry.name}/${subEntry.name}`,
+              abs: path.join(subDir, subEntry.name),
+              dir,
+              file: subEntry.name,
+            });
+          }
+        }
+      }
     }
   }
   return results;
@@ -88,7 +104,8 @@ function checkWikiLinks(files: ReturnType<typeof getAllMdFiles>): { errors: stri
   let count = 0;
 
   for (const { rel, abs } of files) {
-    const content = fs.readFileSync(abs, 'utf-8');
+    // Normalize escaped pipes (\|) used in table cells so wikilinks parse correctly
+    const content = fs.readFileSync(abs, 'utf-8').replace(/\\\|/g, '|');
     const re = /\[\[([^\]|]+)(?:\|[^\]]+)?\]\]/g;
     let m: RegExpExecArray | null;
     while ((m = re.exec(content)) !== null) {
@@ -145,7 +162,8 @@ function checkOrphans(files: ReturnType<typeof getAllMdFiles>): { errors: string
   }
 
   for (const { abs, dir } of scanSources) {
-    const content = fs.readFileSync(abs, 'utf-8');
+    // Normalize escaped pipes (\|) used in table cells so wikilinks parse correctly
+    const content = fs.readFileSync(abs, 'utf-8').replace(/\\\|/g, '|');
 
     // Wiki-links
     const wikiRe = /\[\[([^\]|]+)(?:\|[^\]]+)?\]\]/g;

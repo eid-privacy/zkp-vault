@@ -21,4 +21,4 @@ The standard arithmetization for pairing-based SNARKs. A set of rank-1 quadratic
 
 ## Resources
 - Spec:
-- Explainer: https://learn.0xparc.org/materials/circom/additional-resources/r1cs-explainer
+- Explainer: [[R1CS-Docs]]

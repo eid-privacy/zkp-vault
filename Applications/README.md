@@ -1,12 +1,61 @@
-# Applications
+---
+type: applications
+status: production
+tags:
+  - zkp
+  - applications
+  - use-cases
+---
 
-Real-world use cases and deployments of Zero-Knowledge Proofs. See [index.md](./index.md) for the full overview.
+# ZKP Applications
 
-## Areas Covered
-
-- **Privacy**: Private transactions (Zcash, Monero), self-sovereign identity, credential verification
-- **Scalability**: zkRollups (zkSync, Loopring, dYdX), zkEVM (Polygon Hermez, Scroll), validium
-- **Enterprise**: Supply chain provenance, healthcare data sharing, financial risk modeling
-- **Gaming & NFTs**: Fair gameplay proofs, private asset trading
+This section covers real-world use cases and applications of Zero-Knowledge Proofs across various domains.
 
 > Individual application notes are not yet created. Contributions welcome.
+
+## Privacy-Focused Applications
+
+### Cryptocurrencies
+- **Zcash**: Uses zk-SNARKs for private transactions
+- **Monero**: Uses Bulletproofs for range proofs
+- **Privacy Layers**: Aztec, Tornado Cash
+
+### Identity Management
+- **Self-sovereign identity**: Proving attributes without revealing identity
+- **Age verification**: Proving age without revealing birthdate
+- **Credential verification**: Academic or professional credentials
+
+## Scalability Solutions
+
+### Layer 2 Scaling
+- **zkRollups**: zkSync, Loopring, dYdX
+- **Validium**: StarkWare solutions
+- **ZkEVM**: Polygon Hermez, Scroll, zkSync Era
+
+### Blockchain Compression
+- **State compression**: Reducing on-chain data storage
+- **Transaction aggregation**: Bundling multiple transactions
+
+## Enterprise Applications
+
+### Supply Chain
+- **Provenance tracking**: Verifying product authenticity
+- **Compliance verification**: Meeting regulatory requirements
+
+### Healthcare
+- **Medical records**: Sharing diagnostic results without revealing patient data
+- **Clinical trials**: Proving trial efficacy without revealing individual data
+
+### Finance
+- **Credit scoring**: Proving creditworthiness without revealing financial details
+- **Risk modeling**: Sharing risk assessments without revealing underlying data
+
+## Gaming and Digital Assets
+
+### NFTs
+- **Private trading**: Transacting NFTs without revealing ownership
+- **Metadata privacy**: Hiding sensitive metadata
+
+### Gaming
+- **Fair gameplay**: Proving game outcomes without revealing strategies
+- **Cheating prevention**: Verifying compliance with game rules

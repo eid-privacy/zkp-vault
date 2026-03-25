@@ -41,5 +41,5 @@ Verification mechanism not fully understood by C4DT. The zkVM approach is excell
 [[zk-STARKs]], [[AIR]], [[FRI]]
 
 ## Resources
-- Docs: https://risczero.com/
-- Blog: https://medium.com/@gwrx2005/comparative-analysis-of-sp1-and-risc-zero-zero-knowledge-virtual-machines-4abf806daa70
+- Docs: [[RISC-Zero-Docs]]
+- Blog: [[comparative-analysis-of-sp1-and-risc-zero-zero-knowledge]]

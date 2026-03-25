@@ -41,6 +41,6 @@ Circuit representation:
 Used by: [[Ligero]], [[Bulletproofs]]
 
 ## Resources
-- Paper: https://iacr.org/archive/crypto2006/41170496/41170496.pdf
+- Paper: [[DI06-Scalable-MPC-Paper]]
 - Code:
 - Explainer:

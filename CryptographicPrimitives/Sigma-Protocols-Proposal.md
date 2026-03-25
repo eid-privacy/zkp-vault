@@ -30,5 +30,5 @@ A standardization proposal submitted to the ZKProof workshop. Defines a unified 
 ## Used by
 
 ## Resources
-- Paper: https://docs.zkproof.org/pages/standards/accepted-workshop4/proposal-sigma.pdf
+- Paper: [[proposal-sigma]]
 - Explainer:

@@ -41,8 +41,8 @@ Circuit representation: [[R1CS]]
 Used by: [[Spartan-Framework]]
 
 ## Resources
-- Paper: https://eprint.iacr.org/2019/550
-- Code: https://github.com/microsoft/Spartan
-- Code (v2): https://github.com/microsoft/Spartan2
-- Crescent fork (T-256): https://github.com/microsoft/crescent-credentials/tree/main/forks/Spartan-t256
+- Paper: [[IACR-2019-550]]
+- Code: [[Spartan-Code]]
+- Code (v2): [[microsoft-Spartan2]]
+- Crescent fork (T-256): [[microsoft-crescent-credentials]]
 - Explainer:

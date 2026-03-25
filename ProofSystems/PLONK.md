@@ -42,7 +42,7 @@ Circuit representation: [[PLONKish]]
 Used by: [[Halo2]], [[TurboPLONK]], [[UltraHonk]], [[HyperPlonk]], [[gnark]]
 
 ## Resources
-- Paper: https://eprint.iacr.org/2019/953.pdf
+- Paper: [[IACR-2019-953]]
 - Code:
-- Explainer: https://hackmd.io/@learn-zkp/note-plonk-family
-- Vitalik: https://vitalik.eth.limo/general/2019/09/22/plonk.html
+- Explainer: [[Plonk-Family-Note]]
+- Vitalik: [[PLONK-Blog]]

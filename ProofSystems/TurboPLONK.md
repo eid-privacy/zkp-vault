@@ -37,6 +37,6 @@ Circuit representation: [[PLONKish]]
 Used by: [[UltraHonk]], [[Barretenberg]]
 
 ## Resources
-- Paper: https://docs.zkproof.org/pages/standards/accepted-workshop3/proposal-turbo_plonk.pdf
+- Paper: [[proposal-turbo_plonk]]
 - Code:
-- Explainer: https://hackmd.io/@learn-zkp/note-plonk-family
+- Explainer: [[Plonk-Family-Note]]

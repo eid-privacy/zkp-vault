@@ -41,5 +41,5 @@ Quote from Halo document: *"To create a proof of a statement, the prover will ne
 [[PLONKish]], [[PLONK]]
 
 ## Resources
-- Docs: https://zcash.github.io/halo2/concepts/proofs.html
-- Blog: https://blog.trailofbits.com/2025/05/30/a-deep-dive-into-axioms-halo2-circuits/
+- Docs: [[Halo2-Docs]]
+- Blog: [[a-deep-dive-into-axioms-halo2-circuits]]

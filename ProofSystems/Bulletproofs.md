@@ -41,6 +41,6 @@ Circuit representation: [[R1CS]]
 Used by: [[Bulletproofs-Plus]], [[Docknetwork]], Monero
 
 ## Resources
-- Paper: https://eprint.iacr.org/2017/1066.pdf
+- Paper: [[IACR-2017-1066]]
 - Code:
 - Explainer:

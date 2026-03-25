@@ -33,5 +33,5 @@ Enables ring and group signatures for existing ECDSA keys using zero-knowledge p
 [[Docknetwork]]
 
 ## Resources
-- Paper: https://link.springer.com/chapter/10.1007/978-3-030-99277-4_4
+- Paper: [[ZKAttest-Paper]]
 - Explainer:

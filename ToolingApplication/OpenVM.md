@@ -41,5 +41,5 @@ Best proof size among zkVMs tested in the ECDSA benchmark (4.2 MB vs SP1's 9.3 M
 [[zk-STARKs]], Plonky3
 
 ## Resources
-- Docs: https://book.openvm.dev/
+- Docs: [[OpenVM-Docs]]
 - Blog:

@@ -40,5 +40,5 @@ Dead project. Do not use for new work.
 [[R1CS]], [[Groth16]]
 
 ## Resources
-- Docs: https://zokrates.github.io/
+- Docs: [[ZoKrates-Docs]]
 - Blog:

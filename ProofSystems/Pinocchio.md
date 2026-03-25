@@ -44,6 +44,6 @@ Circuit representation: [[R1CS]]
 Used by: [[Groth16]]
 
 ## Resources
-- Paper: https://eprint.iacr.org/2013/279.pdf
+- Paper: [[IACR-2013-279]]
 - Code:
 - Explainer:

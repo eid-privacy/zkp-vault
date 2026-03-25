@@ -38,5 +38,5 @@ Key sub-models:
 [[GMR85-Knowledge-Complexity]], [[Fiat-Shamir]], [[NIZK-Blum]], [[PLONK]], [[Spartan]], [[zk-STARKs]]
 
 ## Resources
-- Paper: https://dl.acm.org/doi/pdf/10.1145/22145.22178
-- Explainer: https://people.cs.georgetown.edu/jthaler/ProofsArgsAndZK.pdf
+- Paper: [[GMR85-Knowledge-Complexity-Paper]]
+- Explainer: [[Thaler-Proofs-Arguments-ZK]]

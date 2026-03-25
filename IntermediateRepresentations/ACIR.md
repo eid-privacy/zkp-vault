@@ -18,5 +18,5 @@ The intermediate representation used by [[Noir]]. ACIR is a backend-agnostic cir
 [[Noir]], [[Barretenberg]]
 
 ## Resources
-- Spec: https://github.com/noir-lang/noir/tree/master/acvm-repo
+- Spec: [[noir-lang-noir]]
 - Explainer:

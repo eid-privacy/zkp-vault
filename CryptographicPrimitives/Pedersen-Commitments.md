@@ -30,5 +30,5 @@ Discrete Logarithm assumption over a cyclic group
 [[Bulletproofs]], [[ZKAttest]], [[Docknetwork]], [[Sigma-Protocols-Damgard]], [[Proof-Systems-for-DL]]
 
 ## Resources
-- Paper: https://link.springer.com/content/pdf/10.1007/3-540-46766-1_9.pdf
+- Paper: [[Pedersen-Commitments-Paper]]
 - Explainer:

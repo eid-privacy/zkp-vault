@@ -51,5 +51,5 @@ Source: https://github.com/8ulce28/zkVM-ecdsa-benchmark
 [[zk-STARKs]], [[Groth16]], Plonky3
 
 ## Resources
-- Docs: https://docs.succinct.xyz/
-- Blog: https://medium.com/@gwrx2005/comparative-analysis-of-sp1-and-risc-zero-zero-knowledge-virtual-machines-4abf806daa70
+- Docs: [[SP1-Docs]]
+- Blog: [[comparative-analysis-of-sp1-and-risc-zero-zero-knowledge]]

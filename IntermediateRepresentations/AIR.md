@@ -21,4 +21,4 @@ The arithmetization used by STARK-based proof systems. A computation is expresse
 
 ## Resources
 - Spec:
-- Explainer: https://starkware.co/stark-101/
+- Explainer: [[AIR-Docs]]

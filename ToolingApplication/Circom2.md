@@ -40,5 +40,5 @@ More trusted than Noir due to longer track record. The iden3 ecosystem builds he
 [[R1CS]], [[Groth16]]
 
 ## Resources
-- Docs: https://docs.circom.io/
+- Docs: [[Circom2-Docs]]
 - Blog:

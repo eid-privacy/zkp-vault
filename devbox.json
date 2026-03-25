@@ -1,0 +1,16 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.14.2/.schema/devbox.schema.json",
+  "packages": [
+    "nodejs@22",
+    "typescript@5"
+  ],
+  "shell": {
+    "init_hook": [
+      "npm install"
+    ],
+    "scripts": {
+      "breadcrumbs:dry": "npx ts-node utils/addBreadcrumbs.ts --dry-run",
+      "breadcrumbs":     "npx ts-node utils/addBreadcrumbs.ts"
+    }
+  }
+}

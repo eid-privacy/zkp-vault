@@ -20,12 +20,20 @@ A ZKP (Zero-Knowledge Proof) knowledge vault — an Obsidian-based collection of
 - Analyzed all source files (`ZKP-frameworks.md`, `ZKP-summary.csv`, `ZKP-data.json`, templates)
 - Fixed all 6 templates in `templates/` — they were all identical copies of `proof_system` with content duplicated twice each
 - Each template now has the correct `type`, appropriate frontmatter fields, and body structure
+- Populated all content directories from CSV + frameworks data:
+  - `CryptographicPrimitives/`: 6 files (Pedersen, Camenisch-Michels, ZKAttest, Sigma×3)
+  - `ProofSystems/`: 24 files (GMR85 through UltraHonk)
+  - `IntermediateRepresentations/`: 4 files (R1CS, ACIR, AIR, PLONKish)
+  - `TheoreticalModels/`: 2 files (IP Model, ZK Families Overview)
+  - `ToolingApplication/`: 15 files (Noir, Barretenberg, Circom2, Docknetwork, Ligero-Prover, Spartan-Framework, Halo2, RISC-Zero, gnark, ZoKrates, SP1, OpenVM, Pico, Valida, Powdr)
+  - `Resources/`: 5 files (Thaler book, Evolution of ZKPs, ZKProof Wiki, PLONK Family Note, Tomescu blog)
 
 ## Open Tasks / Next Steps
-- **Fill content**: populate `ProofSystems/`, `CryptographicPrimitives/`, `IntermediateRepresentations/`, `TheoreticalModels/`, `ToolingApplication/`, `Tags/` using the CSV and frameworks data + the new templates
-- The CSV has ~30 real entries to convert into individual notes
-- The frameworks doc has 9 frameworks to convert into `tooling_application` notes
-- `ZKP-data.json` should be kept in sync with framework notes (or replaced by them)
+- **README**: write a proper entry-point README (3 candidate approaches proposed to user — see session 2026-03-17b)
+- **Tags/**: tag definition files not yet created
+- **Applications/**: no individual application notes created (only the generic index.md exists)
+- `ZKP-data.json` could be replaced by / kept in sync with the ToolingApplication notes
+- Longfellow and Crescent entries in CSV are empty — fill when data is available
 
 ## Notes & Decisions
 - No `package.json` visible — `csv-parse` dependency in `loadSummary.ts` may need setup

@@ -1,0 +1,15 @@
+{
+  "name": "zkp-vault",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "breadcrumbs:dry": "ts-node utils/addBreadcrumbs.ts --dry-run",
+    "breadcrumbs":     "ts-node utils/addBreadcrumbs.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "csv-parse": "^5.5.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.4.0"
+  }
+}

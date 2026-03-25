@@ -92,7 +92,7 @@ The vault is organized in three ways:
 - [QSP/GGPR13](ProofSystems/QSP-GGPR13.md) · [Pinocchio](ProofSystems/Pinocchio.md) · [Groth16](ProofSystems/Groth16.md)
 - [Ligero](ProofSystems/Ligero.md) · [Ligero++](ProofSystems/Ligero-Plus-Plus.md) · [Bulletproofs](ProofSystems/Bulletproofs.md) · [Bulletproofs+](ProofSystems/Bulletproofs-Plus.md)
 - [FRI](ProofSystems/FRI.md) · [zk-STARKs](ProofSystems/zk-STARKs.md) · [Hyrax](ProofSystems/Hyrax.md) · [Libra](ProofSystems/Libra.md) · [Spartan](ProofSystems/Spartan.md)
-- [Sonic](ProofSystems/Sonic.md) · [PLONK](ProofSystems/PLONK.md) · [PLONKish](ProofSystems/PLONKish.md) · [TurboPLONK](ProofSystems/TurboPLONK.md) · [HyperPLONK](ProofSystems/HyperPlonk.md)
+- [Sonic](ProofSystems/Sonic.md) · [PLONK](ProofSystems/PLONK.md) · [TurboPLONK](ProofSystems/TurboPLONK.md) · [HyperPLONK](ProofSystems/HyperPlonk.md)
 - [plookup](ProofSystems/plookup.md) · [HONK](ProofSystems/HONK.md) · [UltraHONK](ProofSystems/UltraHonk.md)
 
 ### Intermediate Representations

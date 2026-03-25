@@ -32,6 +32,7 @@ The vault is organized in three ways:
 | [Intermediate Representations](IntermediateRepresentations/README.md) | R1CS, AIR, PLONKish, ACIR                              |
 | [Tooling & Applications](ToolingApplication/README.md)                | 15 frameworks, DSLs, and zkVMs                         |
 | [Resources](Resources/README.md)                                      | Books, blog posts, reference documents                 |
+| [Applications](Applications/README.md)                                | Real-world ZKP use cases (placeholder)                 |
 
 ---
 
@@ -117,6 +118,9 @@ The vault is organized in three ways:
 | [Pico](ToolingApplication/Pico.md) | zkVM | Plonky3 |
 | [Valida](ToolingApplication/Valida.md) | zkVM | Plonky3 (archived) |
 | [Powdr](ToolingApplication/Powdr.md) | Optimizer | vmLLVM / zkVM |
+
+### Applications
+- [Applications overview](Applications/README.md) — privacy, scalability, enterprise, gaming use cases *(notes not yet written)*
 
 ### Resources
 - [Proofs, Arguments, and Zero-Knowledge (Thaler)](Resources/Thaler-Proofs-Arguments-ZK.md) — the standard textbook

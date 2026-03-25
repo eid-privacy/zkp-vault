@@ -4,6 +4,8 @@ tags:
   - zkp
   - circuit
   - plonk
+  - arithmetization
+  - mathematics
 ---
 
 # PLONKish Arithmetization

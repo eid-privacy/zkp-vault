@@ -4,6 +4,8 @@ tags:
   - zkp
   - circuit
   - stark
+  - arithmetization
+  - mathematics
 ---
 
 # AIR — Algebraic Intermediate Representation

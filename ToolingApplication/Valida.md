@@ -8,6 +8,8 @@ tags:
   - zkvm
   - plonky3
   - deprecated
+  - frameworks
+  - implementations
 ---
 
 # Valida

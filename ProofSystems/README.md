@@ -25,7 +25,6 @@ Cryptographic proof systems from foundational theory through modern production S
 |------|-------------|
 | [PLONK](./PLONK.md) | Universal and updatable trusted-setup SNARK using PLONKish arithmetisation (2019) |
 | [TurboPLONK](./TurboPLONK.md) | PLONK extension with custom gates |
-| [PLONKish](./PLONKish.md) | Generalised PLONKish constraint system (includes lookup tables) |
 | [plookup](./plookup.md) | Lookup argument for efficiently proving table membership inside PLONK |
 | [Sonic](./Sonic.md) | Universal SNARK with a universal SRS predating PLONK |
 | [HyperPlonk](./HyperPlonk.md) | PLONK variant over multilinear polynomials for improved prover time |

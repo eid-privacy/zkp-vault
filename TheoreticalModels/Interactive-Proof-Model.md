@@ -9,6 +9,7 @@ tags:
   - zkp
   - theory
   - interactive-proof
+  - mathematics
 ---
 
 # Interactive Proof Model (IP)

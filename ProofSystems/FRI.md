@@ -13,6 +13,7 @@ tags:
   - transparent
   - post-quantum
   - reed-solomon
+  - mathematics
 ---
 
 # FRI

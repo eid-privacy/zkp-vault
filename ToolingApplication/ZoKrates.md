@@ -7,6 +7,8 @@ tags:
   - zkp
   - circuit-dsl
   - deprecated
+  - frameworks
+  - implementations
 ---
 
 # ZoKrates

@@ -7,6 +7,8 @@ tags:
   - zkp
   - circuit-dsl
   - acir
+  - frameworks
+  - implementations
 ---
 
 # Noir

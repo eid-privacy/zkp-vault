@@ -8,6 +8,7 @@ tags:
   - zkp
   - sigma
   - standard
+  - mathematics
 ---
 
 # Proposal: ∑-protocols

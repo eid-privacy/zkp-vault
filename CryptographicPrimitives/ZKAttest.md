@@ -10,6 +10,7 @@ tags:
   - sigma
   - ecdsa
   - attestation
+  - mathematics
 ---
 
 # ZKAttest

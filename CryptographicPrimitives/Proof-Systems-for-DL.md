@@ -8,6 +8,7 @@ tags:
   - zkp
   - sigma
   - discrete-log
+  - mathematics
 ---
 
 # Proof Systems for General Statements about Discrete Logarithms

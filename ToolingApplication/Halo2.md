@@ -8,6 +8,8 @@ tags:
   - library
   - plonk
   - ultraplonk
+  - arithmetization
+  - implementations
 ---
 
 # Halo 2

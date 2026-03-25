@@ -7,6 +7,7 @@ authors:
 tags:
   - zkp
   - sigma
+  - mathematics
 ---
 
 # Proving in ZK that a Number Is the Product of Two Safe Primes

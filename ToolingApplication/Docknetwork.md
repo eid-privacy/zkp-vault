@@ -8,6 +8,7 @@ tags:
   - library
   - eid
   - bulletproofs
+  - implementations
 ---
 
 # Docknetwork

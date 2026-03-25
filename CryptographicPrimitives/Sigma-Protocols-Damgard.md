@@ -7,6 +7,7 @@ tags:
   - zkp
   - sigma
   - foundational
+  - mathematics
 ---
 
 # On Σ-protocols

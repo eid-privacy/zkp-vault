@@ -7,6 +7,7 @@ tags:
   - zkp
   - prover-backend
   - plonk
+  - implementations
 ---
 
 # Barretenberg

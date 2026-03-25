@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "breadcrumbs:dry": "ts-node utils/addBreadcrumbs.ts --dry-run",
-    "breadcrumbs":     "ts-node utils/addBreadcrumbs.ts"
+    "breadcrumbs":     "ts-node utils/addBreadcrumbs.ts",
+    "verify":          "bun utils/verify.ts"
   },
   "devDependencies": {
     "@types/node": "^20.0.0",

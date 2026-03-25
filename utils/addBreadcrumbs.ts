@@ -11,8 +11,6 @@ const SECTION_LABELS: Record<string, string> = {
   ToolingApplication: 'Tooling & Applications',
   Resources: 'Resources',
   Applications: 'Applications',
-  Frameworks: 'Frameworks',
-  Fundamentals: 'Fundamentals',
   Tags: 'Tags',
 };
 

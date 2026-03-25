@@ -8,6 +8,7 @@ tags:
   - circuit-dsl
   - r1cs
   - snark
+  - implementations
 ---
 
 # Circom 2

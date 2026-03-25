@@ -4,6 +4,8 @@ tags:
   - zkp
   - circuit
   - snark
+  - arithmetization
+  - mathematics
 ---
 
 # R1CS — Rank-1 Constraint System

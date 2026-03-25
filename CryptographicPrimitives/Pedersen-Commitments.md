@@ -7,6 +7,7 @@ tags:
   - zkp
   - sigma
   - commitment
+  - mathematics
 ---
 
 # Pedersen Commitments

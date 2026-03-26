@@ -8,13 +8,14 @@ tags:
   - zkp
   - book
   - foundational
+  - learning
 ---
 
 # Proofs, Arguments, and Zero-Knowledge
 
 URL:: https://people.cs.georgetown.edu/jthaler/ProofsArgsAndZK.pdf
 
-## Description
+## Summary
 The definitive textbook on zero-knowledge proofs. Covers interactive proofs, sumcheck protocol, GKR, polynomial commitments, SNARKs, and STARKs from first principles. Free PDF available from the author. Essential reading for understanding the theory behind modern ZKP systems.
 
 ## Topics Covered

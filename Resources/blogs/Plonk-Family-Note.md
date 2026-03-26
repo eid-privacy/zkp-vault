@@ -12,8 +12,8 @@ tags:
 
 URL:: https://hackmd.io/@learn-zkp/note-plonk-family
 
-## Description
-A HackMD note providing accessible formulas and comparisons for the different members of the PLONK family (PLONK, TurboPLONK, UltraPLONK, HONK). Good reference for understanding what each variant adds.
+## Summary
+A HackMD note providing accessible formulas and side-by-side comparisons for PLONK, TurboPLONK, UltraPLONK, and HONK. Explains what each variant adds over its predecessor (custom gates, lookup arguments, recursive-friendly features). Good quick reference for the PLONK family.
 
 ## Resources
 - Blog: https://hackmd.io/@learn-zkp/note-plonk-family

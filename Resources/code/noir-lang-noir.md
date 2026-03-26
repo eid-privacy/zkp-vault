@@ -1,14 +1,20 @@
 ---
 type: resource
 subtype: code
-year:
-authors: []
-tags: []
+year: 2022
+authors:
+  - Aztec / Noir Team
+tags:
+  - noir
+  - acir
+  - circuit-dsl
+  - implementations
+  - prover-backend
 ---
 
-# Noir Lang Noir
+# noir-lang/noir — ACVM Repository
 
 URL:: https://github.com/noir-lang/noir/tree/master/acvm-repo
 
-## Description
-
+## Summary
+The ACVM (Abstract Circuit Virtual Machine) sub-repository within the Noir monorepo. Implements the interpreter and backend interface for ACIR opcodes, serving as the bridge between the Noir compiler frontend and concrete proving backends (Barretenberg, etc.). Key reference for understanding how Noir's intermediate representation is executed.

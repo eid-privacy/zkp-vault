@@ -1,14 +1,24 @@
 ---
 type: resource
 subtype: paper
-year:
-authors: []
-tags: []
+year: 2020
+authors:
+  - Rishabh Bhadauria
+  - Zhiyong Fang
+  - Carmit Hazay
+  - Muthuramakrishnan Venkitasubramaniam
+  - Tianhao Wang
+  - Yupeng Zhang
+tags:
+  - ligero
+  - linear-time-prover
+  - transparent
+  - iop
 ---
 
-# Ligero Plus Plus Paper
+# Ligero++: A New Optimized Sublinear IOP (Bhadauria et al. 2020)
 
 URL:: https://acm-stag.literatumonline.com/doi/pdf/10.1145/3372297.3417893
 
-## Description
-
+## Summary
+Improves on Ligero with better concrete efficiency: smaller proof sizes and reduced prover computation. Introduces new techniques for batching consistency checks and optimizing the Reed-Solomon encoding step. Presented at CCS 2020 and forms the theoretical basis for the Ligetron prover platform.

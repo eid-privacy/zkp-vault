@@ -1,14 +1,20 @@
 ---
 type: resource
 subtype: paper
-year:
-authors: []
-tags: []
+year: 2019
+authors:
+  - Ariel Gabizon
+  - Zachary J. Williamson
+tags:
+  - plonk-family
+  - standard
+  - arithmetization
+  - snark
 ---
 
-# Proposal Turbo_plonk
+# TurboPLONK Proposal (ZKProof Workshop 3)
 
 URL:: https://docs.zkproof.org/pages/standards/accepted-workshop3/proposal-turbo_plonk.pdf
 
-## Description
-
+## Summary
+The ZKProof standardization proposal for TurboPLONK, an extension of PLONK with custom arithmetic gates. TurboPLONK allows encoding non-native field arithmetic and complex operations more efficiently than standard PLONK by adding programmer-defined gate constraints. Submitted to ZKProof Workshop 3 as a candidate standard.

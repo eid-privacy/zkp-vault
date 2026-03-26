@@ -1,14 +1,20 @@
 ---
 type: resource
 subtype: paper
-year:
-authors: []
-tags: []
+year: 1986
+authors:
+  - Amos Fiat
+  - Adi Shamir
+tags:
+  - non-interactive
+  - sigma
+  - transformation
+  - foundational
 ---
 
-# Fiat Shamir Paper
+# How to Prove Yourself: Practical Solutions to Identification and Signature Problems (Fiat-Shamir)
 
 URL:: https://link.springer.com/content/pdf/10.1007/3-540-47721-7_12.pdf
 
-## Description
-
+## Summary
+Introduces the Fiat-Shamir transform, which converts an interactive sigma protocol into a non-interactive proof by replacing the verifier's random challenge with a hash of the transcript. This heuristic (secure in the random oracle model) is the basis for most practical SNARK and signature constructions.

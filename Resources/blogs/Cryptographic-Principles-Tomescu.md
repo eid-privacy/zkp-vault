@@ -1,7 +1,7 @@
 ---
 type: resource
 subtype: blog
-year: 2025
+year: 2021
 authors:
   - Alin Tomescu
 tags:
@@ -9,14 +9,15 @@ tags:
   - cryptography
   - reference
   - elliptic-curves
+  - pairing
 ---
 
 # Cryptographic Principles (Alin Tomescu)
 
 URL:: https://alinush.github.io/2021/04/15/basic-number-theory.html
 
-## Description
-A comprehensive personal blog/reference site covering cryptographic building blocks: elliptic curves, bilinear pairings, BBS+, polynomial commitments, and more. Includes detailed explanations with formulas. Useful as a reference for the mathematical foundations underlying ZKP systems.
+## Summary
+A comprehensive personal blog/reference covering cryptographic building blocks: basic number theory, elliptic curves, bilinear pairings, BBS+ signatures, polynomial commitments, and Groth16. Includes detailed derivations with formulas. Useful as a reference for the mathematical foundations underlying ZKP systems.
 
 ## Topics Covered
 - Basic number theory

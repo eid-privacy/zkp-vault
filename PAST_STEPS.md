@@ -47,6 +47,15 @@ A ZKP (Zero-Knowledge Proof) knowledge vault — an Obsidian-based collection of
 - Result: 59 resource files across 8 types; wiki-links ✓, markdown links ✓, file coverage ✓, tag consistency ✓
 - Pre-existing failures (not introduced here): breadcrumbs (all 186 files), README frontmatter (5 section READMEs)
 
+### Session 2026-03-26 (Resources metadata fill-in)
+- Filled in `authors`, `year`, `tags` for all 58 files in `Resources/` subdirectories
+- Renamed `## Description` → `## Summary` in every file and added a short summary paragraph
+- Papers identified and annotated: GMR85, BFM88 (NIZK), Fiat-Shamir, Pedersen, Camenisch-Stadler, Camenisch-Michels, Damgård sigma notes, Pinocchio (GGPR12/Parno13), Groth16, Bulletproofs (2017/1066), Hyrax (2017/1132), FRI/ICALP-2018, Ligero, Ligero++, Sonic, Aurora (2019/317), Spartan (2019/550), PLONK (2019/953), Plookup (2020/315), Updatable SRS (2018/046), HyperPlonk, TurboPLONK proposal, ZKAttest
+- Two stub papers (IACR-2020-735, IACR-2022-1608) have year + conservative tags but no authors — content not determined with confidence
+- Blogs annotated: Vitalik PLONK, Tomescu crypto principles, Noir circuit backend, Groth16 explainer, PLONK family note, PLONKish arithmetization, Halo2 deep dive, SP1 vs RISC Zero
+- Docs annotated: STARK-101/AIR, R1CS, Halo2, Noir, Circom2, gnark, ZoKrates, SP1, OpenVM, RISC Zero, Ligetron, docknetwork
+- Code annotated: Spartan, Spartan2, Crescent, Sonic, ACVM, Aztec packages
+
 ## Open Tasks / Next Steps
 - **README**: write a proper entry-point README (3 candidate approaches proposed to user — see session 2026-03-17b)
 - ~~**Tags/**: tag definition files not yet created~~ — done (see Session 2026-03-25)

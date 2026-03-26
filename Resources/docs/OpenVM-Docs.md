@@ -1,14 +1,19 @@
 ---
 type: resource
 subtype: doc
-year:
-authors: []
-tags: []
+year: 2024
+authors:
+  - Axiom / OpenVM Team
+tags:
+  - zkvm
+  - implementations
+  - stark
+  - llvm
 ---
 
-# OpenVM Docs
+# OpenVM Documentation
 
 URL:: https://book.openvm.dev/
 
-## Description
-
+## Summary
+Official documentation for OpenVM, a modular zkVM framework by Axiom. Covers the chip architecture, extension system for adding custom instructions, and integration with Plonky3. OpenVM is designed for extensibility, allowing custom ZK-accelerated operations to be added to the RISC-V base ISA.

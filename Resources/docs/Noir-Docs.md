@@ -1,14 +1,19 @@
 ---
 type: resource
 subtype: doc
-year:
-authors: []
-tags: []
+year: 2022
+authors:
+  - Aztec / Noir Team
+tags:
+  - noir
+  - circuit-dsl
+  - implementations
+  - acir
 ---
 
-# Noir Docs
+# Noir Documentation
 
 URL:: https://noir-lang.org/docs/
 
-## Description
-
+## Summary
+Official documentation for Noir, a Rust-inspired domain-specific language for writing ZK circuits. Noir compiles to ACIR and supports multiple proving backends (Barretenberg, etc.). Covers the language syntax, standard library, backend configuration, and toolchain. The primary reference for developers building ZK applications with Noir.

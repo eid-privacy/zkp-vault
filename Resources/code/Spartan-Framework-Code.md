@@ -1,14 +1,20 @@
 ---
 type: resource
 subtype: code
-year:
-authors: []
-tags: []
+year: 2020
+authors:
+  - Srinath Setty
+  - Microsoft Research
+tags:
+  - spartan
+  - implementations
+  - library
+  - transparent
 ---
 
-# Spartan Framework Code
+# Microsoft Spartan — Commit History
 
 URL:: https://github.com/microsoft/Spartan/commits/master/
 
-## Description
-
+## Summary
+The commit history of the Microsoft Spartan repository, useful for tracking the evolution of the implementation. Shows development from initial release through optimizations and bug fixes. Complements the main Spartan-Code resource for understanding how the implementation matured.

@@ -1,14 +1,20 @@
 ---
 type: resource
 subtype: blog
-year:
-authors: []
-tags: []
+year: 2024
+authors:
+  - Alin Tomescu
+tags:
+  - groth16
+  - snark
+  - pairing
+  - trusted-setup
+  - explainer
 ---
 
-# Groth16
+# Groth16 (Alin Tomescu)
 
 URL:: https://alinush.github.io/groth16
 
-## Description
-
+## Summary
+Detailed walkthrough of the Groth16 proof system by Alin Tomescu. Covers the QAP-based construction, the trusted setup (CRS), the pairing-based verification equation, and the security assumptions. Companion resource to Tomescu's broader cryptographic principles blog.

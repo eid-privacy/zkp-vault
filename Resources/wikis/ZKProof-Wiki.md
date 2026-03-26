@@ -12,8 +12,8 @@ tags:
 
 URL:: https://docs.zkproof.org/schemes
 
-## Description
-A community wiki listing concrete ZKP schemes with structured information: security assumptions, proof sizes, setup requirements, and further links. Format similar to the ZKP-summary.csv taxonomy used in this vault.
+## Summary
+A community wiki listing concrete ZKP schemes with structured metadata: security assumptions, proof sizes, setup requirements, and further references. Format closely mirrors the ZKP-summary.csv taxonomy used in this vault. Useful as a cross-reference for comparing proof systems.
 
 ## Resources
 - Wiki: https://docs.zkproof.org/schemes

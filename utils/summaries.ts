@@ -234,6 +234,7 @@ function generateResourcesReadme(): void {
   const readme = `---
 type: resources
 status: generated
+generated: true
 tags:
   - zkp
   - papers
@@ -296,6 +297,7 @@ function generateResourceSubtypeReadmes(): void {
     const readme = `---
 type: resource-index
 status: generated
+generated: true
 subtype: ${subtype}
 tags: []
 ---
@@ -363,6 +365,7 @@ function generateTagsReadme(): void {
   const readme = `---
 type: tags-index
 status: generated
+generated: true
 tags: []
 ---
 

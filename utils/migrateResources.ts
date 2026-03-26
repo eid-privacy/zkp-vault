@@ -214,6 +214,7 @@ function createStub(filepath: string, subtype: string, title: string, url: strin
   const content = `---
 type: resource
 subtype: ${subtypeSingular}
+generated: true
 year:
 authors: []
 tags: []

@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "breadcrumbs:dry": "ts-node utils/addBreadcrumbs.ts --dry-run",
-    "breadcrumbs":     "ts-node utils/addBreadcrumbs.ts",
+    "navigation:dry": "ts-node utils/addNavigation.ts --dry-run",
+    "navigation":     "ts-node utils/addNavigation.ts",
     "verify":          "bun utils/verify.ts"
   },
   "devDependencies": {

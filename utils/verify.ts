@@ -209,9 +209,9 @@ function checkOrphans(files: ReturnType<typeof getAllMdFiles>): { errors: string
   return { errors, count: files.length };
 }
 
-// --- Check 4: Breadcrumbs ---
+// --- Check 4: Navigation ---
 
-function checkBreadcrumbs(files: ReturnType<typeof getAllMdFiles>): { errors: string[]; count: number } {
+function checkNavigation(files: ReturnType<typeof getAllMdFiles>): { errors: string[]; count: number } {
   const errors: string[] = [];
 
   for (const { rel, abs, dir, file } of files) {
@@ -327,7 +327,7 @@ const files = getAllMdFiles();
 const wikiResult = checkWikiLinks(files);
 const mdResult = checkMarkdownLinks(files);
 const orphanResult = checkOrphans(files);
-const breadcrumbResult = checkBreadcrumbs(files);
+const breadcrumbResult = checkNavigation(files);
 const fmResult = checkFrontmatter(files);
 const tagResult = checkTagConsistency(files);
 
@@ -378,15 +378,15 @@ let failCount = 0;
   console.log();
 }
 
-// Breadcrumbs
+// Navigation
 {
   const { errors, count } = breadcrumbResult;
-  const header = `[Breadcrumbs]`.padEnd(36) + `(${count} files checked)`;
+  const header = `[Navigation]`.padEnd(36) + `(${count} files checked)`;
   console.log(header);
   if (errors.length === 0) {
-    console.log(`  ${ok('All breadcrumbs present')}`);
+    console.log(`  ${ok('All navigation present')}`);
   } else {
-    console.log(`  ${fail(`${errors.length} files missing breadcrumbs:`)}`);
+    console.log(`  ${fail(`${errors.length} files missing navigation:`)}`);
     for (const e of errors) console.log(e);
     failCount++;
   }

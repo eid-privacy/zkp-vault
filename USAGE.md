@@ -194,11 +194,11 @@ Checks:
 | Wiki-links | Every `[[wikilink]]` resolves to an existing file |
 | Markdown links | Every `[text](path)` relative link resolves |
 | File coverage | Every `.md` file is linked from somewhere |
-| Breadcrumbs | Navigation breadcrumb present in each file |
+| Navigation | Navigation breadcrumb present in each file |
 | Frontmatter | Required fields present for each entry type |
 | Tag consistency | Every tag used in frontmatter has a `Tags/` definition file |
 
-Fix all wiki-link and frontmatter errors before committing. Breadcrumb errors are a known pre-existing issue.
+Fix all wiki-link and frontmatter errors before committing. Navigation errors are a known pre-existing issue.
 
 ---
 

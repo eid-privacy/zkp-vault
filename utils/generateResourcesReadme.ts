@@ -212,6 +212,35 @@ console.log(`Loaded ${resources.length} resource(s) across ${SUBTYPES.length} ty
 const byType = renderByType(resources);
 const byTopic = renderByTopic(resources);
 
+// Build navigation lists
+const typeNavItems = SUBTYPES
+  .filter(s => resources.some(r => r.subtype === s))
+  .map(s => `- [[#${SUBTYPE_LABELS[s]}]]`)
+  .join('\n');
+
+const allTags = [...new Set(resources.flatMap(r => r.tags))].sort();
+const TOPIC_NAV_COLS = 5;
+const N = allTags.length;
+const baseRows = Math.floor(N / TOPIC_NAV_COLS);
+const extraCols = N % TOPIC_NAV_COLS;
+// Build balanced columns (column-first): first `extraCols` columns get one extra entry
+const columns: string[][] = [];
+let tagIdx = 0;
+for (let c = 0; c < TOPIC_NAV_COLS; c++) {
+  const colLen = baseRows + (c < extraCols ? 1 : 0);
+  columns.push(allTags.slice(tagIdx, tagIdx + colLen));
+  tagIdx += colLen;
+}
+const numRows = baseRows + (extraCols > 0 ? 1 : 0);
+const topicNavRows: string[] = [];
+topicNavRows.push('| ' + Array(TOPIC_NAV_COLS).fill('').join(' | ') + ' |');
+topicNavRows.push('| ' + Array(TOPIC_NAV_COLS).fill('---').join(' | ') + ' |');
+for (let r = 0; r < numRows; r++) {
+  const cells = columns.map(col => col[r] !== undefined ? `[[#${col[r]}]]` : '');
+  topicNavRows.push('| ' + cells.join(' | ') + ' |');
+}
+const topicNavItems = topicNavRows.join('\n');
+
 const total = resources.length;
 const readme = `---
 type: resources
@@ -230,6 +259,13 @@ tags:
 Curated external resources for Zero-Knowledge Proofs — ${total} entries across papers, blogs, books, wikis, docs, and code repositories.
 
 _This file is auto-generated. Run \`devbox run gen-resources-readme\` to update._
+
+**By Type**
+${typeNavItems}
+
+**By Topic**
+
+${topicNavItems}
 
 ${byType}
 ${byTopic}`;

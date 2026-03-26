@@ -15,6 +15,7 @@ const SECTION_LABELS: Record<string, string> = {
 };
 
 const DRY_RUN = process.argv.includes('--dry-run');
+const QUIET = process.argv.includes('--quiet');
 
 function buildBreadcrumb(dir: string, subdir: string | null, filename: string): string {
   const label = SECTION_LABELS[dir];
@@ -37,7 +38,7 @@ function insertBreadcrumb(filePath: string, breadcrumb: string): void {
 
   // Idempotency: skip if any home navigation already present
   if (content.includes('[Home](../README.md)') || content.includes('[Home](../../README.md)')) {
-    console.log(`  skip  ${path.relative(VAULT_ROOT, filePath)}`);
+    if (!QUIET) console.log(`  skip  ${path.relative(VAULT_ROOT, filePath)}`);
     return;
   }
 
@@ -62,22 +63,22 @@ function insertBreadcrumb(filePath: string, breadcrumb: string): void {
   }
 
   if (DRY_RUN) {
-    console.log(`  dry   ${path.relative(VAULT_ROOT, filePath)}`);
-    console.log(`        ${breadcrumb}`);
+    if (!QUIET) console.log(`  dry   ${path.relative(VAULT_ROOT, filePath)}`);
+    if (!QUIET) console.log(`        ${breadcrumb}`);
   } else {
     fs.writeFileSync(filePath, newContent, 'utf-8');
-    console.log(`  write ${path.relative(VAULT_ROOT, filePath)}`);
+    if (!QUIET) console.log(`  write ${path.relative(VAULT_ROOT, filePath)}`);
   }
 }
 
 for (const [dir, label] of Object.entries(SECTION_LABELS)) {
   const dirPath = path.join(VAULT_ROOT, dir);
   if (!fs.existsSync(dirPath)) {
-    console.log(`\n${label}: directory not found, skipping`);
+    if (!QUIET) console.log(`\n${label}: directory not found, skipping`);
     continue;
   }
 
-  console.log(`\n${label}`);
+  if (!QUIET) console.log(`\n${label}`);
   const entries = fs.readdirSync(dirPath, { withFileTypes: true });
 
   for (const entry of entries) {
@@ -99,7 +100,7 @@ for (const [dir, label] of Object.entries(SECTION_LABELS)) {
   }
 }
 
-console.log(
+if (!QUIET) console.log(
   DRY_RUN
     ? '\n[dry-run] no files modified — rerun without --dry-run to apply'
     : '\ndone'

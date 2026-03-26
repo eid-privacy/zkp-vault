@@ -17,6 +17,7 @@ const SECTION_LABELS: Record<string, string> = {
 const GREEN = '\x1b[32m';
 const RED = '\x1b[31m';
 const RESET = '\x1b[0m';
+const QUIET = process.argv.includes('--quiet');
 
 function ok(msg: string) { return `${GREEN}✓${RESET} ${msg}`; }
 function fail(msg: string) { return `${RED}✗${RESET} ${msg}`; }
@@ -333,7 +334,7 @@ function printSection(
   return errors.length > 0;
 }
 
-console.log('=== ZKP Vault Verification ===\n');
+if (!QUIET) console.log('=== ZKP Vault Verification ===\n');
 
 const files = getAllMdFiles();
 
@@ -346,98 +347,32 @@ const tagResult = checkTagConsistency(files);
 
 let failCount = 0;
 
-// Wiki-links
-{
-  const { errors, count } = wikiResult;
-  const header = `[Wiki-links]`.padEnd(36) + `(${count} links checked)`;
-  console.log(header);
+function report(label: string, count: string, errors: string[], okMsg: string): boolean {
   if (errors.length === 0) {
-    console.log(`  ${ok('All wiki-links resolve')}`);
+    if (!QUIET) {
+      console.log(`${label.padEnd(36)}(${count})`);
+      console.log(`  ${ok(okMsg)}`);
+      console.log();
+    }
+    return false;
   } else {
-    console.log(`  ${fail(`${errors.length} broken wiki-links:`)}`);
+    console.log(`${label.padEnd(36)}(${count})`);
+    console.log(`  ${fail(`${errors.length} error${errors.length === 1 ? '' : 's'}:`)}`);
     for (const e of errors) console.log(e);
-    failCount++;
+    console.log();
+    return true;
   }
-  console.log();
 }
 
-// Markdown links
-{
-  const { errors, count } = mdResult;
-  const header = `[Markdown links]`.padEnd(36) + `(${count} links checked)`;
-  console.log(header);
-  if (errors.length === 0) {
-    console.log(`  ${ok('All markdown links resolve')}`);
-  } else {
-    console.log(`  ${fail(`${errors.length} broken markdown links:`)}`);
-    for (const e of errors) console.log(e);
-    failCount++;
-  }
-  console.log();
-}
-
-// File coverage
-{
-  const { errors, count } = orphanResult;
-  const header = `[File coverage]`.padEnd(36) + `(${count} files checked)`;
-  console.log(header);
-  if (errors.length === 0) {
-    console.log(`  ${ok('All files are linked')}`);
-  } else {
-    console.log(`  ${fail(`${errors.length} orphaned files:`)}`);
-    for (const e of errors) console.log(e);
-    failCount++;
-  }
-  console.log();
-}
-
-// Navigation
-{
-  const { errors, count } = breadcrumbResult;
-  const header = `[Navigation]`.padEnd(36) + `(${count} files checked)`;
-  console.log(header);
-  if (errors.length === 0) {
-    console.log(`  ${ok('All navigation present')}`);
-  } else {
-    console.log(`  ${fail(`${errors.length} files missing navigation:`)}`);
-    for (const e of errors) console.log(e);
-    failCount++;
-  }
-  console.log();
-}
-
-// Frontmatter
-{
-  const { errors, count } = fmResult;
-  const header = `[Frontmatter]`.padEnd(36) + `(${count} files checked)`;
-  console.log(header);
-  if (errors.length === 0) {
-    console.log(`  ${ok('All frontmatter valid')}`);
-  } else {
-    console.log(`  ${fail(`${errors.length} frontmatter issues:`)}`);
-    for (const e of errors) console.log(e);
-    failCount++;
-  }
-  console.log();
-}
-
-// Tag consistency
-{
-  const { errors, count } = tagResult;
-  const header = `[Tag consistency]`.padEnd(36) + `(${count} tags checked)`;
-  console.log(header);
-  if (errors.length === 0) {
-    console.log(`  ${ok('All tags have tag files')}`);
-  } else {
-    console.log(`  ${fail(`${errors.length} tags without tag files:`)}`);
-    for (const e of errors) console.log(e);
-    failCount++;
-  }
-  console.log();
-}
+if (report('[Wiki-links]',      `${wikiResult.count} links checked`,       wikiResult.errors,       'All wiki-links resolve'))       failCount++;
+if (report('[Markdown links]',  `${mdResult.count} links checked`,         mdResult.errors,         'All markdown links resolve'))   failCount++;
+if (report('[File coverage]',   `${orphanResult.count} files checked`,     orphanResult.errors,     'All files are linked'))         failCount++;
+if (report('[Navigation]',      `${breadcrumbResult.count} files checked`, breadcrumbResult.errors, 'All navigation present'))       failCount++;
+if (report('[Frontmatter]',     `${fmResult.count} files checked`,         fmResult.errors,         'All frontmatter valid'))        failCount++;
+if (report('[Tag consistency]', `${tagResult.count} tags checked`,         tagResult.errors,        'All tags have tag files'))      failCount++;
 
 if (failCount === 0) {
-  console.log(`=== Result: ${GREEN}PASS${RESET} ===`);
+  if (!QUIET) console.log(`=== Result: ${GREEN}PASS${RESET} ===`);
   process.exit(0);
 } else {
   console.log(`=== Result: ${RED}FAIL${RESET} (${failCount} ${failCount === 1 ? 'category' : 'categories'} with errors) ===`);

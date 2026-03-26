@@ -16,6 +16,7 @@ import * as fs from 'fs';
 import * as path from 'path';
 
 const VAULT_ROOT = path.resolve(__dirname, '..');
+const QUIET = process.argv.includes('--quiet');
 
 // ---------------------------------------------------------------------------
 // Shared: frontmatter parsing
@@ -216,7 +217,7 @@ function buildNavTable(tags: string[], cols: number, cellFn: (s: string) => stri
 
 function generateResourcesReadme(): void {
   const resources = loadResources();
-  console.log(`Resources: loaded ${resources.length} entries.`);
+  if (!QUIET) console.log(`Resources: loaded ${resources.length} entries.`);
 
   const byType = renderResourcesByType(resources);
   const byTopic = renderResourcesByTopic(resources);
@@ -260,7 +261,7 @@ ${byType}
 ${byTopic}`;
 
   fs.writeFileSync(path.join(RESOURCES_ROOT, 'README.md'), readme, 'utf-8');
-  console.log('Written: Resources/README.md');
+  if (!QUIET) console.log('Written: Resources/README.md');
 }
 
 // ---------------------------------------------------------------------------
@@ -319,7 +320,7 @@ ${tableRows.join('\n')}
 `;
 
     fs.writeFileSync(path.join(dir, 'README.md'), readme, 'utf-8');
-    console.log(`Written: Resources/${subtype}/README.md`);
+    if (!QUIET) console.log(`Written: Resources/${subtype}/README.md`);
   }
 }
 
@@ -351,7 +352,7 @@ function loadTags(): TagMeta[] {
 
 function generateTagsReadme(): void {
   const tags = loadTags();
-  console.log(`Tags: loaded ${tags.length} entries.`);
+  if (!QUIET) console.log(`Tags: loaded ${tags.length} entries.`);
 
   const navTable = buildNavTable(tags.map(t => t.filename), 5);
 
@@ -385,7 +386,7 @@ ${tableRows.join('\n')}
 `;
 
   fs.writeFileSync(path.join(VAULT_ROOT, 'Tags', 'README.md'), readme, 'utf-8');
-  console.log('Written: Tags/README.md');
+  if (!QUIET) console.log('Written: Tags/README.md');
 }
 
 // ---------------------------------------------------------------------------

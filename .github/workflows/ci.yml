@@ -1,0 +1,33 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - uses: oven-sh/setup-bun@v2
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Add navigation
+        run: npx ts-node utils/addNavigation.ts --quiet
+
+      - name: Generate summaries
+        run: bun run utils/summaries.ts --quiet
+
+      - name: Check nothing changed
+        run: git diff --exit-code
+
+      - name: Verify
+        run: bun utils/verify.ts --quiet

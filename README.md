@@ -4,35 +4,23 @@ A knowledge vault covering Zero-Knowledge Proof papers, frameworks, cryptographi
 
 The vault is organized in three ways:
 
-- [**The ZK Stack**](#the-zk-stack) — from foundational theory down to working tools
-- [**Framework Decision Guide**](#framework-decision-guide) — evaluation criteria and framework comparison for e-ID credential proofs
-- [**Encyclopedic Index**](#encyclopedic-index) — every entry, organized by category
+- [[#The ZK Stack]] — from foundational theory down to working tools
+- [[#Framework Decision Guide]] — evaluation criteria and framework comparison for e-ID credential proofs
+- [[#Encyclopedic Index]] — every entry, organized by category
 
 ---
 
 ## The ZK Stack
 
-```
-┌────────────────────────────────────────────────────────────┐
-│  Theoretical Models        Interactive proofs, ZK families │
-│  Cryptographic Primitives  Commitments, Sigma protocols    │
-│  Proof Systems             Groth16 → PLONK → STARKs → …    │
-│  Intermediate Repr.        R1CS · AIR · PLONKish · ACIR    │
-│  Tooling & Applications    Noir · Halo2 · RISC Zero · SP1  │
-└────────────────────────────────────────────────────────────┘
-```
-
-**Contents by layer**
-
-| Layer                                                        | Notes                                                  |
-| ------------------------------------------------------------ | ------------------------------------------------------ |
-| [Theoretical Models](TheoreticalModels/README.md)                     | Interactive proof model, ZK family overview            |
-| [Cryptographic Primitives](CryptographicPrimitives/README.md)         | Pedersen, Sigma protocols, ZKAttest, Camenisch-Michels |
-| [Proof Systems](ProofSystems/README.md)                               | 24 entries from GMR85 through UltraHONK                |
-| [Intermediate Representations](IntermediateRepresentations/README.md) | R1CS, AIR, PLONKish, ACIR                              |
-| [Tooling & Applications](ToolingApplication/README.md)                | 15 frameworks, DSLs, and zkVMs                         |
-| [Resources](Resources/README.md)                                      | Books, blog posts, reference documents                 |
-| [Applications](Applications/README.md)                                | Real-world ZKP use cases (placeholder)                 |
+| Layer | Contents |
+|---|---|
+| [Theoretical Models](TheoreticalModels/README.md) | Interactive proofs, ZK families |
+| [Cryptographic Primitives](CryptographicPrimitives/README.md) | Commitments, Sigma protocols |
+| [Proof Systems](ProofSystems/README.md) | Groth16 → PLONK → STARKs → … |
+| [Intermediate Repr.](IntermediateRepresentations/README.md) | R1CS · AIR · PLONKish · ACIR |
+| [Tooling & Applications](ToolingApplication/README.md) | Noir · Halo2 · RISC Zero · SP1 |
+| [Resources](Resources/README.md) | Books, blog posts, papers |
+| [Applications](Applications/README.md) | Real-world use cases |
 
 ---
 
@@ -123,9 +111,9 @@ The vault is organized in three ways:
 - [Applications overview](Applications/README.md) — privacy, scalability, enterprise, gaming use cases *(notes not yet written)*
 
 ### Resources
-- [Proofs, Arguments, and Zero-Knowledge (Thaler)](Resources/Thaler-Proofs-Arguments-ZK.md) — the standard textbook
-- [Evolution of ZKPs](Resources/Evolution-of-ZKPs.md)
-- [PLONK Family Note](Resources/Plonk-Family-Note.md)
-- [Cryptographic Principles (Tomescu)](Resources/Cryptographic-Principles-Tomescu.md)
-- [ZKProof Wiki](Resources/ZKProof-Wiki.md)
+- [Proofs, Arguments, and Zero-Knowledge (Thaler)](Resources/books/Thaler-Proofs-Arguments-ZK.md) — the standard textbook
+- [Evolution of ZKPs](Resources/blogs/Evolution-of-ZKPs.md)
+- [PLONK Family Note](Resources/blogs/Plonk-Family-Note.md)
+- [Cryptographic Principles (Tomescu)](Resources/blogs/Cryptographic-Principles-Tomescu.md)
+- [ZKProof Wiki](Resources/wikis/ZKProof-Wiki.md)
 

@@ -42,6 +42,6 @@ Circuit representation: [[R1CS]]
 Used by: [[gnark]], [[Circom2]], [[Docknetwork]], Zcash
 
 ## Resources
-- Paper: [[IACR-2016-260]]
+- Paper: [[Gro16-Groth16]]
 - Code:
 - Explainer: [[groth16]]

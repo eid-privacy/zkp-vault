@@ -33,5 +33,5 @@ Establishes a general framework and notation for constructing zero-knowledge pro
 [[Docknetwork]], [[ZKAttest]]
 
 ## Resources
-- Paper: [[CamSta97b]]
+- Paper: [[CS97-DL-Proofs]]
 - Explainer:

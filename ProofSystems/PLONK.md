@@ -44,7 +44,7 @@ Circuit representation: [[PLONKish]]
 Used by: [[Halo2]], [[TurboPLONK]], [[UltraHonk]], [[HyperPlonk]], [[gnark]]
 
 ## Resources
-- Paper: [[IACR-2019-953]]
+- Paper: [[GWC19-PLONK]]
 - Code:
 - Explainer: [[Plonk-Family-Note]]
 - Vitalik: [[PLONK-Blog]]

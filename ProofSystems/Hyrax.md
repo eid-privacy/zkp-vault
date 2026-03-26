@@ -46,6 +46,6 @@ Circuit representation: [[R1CS]]
 Used by: [[Spartan]]
 
 ## Resources
-- Paper: [[IACR-2017-1132]]
+- Paper: [[WTSTW17-Hyrax]]
 - Code:
 - Explainer:

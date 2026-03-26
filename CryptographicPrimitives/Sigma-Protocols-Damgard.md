@@ -32,5 +32,5 @@ Discrete logarithm / algebraic group settings
 [[Pedersen-Commitments]], [[Proof-Systems-for-DL]], [[ZKAttest]], [[Camenisch-Michels-Safe-Primes]], [[Sigma-Protocols-Proposal]]
 
 ## Resources
-- Paper: [[Sigma-Protocols-Damgard-Paper]]
+- Paper: [[Dam04-Sigma-Protocols]]
 - Explainer:

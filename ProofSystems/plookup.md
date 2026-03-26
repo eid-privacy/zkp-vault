@@ -42,6 +42,6 @@ Circuit representation: [[PLONKish]]
 Used by: [[TurboPLONK]], [[UltraHonk]], [[Halo2]]
 
 ## Resources
-- Paper: [[IACR-2020-315]]
+- Paper: [[GW20-Plookup]]
 - Code:
 - Explainer:

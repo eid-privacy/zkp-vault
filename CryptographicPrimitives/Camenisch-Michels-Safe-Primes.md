@@ -32,5 +32,5 @@ Demonstrates how to prove properties of secret values in zero-knowledge, specifi
 [[Docknetwork]]
 
 ## Resources
-- Paper: [[Camenisch-Michels-Safe-Primes-Paper]]
+- Paper: [[CM99-Safe-Primes]]
 - Explainer:

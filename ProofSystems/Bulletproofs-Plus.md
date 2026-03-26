@@ -46,6 +46,6 @@ Circuit representation: [[R1CS]]
 Used by:
 
 ## Resources
-- Paper: [[IACR-2020-735]]
+- Paper: [[CHJ+20-Bulletproofs-Opt]]
 - Code:
 - Explainer:

@@ -46,6 +46,6 @@ Circuit representation: [[R1CS]]
 Used by: [[Groth16]]
 
 ## Resources
-- Paper: [[IACR-2013-279]]
+- Paper: [[PHGR13-Pinocchio]]
 - Code:
 - Explainer:

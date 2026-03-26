@@ -46,7 +46,7 @@ Circuit representation: [[R1CS]]
 Used by: [[Ligero-Prover]], [[Ligero-Plus-Plus]]
 
 ## Resources
-- Paper: [[Ligero-Paper]]
-- Paper (updated): [[IACR-2022-1608]]
+- Paper: [[AHIV17-Ligero]]
+- Paper (updated): [[AHIV22-Ligero-Ext]]
 - Code:
 - Explainer:

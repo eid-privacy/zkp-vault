@@ -40,6 +40,6 @@ Circuit representation: [[R1CS]]
 Used by: [[PLONK]]
 
 ## Resources
-- Paper: [[Sonic-Paper]]
+- Paper: [[MBKM19-Sonic]]
 - Code: [[Sonic-Code]]
 - Explainer:

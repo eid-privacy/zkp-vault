@@ -47,6 +47,6 @@ Circuit representation: [[AIR]]
 Used by: [[zk-STARKs]], [[RISC-Zero]], [[SP1]], [[OpenVM]]
 
 ## Resources
-- Paper: [[LIPIcs-ICALP-2018-14]]
+- Paper: [[BBHR18-FRI]]
 - Code:
 - Explainer:

@@ -47,6 +47,6 @@ Circuit representation:
 Used by:
 
 ## Resources
-- Paper: [[Ligero-Plus-Plus-Paper]]
+- Paper: [[BFH+20-Ligero-Plus]]
 - Code:
 - Explainer:

@@ -45,6 +45,6 @@ Circuit representation: [[PLONKish]]
 Used by:
 
 ## Resources
-- Paper: [[HyperPlonk-Paper]]
+- Paper: [[CBBZ23-HyperPlonk]]
 - Code:
 - Explainer:

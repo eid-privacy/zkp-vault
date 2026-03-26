@@ -98,7 +98,7 @@ b. If you know the resource already exists (e.g. the Thaler book), link it direc
 ```
 ## Resources
 - Book: [[Thaler-Proofs-Arguments-ZK]]
-- Paper: [[IACR-2019-953]]
+- Paper: [[GWC19-PLONK]]
 ```
 
 **Label conventions** (used by the migration script to classify resources):
@@ -230,7 +230,7 @@ devbox run verify
 Create the file manually in the right subdirectory:
 
 ```sh
-cp Resources/papers/IACR-2019-953.md Resources/blogs/My-New-Blog.md
+cp Resources/papers/GWC19-PLONK.md Resources/blogs/My-New-Blog.md
 # edit frontmatter, title, URL::, description
 devbox run gen-resources-readme
 devbox run verify

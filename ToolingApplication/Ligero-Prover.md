@@ -45,4 +45,4 @@ Commercial prover from Ligero Inc. based on the [[Ligero]] paper. Supports Rust,
 
 ## Resources
 - Docs: [[Ligero-Prover-Docs]]
-- Paper: [[Ligero-Paper]]
+- Paper: [[AHIV17-Ligero]]

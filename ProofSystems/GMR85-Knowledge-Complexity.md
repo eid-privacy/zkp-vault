@@ -43,6 +43,6 @@ Circuit representation:
 Used by: All modern ZKP systems — [[Fiat-Shamir]], [[NIZK-Blum]], [[Sigma-Protocols-Damgard]]
 
 ## Resources
-- Paper: [[GMR85-Knowledge-Complexity-Paper]]
+- Paper: [[GMR85-ZK-Complexity]]
 - Code:
 - Explainer:

@@ -44,6 +44,6 @@ Circuit representation:
 Used by: [[Groth16]], [[Pinocchio]], [[QSP-GGPR13]] — all trusted-setup SNARKs
 
 ## Resources
-- Paper: [[NIZK-Blum-Paper]]
+- Paper: [[BFM88-NIZK-Intro]]
 - Code:
 - Explainer:

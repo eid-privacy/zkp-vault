@@ -43,7 +43,7 @@ Circuit representation: [[R1CS]]
 Used by: [[Spartan-Framework]]
 
 ## Resources
-- Paper: [[IACR-2019-550]]
+- Paper: [[Set19-Spartan]]
 - Code: [[Spartan-Code]]
 - Code (v2): [[microsoft-Spartan2]]
 - Crescent fork (T-256): [[microsoft-crescent-credentials]]

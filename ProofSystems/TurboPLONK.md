@@ -39,6 +39,6 @@ Circuit representation: [[PLONKish]]
 Used by: [[UltraHonk]], [[Barretenberg]]
 
 ## Resources
-- Paper: [[proposal-turbo_plonk]]
+- Paper: [[GW19b-TurboPlonk]]
 - Code:
 - Explainer: [[Plonk-Family-Note]]

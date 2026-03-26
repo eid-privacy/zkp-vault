@@ -47,6 +47,6 @@ Circuit representation:
 Used by:
 
 ## Resources
-- Paper: [[IACR-2019-317]]
+- Paper: [[BCRSVW19-Aurora]]
 - Code:
 - Explainer:

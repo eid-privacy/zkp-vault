@@ -43,6 +43,6 @@ Circuit representation:
 Used by: [[Ligero]], [[Bulletproofs]]
 
 ## Resources
-- Paper: [[DI06-Scalable-MPC-Paper]]
+- Paper: [[DI06-Scalable-MPC]]
 - Code:
 - Explainer:

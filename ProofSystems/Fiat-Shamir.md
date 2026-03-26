@@ -44,6 +44,6 @@ Circuit representation:
 Used by: [[PLONK]], [[Groth16]], [[Bulletproofs]], nearly all non-interactive ZKP systems
 
 ## Resources
-- Paper: [[Fiat-Shamir-Paper]]
+- Paper: [[FS86-Fiat-Shamir]]
 - Code:
 - Explainer:

@@ -14,7 +14,7 @@
       "breadcrumbs":          "npx ts-node utils/addBreadcrumbs.ts",
       "verify":               "bun run verify",
       "migrate-resources":    "bun run utils/migrateResources.ts",
-      "gen-resources-readme": "bun run utils/generateResourcesReadme.ts"
+      "gen-summaries":        "bun run utils/summaries.ts"
     }
   }
 }

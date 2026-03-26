@@ -109,12 +109,16 @@ function checkWikiLinks(files: ReturnType<typeof getAllMdFiles>): { errors: stri
     const re = /\[\[([^\]|]+)(?:\|[^\]]+)?\]\]/g;
     let m: RegExpExecArray | null;
     while ((m = re.exec(content)) !== null) {
+      const raw = m[1].trim();
+      // Pure anchor link (e.g. [[#Papers]]) — refers to a heading in the same file, always valid
+      if (raw.startsWith('#')) continue;
       count++;
-      const target = m[1].trim();
+      // Strip optional heading anchor (e.g. "SomeFile#Heading" → "SomeFile")
+      const target = raw.includes('#') ? raw.slice(0, raw.indexOf('#')) : raw;
       const isPath = target.includes('/');
       const resolved = isPath ? pathSet.has(target) : nameSet.has(target);
       if (!resolved) {
-        errors.push(`    ${rel}  →  [[${target}]]`);
+        errors.push(`    ${rel}  →  [[${raw}]]`);
       }
     }
   }

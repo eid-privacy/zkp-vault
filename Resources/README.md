@@ -16,7 +16,8 @@ Curated external resources for Zero-Knowledge Proofs — 59 entries across paper
 
 _This file is auto-generated. Run `devbox run gen-resources-readme` to update._
 
-**By Type**
+## By Type
+
 - [[#Papers]]
 - [[#Blogs & Explainers]]
 - [[#Books]]
@@ -24,22 +25,22 @@ _This file is auto-generated. Run `devbox run gen-resources-readme` to update._
 - [[#Documentation]]
 - [[#Code & Repositories]]
 
-**By Topic**
+## By Topic
 
-|  |  |  |  |  |
-| --- | --- | --- | --- | --- |
-| [[#acir]] | [[#eid]] | [[#ligero]] | [[#post-quantum]] | [[#standard]] |
-| [[#applications]] | [[#elliptic-curves]] | [[#linear-time-prover]] | [[#prover-backend]] | [[#stark]] |
-| [[#arithmetization]] | [[#explainer]] | [[#llvm]] | [[#qap]] | [[#theory]] |
-| [[#attestation]] | [[#foundational]] | [[#logarithmic]] | [[#qsp]] | [[#transformation]] |
-| [[#book]] | [[#go]] | [[#lookup]] | [[#r1cs]] | [[#transparent]] |
-| [[#bulletproofs]] | [[#groth16]] | [[#mpc]] | [[#range-proof]] | [[#trusted-setup]] |
-| [[#circuit]] | [[#history]] | [[#noir]] | [[#reed-solomon]] | [[#tutorials]] |
-| [[#circuit-dsl]] | [[#implementations]] | [[#non-interactive]] | [[#reference]] | [[#ultraplonk]] |
-| [[#commitment]] | [[#interactive-proof]] | [[#overview]] | [[#scalable]] | [[#universal-setup]] |
-| [[#cryptography]] | [[#iop]] | [[#pairing]] | [[#sigma]] | [[#wasm]] |
-| [[#discrete-log]] | [[#learning]] | [[#plonk]] | [[#snark]] | [[#zkp]] |
-| [[#ecdsa]] | [[#library]] | [[#plonk-family]] | [[#spartan]] | [[#zkvm]] |
+| a-e                  | e-l                    | l-p                     | p-s                 | s-z                  |
+| -------------------- | ---------------------- | ----------------------- | ------------------- | -------------------- |
+| [[#acir]]            | [[#eid]]               | [[#ligero]]             | [[#post-quantum]]   | [[#standard]]        |
+| [[#applications]]    | [[#elliptic-curves]]   | [[#linear-time-prover]] | [[#prover-backend]] | [[#stark]]           |
+| [[#arithmetization]] | [[#explainer]]         | [[#llvm]]               | [[#qap]]            | [[#theory]]          |
+| [[#attestation]]     | [[#foundational]]      | [[#logarithmic]]        | [[#qsp]]            | [[#transformation]]  |
+| [[#book]]            | [[#go]]                | [[#lookup]]             | [[#r1cs]]           | [[#transparent]]     |
+| [[#bulletproofs]]    | [[#groth16]]           | [[#mpc]]                | [[#range-proof]]    | [[#trusted-setup]]   |
+| [[#circuit]]         | [[#history]]           | [[#noir]]               | [[#reed-solomon]]   | [[#tutorials]]       |
+| [[#circuit-dsl]]     | [[#implementations]]   | [[#non-interactive]]    | [[#reference]]      | [[#ultraplonk]]      |
+| [[#commitment]]      | [[#interactive-proof]] | [[#overview]]           | [[#scalable]]       | [[#universal-setup]] |
+| [[#cryptography]]    | [[#iop]]               | [[#pairing]]            | [[#sigma]]          | [[#wasm]]            |
+| [[#discrete-log]]    | [[#learning]]          | [[#plonk]]              | [[#snark]]          | [[#zkp]]             |
+| [[#ecdsa]]           | [[#library]]           | [[#plonk-family]]       | [[#spartan]]        | [[#zkvm]]            |
 
 ## By Type
 

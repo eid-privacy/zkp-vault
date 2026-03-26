@@ -233,7 +233,13 @@ for (let c = 0; c < TOPIC_NAV_COLS; c++) {
 }
 const numRows = baseRows + (extraCols > 0 ? 1 : 0);
 const topicNavRows: string[] = [];
-topicNavRows.push('| ' + Array(TOPIC_NAV_COLS).fill('').join(' | ') + ' |');
+const colHeaders = columns.map(col => {
+  if (col.length === 0) return '';
+  const first = col[0][0].toLowerCase();
+  const last = col[col.length - 1][0].toLowerCase();
+  return first === last ? first : `${first}-${last}`;
+});
+topicNavRows.push('| ' + colHeaders.join(' | ') + ' |');
 topicNavRows.push('| ' + Array(TOPIC_NAV_COLS).fill('---').join(' | ') + ' |');
 for (let r = 0; r < numRows; r++) {
   const cells = columns.map(col => col[r] !== undefined ? `[[#${col[r]}]]` : '');
@@ -260,10 +266,11 @@ Curated external resources for Zero-Knowledge Proofs — ${total} entries across
 
 _This file is auto-generated. Run \`devbox run gen-resources-readme\` to update._
 
-**By Type**
+## By Type
+
 ${typeNavItems}
 
-**By Topic**
+## By Topic
 
 ${topicNavItems}
 

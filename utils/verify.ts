@@ -216,13 +216,25 @@ function checkNavigation(files: ReturnType<typeof getAllMdFiles>): { errors: str
 
   for (const { rel, abs, dir, file } of files) {
     const label = SECTION_LABELS[dir];
+    const parts = rel.split('/');
     const content = fs.readFileSync(abs, 'utf-8');
     let expected: string;
-    if (file === 'README.md') {
-      expected = `[Home](../README.md) > ${label}`;
-    } else {
+    if (parts.length === 3) {
+      // Subdirectory file: e.g. Resources/papers/CS97.md
+      const subdir = parts[1];
       const name = path.basename(file, '.md');
-      expected = `[Home](../README.md) > [${label}](README.md) > ${name}`;
+      if (file === 'README.md') {
+        expected = `[Home](../../README.md) > [${label}](../README.md) > ${subdir}`;
+      } else {
+        expected = `[Home](../../README.md) > [${label}](../README.md) > [${subdir}](README.md) > ${name}`;
+      }
+    } else {
+      if (file === 'README.md') {
+        expected = `[Home](../README.md) > ${label}`;
+      } else {
+        const name = path.basename(file, '.md');
+        expected = `[Home](../README.md) > [${label}](README.md) > ${name}`;
+      }
     }
     if (!content.includes(expected)) {
       errors.push(`    ${rel}  (missing)`);
@@ -246,7 +258,8 @@ function checkFrontmatter(files: ReturnType<typeof getAllMdFiles>): { errors: st
     theoretical_model: ['type', 'tags'],
   };
 
-  for (const { rel, abs } of files) {
+  for (const { rel, abs, file } of files) {
+    if (file === 'README.md') continue;
     const content = fs.readFileSync(abs, 'utf-8');
     const fm = parseFrontmatter(content);
     if (!fm) {

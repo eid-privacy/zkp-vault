@@ -11,6 +11,8 @@ tags:
   - circuit
 ---
 
+[Home](../../README.md) > [Resources](../README.md) > [docs](README.md) > R1CS-Docs
+
 # R1CS Explainer (0xPARC / Circom)
 
 URL:: https://learn.0xparc.org/materials/circom/additional-resources/r1cs-explainer

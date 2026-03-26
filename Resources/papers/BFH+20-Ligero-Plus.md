@@ -17,6 +17,8 @@ tags:
   - iop
 ---
 
+[Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > BFH+20-Ligero-Plus
+
 # Ligero++: A New Optimized Sublinear IOP (Bhadauria et al. 2020)
 
 URL:: https://acm-stag.literatumonline.com/doi/pdf/10.1145/3372297.3417893

@@ -11,6 +11,8 @@ tags:
   - explainer
 ---
 
+[Home](../../README.md) > [Resources](../README.md) > [blogs](README.md) > a-deep-dive-into-axioms-halo2-circuits
+
 # A Deep Dive into Axiom's Halo2 Circuits
 
 URL:: https://blog.trailofbits.com/2025/05/30/a-deep-dive-into-axioms-halo2-circuits/

@@ -16,6 +16,8 @@ tags:
   - linear-time-prover
 ---
 
+[Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > CBBZ23-HyperPlonk
+
 # HyperPlonk: Plonk with Linear-Time Prover and High-Degree Custom Gates (Chen et al. 2023)
 
 URL:: https://link.springer.com/chapter/10.1007/978-3-031-30617-4_17

@@ -12,6 +12,8 @@ tags:
   - theory
 ---
 
+[Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > Dam04-Sigma-Protocols
+
 # On Sigma Protocols (Damgård)
 
 URL:: https://www.cs.au.dk/~ivan/Sigma.pdf

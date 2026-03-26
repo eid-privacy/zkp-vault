@@ -12,6 +12,8 @@ tags:
   - pairing
 ---
 
+[Home](../../README.md) > [Resources](../README.md) > [blogs](README.md) > Cryptographic-Principles-Tomescu
+
 # Cryptographic Principles (Alin Tomescu)
 
 URL:: https://alinush.github.io/2021/04/15/basic-number-theory.html

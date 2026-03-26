@@ -16,6 +16,8 @@ tags:
   - foundational
 ---
 
+[Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > PHGR13-Pinocchio
+
 # Pinocchio: Nearly Practical Verifiable Computation (Parno et al. 2013)
 
 URL:: https://eprint.iacr.org/2013/279.pdf

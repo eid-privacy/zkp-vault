@@ -13,6 +13,8 @@ tags:
   - linear-time-prover
 ---
 
+[Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > DI06-Scalable-MPC
+
 # Scalable Secure Multiparty Computation (Damgård-Ishai 2006)
 
 URL:: https://iacr.org/archive/crypto2006/41170496/41170496.pdf

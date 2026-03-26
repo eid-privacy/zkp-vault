@@ -15,6 +15,8 @@ tags:
   - arithmetization
 ---
 
+[Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > GWC19-PLONK
+
 # PLONK: Permutations over Lagrange-bases for Oecumenical Noninteractive arguments of Knowledge
 
 URL:: https://eprint.iacr.org/2019/953.pdf

@@ -13,6 +13,8 @@ tags:
   - range-proof
 ---
 
+[Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > CM99-Safe-Primes
+
 # Proving in Zero-Knowledge that a Number is the Product of Two Safe Primes (Camenisch-Michels 1999)
 
 URL:: https://link.springer.com/content/pdf/10.1007/3-540-48910-X_8.pdf

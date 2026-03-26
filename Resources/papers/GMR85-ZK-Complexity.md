@@ -14,6 +14,8 @@ tags:
   - theory
 ---
 
+[Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > GMR85-ZK-Complexity
+
 # The Knowledge Complexity of Interactive Proof Systems (GMR85)
 
 URL:: https://dl.acm.org/doi/pdf/10.1145/22145.22178

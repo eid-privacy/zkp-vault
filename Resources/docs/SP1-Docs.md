@@ -11,6 +11,8 @@ tags:
   - llvm
 ---
 
+[Home](../../README.md) > [Resources](../README.md) > [docs](README.md) > SP1-Docs
+
 # SP1 Documentation (Succinct Labs)
 
 URL:: https://docs.succinct.xyz/

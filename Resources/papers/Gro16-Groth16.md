@@ -13,6 +13,8 @@ tags:
   - foundational
 ---
 
+[Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > Gro16-Groth16
+
 # On the Size of Pairing-Based Non-interactive Arguments (Groth16)
 
 URL:: https://eprint.iacr.org/2016/260.pdf

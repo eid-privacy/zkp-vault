@@ -12,6 +12,8 @@ tags:
   - wasm
 ---
 
+[Home](../../README.md) > [Resources](../README.md) > [docs](README.md) > Circom2-Docs
+
 # Circom2 Documentation
 
 URL:: https://docs.circom.io/

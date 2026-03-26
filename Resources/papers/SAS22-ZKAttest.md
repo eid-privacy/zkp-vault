@@ -15,6 +15,8 @@ tags:
   - applications
 ---
 
+[Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > SAS22-ZKAttest
+
 # ZKAttest: Ring and Group Signatures for Existing ECDSA Keys
 
 URL:: https://link.springer.com/chapter/10.1007/978-3-030-99277-4_4

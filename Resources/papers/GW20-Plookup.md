@@ -13,6 +13,8 @@ tags:
   - snark
 ---
 
+[Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > GW20-Plookup
+
 # Plookup: A Simplified Polynomial Protocol for Lookup Tables (Gabizon-Williamson 2020)
 
 URL:: https://eprint.iacr.org/2020/315.pdf

@@ -13,6 +13,8 @@ tags:
   - r1cs
 ---
 
+[Home](../../README.md) > [Resources](../README.md) > [code](README.md) > Spartan-Code
+
 # Microsoft Spartan (Original)
 
 URL:: https://github.com/microsoft/Spartan

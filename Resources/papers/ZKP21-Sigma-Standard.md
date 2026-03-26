@@ -11,6 +11,8 @@ tags:
   - non-interactive
 ---
 
+[Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > ZKP21-Sigma-Standard
+
 # ZKProof Sigma Protocol Proposal (Workshop 4)
 
 URL:: https://docs.zkproof.org/pages/standards/accepted-workshop4/proposal-sigma.pdf

@@ -12,6 +12,8 @@ tags:
   - prover-backend
 ---
 
+[Home](../../README.md) > [Resources](../README.md) > [code](README.md) > noir-lang-noir
+
 # noir-lang/noir — ACVM Repository
 
 URL:: https://github.com/noir-lang/noir/tree/master/acvm-repo

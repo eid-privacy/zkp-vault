@@ -15,6 +15,8 @@ tags:
   - trusted-setup
 ---
 
+[Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > MBKM19-Sonic
+
 # Sonic: Zero-Knowledge SNARKs from Linear-Size Universal and Updateable Structured Reference Strings (Maller et al. 2019)
 
 URL:: https://dl.acm.org/doi/pdf/10.1145/3319535.3339817

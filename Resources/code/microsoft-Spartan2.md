@@ -12,6 +12,8 @@ tags:
   - snark
 ---
 
+[Home](../../README.md) > [Resources](../README.md) > [code](README.md) > microsoft-Spartan2
+
 # Microsoft Spartan2
 
 URL:: https://github.com/microsoft/Spartan2

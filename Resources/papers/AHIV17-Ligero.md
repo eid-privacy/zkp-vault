@@ -16,6 +16,8 @@ tags:
   - reed-solomon
 ---
 
+[Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > AHIV17-Ligero
+
 # Ligero: Lightweight Sublinear Arguments Without a Trusted Setup (Ames et al. 2017)
 
 URL:: https://acmccs.github.io/papers/p2087-amesA.pdf

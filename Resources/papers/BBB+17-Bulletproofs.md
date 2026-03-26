@@ -19,6 +19,8 @@ tags:
   - commitment
 ---
 
+[Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > BBB+17-Bulletproofs
+
 # Bulletproofs: Short Proofs for Confidential Transactions and More (Bünz et al. 2018)
 
 URL:: https://eprint.iacr.org/2017/1066.pdf

@@ -9,6 +9,8 @@ tags:
   - circuit
 ---
 
+[Home](../../README.md) > [Resources](../README.md) > [docs](README.md) > plonkish_arithmetization
+
 # PLONKish Arithmetization — ZK Jargon
 
 URL:: https://zkjargon.github.io/definitions/plonkish_arithmetization.html

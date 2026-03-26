@@ -16,6 +16,8 @@ tags:
   - trusted-setup
 ---
 
+[Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > GGPR12-QSP-SNARK
+
 # Quadratic Span Programs and Succinct NIZKs without PCPs (GGPR 2013)
 
 URL:: https://eprint.iacr.org/2012/215

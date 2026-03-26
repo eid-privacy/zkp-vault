@@ -11,6 +11,8 @@ tags:
   - learning
 ---
 
+[Home](../../README.md) > [Resources](../README.md) > [books](README.md) > Thaler-Proofs-Arguments-ZK
+
 # Proofs, Arguments, and Zero-Knowledge
 
 URL:: https://people.cs.georgetown.edu/jthaler/ProofsArgsAndZK.pdf

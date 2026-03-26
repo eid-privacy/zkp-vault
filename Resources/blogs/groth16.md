@@ -12,6 +12,8 @@ tags:
   - explainer
 ---
 
+[Home](../../README.md) > [Resources](../README.md) > [blogs](README.md) > groth16
+
 # Groth16 (Alin Tomescu)
 
 URL:: https://alinush.github.io/groth16

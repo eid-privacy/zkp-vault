@@ -11,6 +11,8 @@ tags:
   - snark
 ---
 
+[Home](../../README.md) > [Resources](../README.md) > [docs](README.md) > ZoKrates-Docs
+
 # ZoKrates Documentation
 
 URL:: https://zokrates.github.io/

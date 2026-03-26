@@ -13,6 +13,8 @@ tags:
   - iop
 ---
 
+[Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > Set19-Spartan
+
 # Spartan: Efficient and General-Purpose zkSNARKs Without Trusted Setup (Setty 2020)
 
 URL:: https://eprint.iacr.org/2019/550

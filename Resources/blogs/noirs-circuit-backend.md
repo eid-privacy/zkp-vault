@@ -12,6 +12,8 @@ tags:
   - explainer
 ---
 
+[Home](../../README.md) > [Resources](../README.md) > [blogs](README.md) > noirs-circuit-backend
+
 # Noir's Circuit Backend
 
 URL:: https://jtriley.substack.com/p/noirs-circuit-backend

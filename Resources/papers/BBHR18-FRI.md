@@ -16,6 +16,8 @@ tags:
   - post-quantum
 ---
 
+[Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > BBHR18-FRI
+
 # Fast Reed-Solomon Interactive Oracle Proofs of Proximity (FRI)
 
 URL:: https://drops.dagstuhl.de/storage/00lipics/lipics-vol107-icalp2018/LIPIcs.ICALP.2018.14/LIPIcs.ICALP.2018.14.pdf

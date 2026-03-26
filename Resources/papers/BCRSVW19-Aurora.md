@@ -18,6 +18,8 @@ tags:
   - post-quantum
 ---
 
+[Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > BCRSVW19-Aurora
+
 # Aurora: Transparent Succinct Arguments for R1CS (Ben-Sasson et al. 2019)
 
 URL:: https://eprint.iacr.org/2019/317

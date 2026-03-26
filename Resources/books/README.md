@@ -1,0 +1,26 @@
+---
+type: resource-index
+status: generated
+subtype: books
+tags: []
+---
+
+[Home](../../README.md) > [Resources](../README.md) > books
+
+# ZKP Books
+
+1 entry.
+
+_This file is auto-generated. Run `devbox run gen-summaries` to update._
+
+## Navigation
+
+| t |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| [[Thaler-Proofs-Arguments-ZK]] |  |  |  |  |
+
+## All Books
+
+| Resource | Year | Authors | Tags |
+|---|---|---|---|
+| [[Thaler-Proofs-Arguments-ZK\|Proofs, Arguments, and Zero-Knowledge]] | 2023 | Justin Thaler | zkp, book, foundational, learning |

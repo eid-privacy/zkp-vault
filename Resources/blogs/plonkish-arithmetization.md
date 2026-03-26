@@ -9,6 +9,8 @@ tags:
   - circuit
 ---
 
+[Home](../../README.md) > [Resources](../README.md) > [blogs](README.md) > plonkish-arithmetization
+
 # PLONKish Arithmetization
 
 URL:: https://www.emergentmind.com/topics/plonkish-arithmetization

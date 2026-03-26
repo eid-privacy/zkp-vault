@@ -11,6 +11,8 @@ tags:
   - acir
 ---
 
+[Home](../../README.md) > [Resources](../README.md) > [docs](README.md) > Noir-Docs
+
 # Noir Documentation
 
 URL:: https://noir-lang.org/docs/

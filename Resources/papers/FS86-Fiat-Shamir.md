@@ -13,6 +13,8 @@ tags:
   - foundational
 ---
 
+[Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > FS86-Fiat-Shamir
+
 # How to Prove Yourself: Practical Solutions to Identification and Signature Problems (Fiat-Shamir)
 
 URL:: https://link.springer.com/content/pdf/10.1007/3-540-47721-7_12.pdf

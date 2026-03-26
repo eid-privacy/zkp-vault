@@ -12,6 +12,8 @@ tags:
   - eid
 ---
 
+[Home](../../README.md) > [Resources](../README.md) > [docs](README.md) > docknetwork-crypto-library
+
 # DockNetwork Crypto Library Analysis
 
 URL:: https://eid-privacy.github.io/wp2/2026/01/27/docknetwork-crypto-library.html

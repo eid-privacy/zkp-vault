@@ -8,6 +8,8 @@ tags:
   - reference
 ---
 
+[Home](../../README.md) > [Resources](../README.md) > [wikis](README.md) > ZKProof-Wiki
+
 # ZKProof Wiki of Concrete ZKP Schemes
 
 URL:: https://docs.zkproof.org/schemes

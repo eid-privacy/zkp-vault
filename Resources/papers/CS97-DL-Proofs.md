@@ -13,6 +13,8 @@ tags:
   - cryptography
 ---
 
+[Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > CS97-DL-Proofs
+
 # Proof Systems for General Statements about Discrete Logarithms (Camenisch-Stadler 1997)
 
 URL:: https://crypto.ethz.ch/publications/files/CamSta97b.pdf

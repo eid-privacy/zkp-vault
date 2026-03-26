@@ -6,9 +6,10 @@
  *   - Tags/README.md       (alphabetical table with descriptions)
  *
  * Usage:
- *   bun run utils/summaries.ts              # generate both
- *   bun run utils/summaries.ts resources    # Resources/README.md only
- *   bun run utils/summaries.ts tags         # Tags/README.md only
+ *   bun run utils/summaries.ts                      # generate all
+ *   bun run utils/summaries.ts resources           # Resources/README.md only
+ *   bun run utils/summaries.ts resource-subtypes   # Resources/<subtype>/README.md only
+ *   bun run utils/summaries.ts tags                # Tags/README.md only
  */
 
 import * as fs from 'fs';
@@ -77,7 +78,7 @@ function extractSectionParagraph(content: string, heading: string): string {
 // ---------------------------------------------------------------------------
 
 const RESOURCES_ROOT = path.join(VAULT_ROOT, 'Resources');
-const SUBTYPES = ['papers', 'blogs', 'books', 'wikis', 'docs', 'code', 'videos', 'presentations'];
+const SUBTYPES = ['papers', 'blogs', 'books', 'wikis', 'docs', 'code'];
 const SUBTYPE_LABELS: Record<string, string> = {
   papers: 'Papers',
   blogs: 'Blogs & Explainers',
@@ -85,8 +86,6 @@ const SUBTYPE_LABELS: Record<string, string> = {
   wikis: 'Wikis & Standards',
   docs: 'Documentation',
   code: 'Code & Repositories',
-  videos: 'Videos',
-  presentations: 'Presentations',
 };
 
 interface ResourceMeta {
@@ -187,7 +186,7 @@ function renderResourcesByTopic(resources: ResourceMeta[]): string {
   return lines.join('\n');
 }
 
-function buildNavTable(tags: string[], cols: number): string {
+function buildNavTable(tags: string[], cols: number, cellFn: (s: string) => string = s => `[[#${s}]]`): string {
   const N = tags.length;
   const baseRows = Math.floor(N / cols);
   const extraCols = N % cols;
@@ -209,7 +208,7 @@ function buildNavTable(tags: string[], cols: number): string {
   rows.push('| ' + colHeaders.join(' | ') + ' |');
   rows.push('| ' + Array(cols).fill('---').join(' | ') + ' |');
   for (let r = 0; r < numRows; r++) {
-    const cells = columns.map(col => col[r] !== undefined ? `[[#${col[r]}]]` : '');
+    const cells = columns.map(col => col[r] !== undefined ? cellFn(col[r]) : '');
     rows.push('| ' + cells.join(' | ') + ' |');
   }
   return rows.join('\n');
@@ -262,6 +261,66 @@ ${byTopic}`;
 
   fs.writeFileSync(path.join(RESOURCES_ROOT, 'README.md'), readme, 'utf-8');
   console.log('Written: Resources/README.md');
+}
+
+// ---------------------------------------------------------------------------
+// Resources subtype READMEs (Resources/papers/README.md, etc.)
+// ---------------------------------------------------------------------------
+
+function generateResourceSubtypeReadmes(): void {
+  const all = loadResources();
+
+  for (const subtype of SUBTYPES) {
+    const entries = all.filter(r => r.subtype === subtype);
+    const dir = path.join(RESOURCES_ROOT, subtype);
+    if (!fs.existsSync(dir)) continue;
+
+    const label = SUBTYPE_LABELS[subtype];
+    const sorted = [...entries].sort((a, b) => {
+      const ya = parseInt(a.year) || 0;
+      const yb = parseInt(b.year) || 0;
+      return yb - ya || a.title.localeCompare(b.title);
+    });
+
+    const navTable = buildNavTable(
+      sorted.map(r => r.filename),
+      5,
+      filename => `[[${filename}]]`,
+    );
+
+    const tableRows = sorted.map(r =>
+      `| [[${r.filename}\\|${r.title}]] | ${r.year} | ${authorsStr(r.authors)} | ${r.tags.join(', ')} |`
+    );
+
+    const readme = `---
+type: resource-index
+status: generated
+subtype: ${subtype}
+tags: []
+---
+
+[Home](../../README.md) > [Resources](../README.md) > ${subtype}
+
+# ZKP ${label}
+
+${entries.length} entr${entries.length === 1 ? 'y' : 'ies'}.
+
+_This file is auto-generated. Run \`devbox run gen-summaries\` to update._
+
+## Navigation
+
+${navTable}
+
+## All ${label}
+
+| Resource | Year | Authors | Tags |
+|---|---|---|---|
+${tableRows.join('\n')}
+`;
+
+    fs.writeFileSync(path.join(dir, 'README.md'), readme, 'utf-8');
+    console.log(`Written: Resources/${subtype}/README.md`);
+  }
 }
 
 // ---------------------------------------------------------------------------
@@ -336,4 +395,5 @@ ${tableRows.join('\n')}
 const arg = process.argv[2] ?? 'all';
 
 if (arg === 'resources' || arg === 'all') generateResourcesReadme();
+if (arg === 'resource-subtypes' || arg === 'all') generateResourceSubtypeReadmes();
 if (arg === 'tags' || arg === 'all') generateTagsReadme();

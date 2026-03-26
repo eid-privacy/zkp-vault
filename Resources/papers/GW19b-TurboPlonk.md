@@ -13,6 +13,8 @@ tags:
   - snark
 ---
 
+[Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > GW19b-TurboPlonk
+
 # TurboPLONK Proposal (ZKProof Workshop 3)
 
 URL:: https://docs.zkproof.org/pages/standards/accepted-workshop3/proposal-turbo_plonk.pdf

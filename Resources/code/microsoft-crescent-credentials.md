@@ -11,6 +11,8 @@ tags:
   - elliptic-curves
 ---
 
+[Home](../../README.md) > [Resources](../README.md) > [code](README.md) > microsoft-crescent-credentials
+
 # Microsoft Crescent Credentials (Spartan-t256 Fork)
 
 URL:: https://github.com/microsoft/crescent-credentials/tree/main/forks/Spartan-t256

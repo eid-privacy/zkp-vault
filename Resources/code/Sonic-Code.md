@@ -11,6 +11,8 @@ tags:
   - universal-setup
 ---
 
+[Home](../../README.md) > [Resources](../README.md) > [code](README.md) > Sonic-Code
+
 # Sonic Reference Implementation (ebfull/sonic)
 
 URL:: https://github.com/ebfull/sonic

@@ -13,6 +13,8 @@ tags:
   - plonk
 ---
 
+[Home](../../README.md) > [Resources](../README.md) > [docs](README.md) > gnark-Docs
+
 # gnark Documentation (Consensys)
 
 URL:: https://docs.gnark.consensys.io/

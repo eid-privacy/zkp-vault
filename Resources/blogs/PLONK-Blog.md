@@ -12,6 +12,8 @@ tags:
   - explainer
 ---
 
+[Home](../../README.md) > [Resources](../README.md) > [blogs](README.md) > PLONK-Blog
+
 # Understanding PLONK
 
 URL:: https://vitalik.eth.limo/general/2019/09/22/plonk.html

@@ -17,6 +17,8 @@ tags:
   - commitment
 ---
 
+[Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > WTSTW17-Hyrax
+
 # Doubly-Efficient zkSNARKs Without Trusted Setup (Hyrax)
 
 URL:: https://eprint.iacr.org/2017/1132.pdf

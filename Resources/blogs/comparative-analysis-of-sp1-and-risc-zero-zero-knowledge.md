@@ -9,6 +9,8 @@ tags:
   - stark
 ---
 
+[Home](../../README.md) > [Resources](../README.md) > [blogs](README.md) > comparative-analysis-of-sp1-and-risc-zero-zero-knowledge
+
 # Comparative Analysis of SP1 and RISC Zero Zero-Knowledge Virtual Machines
 
 URL:: https://medium.com/@gwrx2005/comparative-analysis-of-sp1-and-risc-zero-zero-knowledge-virtual-machines-4abf806daa70

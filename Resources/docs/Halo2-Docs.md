@@ -12,6 +12,8 @@ tags:
   - transparent
 ---
 
+[Home](../../README.md) > [Resources](../README.md) > [docs](README.md) > Halo2-Docs
+
 # Halo2 Documentation (Zcash)
 
 URL:: https://zcash.github.io/halo2/concepts/proofs.html

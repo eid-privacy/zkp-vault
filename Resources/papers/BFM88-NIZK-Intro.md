@@ -14,6 +14,8 @@ tags:
   - theory
 ---
 
+[Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > BFM88-NIZK-Intro
+
 # Non-Interactive Zero-Knowledge and Its Applications (BFM88)
 
 URL:: https://dl.acm.org/doi/pdf/10.1145/62212.62222

@@ -16,20 +16,27 @@ const SECTION_LABELS: Record<string, string> = {
 
 const DRY_RUN = process.argv.includes('--dry-run');
 
-function buildBreadcrumb(dir: string, filename: string): string {
+function buildBreadcrumb(dir: string, subdir: string | null, filename: string): string {
   const label = SECTION_LABELS[dir];
   const name = path.basename(filename, '.md');
-  if (filename === 'README.md') {
-    return `[Home](../README.md) > ${label}`;
+  if (subdir === null) {
+    if (filename === 'README.md') {
+      return `[Home](../README.md) > ${label}`;
+    }
+    return `[Home](../README.md) > [${label}](README.md) > ${name}`;
+  } else {
+    if (filename === 'README.md') {
+      return `[Home](../../README.md) > [${label}](../README.md) > ${subdir}`;
+    }
+    return `[Home](../../README.md) > [${label}](../README.md) > [${subdir}](README.md) > ${name}`;
   }
-  return `[Home](../README.md) > [${label}](README.md) > ${name}`;
 }
 
 function insertBreadcrumb(filePath: string, breadcrumb: string): void {
   let content = fs.readFileSync(filePath, 'utf-8');
 
-  // Idempotency: skip if breadcrumb already present
-  if (content.includes('[Home](../README.md)')) {
+  // Idempotency: skip if any home navigation already present
+  if (content.includes('[Home](../README.md)') || content.includes('[Home](../../README.md)')) {
     console.log(`  skip  ${path.relative(VAULT_ROOT, filePath)}`);
     return;
   }
@@ -71,10 +78,24 @@ for (const [dir, label] of Object.entries(SECTION_LABELS)) {
   }
 
   console.log(`\n${label}`);
-  const files = fs.readdirSync(dirPath).filter(f => f.endsWith('.md'));
+  const entries = fs.readdirSync(dirPath, { withFileTypes: true });
 
-  for (const file of files) {
-    insertBreadcrumb(path.join(dirPath, file), buildBreadcrumb(dir, file));
+  for (const entry of entries) {
+    if (entry.isFile() && entry.name.endsWith('.md')) {
+      insertBreadcrumb(path.join(dirPath, entry.name), buildBreadcrumb(dir, null, entry.name));
+    } else if (entry.isDirectory()) {
+      const subdir = entry.name;
+      const subdirPath = path.join(dirPath, subdir);
+      const subEntries = fs.readdirSync(subdirPath, { withFileTypes: true });
+      for (const subEntry of subEntries) {
+        if (subEntry.isFile() && subEntry.name.endsWith('.md')) {
+          insertBreadcrumb(
+            path.join(subdirPath, subEntry.name),
+            buildBreadcrumb(dir, subdir, subEntry.name),
+          );
+        }
+      }
+    }
   }
 }
 

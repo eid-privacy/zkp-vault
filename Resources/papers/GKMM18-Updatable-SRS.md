@@ -16,6 +16,8 @@ tags:
   - foundational
 ---
 
+[Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > GKMM18-Updatable-SRS
+
 # Updatable and Universal Common Reference Strings with Applications to zk-SNARKs (Groth et al. 2018)
 
 URL:: https://eprint.iacr.org/2018/046.pdf

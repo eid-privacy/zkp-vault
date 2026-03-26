@@ -12,6 +12,8 @@ tags:
   - discrete-log
 ---
 
+[Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > Ped91-Commitments
+
 # Non-Interactive and Information-Theoretic Secure Verifiable Secret Sharing (Pedersen 1991)
 
 URL:: https://link.springer.com/content/pdf/10.1007/3-540-46766-1_9.pdf

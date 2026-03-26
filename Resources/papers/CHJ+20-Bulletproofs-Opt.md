@@ -17,6 +17,8 @@ tags:
   - logarithmic
 ---
 
+[Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > CHJ+20-Bulletproofs-Opt
+
 # Bulletproofs+: Shorter Proofs for Privacy-Enhanced Distributed Ledger (Chung et al. 2020)
 
 URL:: https://eprint.iacr.org/2020/735

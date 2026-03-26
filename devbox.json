@@ -14,8 +14,8 @@
       "navigation:dry":       "npx ts-node utils/addNavigation.ts --dry-run",
       "navigation":           "npx ts-node utils/addNavigation.ts",
       "verify":               "bun run verify",
-      "migrate-resources":    "bun run utils/migrateResources.ts",
-      "gen-summaries":        "bun run utils/summaries.ts"
+      "collect-resources":    "bun run utils/collectResources.ts",
+      "summaries":            "bun run utils/summaries.ts"
     }
   }
 }

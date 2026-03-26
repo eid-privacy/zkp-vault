@@ -1,5 +1,5 @@
 /**
- * migrateResources.ts
+ * collectResources.ts
  *
  * Scans all vault content directories for ## Resources sections, extracts
  * URLs, creates canonical stub files in Resources/subtype/, and rewrites
@@ -8,7 +8,7 @@
  * Also extracts URLs from Resources/index.md if present.
  *
  * Usage:
- *   bun run utils/migrateResources.ts [--dry-run]
+ *   bun run utils/collectResources.ts [--dry-run]
  */
 
 import * as fs from 'fs';

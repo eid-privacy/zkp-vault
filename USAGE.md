@@ -88,7 +88,7 @@ In the `## Resources` section, **do not paste raw URLs**. Instead:
 a. Run the migration script to detect any raw URLs you've added and create canonical stub files:
 
 ```sh
-devbox run migrate-resources
+devbox run collect-resources
 ```
 
 This creates stubs in `Resources/subtype/` and rewrites your file to use wikilinks automatically.
@@ -127,7 +127,7 @@ Used by: [[Noir]], [[Barretenberg]]
 
 ## Filling in a resource stub
 
-After `migrate-resources` runs, each new stub in `Resources/subtype/` looks like:
+After `collect-resources` runs, each new stub in `Resources/subtype/` looks like:
 
 ```markdown
 ---
@@ -173,11 +173,11 @@ This rewrites `Resources/README.md` with two views: **By Type** (one table per s
 If you've added raw URLs to `## Resources` sections:
 
 ```sh
-devbox run migrate-resources           # create stubs + rewrite source files
+devbox run collect-resources           # create stubs + rewrite source files
 devbox run gen-resources-readme        # update the README
 ```
 
-`migrate-resources` is idempotent — safe to re-run.
+`collect-resources` is idempotent — safe to re-run.
 
 ---
 
@@ -209,7 +209,7 @@ Fix all wiki-link and frontmatter errors before committing. Navigation errors ar
 ```sh
 cp templates/proof_system.md ProofSystems/NewScheme.md
 # edit the file, add tags, add ## Resources with label: URL
-devbox run migrate-resources
+devbox run collect-resources
 devbox run gen-resources-readme
 devbox run verify
 ```
@@ -220,10 +220,27 @@ devbox run verify
 cp templates/tooling_application.md ToolingApplication/NewTool.md
 # subtype options: circuit_dsl | zkvm | library | application
 # edit, add resources
-devbox run migrate-resources
+devbox run collect-resources
 devbox run gen-resources-readme
 devbox run verify
 ```
+
+### Add resources via a content file
+
+Add raw URLs to a `## Resources` section in any content file, then run `collect-resources` to create stubs and rewrite the links:
+
+```sh
+# In ProofSystems/MyScheme.md, add:
+#   ## Resources
+#   - Paper: https://eprint.iacr.org/2019/953.pdf
+#   - Code: https://github.com/my/repo
+
+devbox run collect-resources        # creates stubs + replaces URLs with wikilinks
+devbox run summaries                # update Resources/README.md and subtype READMEs
+devbox run verify
+```
+
+`collect-resources` deduplicates across all content files — if the same URL already exists as a stub, it reuses the existing wikilink instead of creating a duplicate.
 
 ### Add a resource directly (no source entry)
 

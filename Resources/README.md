@@ -1,6 +1,7 @@
 ---
 type: resources
 status: generated
+generated: true
 tags:
   - zkp
   - papers

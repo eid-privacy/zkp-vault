@@ -1,6 +1,7 @@
 ---
 type: tags-index
 status: generated
+generated: true
 tags: []
 ---
 

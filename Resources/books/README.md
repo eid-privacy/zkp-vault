@@ -1,6 +1,7 @@
 ---
 type: resource-index
 status: generated
+generated: true
 subtype: books
 tags: []
 ---

@@ -1,6 +1,7 @@
 ---
 type: resource
 subtype: paper
+cite_as: BFH+20-Ligero-Plus
 year: 2020
 authors:
   - Rishabh Bhadauria

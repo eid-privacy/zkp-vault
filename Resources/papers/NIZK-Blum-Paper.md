@@ -1,6 +1,7 @@
 ---
 type: resource
 subtype: paper
+cite_as: BFM88-NIZK-Intro
 year: 1988
 authors:
   - Manuel Blum

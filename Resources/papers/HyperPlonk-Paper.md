@@ -1,6 +1,7 @@
 ---
 type: resource
 subtype: paper
+cite_as: CBBZ23-HyperPlonk
 year: 2023
 authors:
   - Binyi Chen

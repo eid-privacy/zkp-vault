@@ -1,6 +1,7 @@
 ---
 type: resource
 subtype: paper
+cite_as: MBKM19-Sonic
 year: 2019
 authors:
   - Mary Maller

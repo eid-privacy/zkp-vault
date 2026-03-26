@@ -1,6 +1,7 @@
 ---
 type: resource
 subtype: paper
+cite_as: DI06-Scalable-MPC
 year: 2006
 authors:
   - Ivan Damgård

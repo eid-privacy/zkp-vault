@@ -1,6 +1,7 @@
 ---
 type: resource
 subtype: paper
+cite_as: ZKP21-Sigma-Standard
 year: 2021
 authors:
   - ZKProof Community

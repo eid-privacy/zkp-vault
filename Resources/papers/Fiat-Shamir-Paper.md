@@ -1,6 +1,7 @@
 ---
 type: resource
 subtype: paper
+cite_as: FS86-Fiat-Shamir
 year: 1986
 authors:
   - Amos Fiat

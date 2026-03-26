@@ -1,6 +1,7 @@
 ---
 type: resource
 subtype: paper
+cite_as: CS97-DL-Proofs
 year: 1997
 authors:
   - Jan Camenisch

@@ -1,6 +1,7 @@
 ---
 type: resource
 subtype: paper
+cite_as: CM99-Safe-Primes
 year: 1999
 authors:
   - Jan Camenisch

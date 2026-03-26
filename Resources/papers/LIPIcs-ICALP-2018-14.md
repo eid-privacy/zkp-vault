@@ -1,6 +1,7 @@
 ---
 type: resource
 subtype: paper
+cite_as: BBHR18-FRI
 year: 2018
 authors:
   - Eli Ben-Sasson

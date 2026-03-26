@@ -1,6 +1,7 @@
 ---
 type: resource
 subtype: paper
+cite_as: GW19b-TurboPlonk
 year: 2019
 authors:
   - Ariel Gabizon

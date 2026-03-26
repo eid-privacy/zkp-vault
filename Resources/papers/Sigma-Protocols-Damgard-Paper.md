@@ -1,6 +1,7 @@
 ---
 type: resource
 subtype: paper
+cite_as: Dam04-Sigma-Protocols
 year: 2004
 authors:
   - Ivan Damgård

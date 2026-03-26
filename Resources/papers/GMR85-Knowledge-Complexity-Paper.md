@@ -1,6 +1,7 @@
 ---
 type: resource
 subtype: paper
+cite_as: GMR85-ZK-Complexity
 year: 1985
 authors:
   - Shafi Goldwasser

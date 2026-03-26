@@ -1,6 +1,7 @@
 ---
 type: resource
 subtype: paper
+cite_as: Ped91-Commitments
 year: 1991
 authors:
   - Torben Pryds Pedersen

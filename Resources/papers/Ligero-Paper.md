@@ -1,6 +1,7 @@
 ---
 type: resource
 subtype: paper
+cite_as: AHIV17-Ligero
 year: 2017
 authors:
   - Scott Ames

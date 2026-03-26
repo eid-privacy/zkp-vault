@@ -1,6 +1,7 @@
 ---
 type: resource
 subtype: paper
+cite_as: SAS22-ZKAttest
 year: 2022
 authors:
   - Gregor Seiler

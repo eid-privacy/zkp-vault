@@ -2,6 +2,8 @@
 type: tag
 ---
 
+[Home](../README.md) > [Tags](README.md) > discrete-log
+
 # Discrete Logarithm
 
 ## Description

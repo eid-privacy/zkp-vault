@@ -6,6 +6,8 @@ tags:
   - zkvm
 ---
 
+[Home](../README.md) > [Tooling & Applications](README.md) > zkVM
+
 # zkVM — Zero-Knowledge Virtual Machine
 
 ## Description

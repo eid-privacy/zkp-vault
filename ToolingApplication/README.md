@@ -1,3 +1,5 @@
+[Home](../README.md) > Tooling & Applications
+
 # Tooling & Applications
 
 Concrete tools, libraries, and frameworks for building ZKP applications. Grouped by category.

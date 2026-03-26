@@ -10,6 +10,8 @@ tags:
   - mathematics
 ---
 
+[Home](../README.md) > [Cryptographic Primitives](README.md) > Camenisch-Michels-Safe-Primes
+
 # Proving in ZK that a Number Is the Product of Two Safe Primes
 
 Paper:: Proving in Zero-Knowledge that a Number Is the Product of Two Safe Primes

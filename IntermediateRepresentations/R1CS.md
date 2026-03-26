@@ -8,6 +8,8 @@ tags:
   - mathematics
 ---
 
+[Home](../README.md) > [Intermediate Representations](README.md) > R1CS
+
 # R1CS — Rank-1 Constraint System
 
 ## Description

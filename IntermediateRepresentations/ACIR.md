@@ -6,6 +6,8 @@ tags:
   - noir
 ---
 
+[Home](../README.md) > [Intermediate Representations](README.md) > ACIR
+
 # ACIR — Abstract Circuit Intermediate Representation
 
 ## Description

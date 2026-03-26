@@ -15,6 +15,8 @@ tags:
   - trusted-setup
 ---
 
+[Home](../README.md) > [Proof Systems](README.md) > Pinocchio
+
 # Pinocchio
 
 Paper:: Pinocchio - Nearly Practical Verifiable Computation

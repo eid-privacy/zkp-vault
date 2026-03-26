@@ -13,6 +13,8 @@ tags:
   - plonk-family
 ---
 
+[Home](../README.md) > [Proof Systems](README.md) > PLONK
+
 # PLONK
 
 Paper:: Permutations over Lagrange-bases for Oecumenical Noninteractive arguments of Knowledge

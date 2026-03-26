@@ -2,6 +2,8 @@
 type: tag
 ---
 
+[Home](../README.md) > [Tags](README.md) > trusted-setup
+
 # Trusted Setup
 
 ## Description

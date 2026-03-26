@@ -12,6 +12,8 @@ tags:
   - r1cs
 ---
 
+[Home](../README.md) > [Proof Systems](README.md) > Spartan
+
 # Spartan
 
 Paper:: Efficient and general-purpose zkSNARKs without trusted setup

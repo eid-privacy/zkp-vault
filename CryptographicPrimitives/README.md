@@ -1,3 +1,5 @@
+[Home](../README.md) > Cryptographic Primitives
+
 # Cryptographic Primitives
 
 Low-level building blocks that ZKP proof systems are built upon — commitment schemes, sigma protocols, and specialized ZK constructions.

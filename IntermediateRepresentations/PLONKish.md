@@ -8,6 +8,8 @@ tags:
   - mathematics
 ---
 
+[Home](../README.md) > [Intermediate Representations](README.md) > PLONKish
+
 # PLONKish Arithmetization
 
 ## Description

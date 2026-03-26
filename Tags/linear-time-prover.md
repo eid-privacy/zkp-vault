@@ -2,6 +2,8 @@
 type: tag
 ---
 
+[Home](../README.md) > [Tags](README.md) > linear-time-prover
+
 # Linear-Time Prover
 
 ## Description

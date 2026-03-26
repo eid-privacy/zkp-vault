@@ -15,6 +15,8 @@ tags:
   - trusted-setup
 ---
 
+[Home](../README.md) > [Proof Systems](README.md) > QSP-GGPR13
+
 # QSP: Quadratic Span Programs and Succinct NIZKs without PCPs
 
 Paper:: Quadratic Span Programs and Succinct NIZKs without PCPs

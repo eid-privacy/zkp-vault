@@ -2,6 +2,8 @@
 type: tag
 ---
 
+[Home](../README.md) > [Tags](README.md) > pairing
+
 # Pairing-Based Cryptography
 
 ## Description

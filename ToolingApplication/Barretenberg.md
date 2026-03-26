@@ -10,6 +10,8 @@ tags:
   - implementations
 ---
 
+[Home](../README.md) > [Tooling & Applications](README.md) > Barretenberg
+
 # Barretenberg
 
 URL::

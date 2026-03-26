@@ -15,6 +15,8 @@ tags:
   - reed-solomon
 ---
 
+[Home](../README.md) > [Proof Systems](README.md) > Ligero
+
 # Ligero
 
 Paper:: Ligero: Lightweight Sublinear Arguments Without a Trusted Setup

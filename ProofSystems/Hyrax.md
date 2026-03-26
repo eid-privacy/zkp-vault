@@ -15,6 +15,8 @@ tags:
   - transparent
 ---
 
+[Home](../README.md) > [Proof Systems](README.md) > Hyrax
+
 # Hyrax
 
 Paper:: Doubly-efficient zkSNARKs without trusted setup

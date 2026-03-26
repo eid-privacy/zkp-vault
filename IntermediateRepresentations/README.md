@@ -1,3 +1,5 @@
+[Home](../README.md) > Intermediate Representations
+
 # Intermediate Representations
 
 Circuit and constraint formats that sit between high-level programs and the underlying polynomial proof system.

@@ -10,6 +10,8 @@ tags:
   - mathematics
 ---
 
+[Home](../README.md) > [Cryptographic Primitives](README.md) > Pedersen-Commitments
+
 # Pedersen Commitments
 
 Paper:: Non-Interactive and Information-Theoretic Secure Verifiable Secret Sharing

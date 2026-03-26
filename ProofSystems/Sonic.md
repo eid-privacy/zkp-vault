@@ -9,6 +9,8 @@ tags:
   - universal-setup
 ---
 
+[Home](../README.md) > [Proof Systems](README.md) > Sonic
+
 # Sonic
 
 Paper:: Sonic

@@ -12,6 +12,8 @@ tags:
   - implementations
 ---
 
+[Home](../README.md) > [Tooling & Applications](README.md) > Pico
+
 # Pico
 
 URL::

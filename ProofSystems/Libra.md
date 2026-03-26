@@ -16,6 +16,8 @@ tags:
   - gkr
 ---
 
+[Home](../README.md) > [Proof Systems](README.md) > Libra
+
 # Libra
 
 Paper:: Succinct Zero-Knowledge Proofs with Optimal Prover Computation

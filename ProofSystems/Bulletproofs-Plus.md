@@ -15,6 +15,8 @@ tags:
   - logarithmic
 ---
 
+[Home](../README.md) > [Proof Systems](README.md) > Bulletproofs-Plus
+
 # Bulletproofs+
 
 Paper:: Bulletproofs+: Shorter Proofs for Privacy-Enhanced Distributed Ledger

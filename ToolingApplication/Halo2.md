@@ -12,6 +12,8 @@ tags:
   - implementations
 ---
 
+[Home](../README.md) > [Tooling & Applications](README.md) > Halo2
+
 # Halo 2
 
 URL:: https://zcash.github.io/halo2/user/simple-example.html

@@ -16,6 +16,8 @@ tags:
   - mathematics
 ---
 
+[Home](../README.md) > [Proof Systems](README.md) > FRI
+
 # FRI
 
 Paper:: Fast Reed-Solomon Interactive Oracle Proofs of Proximity

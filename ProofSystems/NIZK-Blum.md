@@ -13,6 +13,8 @@ tags:
   - foundational
 ---
 
+[Home](../README.md) > [Proof Systems](README.md) > NIZK-Blum
+
 # Non-Interactive Zero-Knowledge and Its Applications
 
 Paper:: Non-Interactive Zero-Knowledge and Its Applications

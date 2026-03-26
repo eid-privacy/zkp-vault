@@ -6,6 +6,8 @@ tags:
   - circuit
 ---
 
+[Home](../README.md) > [Tooling & Applications](README.md) > Circuits
+
 # Arithmetic Circuits
 
 ## Description

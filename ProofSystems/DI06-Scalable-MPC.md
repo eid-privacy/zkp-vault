@@ -12,6 +12,8 @@ tags:
   - mpc
 ---
 
+[Home](../README.md) > [Proof Systems](README.md) > DI06-Scalable-MPC
+
 # Scalable Secure Multiparty Computation
 
 Paper:: Scalable Secure Multiparty Computation

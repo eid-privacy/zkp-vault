@@ -12,6 +12,8 @@ tags:
   - foundational
 ---
 
+[Home](../README.md) > [Proof Systems](README.md) > GMR85-Knowledge-Complexity
+
 # The Knowledge Complexity of Interactive Proof Systems
 
 Paper:: The knowledge complexity of interactive proof-systems

@@ -11,6 +11,8 @@ tags:
   - mathematics
 ---
 
+[Home](../README.md) > [Cryptographic Primitives](README.md) > Sigma-Protocols-Proposal
+
 # Proposal: ∑-protocols
 
 Paper:: Proposal: ∑-protocols

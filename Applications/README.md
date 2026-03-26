@@ -7,6 +7,8 @@ tags:
   - use-cases
 ---
 
+[Home](../README.md) > Applications
+
 # ZKP Applications
 
 This section covers real-world use cases and applications of Zero-Knowledge Proofs across various domains.

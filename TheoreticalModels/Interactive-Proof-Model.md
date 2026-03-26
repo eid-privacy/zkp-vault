@@ -12,6 +12,8 @@ tags:
   - mathematics
 ---
 
+[Home](../README.md) > [Theoretical Models](README.md) > Interactive-Proof-Model
+
 # Interactive Proof Model (IP)
 
 Paper:: The knowledge complexity of interactive proof-systems

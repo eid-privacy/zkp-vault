@@ -1,3 +1,5 @@
+[Home](../README.md) > Proof Systems
+
 # Proof Systems
 
 Cryptographic proof systems from foundational theory through modern production SNARKs. Notes cover construction, security assumptions, setup requirements, and proof/verifier complexity.

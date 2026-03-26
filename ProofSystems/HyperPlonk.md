@@ -14,6 +14,8 @@ tags:
   - linear-time-prover
 ---
 
+[Home](../README.md) > [Proof Systems](README.md) > HyperPlonk
+
 # HyperPlonk
 
 Paper:: HyperPlonk: Plonk with Linear-Time Prover and High-Degree Custom Gates

@@ -12,6 +12,8 @@ tags:
   - implementations
 ---
 
+[Home](../README.md) > [Tooling & Applications](README.md) > RISC-Zero
+
 # RISC Zero
 
 URL:: https://risczero.com/

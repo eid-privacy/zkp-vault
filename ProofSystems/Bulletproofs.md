@@ -12,6 +12,8 @@ tags:
   - logarithmic
 ---
 
+[Home](../README.md) > [Proof Systems](README.md) > Bulletproofs
+
 # Bulletproofs
 
 Paper:: Bulletproofs - Short Proofs for Confidential Transactions and More

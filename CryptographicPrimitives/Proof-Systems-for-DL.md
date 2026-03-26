@@ -11,6 +11,8 @@ tags:
   - mathematics
 ---
 
+[Home](../README.md) > [Cryptographic Primitives](README.md) > Proof-Systems-for-DL
+
 # Proof Systems for General Statements about Discrete Logarithms
 
 Paper:: Proof Systems for General Statements about Discrete Logarithms

@@ -8,6 +8,8 @@ tags:
   - plonk-family
 ---
 
+[Home](../README.md) > [Proof Systems](README.md) > HONK
+
 # HONK
 
 Paper:: HONK (Aztec Protocol internal)

@@ -11,6 +11,8 @@ tags:
   - lookup
 ---
 
+[Home](../README.md) > [Proof Systems](README.md) > plookup
+
 # plookup
 
 Paper:: plookup: A simplified polynomial protocol for lookup tables

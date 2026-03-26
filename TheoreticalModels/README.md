@@ -1,3 +1,5 @@
+[Home](../README.md) > Theoretical Models
+
 # Theoretical Models
 
 Foundational computational models and taxonomies that underpin the theory of Zero-Knowledge Proofs.

@@ -10,6 +10,8 @@ tags:
   - zkp
 ---
 
+[Home](../README.md) > [Tooling & Applications](README.md) > SumcheckProofs
+
 # SumcheckProofs
 
 Paper:: 

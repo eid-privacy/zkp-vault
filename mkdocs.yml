@@ -1,0 +1,43 @@
+site_name: ZKP Vault
+site_url: https://eid-privacy.github.io/zkp-vault/
+site_description: A knowledge vault covering Zero-Knowledge Proof papers, frameworks, cryptographic primitives, and tooling.
+
+docs_dir: docs
+site_dir: _site
+
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: indigo
+    accent: cyan
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - toc.follow
+
+plugins:
+  - search
+  - roamlinks
+  - awesome-pages
+
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: dataview
+          class: dataview
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight
+  - attr_list
+
+exclude_docs: |
+  *.json
+  *.lock

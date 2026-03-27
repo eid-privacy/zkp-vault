@@ -3,19 +3,26 @@
   "packages": [
     "nodejs@22",
     "typescript@5",
-    "bun@1"
+    "bun@1",
+    "python@3.14",
+    "python314Packages.pip"
   ],
   "shell": {
     "init_hook": [
       "npm install",
-      "ln -sf ../../scripts/pre-commit.sh .git/hooks/pre-commit"
+      ". $VENV_DIR/bin/activate",
+      "pip install -r requirements.txt",
+      "ln -sf ../../scripts/pre-commit.sh .git/hooks/pre-commit",
+      "mkdir -p docs && for d in Applications CryptographicPrimitives IntermediateRepresentations ProofSystems Resources Tags TheoreticalModels ToolingApplication; do ln -sf ../$d docs/$d; done && ln -sf ../README.md docs/index.md"
     ],
     "scripts": {
-      "navigation:dry":       "npx ts-node utils/addNavigation.ts --dry-run",
-      "navigation":           "npx ts-node utils/addNavigation.ts",
-      "verify":               "bun run verify",
-      "collect-resources":    "bun run utils/collectResources.ts",
-      "summaries":            "bun run utils/summaries.ts"
+      "navigation:dry":    "npx ts-node utils/addNavigation.ts --dry-run",
+      "navigation":        "npx ts-node utils/addNavigation.ts",
+      "verify":            "bun run verify",
+      "collect-resources": "bun run utils/collectResources.ts",
+      "summaries":         "bun run utils/summaries.ts",
+      "serve":             "mkdocs serve",
+      "build":             "mkdocs build --strict"
     }
   }
 }

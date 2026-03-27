@@ -1,2 +1,2 @@
-devbox.lock        linguist-generated=true diff=false
-package-lock.json  linguist-generated=true diff=false
+devbox.lock binary linguist-generated=true
+package-lock.json binary linguist-generated=true

@@ -31,3 +31,21 @@ jobs:
 
       - name: Verify
         run: bun utils/verify.ts --quiet
+
+  docs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install MkDocs dependencies
+        run: pip install -r requirements.txt
+
+      - name: Create docs directory
+        run: mkdir -p docs
+
+      - name: Build docs
+        run: mkdocs build --strict

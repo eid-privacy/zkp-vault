@@ -14,7 +14,7 @@
 import * as fs from 'fs';
 import * as path from 'path';
 
-const VAULT_ROOT = path.resolve(__dirname, '..');
+const VAULT_ROOT = path.resolve(__dirname, '../docs');
 const RESOURCES_ROOT = path.join(VAULT_ROOT, 'Resources');
 const DRY_RUN = process.argv.includes('--dry-run');
 

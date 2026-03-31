@@ -4,18 +4,20 @@
  * Generates summary README files for vault sections:
  *   - Resources/README.md  (by type + by topic views)
  *   - Tags/README.md       (alphabetical table with descriptions)
+ *   - Tags/<tag>.md        (## Entries tagged section replaced with static list)
  *
  * Usage:
  *   bun run utils/summaries.ts                      # generate all
  *   bun run utils/summaries.ts resources           # Resources/README.md only
  *   bun run utils/summaries.ts resource-subtypes   # Resources/<subtype>/README.md only
- *   bun run utils/summaries.ts tags                # Tags/README.md only
+ *   bun run utils/summaries.ts tags                # Tags/README.md + all tag entry lists
+ *   bun run utils/summaries.ts tag-files           # Tag entry lists only
  */
 
 import * as fs from 'fs';
 import * as path from 'path';
 
-const VAULT_ROOT = path.resolve(__dirname, '..');
+const VAULT_ROOT = path.resolve(__dirname, '../docs');
 const QUIET = process.argv.includes('--quiet');
 
 // ---------------------------------------------------------------------------
@@ -130,7 +132,7 @@ function authorsStr(authors: string[]): string {
 }
 
 function resourceWikilink(r: ResourceMeta): string {
-  return `[[${r.filename}\\|${r.title}]]`;
+  return `[[${r.filename}|${r.title}]]`;
 }
 
 function renderResourcesByType(resources: ResourceMeta[]): string {
@@ -291,7 +293,7 @@ function generateResourceSubtypeReadmes(): void {
     );
 
     const tableRows = sorted.map(r =>
-      `| [[${r.filename}\\|${r.title}]] | ${r.year} | ${authorsStr(r.authors)} | ${r.tags.join(', ')} |`
+      `| ${resourceWikilink(r)} | ${r.year} | ${authorsStr(r.authors)} | ${r.tags.join(', ')} |`
     );
 
     const readme = `---
@@ -356,10 +358,10 @@ function generateTagsReadme(): void {
   const tags = loadTags();
   if (!QUIET) console.log(`Tags: loaded ${tags.length} entries.`);
 
-  const navTable = buildNavTable(tags.map(t => t.filename), 5);
+  const navTable = buildNavTable(tags.map(t => t.filename), 5, s => `[[${s}]]`);
 
   const tableRows = tags.map(t =>
-    `| [[${t.filename}\\|${t.title}]] | ${t.description} |`
+    `| [[${t.filename}|${t.title}]] | ${t.description} |`
   );
 
   const readme = `---
@@ -393,6 +395,89 @@ ${tableRows.join('\n')}
 }
 
 // ---------------------------------------------------------------------------
+// Tag entry lists (Tags/<tag>.md → ## Entries tagged section)
+// ---------------------------------------------------------------------------
+
+const CONTENT_DIRS = [
+  'CryptographicPrimitives',
+  'ProofSystems',
+  'IntermediateRepresentations',
+  'TheoreticalModels',
+  'ToolingApplication',
+  'Applications',
+  'Resources/papers',
+  'Resources/blogs',
+  'Resources/books',
+  'Resources/wikis',
+  'Resources/docs',
+  'Resources/code',
+  'Resources/videos',
+  'Resources/presentations',
+];
+
+function buildTagIndex(): Map<string, Array<{ title: string; filename: string }>> {
+  const index = new Map<string, Array<{ title: string; filename: string }>>();
+  for (const dir of CONTENT_DIRS) {
+    const dirPath = path.join(VAULT_ROOT, dir);
+    if (!fs.existsSync(dirPath)) continue;
+    const files = fs.readdirSync(dirPath).filter(f => f.endsWith('.md') && f !== 'README.md');
+    for (const file of files) {
+      const content = fs.readFileSync(path.join(dirPath, file), 'utf-8');
+      const fm = parseFrontmatter(content);
+      const tags = (fm['tags'] as string[] | undefined) ?? [];
+      if (tags.length === 0) continue;
+      const title = extractH1(content) || path.basename(file, '.md');
+      const filename = path.basename(file, '.md');
+      for (const tag of tags) {
+        if (!index.has(tag)) index.set(tag, []);
+        index.get(tag)!.push({ title, filename });
+      }
+    }
+  }
+  return index;
+}
+
+function generateTagFiles(): void {
+  const tagIndex = buildTagIndex();
+  const tagsDir = path.join(VAULT_ROOT, 'Tags');
+  if (!fs.existsSync(tagsDir)) return;
+
+  const files = fs.readdirSync(tagsDir).filter(f => f.endsWith('.md') && f !== 'README.md').sort();
+  let updated = 0;
+
+  for (const file of files) {
+    const slug = path.basename(file, '.md');
+    const filePath = path.join(tagsDir, file);
+    const content = fs.readFileSync(filePath, 'utf-8');
+
+    const HEADING = '\n## Entries tagged\n';
+    const headingIdx = content.indexOf(HEADING);
+    if (headingIdx === -1) continue;
+
+    const bodyStart = headingIdx + HEADING.length;
+    const nextHeadingIdx = content.indexOf('\n## ', bodyStart);
+    const bodyEnd = nextHeadingIdx === -1 ? content.length : nextHeadingIdx;
+
+    const entries = tagIndex.get(slug) ?? [];
+    const sorted = [...entries].sort((a, b) => a.title.localeCompare(b.title));
+
+    const listBody = sorted.length === 0
+      ? '\n_No entries tagged yet._\n'
+      : '\n' + sorted.map(e => `- [[${e.filename}|${e.title}]]`).join('\n') + '\n';
+
+    const newContent = content.slice(0, bodyStart) + listBody + content.slice(bodyEnd);
+
+    if (newContent !== content) {
+      fs.writeFileSync(filePath, newContent, 'utf-8');
+      updated++;
+      if (!QUIET) console.log(`  Tags/${file}: ${sorted.length} entr${sorted.length === 1 ? 'y' : 'ies'}`);
+    }
+  }
+
+  if (!QUIET) console.log(`Tags: updated ${updated} tag files.`);
+}
+
+// ---------------------------------------------------------------------------
 // Main
 // ---------------------------------------------------------------------------
 
@@ -401,3 +486,4 @@ const arg = process.argv[2] ?? 'all';
 if (arg === 'resources' || arg === 'all') generateResourcesReadme();
 if (arg === 'resource-subtypes' || arg === 'all') generateResourceSubtypeReadmes();
 if (arg === 'tags' || arg === 'all') generateTagsReadme();
+if (arg === 'tag-files' || arg === 'tags' || arg === 'all') generateTagFiles();

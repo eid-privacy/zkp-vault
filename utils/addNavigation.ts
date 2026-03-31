@@ -1,7 +1,7 @@
 import * as fs from 'fs';
 import * as path from 'path';
 
-const VAULT_ROOT = path.resolve(__dirname, '..');
+const VAULT_ROOT = path.resolve(__dirname, '../docs');
 
 const SECTION_LABELS: Record<string, string> = {
   ProofSystems: 'Proof Systems',

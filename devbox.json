@@ -12,8 +12,7 @@
       "npm install",
       ". $VENV_DIR/bin/activate",
       "pip install -r requirements.txt",
-      "ln -sf ../../scripts/pre-commit.sh .git/hooks/pre-commit",
-      "mkdir -p docs && for d in Applications CryptographicPrimitives IntermediateRepresentations ProofSystems Resources Tags TheoreticalModels ToolingApplication; do ln -sf ../$d docs/$d; done && ln -sf ../README.md docs/index.md"
+      "ln -sf ../../scripts/pre-commit.sh .git/hooks/pre-commit"
     ],
     "scripts": {
       "navigation:dry":    "npx ts-node utils/addNavigation.ts --dry-run",

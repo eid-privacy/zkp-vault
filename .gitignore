@@ -1,5 +1,5 @@
 node_modules
 _site/
 .venv/
-.pages
-docs/
+PAST_STEPS.md
+__pycache__

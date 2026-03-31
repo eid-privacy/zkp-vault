@@ -20,6 +20,12 @@ theme:
     - search.highlight
     - toc.follow
 
+hooks:
+  - hooks.py
+
+extra_css:
+  - stylesheets/extra.css
+
 plugins:
   - search
   - roamlinks

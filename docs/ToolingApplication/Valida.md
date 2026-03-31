@@ -3,6 +3,7 @@ type: tooling_application
 subtype: zkvm
 status: deprecated
 year: 2023
+github: "https://github.com/valida-xyz/valida"
 tags:
   - zkp
   - zkvm
@@ -15,9 +16,6 @@ tags:
 [Home](../README.md) > [Tooling & Applications](README.md) > Valida
 
 # Valida
-
-URL::
-Github:: https://github.com/valida-xyz/valida
 
 ## Description
 A zkVM based on Plonky3. Dead since July 2025 (last commit). Was included in the ECDSA zkVM benchmark (184s prove time, 6 MB proof). Not recommended for new work.

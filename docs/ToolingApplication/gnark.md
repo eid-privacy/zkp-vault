@@ -3,6 +3,7 @@ type: tooling_application
 subtype: library
 status: active
 year: 2020
+github: "https://github.com/ConsenSys/gnark"
 tags:
   - zkp
   - library
@@ -16,9 +17,6 @@ tags:
 [Home](../README.md) > [Tooling & Applications](README.md) > gnark
 
 # gnark
-
-URL::
-Github:: https://github.com/ConsenSys/gnark
 
 ## Description
 A Go library for writing and proving ZKP circuits using Groth16 or PLONK. Excellent performance: SHA-256 circuit proves in 0.5s with a 190-byte proof. Clean API for defining constraints in Go. Not compiled to WASM — server/backend use only.

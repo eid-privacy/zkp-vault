@@ -6,6 +6,8 @@ abbreviation: FS
 authors:
   - Amos Fiat
   - Adi Shamir
+paper: How to prove yourself
+doi: 10.1007/3-540-47721-7_12
 tags:
   - zkp
   - interactive-proof
@@ -16,9 +18,6 @@ tags:
 [Home](../README.md) > [Proof Systems](README.md) > Fiat-Shamir
 
 # Fiat-Shamir Transformation
-
-Paper:: How to prove yourself
-DOI:: 10.1007/3-540-47721-7_12
 
 ## Description
 Converts interactive identification and proof protocols into non-interactive ones by replacing the verifier's random challenge with a cryptographic hash of the prover's commitment. A fundamental technique used throughout modern ZKP systems. Relies on the Random Oracle Model (ROM).

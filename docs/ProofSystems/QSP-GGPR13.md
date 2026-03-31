@@ -8,6 +8,8 @@ authors:
   - Craig Gentry
   - Bryan Parno
   - Mariana Raykova
+paper: Quadratic Span Programs and Succinct NIZKs without PCPs
+doi: 10.1007/978-3-642-38348-9_37
 tags:
   - zkp
   - snark
@@ -18,9 +20,6 @@ tags:
 [Home](../README.md) > [Proof Systems](README.md) > QSP-GGPR13
 
 # QSP: Quadratic Span Programs and Succinct NIZKs without PCPs
-
-Paper:: Quadratic Span Programs and Succinct NIZKs without PCPs
-DOI:: 10.1007/978-3-642-38348-9_37
 
 ## Description
 Introduces Quadratic Span Programs (QSP) as an alternative to PCPs for constructing succinct NIZKs. More efficient than PCP-based constructions; directly influenced [[Pinocchio]] and [[Groth16]]. Builds on earlier work by Valiant (TCC 2008) and Bitansky et al. (2012).

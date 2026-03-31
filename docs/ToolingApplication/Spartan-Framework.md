@@ -3,6 +3,7 @@ type: tooling_application
 subtype: library
 status: maintained
 year: 2020
+github: "https://github.com/microsoft/Spartan"
 tags:
   - zkp
   - library
@@ -14,9 +15,6 @@ tags:
 [Home](../README.md) > [Tooling & Applications](README.md) > Spartan-Framework
 
 # Spartan (Framework / Implementation)
-
-URL::
-Github:: https://github.com/microsoft/Spartan
 
 ## Description
 Rust implementation of the [[Spartan]] proof system by Microsoft Research. The version of interest for the e-ID project is a fork within Crescent Credentials that adds T-256 (secp256r1) support for ECDSA proof of possession. Clement is working on integrating this with a Noir/ACIR backend.

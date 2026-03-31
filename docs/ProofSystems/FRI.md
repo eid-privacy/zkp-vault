@@ -7,6 +7,8 @@ authors:
   - Iddo Bentov
   - Yinon Horesh
   - Michael Riabzev
+paper: Fast Reed-Solomon Interactive Oracle Proofs of Proximity
+doi: 10.4230/LIPIcs.ICALP.2018.14
 tags:
   - zkp
   - iop
@@ -19,9 +21,6 @@ tags:
 [Home](../README.md) > [Proof Systems](README.md) > FRI
 
 # FRI
-
-Paper:: Fast Reed-Solomon Interactive Oracle Proofs of Proximity
-DOI:: 10.4230/LIPIcs.ICALP.2018.14
 
 ## Description
 Fast Reed-Solomon IOP of Proximity — the core commitment scheme underlying zk-STARKs. Uses Reed-Solomon codes and recursive polynomial folding to achieve logarithmic proof sizes and verification times without any trusted setup or elliptic curves. The cryptographic backbone of [[zk-STARKs]].

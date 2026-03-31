@@ -6,6 +6,8 @@ authors:
   - Shafi Goldwasser
   - Silvio Micali
   - Charles Rackoff
+paper: The knowledge complexity of interactive proof-systems
+doi: 10.1145/22145.22178
 tags:
   - zkp
   - interactive-proof
@@ -15,9 +17,6 @@ tags:
 [Home](../README.md) > [Proof Systems](README.md) > GMR85-Knowledge-Complexity
 
 # The Knowledge Complexity of Interactive Proof Systems
-
-Paper:: The knowledge complexity of interactive proof-systems
-DOI:: 10.1145/22145.22178
 
 ## Description
 The seminal paper that laid the theoretical bedrock for the entire ZKP field. It redefined a "proof" as an interactive game and formally defined knowledge complexity and the three pillars of ZKPs: completeness, soundness, and zero-knowledge. It proved that proofs could be both interactive and probabilistic — a paradigm shift in computer science.

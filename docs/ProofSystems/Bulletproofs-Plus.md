@@ -8,6 +8,8 @@ authors:
   - Chanyang Ju
   - Myungsun Kim
   - Jae Hong Seo
+paper: Bulletproofs+: Shorter Proofs for Privacy-Enhanced Distributed Ledger
+doi: 10.1109/access.2022.3167806
 tags:
   - zkp
   - transparent
@@ -18,9 +20,6 @@ tags:
 [Home](../README.md) > [Proof Systems](README.md) > Bulletproofs-Plus
 
 # Bulletproofs+
-
-Paper:: Bulletproofs+: Shorter Proofs for Privacy-Enhanced Distributed Ledger
-DOI:: 10.1109/access.2022.3167806
 
 ## Description
 An improvement over [[Bulletproofs]] with shorter proof sizes and better efficiency for privacy-enhanced distributed ledger applications. Achieves tighter bounds on proof size for range proofs.

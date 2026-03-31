@@ -2,15 +2,14 @@
 type: theoretical_model
 year:
 authors: []
+paper:
+doi:
 tags:
   - zkp
   - theory
 ---
 
 # {{title}}
-
-Paper::
-DOI::
 
 ## Description
 [What this theoretical model defines or proves]

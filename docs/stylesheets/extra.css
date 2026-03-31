@@ -1,0 +1,20 @@
+.source-meta {
+  font-size: 0.82em;
+  color: var(--md-default-fg-color--light);
+  margin: -0.25em 0 1.5em;
+  line-height: 1.8;
+}
+
+.source-meta-sep {
+  opacity: 0.35;
+  padding: 0 0.3em;
+}
+
+.source-meta a {
+  color: var(--md-accent-fg-color);
+  text-decoration: none;
+}
+
+.source-meta a:hover {
+  text-decoration: underline;
+}

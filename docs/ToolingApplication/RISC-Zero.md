@@ -3,6 +3,8 @@ type: tooling_application
 subtype: zkvm
 status: active
 year: 2022
+url: "https://risczero.com/"
+github: "https://github.com/risc0/risc0"
 tags:
   - zkp
   - zkvm
@@ -15,9 +17,6 @@ tags:
 [Home](../README.md) > [Tooling & Applications](README.md) > RISC-Zero
 
 # RISC Zero
-
-URL:: https://risczero.com/
-Github:: https://github.com/risc0/risc0
 
 ## Description
 A zkVM that lets developers write standard Rust programs compiled to a RISC-V target and prove their execution using [[zk-STARKs]]. No circuit DSL needed. Ideal for complex credential parsing (e.g., ASN.1 in ePassports). The verifier uses WASM; the prover runs server-side. Has security audits.

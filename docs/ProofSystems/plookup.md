@@ -5,6 +5,7 @@ year: 2020
 authors:
   - Ariel Gabizon
   - Zachary J. Williamson
+paper: plookup: A simplified polynomial protocol for lookup tables
 tags:
   - zkp
   - plonk-family
@@ -14,9 +15,6 @@ tags:
 [Home](../README.md) > [Proof Systems](README.md) > plookup
 
 # plookup
-
-Paper:: plookup: A simplified polynomial protocol for lookup tables
-DOI:: N/A
 
 ## Description
 Introduces efficient lookup table arguments into the PLONK framework. Enables efficient range checks and other operations that are expensive to express as arithmetic constraints. Used in TurboPLONK and UltraPLONK to support non-native field arithmetic and bitwise operations.

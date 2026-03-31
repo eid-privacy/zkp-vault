@@ -8,6 +8,8 @@ authors:
   - Carmit Hazay
   - Yuval Ishai
   - Muthuramakrishnan Venkitasubramaniam
+paper: Ligero: Lightweight Sublinear Arguments Without a Trusted Setup
+doi: 10.1145/3133956.3134104
 tags:
   - zkp
   - iop
@@ -18,9 +20,6 @@ tags:
 [Home](../README.md) > [Proof Systems](README.md) > Ligero
 
 # Ligero
-
-Paper:: Ligero: Lightweight Sublinear Arguments Without a Trusted Setup
-DOI:: 10.1145/3133956.3134104
 
 ## Description
 A lightweight sublinear argument system with no trusted setup, based on PCPs and Reed-Solomon error-correcting codes. Proof size is O(√n) where n is circuit size. Basis for the Ligetron commercial prover and later improved by [[Ligero-Plus-Plus]].

@@ -3,6 +3,7 @@ type: tooling_application
 subtype: circuit_dsl
 status: active
 year: 2020
+github: "https://github.com/iden3/circom"
 tags:
   - zkp
   - circuit-dsl
@@ -14,9 +15,6 @@ tags:
 [Home](../README.md) > [Tooling & Applications](README.md) > Circom2
 
 # Circom 2
-
-URL::
-Github:: https://github.com/iden3/circom
 
 ## Description
 A domain-specific language for writing R1CS-based ZKP circuits, paired with snarkjs for proof generation. Pre-defined circuit libraries (e.g., circomlib) cover SHA-256, ECDSA, and more. More trusted than Noir for production use, though the core compiler has slower maintenance. Backbone of the iden3/Polygon ID identity stack.

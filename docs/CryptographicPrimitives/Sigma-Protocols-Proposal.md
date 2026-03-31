@@ -4,6 +4,8 @@ year: 2021
 authors:
   - Stephan Krenn
   - Michele Orru
+paper: Proposal: ∑-protocols
+doi: 233404569
 tags:
   - zkp
   - sigma
@@ -14,9 +16,6 @@ tags:
 [Home](../README.md) > [Cryptographic Primitives](README.md) > Sigma-Protocols-Proposal
 
 # Proposal: ∑-protocols
-
-Paper:: Proposal: ∑-protocols
-DOI:: 233404569
 
 ## Description
 A standardization proposal submitted to the ZKProof workshop. Defines a unified framework, notation, and requirements for Sigma-protocol-based zero-knowledge proofs to enable interoperability and standardization.

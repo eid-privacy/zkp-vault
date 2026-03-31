@@ -5,6 +5,8 @@ year: 2017
 authors:
   - Benedikt Bünz
   - Greg Maxwell
+paper: Bulletproofs - Short Proofs for Confidential Transactions and More
+doi: 10.1109/sp.2018.00020
 tags:
   - zkp
   - transparent
@@ -15,9 +17,6 @@ tags:
 [Home](../README.md) > [Proof Systems](README.md) > Bulletproofs
 
 # Bulletproofs
-
-Paper:: Bulletproofs - Short Proofs for Confidential Transactions and More
-DOI:: 10.1109/sp.2018.00020
 
 ## Description
 Short non-interactive zero-knowledge proofs with logarithmic proof size, no trusted setup, and post-quantum plausible security. Proof size scales logarithmically with circuit size, making them efficient for large batches. Widely used for range proofs in confidential transactions (Monero).

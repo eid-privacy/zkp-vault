@@ -3,6 +3,8 @@ type: proof_system
 status: research
 year: 2019
 authors: []
+paper: Sonic
+doi: 10.1145/3319535.3339817
 tags:
   - zkp
   - snark
@@ -12,9 +14,6 @@ tags:
 [Home](../README.md) > [Proof Systems](README.md) > Sonic
 
 # Sonic
-
-Paper:: Sonic
-DOI:: 10.1145/3319535.3339817
 
 ## Description
 One of the first universal and updatable SNARK constructions. Directly preceded and inspired [[PLONK]] and Marlin. Uses a universal SRS (structured reference string) that works for all circuits up to a bounded size.

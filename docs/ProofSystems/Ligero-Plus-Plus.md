@@ -9,6 +9,8 @@ authors:
   - Muthuramakrishnan Venkitasubramaniam
   - Tiancheng Xie
   - Yupeng Zhang
+paper: Ligero++: A New Optimized Sublinear IOP
+doi: 10.1145/3372297.3417893
 tags:
   - zkp
   - iop
@@ -19,9 +21,6 @@ tags:
 [Home](../README.md) > [Proof Systems](README.md) > Ligero-Plus-Plus
 
 # Ligero++
-
-Paper:: Ligero++: A New Optimized Sublinear IOP
-DOI:: 10.1145/3372297.3417893
 
 ## Description
 Improves [[Ligero]]'s proof size from O(√n) to O(log n) by applying the IOP techniques from Aurora and Virgo on top of Ligero's MPC-in-the-head approach. Uses FRI-based polynomial commitments.

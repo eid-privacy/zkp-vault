@@ -4,6 +4,8 @@ status: production
 year: 2016
 authors:
   - Jens Groth
+paper: On the Size of Pairing-based Non-interactive Arguments
+doi: 10.1007/978-3-662-49896-5_11
 tags:
   - zkp
   - snark
@@ -14,9 +16,6 @@ tags:
 [Home](../README.md) > [Proof Systems](README.md) > Groth16
 
 # Groth16
-
-Paper:: On the Size of Pairing-based Non-interactive Arguments
-DOI:: 10.1007/978-3-662-49896-5_11
 
 ## Description
 Set a new benchmark for proof size and verification speed that remains the gold standard for many applications. Produces the smallest proofs (3 group elements, ~128–192 bytes) with very fast verification. Requires a circuit-specific trusted setup. Used in Zcash and many other production systems.

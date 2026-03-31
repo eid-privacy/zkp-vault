@@ -7,6 +7,8 @@ authors:
   - Benedikt Bünz
   - Dan Boneh
   - Zhenfei Zhang
+paper: HyperPlonk: Plonk with Linear-Time Prover and High-Degree Custom Gates
+doi: 10.1007/978-3-031-30617-4_17
 tags:
   - zkp
   - snark
@@ -17,9 +19,6 @@ tags:
 [Home](../README.md) > [Proof Systems](README.md) > HyperPlonk
 
 # HyperPlonk
-
-Paper:: HyperPlonk: Plonk with Linear-Time Prover and High-Degree Custom Gates
-DOI:: 10.1007/978-3-031-30617-4_17
 
 ## Description
 Extends PLONK to support high-degree custom gates while achieving a linear-time prover using multilinear extensions and sumcheck instead of FFTs. Trades KZG commitments for multilinear commitments to gain linear prover time.

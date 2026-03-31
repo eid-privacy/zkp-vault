@@ -8,6 +8,8 @@ authors:
   - Iddo Bentov
   - Yinon Horesh
   - Michael Riabzev
+paper: Scalable, transparent, and post-quantum secure computational integrity
+doi: 44557939
 tags:
   - zkp
   - stark
@@ -19,9 +21,6 @@ tags:
 [Home](../README.md) > [Proof Systems](README.md) > zk-STARKs
 
 # zk-STARKs
-
-Paper:: Scalable, transparent, and post-quantum secure computational integrity
-DOI:: 44557939
 
 ## Description
 Fully transparent proof system relying only on public randomness and collision-resistant hash functions. Offers scalability for large computations and plausible post-quantum security. No trusted setup. Larger proof sizes than SNARKs but faster prover. Used in StarkWare and RISC Zero.

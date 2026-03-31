@@ -6,6 +6,8 @@ abbreviation: DI06
 authors:
   - Ivan Damgard
   - Yuval Ishai
+paper: Scalable Secure Multiparty Computation
+doi: 10.1007/11818175_30
 tags:
   - zkp
   - interactive-proof
@@ -15,9 +17,6 @@ tags:
 [Home](../README.md) > [Proof Systems](README.md) > DI06-Scalable-MPC
 
 # Scalable Secure Multiparty Computation
-
-Paper:: Scalable Secure Multiparty Computation
-DOI:: 10.1007/11818175_30
 
 ## Description
 Introduces scalable constructions for secure multiparty computation (MPC). While primarily an MPC paper, its techniques for efficient proof systems and commitments in the multi-party setting influenced later ZKP constructions.

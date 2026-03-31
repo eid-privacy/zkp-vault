@@ -5,6 +5,8 @@ authors:
   - Armando Faz-Hernández
   - Watson Ladd
   - Deepak Maram
+paper: ZKAttest: Ring and Group Signatures for Existing ECDSA Keys
+doi: 10.1007/978-3-030-99277-4_4
 tags:
   - zkp
   - sigma
@@ -16,9 +18,6 @@ tags:
 [Home](../README.md) > [Cryptographic Primitives](README.md) > ZKAttest
 
 # ZKAttest
-
-Paper:: ZKAttest: Ring and Group Signatures for Existing ECDSA Keys
-DOI:: 10.1007/978-3-030-99277-4_4
 
 ## Description
 Enables ring and group signatures for existing ECDSA keys using zero-knowledge proofs. A party can prove membership in a group or ring without revealing which key they hold, using Pedersen commitments combined with SNARKs.

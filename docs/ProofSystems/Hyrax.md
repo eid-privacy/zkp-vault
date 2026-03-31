@@ -9,6 +9,8 @@ authors:
   - abhi shelat
   - Justin Thaler
   - Michael Walfish
+paper: Doubly-efficient zkSNARKs without trusted setup
+doi: 10.1109/sp.2018.00060
 tags:
   - zkp
   - snark
@@ -18,9 +20,6 @@ tags:
 [Home](../README.md) > [Proof Systems](README.md) > Hyrax
 
 # Hyrax
-
-Paper:: Doubly-efficient zkSNARKs without trusted setup
-DOI:: 10.1109/sp.2018.00060
 
 ## Description
 Doubly-efficient zkSNARKs with no trusted setup and lower prover and verifier complexity than prior work. Both prover and verifier run in time sublinear in the circuit size for structured computations. Achieves lower complexity and communication via multilinear extensions.

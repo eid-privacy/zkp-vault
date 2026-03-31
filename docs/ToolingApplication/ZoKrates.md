@@ -3,6 +3,7 @@ type: tooling_application
 subtype: circuit_dsl
 status: deprecated
 year: 2018
+github: "https://github.com/Zokrates/ZoKrates"
 tags:
   - zkp
   - circuit-dsl
@@ -14,9 +15,6 @@ tags:
 [Home](../README.md) > [Tooling & Applications](README.md) > ZoKrates
 
 # ZoKrates
-
-URL::
-Github:: https://github.com/Zokrates/ZoKrates
 
 ## Description
 A Python-like DSL for writing ZKP circuits. Lowest learning curve of any ZKP framework. Dead since August 2024 (no commits). Suitable for rapid prototyping or teaching but not for production use.

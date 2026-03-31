@@ -3,6 +3,7 @@ type: tooling_application
 subtype: library
 status: active
 year: 2020
+github: "https://github.com/noir-lang/barretenberg"
 tags:
   - zkp
   - prover-backend
@@ -13,9 +14,6 @@ tags:
 [Home](../README.md) > [Tooling & Applications](README.md) > Barretenberg
 
 # Barretenberg
-
-URL::
-Github:: https://github.com/noir-lang/barretenberg
 
 ## Description
 The default proving backend for [[Noir]]. Implements [[UltraHonk]] (and previously UltraPLONK). Takes [[ACIR]] as input and produces proofs. Optimized for blockchain use cases: slower prover, very fast verifier. Developed by Aztec Protocol.

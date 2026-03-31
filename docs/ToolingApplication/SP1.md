@@ -3,6 +3,7 @@ type: tooling_application
 subtype: zkvm
 status: active
 year: 2024
+github: "https://github.com/succinctlabs/sp1"
 tags:
   - zkp
   - zkvm
@@ -15,9 +16,6 @@ tags:
 [Home](../README.md) > [Tooling & Applications](README.md) > SP1
 
 # SP1
-
-URL::
-Github:: https://github.com/succinctlabs/sp1
 
 ## Description
 A zkVM by Succinct Labs. Write standard Rust and prove execution. Uses a STARK + SNARK (Groth16 on BN254) hybrid for compact final proofs. Outperforms RISC Zero on heavy cryptography (5–10× cycle reduction via precompiles for ECDSA and hashing). Proof sizes are large (~9 MB for ECDSA per benchmark).

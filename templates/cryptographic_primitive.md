@@ -2,15 +2,14 @@
 type: cryptographic_primitive
 year:
 authors: []
+paper:
+doi:
 tags:
   - zkp
   - sigma
 ---
 
 # {{title}}
-
-Paper::
-DOI::
 
 ## Description
 [What this primitive is and what it enables]

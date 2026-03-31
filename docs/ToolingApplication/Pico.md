@@ -3,6 +3,7 @@ type: tooling_application
 subtype: zkvm
 status: active
 year: 2024
+github: "https://github.com/brevis-network/pico"
 tags:
   - zkp
   - zkvm
@@ -15,9 +16,6 @@ tags:
 [Home](../README.md) > [Tooling & Applications](README.md) > Pico
 
 # Pico
-
-URL::
-Github:: https://github.com/brevis-network/pico
 
 ## Description
 A zkVM by Brevis Network combining Plonky3, SP1, Valida, and RISC0 approaches. Accepts Rust programs compiled to `riscv32im-risc0-zkvm-elf`. Had very slow proof generation in August 2025 benchmarks (141s for ECDSA). Has a Sherlock security audit.

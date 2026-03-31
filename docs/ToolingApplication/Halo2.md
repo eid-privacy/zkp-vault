@@ -3,6 +3,8 @@ type: tooling_application
 subtype: library
 status: maintained
 year: 2021
+url: "https://zcash.github.io/halo2/user/simple-example.html"
+github: "https://github.com/zcash/halo2"
 tags:
   - zkp
   - library
@@ -15,9 +17,6 @@ tags:
 [Home](../README.md) > [Tooling & Applications](README.md) > Halo2
 
 # Halo 2
-
-URL:: https://zcash.github.io/halo2/user/simple-example.html
-Github:: https://github.com/zcash/halo2
 
 ## Description
 A Rust library for building ZKP circuits using the [[PLONKish]] arithmetization with recursive proof composition (Halo). No trusted setup (uses IPA instead of KZG). Developed by ZCash. Hard to use — requires deep familiarity with PLONKish constraints. Notable deep-dive available from Trail of Bits.

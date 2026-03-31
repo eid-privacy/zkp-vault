@@ -172,8 +172,17 @@ function titleFromFilename(filename: string): string {
 }
 
 // ---------------------------------------------------------------------------
-// Scan Resources/** for existing URL:: entries to support deduplication
+// Scan Resources/** for existing url: (frontmatter) entries to support dedup
 // ---------------------------------------------------------------------------
+
+function parseFrontmatterUrl(content: string): string {
+  if (!content.startsWith('---\n')) return '';
+  const fmEnd = content.indexOf('\n---\n', 4);
+  if (fmEnd === -1) return '';
+  const fm = content.slice(4, fmEnd);
+  const m = fm.match(/^url:\s*"?([^"\n]+)"?\s*$/m);
+  return m ? m[1].trim() : '';
+}
 
 interface ExistingResource {
   url: string;
@@ -191,10 +200,10 @@ function loadExistingResources(): ExistingResource[] {
     for (const file of fs.readdirSync(dir).filter(f => f.endsWith('.md'))) {
       const filepath = path.join(dir, file);
       const content = fs.readFileSync(filepath, 'utf-8');
-      const match = content.match(/^URL:: (.+)$/m);
-      if (match) {
+      const url = parseFrontmatterUrl(content);
+      if (url) {
         results.push({
-          url: match[1].trim(),
+          url,
           filename: path.basename(file, '.md'),
           subtype: sub,
           filepath,
@@ -217,12 +226,11 @@ subtype: ${subtypeSingular}
 generated: true
 year:
 authors: []
+url: "${url}"
 tags: []
 ---
 
 # ${title}
-
-URL:: ${url}
 
 ## Description
 
@@ -334,8 +342,8 @@ function getOrCreateResource(
   ) {
     // File exists but NOT one we just created → check if same URL
     const existing = fs.readFileSync(path.join(dir, `${candidate}.md`), 'utf-8');
-    const existingUrlMatch = existing.match(/^URL:: (.+)$/m);
-    if (existingUrlMatch && existingUrlMatch[1].trim() === url) {
+    const existingUrl = parseFrontmatterUrl(existing);
+    if (existingUrl === url) {
       // Same URL → reuse
       break;
     }

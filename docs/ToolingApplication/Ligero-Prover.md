@@ -3,6 +3,8 @@ type: tooling_application
 subtype: library
 status: active
 year: 2023
+url: "https://platform.ligetron.com/marketplace"
+github: "https://github.com/ligeroinc/ligero-prover"
 tags:
   - zkp
   - prover-backend
@@ -14,9 +16,6 @@ tags:
 [Home](../README.md) > [Tooling & Applications](README.md) > Ligero-Prover
 
 # Ligero Prover (Ligetron)
-
-URL:: https://platform.ligetron.com/marketplace
-Github:: https://github.com/ligeroinc/ligero-prover
 
 ## Description
 Commercial prover from Ligero Inc. based on the [[Ligero]] paper. Supports Rust, Circom, and C++. Open-sourced under Apache-2.0 after a delay. The SHA-256 example produces ~1.9 MB proofs, which exceeds the <1MB target. Originally closed source; open-sourced version available.

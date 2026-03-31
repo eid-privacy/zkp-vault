@@ -3,6 +3,7 @@ type: tooling_application
 subtype: zkvm
 status: active
 year: 2024
+github: "https://github.com/openvm-org/openvm"
 tags:
   - zkp
   - zkvm
@@ -15,9 +16,6 @@ tags:
 [Home](../README.md) > [Tooling & Applications](README.md) > OpenVM
 
 # OpenVM
-
-URL::
-Github:: https://github.com/openvm-org/openvm
 
 ## Description
 A zkVM based on Plonky3/STARK, building on SP1's architecture. Near-miss on proof size vs. SP1 in benchmarks (4.2 MB for ECDSA, best among zkVMs tested). 5 security audits. Supports secp256k1/signature operations (full scope unclear).

@@ -7,6 +7,8 @@ authors:
   - Jon Howell
   - Craig Gentry
   - Mariana Raykova
+paper: Pinocchio - Nearly Practical Verifiable Computation
+doi: 10.1109/sp.2013.47
 tags:
   - zkp
   - snark
@@ -18,9 +20,6 @@ tags:
 [Home](../README.md) > [Proof Systems](README.md) > Pinocchio
 
 # Pinocchio
-
-Paper:: Pinocchio - Nearly Practical Verifiable Computation
-DOI:: 10.1109/sp.2013.47
 
 ## Description
 The first end-to-end system that made verifiable computation with SNARKs almost practical. Introduced the full pipeline: compile a computation to a circuit, reduce to R1CS, then to QAP (Quadratic Arithmetic Program), and prove using bilinear pairings. Directly preceded Groth16.

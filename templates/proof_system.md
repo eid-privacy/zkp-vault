@@ -5,14 +5,13 @@ year:
 abbreviation:
 authors: []
 predecessors: []
+paper:
+doi:
 tags:
   - zkp
 ---
 
 # {{title}}
-
-Paper::
-DOI::
 
 ## Description
 [Brief overview — what contribution this proof system makes]

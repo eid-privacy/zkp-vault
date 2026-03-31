@@ -2,6 +2,7 @@
 type: proof_system
 status: production
 year: 2023
+paper: TurboPLONK (proposal)
 tags:
   - zkp
   - snark
@@ -11,9 +12,6 @@ tags:
 [Home](../README.md) > [Proof Systems](README.md) > TurboPLONK
 
 # TurboPLONK
-
-Paper:: TurboPLONK (proposal)
-DOI:: N/A
 
 ## Description
 An extension of PLONK that adds support for custom gates, allowing programmers to define their own constraint types beyond the standard fan-in-2 addition and multiplication gates. Enables more efficient circuits for specific operations (e.g., range checks, elliptic curve ops).

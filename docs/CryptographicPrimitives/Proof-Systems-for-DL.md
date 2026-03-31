@@ -4,6 +4,8 @@ year: 1997
 authors:
   - Jan Camenisch
   - Markus Stadler
+paper: Proof Systems for General Statements about Discrete Logarithms
+doi: 10.3929/ETHZ-A-006651937
 tags:
   - zkp
   - sigma
@@ -14,9 +16,6 @@ tags:
 [Home](../README.md) > [Cryptographic Primitives](README.md) > Proof-Systems-for-DL
 
 # Proof Systems for General Statements about Discrete Logarithms
-
-Paper:: Proof Systems for General Statements about Discrete Logarithms
-DOI:: 10.3929/ETHZ-A-006651937
 
 ## Description
 Establishes a general framework and notation for constructing zero-knowledge proofs for arbitrary statements about discrete logarithms via Sigma-protocol composition. Enables proving relations among discrete logarithms such as equality of exponents across groups.

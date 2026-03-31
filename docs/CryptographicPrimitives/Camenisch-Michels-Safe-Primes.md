@@ -4,6 +4,8 @@ year: 1999
 authors:
   - Jan Camenisch
   - Markus Michels
+paper: Proving in Zero-Knowledge that a Number Is the Product of Two Safe Primes
+doi: 10.1007/3-540-48910-X_8
 tags:
   - zkp
   - sigma
@@ -13,9 +15,6 @@ tags:
 [Home](../README.md) > [Cryptographic Primitives](README.md) > Camenisch-Michels-Safe-Primes
 
 # Proving in ZK that a Number Is the Product of Two Safe Primes
-
-Paper:: Proving in Zero-Knowledge that a Number Is the Product of Two Safe Primes
-DOI:: 10.1007/3-540-48910-X_8
 
 ## Description
 Demonstrates how to prove properties of secret values in zero-knowledge, specifically that a committed number is the product of two safe primes. Gives a broad overview of composition possibilities with Sigma-protocols and Pedersen Commitments.

@@ -9,6 +9,8 @@ authors:
   - Yupeng Zhang
   - Charalampos Papamanthou
   - Dawn Song
+paper: Succinct Zero-Knowledge Proofs with Optimal Prover Computation
+doi: 10.1007/978-3-030-26954-8_24
 tags:
   - zkp
   - snark
@@ -19,9 +21,6 @@ tags:
 [Home](../README.md) > [Proof Systems](README.md) > Libra
 
 # Libra
-
-Paper:: Succinct Zero-Knowledge Proofs with Optimal Prover Computation
-DOI:: 10.1007/978-3-030-26954-8_24
 
 ## Description
 Achieves optimal (linear-time) prover computation for zkSNARKs using the GKR protocol as a foundation. Combines GKR-based sumcheck with polynomial commitments to obtain a succinct, zero-knowledge proof with the fastest known prover.

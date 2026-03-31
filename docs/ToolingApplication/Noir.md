@@ -3,6 +3,8 @@ type: tooling_application
 subtype: circuit_dsl
 status: active
 year: 2020
+url: "https://noir-lang.org/docs/"
+github: "https://github.com/noir-lang/noir"
 tags:
   - zkp
   - circuit-dsl
@@ -14,9 +16,6 @@ tags:
 [Home](../README.md) > [Tooling & Applications](README.md) > Noir
 
 # Noir
-
-URL:: https://noir-lang.org/docs/
-Github:: https://github.com/noir-lang/noir
 
 ## Description
 A Rust-like domain-specific language for writing ZKP circuits. Compiles to [[ACIR]], which is then proved by a backend (default: [[Barretenberg]]). Designed for developer ergonomics — no PhD required. Very actively maintained by Aztec Protocol but moves fast and has frequent breaking changes.

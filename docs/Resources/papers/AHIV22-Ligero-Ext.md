@@ -8,6 +8,7 @@ authors:
   - Carmit Hazay
   - Yuval Ishai
   - Muthuramakrishnan Venkitasubramaniam
+url: "https://eprint.iacr.org/2022/1608"
 tags:
   - ligero
   - linear-time-prover
@@ -18,8 +19,6 @@ tags:
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > AHIV22-Ligero-Ext
 
 # Ligero: Lightweight Sublinear Arguments Without a Trusted Setup
-
-URL:: https://eprint.iacr.org/2022/1608
 
 ## Summary
 A 2022 follow-up paper by the original Ligero authors (Ames, Hazay, Ishai, Venkitasubramaniam), continuing their line of work on transparent, MPC-in-the-head / IOP-based proof systems. See the URL for the full title and abstract.

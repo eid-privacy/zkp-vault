@@ -3,6 +3,7 @@ type: tooling_application
 subtype: library
 status: active
 year: 2023
+github: "https://github.com/powdr-labs/powdr"
 tags:
   - zkp
   - optimizer
@@ -15,9 +16,6 @@ tags:
 [Home](../README.md) > [Tooling & Applications](README.md) > Powdr
 
 # Powdr
-
-URL::
-Github:: https://github.com/powdr-labs/powdr
 
 ## Description
 An optimizer and compiler infrastructure for LLVM-based provers targeting zkVMs. Sits on top of zkVM backends and optimizes programs before proving. Included in the ECDSA zkVM benchmark (116s prove time, 11.5 MB proof). Verification failed in the benchmark.

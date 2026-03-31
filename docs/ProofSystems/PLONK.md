@@ -6,6 +6,8 @@ authors:
   - Ariel Gabizon
   - Zachary J. Williamson
   - Oana Ciobotaru
+paper: Permutations over Lagrange-bases for Oecumenical Noninteractive arguments of Knowledge
+doi: 201685538
 tags:
   - zkp
   - snark
@@ -16,9 +18,6 @@ tags:
 [Home](../README.md) > [Proof Systems](README.md) > PLONK
 
 # PLONK
-
-Paper:: Permutations over Lagrange-bases for Oecumenical Noninteractive arguments of Knowledge
-DOI:: 201685538
 
 ## Description
 Universal and updatable trusted setup SNARK. Unlike Groth16, the same CRS works for any circuit up to a size bound — eliminating per-circuit trusted setup ceremonies. Faster proving time than prior work. Spawned a large family of variants (TurboPLONK, UltraPLONK, HONK, HyperPlonk).

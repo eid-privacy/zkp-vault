@@ -3,6 +3,8 @@ type: cryptographic_primitive
 year: 1991
 authors:
   - Torben Pryds Pedersen
+paper: Non-Interactive and Information-Theoretic Secure Verifiable Secret Sharing
+doi: 10.1007/3-540-46766-1_9
 tags:
   - zkp
   - sigma
@@ -13,9 +15,6 @@ tags:
 [Home](../README.md) > [Cryptographic Primitives](README.md) > Pedersen-Commitments
 
 # Pedersen Commitments
-
-Paper:: Non-Interactive and Information-Theoretic Secure Verifiable Secret Sharing
-DOI:: 10.1007/3-540-46766-1_9
 
 ## Description
 A commitment scheme allowing a party to commit to a value while keeping it hidden, with the ability to reveal it later. Information-theoretically hiding and computationally binding.

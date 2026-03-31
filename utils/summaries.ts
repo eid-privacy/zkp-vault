@@ -61,6 +61,9 @@ function extractH1(content: string): string {
 }
 
 function extractUrl(content: string): string {
+  const fm = parseFrontmatter(content);
+  if (fm.url) return String(fm.url);
+  // Fallback for any files not yet migrated
   const m = content.match(/^URL:: (.+)$/m);
   return m ? m[1].trim() : '';
 }

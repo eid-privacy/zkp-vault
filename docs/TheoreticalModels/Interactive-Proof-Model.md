@@ -5,6 +5,8 @@ authors:
   - Shafi Goldwasser
   - Silvio Micali
   - Charles Rackoff
+paper: The knowledge complexity of interactive proof-systems
+doi: 10.1145/22145.22178
 tags:
   - zkp
   - theory
@@ -15,9 +17,6 @@ tags:
 [Home](../README.md) > [Theoretical Models](README.md) > Interactive-Proof-Model
 
 # Interactive Proof Model (IP)
-
-Paper:: The knowledge complexity of interactive proof-systems
-DOI:: 10.1145/22145.22178
 
 ## Description
 Defines a proof as an interaction between a computationally unbounded prover and a probabilistic polynomial-time verifier. The verifier accepts or rejects after exchanging messages. The class IP captures all problems verifiable this way. Foundational for all zero-knowledge protocols.

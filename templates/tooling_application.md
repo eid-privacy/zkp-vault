@@ -3,14 +3,13 @@ type: tooling_application
 subtype: circuit_dsl
 status: active
 year:
+url:
+github:
 tags:
   - zkp
 ---
 
 # {{title}}
-
-URL::
-Github::
 
 ## Description
 [What this tool/framework/library is and its purpose]

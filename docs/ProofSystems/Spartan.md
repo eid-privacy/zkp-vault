@@ -5,6 +5,8 @@ year: 2019
 abbreviation: Setty19
 authors:
   - Srinath Setty
+paper: Efficient and general-purpose zkSNARKs without trusted setup
+doi: 10.1007/978-3-030-56877-1_25
 tags:
   - zkp
   - snark
@@ -15,9 +17,6 @@ tags:
 [Home](../README.md) > [Proof Systems](README.md) > Spartan
 
 # Spartan
-
-Paper:: Efficient and general-purpose zkSNARKs without trusted setup
-DOI:: 10.1007/978-3-030-56877-1_25
 
 ## Description
 Transparent zkSNARK for R1CS without any trusted setup. Uses the sumcheck protocol and multilinear extensions to achieve efficient prover and verifier. Backend of interest for the e-ID project due to fast ECDSA verification via the Crescent fork with T-256 support.

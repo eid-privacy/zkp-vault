@@ -2,6 +2,7 @@
 type: proof_system
 status: production
 year: 2023
+paper: HONK (Aztec Protocol internal)
 tags:
   - zkp
   - snark
@@ -11,9 +12,6 @@ tags:
 [Home](../README.md) > [Proof Systems](README.md) > HONK
 
 # HONK
-
-Paper:: HONK (Aztec Protocol internal)
-DOI:: N/A
 
 ## Description
 An intermediate proving system in the PLONK family developed by Aztec. Builds on top of [[TurboPLONK]] and introduces new optimizations toward UltraHonk. Part of the evolution: PLONK → TurboPLONK → UltraPLONK → HONK → UltraHonk.

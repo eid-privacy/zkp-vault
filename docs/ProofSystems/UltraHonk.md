@@ -2,6 +2,7 @@
 type: proof_system
 status: production
 year: 2024
+paper: UltraHonk (Aztec Protocol)
 tags:
   - zkp
   - snark
@@ -12,9 +13,6 @@ tags:
 [Home](../README.md) > [Proof Systems](README.md) > UltraHonk
 
 # UltraHonk
-
-Paper:: UltraHonk (Aztec Protocol)
-DOI:: N/A
 
 ## Description
 The current proving backend used by [[Barretenberg]] (and thus [[Noir]]). Faster and shorter proofs than earlier PLONK variants. Combines UltraPLONK's custom gates and lookup arguments with HONK's optimizations. Optimized for blockchain verification: slower prover, very fast verifier.

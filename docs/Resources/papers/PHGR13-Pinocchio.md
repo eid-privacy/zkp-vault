@@ -8,6 +8,7 @@ authors:
   - Jon Howell
   - Craig Gentry
   - Mariana Raykova
+url: "https://eprint.iacr.org/2013/279.pdf"
 tags:
   - snark
   - qap
@@ -19,8 +20,6 @@ tags:
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > PHGR13-Pinocchio
 
 # Pinocchio: Nearly Practical Verifiable Computation (Parno et al. 2013)
-
-URL:: https://eprint.iacr.org/2013/279.pdf
 
 ## Summary
 Pinocchio is the first practical pairing-based SNARK, reducing the cost of verifiable computation to near-practical levels. Introduces the QAP (Quadratic Arithmetic Program) framework for encoding computations, a trusted setup CRS, and sub-millisecond verification. Direct predecessor of Groth16 and the basis for Zcash's original Sprout circuit.

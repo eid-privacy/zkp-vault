@@ -3,6 +3,8 @@ type: tooling_application
 subtype: library
 status: maintained
 year: 2022
+url: "https://github.com/docknetwork/crypto"
+github: "https://github.com/docknetwork/crypto"
 tags:
   - zkp
   - library
@@ -14,9 +16,6 @@ tags:
 [Home](../README.md) > [Tooling & Applications](README.md) > Docknetwork
 
 # Docknetwork
-
-URL:: https://github.com/docknetwork/crypto
-Github:: https://github.com/docknetwork/crypto
 
 ## Description
 A Rust cryptography library from a startup, combining Bulletproofs, LegoGroth16, ZKAttest, and Pedersen commitments. Used as the base for the C4DT e-ID solution. Ahmed did various PRs; since end of 2025 it has been slow to merge. Academic-quality code but battle-tested for the e-ID use case.

@@ -6,6 +6,8 @@ authors:
   - Manuel Blum
   - Paul Feldman
   - Silvio Micali
+paper: Non-Interactive Zero-Knowledge and Its Applications
+doi: 10.1145/62212.62222
 tags:
   - zkp
   - interactive-proof
@@ -16,9 +18,6 @@ tags:
 [Home](../README.md) > [Proof Systems](README.md) > NIZK-Blum
 
 # Non-Interactive Zero-Knowledge and Its Applications
-
-Paper:: Non-Interactive Zero-Knowledge and Its Applications
-DOI:: 10.1145/62212.62222
 
 ## Description
 The genesis paper for non-interactive zero-knowledge proofs. Introduces the Common Reference String (CRS) model in which prover and verifier share a public string to enable non-interactive proofs. Foundational for all SNARK systems that use a trusted setup (CRS).

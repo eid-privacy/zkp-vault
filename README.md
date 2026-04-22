@@ -1,5 +1,7 @@
 # zkp-vault
 
+[![GitHub](https://img.shields.io/badge/GitHub-eid--privacy%2Fzkp--vault-blue?logo=github)](https://github.com/eid-privacy/zkp-vault)
+
 A ZKP (Zero-Knowledge Proof) knowledge vault and mkDocs site covering papers, frameworks, cryptographic primitives, and tooling — from foundational theory to production-ready implementations.
 
 See [docs/README.md](docs/README.md) for the vault index.

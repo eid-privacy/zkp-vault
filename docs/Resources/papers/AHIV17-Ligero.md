@@ -22,3 +22,7 @@ tags:
 
 ## Summary
 Introduces Ligero, a transparent proof system with sublinear proof size based on MPC-in-the-head and Reed-Solomon codes. Avoids any trusted setup and achieves linear prover time. Uses a novel encoding of the circuit witness as a codeword, verified through proximity tests. Basis for the Ligero++ and Ligetron systems.
+
+## Used by
+- [[Ligero]]
+- [[Ligero-Prover]]

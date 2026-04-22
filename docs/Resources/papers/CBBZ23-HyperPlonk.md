@@ -22,3 +22,6 @@ tags:
 
 ## Summary
 Extends PLONK to the multilinear setting using the sumcheck protocol, enabling linear-time proving and support for high-degree custom gates. HyperPlonk replaces the univariate polynomial IOP with a multilinear one over the hypercube, improving prover efficiency for large circuits. Published at EUROCRYPT 2023.
+
+## Used by
+- [[HyperPlonk]]

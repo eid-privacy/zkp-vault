@@ -20,3 +20,7 @@ tags:
 
 ## Summary
 Presents efficient zero-knowledge proofs for showing that an integer is the product of two safe primes, without revealing the factorization. Key building block for RSA-based anonymous credential systems and group signature schemes where safe-prime moduli must be certified.
+
+## Used by
+- [[Camenisch-Michels-Safe-Primes]]
+- [[ZK-Proof-Taxonomy]]

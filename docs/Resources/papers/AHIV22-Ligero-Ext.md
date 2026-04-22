@@ -21,3 +21,6 @@ tags:
 
 ## Summary
 A 2022 follow-up paper by the original Ligero authors (Ames, Hazay, Ishai, Venkitasubramaniam), continuing their line of work on transparent, MPC-in-the-head / IOP-based proof systems. See the URL for the full title and abstract.
+
+## Used by
+- [[Ligero]]

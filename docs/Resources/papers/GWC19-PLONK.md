@@ -20,3 +20,6 @@ tags:
 
 ## Summary
 Introduces PLONK, a universal and updatable zkSNARK that avoids circuit-specific trusted setups. Uses a permutation argument over Lagrange bases to encode copy constraints, enabling a single powers-of-tau ceremony for all circuits of bounded size. PLONK is the foundation of TurboPLONK, UltraPLONK, Halo2, and the entire PLONK family.
+
+## Used by
+- [[PLONK]]

@@ -20,3 +20,8 @@ tags:
 
 ## Summary
 Presents scalable MPC protocols with near-linear communication complexity, overcoming the quadratic communication bottleneck of earlier protocols. Introduces techniques for amortizing the cost of ZK proofs in MPC settings, with relevance to the Ligero and MPC-in-the-head proof paradigm.
+
+## Used by
+- [[Ligero]]
+- [[DI06-Scalable-MPC]]
+- [[Bulletproofs]]

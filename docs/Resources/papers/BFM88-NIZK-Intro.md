@@ -21,3 +21,6 @@ tags:
 
 ## Summary
 The paper introducing Non-Interactive Zero-Knowledge (NIZK) proofs. Blum, Feldman, and Micali show how to construct zero-knowledge proofs without interaction using a shared common reference string (CRS). This work laid the groundwork for all subsequent SNARK and NIZK constructions.
+
+## Used by
+- [[NIZK-Blum]]

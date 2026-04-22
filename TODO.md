@@ -4,3 +4,4 @@
 - back-link where papers are used
 - clean links like "#The ZK Stack" in the main README.md - remove "#"
 and make sure that no other links contain "[]" or so in the text view.
+- rename USAGE.md to UPDATE.md and update the references

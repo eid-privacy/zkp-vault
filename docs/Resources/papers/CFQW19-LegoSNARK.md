@@ -22,3 +22,7 @@ tags:
 
 ## Summary
 Introduces the commit-and-prove SNARK (CP-SNARK) framework, which allows different proof systems to be composed modularly by sharing committed witnesses. A CP-SNARK proves a statement about a value that has already been committed to by another scheme. LegoGroth16 instantiates this with Groth16 as the inner system, enabling efficient cross-protocol composition without re-proving the same witness from scratch.
+
+## Used by
+- [[LegoGroth16]]
+- [[ZK-Proof-Taxonomy]]

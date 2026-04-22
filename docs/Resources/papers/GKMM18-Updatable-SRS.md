@@ -23,3 +23,6 @@ tags:
 
 ## Summary
 Introduces the concept of updatable and universal structured reference strings for zkSNARKs, allowing the CRS to be updated by any party without requiring a full MPC ceremony. This work enables "powers-of-tau" ceremonies and underpins universal SNARKs like PLONK and Marlin.
+
+## Used by
+- [[zk-STARKs]]

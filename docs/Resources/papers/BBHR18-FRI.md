@@ -23,3 +23,6 @@ tags:
 
 ## Summary
 Introduces the FRI (Fast Reed-Solomon IOP of Proximity) protocol — the polynomial commitment scheme at the core of STARK proofs. FRI enables transparent, post-quantum-secure polynomial commitments with logarithmic verification. It is the key ingredient that makes STARKs efficient and is used in systems like StarkWare, Plonky2, and RISC Zero.
+
+## Used by
+- [[FRI]]

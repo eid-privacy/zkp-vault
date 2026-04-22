@@ -19,3 +19,7 @@ tags:
 
 ## Summary
 Introduces Pedersen commitments — a perfectly hiding, computationally binding commitment scheme based on the discrete logarithm problem. Pedersen commitments are a fundamental primitive used in Bulletproofs, Sigma protocols, range proofs, and many modern ZKP systems.
+
+## Used by
+- [[Pedersen-Commitments]]
+- [[ZK-Proof-Taxonomy]]

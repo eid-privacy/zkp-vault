@@ -19,3 +19,6 @@ tags:
 
 ## Summary
 Presents Groth16, the most proof-size-efficient pairing-based SNARK known. Achieves constant proof size (3 group elements) and fast verification using a circuit-specific trusted setup. Groth16 is the most widely deployed SNARK in production systems (Zcash Sapling, Filecoin, Tornado Cash) due to its minimal proof size.
+
+## Used by
+- [[Groth16]]

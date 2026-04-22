@@ -21,3 +21,6 @@ tags:
 
 ## Summary
 Introduces Quadratic Span Programs (QSPs) as an algebraic characterization of NP that avoids PCPs, enabling the construction of efficient SNARKs. This work directly precedes Pinocchio and is one of the foundational papers establishing the QAP/R1CS-based SNARK paradigm.
+
+## Used by
+- [[QSP-GGPR13]]

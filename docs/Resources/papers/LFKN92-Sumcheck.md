@@ -23,3 +23,6 @@ tags:
 
 ## Summary
 Introduces the sumcheck protocol, showing that any language in the polynomial hierarchy has an interactive proof system. The sumcheck protocol lets a prover convince a verifier that the sum of a multilinear polynomial over all Boolean inputs equals a claimed value, using only O(n) rounds and a single evaluation of the polynomial at a random point. Together with Shamir's result, this established IP = PSPACE. The sumcheck protocol is now a core building block of modern transparent ZKP systems (GKR, Spartan, HyperPlonk, Libra).
+
+## Used by
+- [[SumcheckProofs]]

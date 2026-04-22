@@ -24,3 +24,6 @@ tags:
 
 ## Summary
 Presents Hyrax, the first doubly-efficient zkSNARK (efficient for both prover and verifier) without a trusted setup. Uses a combination of the sumcheck protocol and vector commitment schemes over the discrete log setting. Notable for removing the trusted setup requirement while maintaining practical performance.
+
+## Used by
+- [[Hyrax]]

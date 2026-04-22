@@ -19,3 +19,7 @@ tags:
 
 ## Summary
 Ivan Damgård's lecture notes providing a unified treatment of Sigma (Σ) protocols. Covers the structure of three-move honest-verifier ZK proofs, the Fiat-Shamir transform, composition (AND/OR), and special soundness. The standard reference for understanding sigma protocols from first principles.
+
+## Used by
+- [[Sigma-Protocols-Damgard]]
+- [[ZK-Proof-Taxonomy]]

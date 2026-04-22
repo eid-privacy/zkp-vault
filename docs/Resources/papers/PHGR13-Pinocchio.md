@@ -21,3 +21,6 @@ tags:
 
 ## Summary
 Pinocchio is the first practical pairing-based SNARK, reducing the cost of verifiable computation to near-practical levels. Introduces the QAP (Quadratic Arithmetic Program) framework for encoding computations, a trusted setup CRS, and sub-millisecond verification. Direct predecessor of Groth16 and the basis for Zcash's original Sprout circuit.
+
+## Used by
+- [[Pinocchio]]

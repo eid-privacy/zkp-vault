@@ -21,3 +21,6 @@ tags:
 
 ## Summary
 Presents ZKAttest, a scheme for constructing ring and group signatures that work with existing ECDSA keys (e.g., hardware security keys). Uses ZK proofs to show membership in a set of public keys without revealing which key was used. Directly relevant to e-ID holder binding and privacy-preserving attestation use cases.
+
+## Used by
+- [[ZKAttest]]

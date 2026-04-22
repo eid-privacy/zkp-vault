@@ -26,3 +26,6 @@ tags:
 
 ## Summary
 Introduces Bulletproofs, a transparent (no trusted setup) proof system based on the discrete logarithm assumption with logarithmic proof size. Particularly efficient for range proofs and inner-product arguments. Widely used in confidential transaction protocols (Monero, Grin) and as a building block in other ZKP systems.
+
+## Used by
+- [[Bulletproofs]]

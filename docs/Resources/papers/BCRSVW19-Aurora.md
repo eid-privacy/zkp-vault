@@ -24,3 +24,7 @@ tags:
 
 ## Summary
 Presents Aurora, a transparent (no trusted setup) zkSNARK for R1CS based on interactive oracle proofs (IOPs) and FRI-style polynomial commitments. Achieves polylogarithmic verification and sub-linear proof size. Introduced the algebraic IOP (AROP) paradigm and influenced later systems like Fractal and Spartan.
+
+## Used by
+- [[Libra]]
+- [[Schwartz-Zippel]]

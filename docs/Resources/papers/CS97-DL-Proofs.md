@@ -20,3 +20,7 @@ tags:
 
 ## Summary
 Introduces the Camenisch-Stadler notation for sigma protocols and gives efficient proof systems for general statements about discrete logarithms. Establishes the compositional proof framework (AND, OR, equality of discrete logs) widely used in anonymous credential and privacy-preserving protocol design.
+
+## Used by
+- [[Proof-Systems-for-DL]]
+- [[ZK-Proof-Taxonomy]]

@@ -20,3 +20,7 @@ tags:
 
 ## Summary
 Introduces the Fiat-Shamir transform, which converts an interactive sigma protocol into a non-interactive proof by replacing the verifier's random challenge with a hash of the transcript. This heuristic (secure in the random oracle model) is the basis for most practical SNARK and signature constructions.
+
+## Used by
+- [[Fiat-Shamir]]
+- [[ZK-Proof-Taxonomy]]

@@ -21,3 +21,6 @@ tags:
 
 ## Summary
 Presents Sonic, the first practical zkSNARK with a universal and updatable structured reference string (SRS) of linear size. Enables a single SRS ceremony usable for all circuits up to a given size. Published at CCS 2019; directly inspired and preceded PLONK, which improved on Sonic's efficiency.
+
+## Used by
+- [[Sonic]]

@@ -23,3 +23,6 @@ tags:
 
 ## Summary
 Improves on Ligero with better concrete efficiency: smaller proof sizes and reduced prover computation. Introduces new techniques for batching consistency checks and optimizing the Reed-Solomon encoding step. Presented at CCS 2020 and forms the theoretical basis for the Ligetron prover platform.
+
+## Used by
+- [[Ligero-Plus-Plus]]

@@ -19,3 +19,6 @@ tags:
 
 ## Summary
 Introduces Plookup, a protocol for efficiently proving that values in a witness belong to a pre-committed lookup table, using a sorted-union argument. Reduces the cost of range checks and non-linear operations in PLONK circuits significantly. The technique was integrated into TurboPLONK and UltraPLONK and inspired many subsequent lookup arguments.
+
+## Used by
+- [[plookup]]

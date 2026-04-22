@@ -21,3 +21,6 @@ tags:
 
 ## Summary
 Introduces designated-verifier dynamic zk-SNARKs: a zk-SNARK augmented with an efficient update algorithm where only a designated verifier holding secret verification state can be convinced. Constructs a dynamic proof of index — a SNARK certifying consistency between a digest of a set and a digest of its sorted index — that can be updated in sublinear time as the underlying set changes. Applies the construction to verifiable dynamic database outsourcing, enabling a client to maintain verifiable indices for efficient query answering after outsourcing.
+
+## Used by
+- [[DV-Dynamic-zkSNARKs]]

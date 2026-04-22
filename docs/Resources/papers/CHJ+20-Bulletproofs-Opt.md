@@ -23,3 +23,6 @@ tags:
 
 ## Summary
 Introduces Bulletproofs+, an improvement on Bulletproofs achieving shorter proofs for the same range and inner-product statements. Reduces proof size by roughly one group element per range proof through a tighter aggregation technique. Targets privacy-preserving ledger applications requiring compact range proofs without a trusted setup.
+
+## Used by
+- [[Bulletproofs-Plus]]

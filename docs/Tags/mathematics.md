@@ -21,4 +21,5 @@ Notes emphasising mathematical constructs: group theory, polynomial algebra, fin
 - [[Sigma-Protocols-Proposal|Proposal: ∑-protocols]]
 - [[Camenisch-Michels-Safe-Primes|Proving in ZK that a Number Is the Product of Two Safe Primes]]
 - [[R1CS|R1CS — Rank-1 Constraint System]]
+- [[Schwartz-Zippel|Schwartz-Zippel Lemma]]
 - [[ZKAttest|ZKAttest]]

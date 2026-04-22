@@ -25,3 +25,5 @@ Marks entries that represent foundational, landmark, or must-know concepts and s
 - [[GMR85-Knowledge-Complexity|The Knowledge Complexity of Interactive Proof Systems]]
 - [[GMR85-ZK-Complexity|The Knowledge Complexity of Interactive Proof Systems (GMR85)]]
 - [[GKMM18-Updatable-SRS|Updatable and Universal Common Reference Strings with Applications to zk-SNARKs (Groth et al. 2018)]]
+- [[Schwartz-Zippel|Schwartz-Zippel Lemma]]
+- [[Sch80-Schwartz-Zippel|Fast Probabilistic Algorithms for Verification of Polynomial Identities (Schwartz 1980)]]

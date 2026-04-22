@@ -51,3 +51,9 @@ Cryptographic proof systems from foundational theory through modern production S
 | [Spartan](./Spartan.md) | Transparent SNARK using sum-check and multilinear polynomials; no FFTs |
 | [Hyrax](./Hyrax.md) | Doubly-efficient zkSNARK using Pedersen commitments and the sum-check protocol |
 | [Libra](./Libra.md) | Linear-time prover SNARK using the sum-check protocol over layered circuits |
+
+## Dynamic & Designated-Verifier
+
+| Note | Description |
+|------|-------------|
+| [DV-Dynamic-zkSNARKs](./DV-Dynamic-zkSNARKs.md) | Designated-verifier dynamic zk-SNARKs with sublinear proof updates; applied to dynamic proofs of index (Wang et al. 2026) |

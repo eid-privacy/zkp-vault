@@ -10,6 +10,10 @@ tags:
   - snark
   - transparent
   - iop
+related:
+  - Spartan-Code
+  - microsoft-Spartan2
+  - BCRSVW19-Aurora
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > Set19-Spartan
@@ -21,3 +25,10 @@ Presents Spartan, a transparent zkSNARK for R1CS that achieves the fastest known
 
 ## Used by
 - [[Spartan]]
+
+## Related resources
+
+- [[LFKN92-Sumcheck|Algebraic Methods for Interactive Proof Systems]] (paper, 1992)
+- [[BCRSVW19-Aurora|Aurora: Transparent Succinct Arguments for R1CS (Ben-Sasson et al. 2019)]] (paper, 2019)
+- [[Spartan-Code|Microsoft Spartan (Original)]] (code, 2020)
+- [[microsoft-Spartan2|Microsoft Spartan2]] (code, 2022)

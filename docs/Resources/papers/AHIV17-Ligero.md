@@ -14,6 +14,10 @@ tags:
   - transparent
   - iop
   - reed-solomon
+related:
+  - AHIV22-Ligero-Ext
+  - BFH+20-Ligero-Plus
+  - Ligero-Prover-Docs
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > AHIV17-Ligero
@@ -26,3 +30,9 @@ Introduces Ligero, a transparent proof system with sublinear proof size based on
 ## Used by
 - [[Ligero]]
 - [[Ligero-Prover]]
+
+## Related resources
+
+- [[AHIV22-Ligero-Ext|Ligero: Lightweight Sublinear Arguments Without a Trusted Setup]] (paper, 2022)
+- [[BFH+20-Ligero-Plus|Ligero++: A New Optimized Sublinear IOP (Bhadauria et al. 2020)]] (paper, 2020)
+- [[Ligero-Prover-Docs|Ligetron Marketplace Documentation]] (doc, 2024)

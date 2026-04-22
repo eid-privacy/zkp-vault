@@ -13,6 +13,10 @@ tags:
   - foundational
   - zkp
   - theory
+related:
+  - BFM88-NIZK-Intro
+  - Evolution-of-ZKPs
+  - Thaler-Proofs-Arguments-ZK
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > GMR85-ZK-Complexity
@@ -25,3 +29,9 @@ The foundational paper introducing zero-knowledge proofs. Goldwasser, Micali, an
 ## Used by
 - [[Interactive-Proof-Model]]
 - [[GMR85-Knowledge-Complexity]]
+
+## Related resources
+
+- [[BFM88-NIZK-Intro|Non-Interactive Zero-Knowledge and Its Applications (BFM88)]] (paper, 1988)
+- [[Thaler-Proofs-Arguments-ZK|Proofs, Arguments, and Zero-Knowledge]] (book, 2023)
+- [[Evolution-of-ZKPs|The Evolution of Zero Knowledge Proofs]] (blog, 2018)

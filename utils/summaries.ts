@@ -12,6 +12,11 @@
  *   bun run utils/summaries.ts resource-subtypes   # Resources/<subtype>/README.md only
  *   bun run utils/summaries.ts tags                # Tags/README.md + all tag entry lists
  *   bun run utils/summaries.ts tag-files           # Tag entry lists only
+ *   bun run utils/summaries.ts related             # ## Related resources sections only
+ *
+ * Cross-linking resources:
+ *   Add `related: [<filename>, ...]` to a resource's frontmatter (filename without .md).
+ *   summaries.ts will populate `## Related resources` in both files bidirectionally.
  */
 
 import * as fs from 'fs';
@@ -102,6 +107,7 @@ interface ResourceMeta {
   authors: string[];
   tags: string[];
   url: string;
+  related: string[];
 }
 
 function loadResources(): ResourceMeta[] {
@@ -121,6 +127,7 @@ function loadResources(): ResourceMeta[] {
         authors: (fm['authors'] as string[] | undefined) ?? [],
         tags: (fm['tags'] as string[] | undefined) ?? [],
         url: extractUrl(content),
+        related: (fm['related'] as string[] | undefined) ?? [],
       });
     }
   }
@@ -486,6 +493,82 @@ function generateTagFiles(): void {
 }
 
 // ---------------------------------------------------------------------------
+// Related resources sections (Resources/**/*.md → ## Related resources)
+// ---------------------------------------------------------------------------
+
+function generateRelatedSections(): void {
+  const all = loadResources();
+
+  // Build filename → ResourceMeta map
+  const byFilename = new Map<string, ResourceMeta>();
+  for (const r of all) byFilename.set(r.filename, r);
+
+  // Build bidirectional relation map
+  const relations = new Map<string, Set<string>>();
+  const ensureSet = (k: string) => { if (!relations.has(k)) relations.set(k, new Set()); };
+  for (const r of all) {
+    for (const rel of r.related) {
+      ensureSet(r.filename);
+      ensureSet(rel);
+      relations.get(r.filename)!.add(rel);
+      relations.get(rel)!.add(r.filename);
+    }
+  }
+
+  if (relations.size === 0) {
+    if (!QUIET) console.log('Related: no relations defined.');
+    return;
+  }
+
+  let updated = 0;
+  for (const subtype of SUBTYPES) {
+    const dir = path.join(RESOURCES_ROOT, subtype);
+    if (!fs.existsSync(dir)) continue;
+    const files = fs.readdirSync(dir).filter(f => f.endsWith('.md') && f !== 'README.md');
+    for (const file of files) {
+      const filename = path.basename(file, '.md');
+      const relatedSet = relations.get(filename);
+      if (!relatedSet || relatedSet.size === 0) continue;
+
+      const filePath = path.join(dir, file);
+      const content = fs.readFileSync(filePath, 'utf-8');
+
+      const HEADING = '\n## Related resources\n';
+      const headingIdx = content.indexOf(HEADING);
+      const nextHeadingIdx = headingIdx !== -1 ? content.indexOf('\n## ', headingIdx + HEADING.length) : -1;
+
+      const relatedEntries = [...relatedSet]
+        .map(rel => byFilename.get(rel))
+        .filter(Boolean) as ResourceMeta[];
+      const sorted = [...relatedEntries].sort((a, b) => a.title.localeCompare(b.title));
+
+      const listBody = '\n' + sorted.map(r => {
+        const yearStr = r.year ? `, ${r.year}` : '';
+        return `- [[${r.filename}|${r.title}]] (${r.subtype.replace(/s$/, '')}${yearStr})`;
+      }).join('\n') + '\n';
+
+      let newContent: string;
+      if (headingIdx !== -1) {
+        const bodyEnd = nextHeadingIdx === -1 ? content.length : nextHeadingIdx;
+        newContent = content.slice(0, headingIdx + HEADING.length) + listBody + content.slice(bodyEnd);
+      } else {
+        // Append the section at end of file (ensure trailing newline)
+        const base = content.endsWith('\n') ? content : content + '\n';
+        newContent = base + HEADING + listBody;
+      }
+
+      if (newContent !== content) {
+        fs.writeFileSync(filePath, newContent, 'utf-8');
+        updated++;
+        if (!QUIET) console.log(`  Resources/${subtype}/${file}: ${sorted.length} related`);
+      }
+    }
+  }
+
+  if (!QUIET) console.log(`Related: updated ${updated} resource files.`);
+}
+
+// ---------------------------------------------------------------------------
 // Main
 // ---------------------------------------------------------------------------
 
@@ -495,3 +578,4 @@ if (arg === 'resources' || arg === 'all') generateResourcesReadme();
 if (arg === 'resource-subtypes' || arg === 'all') generateResourceSubtypeReadmes();
 if (arg === 'tags' || arg === 'all') generateTagsReadme();
 if (arg === 'tag-files' || arg === 'tags' || arg === 'all') generateTagFiles();
+if (arg === 'related' || arg === 'all') generateRelatedSections();

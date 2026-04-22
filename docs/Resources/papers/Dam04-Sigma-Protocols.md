@@ -11,6 +11,11 @@ tags:
   - interactive-proof
   - foundational
   - theory
+related:
+  - CS97-DL-Proofs
+  - FS86-Fiat-Shamir
+  - ZKP21-Sigma-Standard
+  - docknetwork-crypto-library
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > Dam04-Sigma-Protocols
@@ -23,3 +28,10 @@ Ivan Damgård's lecture notes providing a unified treatment of Sigma (Σ) protoc
 ## Used by
 - [[Sigma-Protocols-Damgard]]
 - [[ZK-Proof-Taxonomy]]
+
+## Related resources
+
+- [[docknetwork-crypto-library|DockNetwork Crypto Library Analysis]] (doc, 2026)
+- [[FS86-Fiat-Shamir|How to Prove Yourself: Practical Solutions to Identification and Signature Problems (Fiat-Shamir)]] (paper, 1986)
+- [[CS97-DL-Proofs|Proof Systems for General Statements about Discrete Logarithms (Camenisch-Stadler 1997)]] (paper, 1997)
+- [[ZKP21-Sigma-Standard|ZKProof Sigma Protocol Proposal (Workshop 4)]] (paper, 2021)

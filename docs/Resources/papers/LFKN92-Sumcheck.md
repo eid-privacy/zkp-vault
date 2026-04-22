@@ -15,6 +15,11 @@ tags:
   - interactive-proof
   - mathematics
   - foundational
+related:
+  - Set19-Spartan
+  - CBBZ23-HyperPlonk
+  - Sch80-Schwartz-Zippel
+  - Thaler-Proofs-Arguments-ZK
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > LFKN92-Sumcheck
@@ -26,3 +31,10 @@ Introduces the sumcheck protocol, showing that any language in the polynomial hi
 
 ## Used by
 - [[SumcheckProofs]]
+
+## Related resources
+
+- [[Sch80-Schwartz-Zippel|Fast Probabilistic Algorithms for Verification of Polynomial Identities]] (paper, 1980)
+- [[CBBZ23-HyperPlonk|HyperPlonk: Plonk with Linear-Time Prover and High-Degree Custom Gates (Chen et al. 2023)]] (paper, 2023)
+- [[Thaler-Proofs-Arguments-ZK|Proofs, Arguments, and Zero-Knowledge]] (book, 2023)
+- [[Set19-Spartan|Spartan: Efficient and General-Purpose zkSNARKs Without Trusted Setup (Setty 2020)]] (paper, 2019)

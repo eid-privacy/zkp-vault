@@ -22,3 +22,7 @@ A ZKProof standardization proposal for sigma protocols accepted at workshop 4. S
 ## Used by
 - [[Sigma-Protocols-Proposal]]
 - [[ZK-Proof-Taxonomy]]
+
+## Related resources
+
+- [[Dam04-Sigma-Protocols|On Sigma Protocols (Damgård)]] (paper, 2004)

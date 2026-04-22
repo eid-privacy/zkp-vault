@@ -19,3 +19,8 @@ tags:
 
 ## Summary
 An analysis of the DockNetwork cryptography library from the eid-privacy project's WP2 deliverables. Covers the library's capabilities for BBS+ signatures, Pedersen commitments, and sigma-protocol-based ZK proofs. Evaluates suitability for privacy-preserving identity credentials in the e-ID context.
+
+## Related resources
+
+- [[Ped91-Commitments|Non-Interactive and Information-Theoretic Secure Verifiable Secret Sharing (Pedersen 1991)]] (paper, 1991)
+- [[Dam04-Sigma-Protocols|On Sigma Protocols (Damgård)]] (paper, 2004)

@@ -24,3 +24,8 @@ Pinocchio is the first practical pairing-based SNARK, reducing the cost of verif
 
 ## Used by
 - [[Pinocchio]]
+
+## Related resources
+
+- [[Gro16-Groth16|On the Size of Pairing-Based Non-interactive Arguments (Groth16)]] (paper, 2016)
+- [[GGPR12-QSP-SNARK|Quadratic Span Programs and Succinct NIZKs without PCPs (GGPR 2013)]] (paper, 2012)

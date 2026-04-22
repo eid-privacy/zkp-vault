@@ -17,3 +17,7 @@ tags:
 
 ## Summary
 Vitalik Buterin's accessible explanation of the PLONK proof system. Walks through the key innovations: universal and updatable SRS, the permutation argument over Lagrange bases, and how custom gates work. One of the most widely-read introductions to PLONK.
+
+## Related resources
+
+- [[GWC19-PLONK|PLONK: Permutations over Lagrange-bases for Oecumenical Noninteractive arguments of Knowledge]] (paper, 2019)

@@ -17,3 +17,7 @@ A HackMD note providing accessible formulas and side-by-side comparisons for PLO
 
 ## Resources
 - Blog: https://hackmd.io/@learn-zkp/note-plonk-family
+
+## Related resources
+
+- [[GWC19-PLONK|PLONK: Permutations over Lagrange-bases for Oecumenical Noninteractive arguments of Knowledge]] (paper, 2019)

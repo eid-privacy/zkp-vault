@@ -11,6 +11,8 @@ tags:
   - reference
   - elliptic-curves
   - pairing
+related:
+  - groth16
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [blogs](README.md) > Cryptographic-Principles-Tomescu
@@ -30,3 +32,7 @@ A comprehensive personal blog/reference covering cryptographic building blocks: 
 ## Resources
 - Blog: https://alinush.github.io/2021/04/15/basic-number-theory.html
 - Groth16: https://alinush.github.io/groth16
+
+## Related resources
+
+- [[groth16|Groth16 (Alin Tomescu)]] (blog, 2024)

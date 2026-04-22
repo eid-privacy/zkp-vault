@@ -14,6 +14,8 @@ tags:
   - commit-and-prove
   - composition
   - pairing
+related:
+  - GWC19-PLONK
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > CFQW19-LegoSNARK
@@ -26,3 +28,8 @@ Introduces the commit-and-prove SNARK (CP-SNARK) framework, which allows differe
 ## Used by
 - [[LegoGroth16]]
 - [[ZK-Proof-Taxonomy]]
+
+## Related resources
+
+- [[Gro16-Groth16|On the Size of Pairing-Based Non-interactive Arguments (Groth16)]] (paper, 2016)
+- [[GWC19-PLONK|PLONK: Permutations over Lagrange-bases for Oecumenical Noninteractive arguments of Knowledge]] (paper, 2019)

@@ -19,3 +19,7 @@ A short walkthrough of the most fundamental ZKP papers up to 2018, tracing the p
 
 ## Resources
 - Blog: https://misnad.github.io/zero-knowledge-proofs/
+
+## Related resources
+
+- [[GMR85-ZK-Complexity|The Knowledge Complexity of Interactive Proof Systems (GMR85)]] (paper, 1985)

@@ -24,3 +24,7 @@ The paper introducing Non-Interactive Zero-Knowledge (NIZK) proofs. Blum, Feldma
 
 ## Used by
 - [[NIZK-Blum]]
+
+## Related resources
+
+- [[GMR85-ZK-Complexity|The Knowledge Complexity of Interactive Proof Systems (GMR85)]] (paper, 1985)

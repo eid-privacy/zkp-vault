@@ -22,3 +22,7 @@ Introduces Plookup, a protocol for efficiently proving that values in a witness 
 
 ## Used by
 - [[plookup]]
+
+## Related resources
+
+- [[GWC19-PLONK|PLONK: Permutations over Lagrange-bases for Oecumenical Noninteractive arguments of Knowledge]] (paper, 2019)

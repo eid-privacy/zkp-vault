@@ -9,6 +9,9 @@ tags:
   - circuit-dsl
   - implementations
   - snark
+related:
+  - Circom2-Docs
+  - gnark-Docs
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [docs](README.md) > ZoKrates-Docs
@@ -17,3 +20,8 @@ tags:
 
 ## Summary
 Official documentation for ZoKrates, a high-level language and toolchain for writing and verifying ZK proofs on Ethereum. ZoKrates compiles a Python-like DSL to R1CS and supports Groth16 and PLONK as backends. One of the earliest accessible ZK toolchains, widely used for on-chain ZK verification tutorials.
+
+## Related resources
+
+- [[Circom2-Docs|Circom2 Documentation]] (doc, 2021)
+- [[gnark-Docs|gnark Documentation (Consensys)]] (doc, 2021)

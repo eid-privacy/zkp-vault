@@ -17,3 +17,7 @@ tags:
 
 ## Summary
 A technical blog post explaining how Noir compiles circuits to ACIR (Abstract Circuit Intermediate Representation) and how the backend prover (Barretenberg) translates ACIR into UltraHONK/UltraPLONK constraints. Covers the flow from Noir source code through ACIR opcodes to the proving backend.
+
+## Related resources
+
+- [[Noir-Docs|Noir Documentation]] (doc, 2022)

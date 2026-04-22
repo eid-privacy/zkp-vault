@@ -24,3 +24,7 @@ Introduces the Fiat-Shamir transform, which converts an interactive sigma protoc
 ## Used by
 - [[Fiat-Shamir]]
 - [[ZK-Proof-Taxonomy]]
+
+## Related resources
+
+- [[Dam04-Sigma-Protocols|On Sigma Protocols (Damgård)]] (paper, 2004)

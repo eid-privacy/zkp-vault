@@ -11,6 +11,10 @@ tags:
   - pairing
   - trusted-setup
   - foundational
+related:
+  - groth16
+  - PHGR13-Pinocchio
+  - CFQW19-LegoSNARK
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > Gro16-Groth16
@@ -22,3 +26,9 @@ Presents Groth16, the most proof-size-efficient pairing-based SNARK known. Achie
 
 ## Used by
 - [[Groth16]]
+
+## Related resources
+
+- [[groth16|Groth16 (Alin Tomescu)]] (blog, 2024)
+- [[CFQW19-LegoSNARK|LegoSNARK: Modular Design and Composition of Efficient Zero-Knowledge Proofs (Campanelli et al. 2019)]] (paper, 2019)
+- [[PHGR13-Pinocchio|Pinocchio: Nearly Practical Verifiable Computation (Parno et al. 2013)]] (paper, 2013)

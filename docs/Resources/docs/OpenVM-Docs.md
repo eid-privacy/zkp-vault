@@ -18,3 +18,7 @@ tags:
 
 ## Summary
 Official documentation for OpenVM, a modular zkVM framework by Axiom. Covers the chip architecture, extension system for adding custom instructions, and integration with Plonky3. OpenVM is designed for extensibility, allowing custom ZK-accelerated operations to be added to the RISC-V base ISA.
+
+## Related resources
+
+- [[SP1-Docs|SP1 Documentation (Succinct Labs)]] (doc, 2024)

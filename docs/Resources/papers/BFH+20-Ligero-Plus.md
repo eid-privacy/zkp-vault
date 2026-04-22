@@ -26,3 +26,7 @@ Improves on Ligero with better concrete efficiency: smaller proof sizes and redu
 
 ## Used by
 - [[Ligero-Plus-Plus]]
+
+## Related resources
+
+- [[AHIV17-Ligero|Ligero: Lightweight Sublinear Arguments Without a Trusted Setup (Ames et al. 2017)]] (paper, 2017)

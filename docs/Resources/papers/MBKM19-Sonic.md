@@ -13,6 +13,9 @@ tags:
   - snark
   - universal-setup
   - trusted-setup
+related:
+  - Sonic-Code
+  - GKMM18-Updatable-SRS
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > MBKM19-Sonic
@@ -24,3 +27,9 @@ Presents Sonic, the first practical zkSNARK with a universal and updatable struc
 
 ## Used by
 - [[Sonic]]
+
+## Related resources
+
+- [[GWC19-PLONK|PLONK: Permutations over Lagrange-bases for Oecumenical Noninteractive arguments of Knowledge]] (paper, 2019)
+- [[Sonic-Code|Sonic Reference Implementation (ebfull/sonic)]] (code, 2019)
+- [[GKMM18-Updatable-SRS|Updatable and Universal Common Reference Strings with Applications to zk-SNARKs (Groth et al. 2018)]] (paper, 2018)

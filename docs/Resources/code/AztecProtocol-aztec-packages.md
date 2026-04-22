@@ -16,3 +16,7 @@ tags:
 
 ## Summary
 The Aztec Protocol monorepo containing Barretenberg (the C++ proving backend), the Noir compiler, and the Aztec network stack. The linked document scopes the UltraHONK proving system for security audits. Barretenberg implements UltraPLONK and UltraHONK, the backends used by Noir circuits.
+
+## Related resources
+
+- [[Noir-Docs|Noir Documentation]] (doc, 2022)

@@ -76,7 +76,7 @@ The statement is compiled to an arithmetic circuit (R1CS, PLONKish, or AIR). The
 |---|---|---|---|
 | Pairing-based SNARKs | [[R1CS]] | KZG / pairings | [[Groth16]], [[Pinocchio]], [[Sonic]] |
 | PLONK-based | [[PLONKish]] | KZG or IPA | [[PLONK]], [[HyperPlonk]], [[UltraHonk]] |
-| IOP-based (transparent) | [[R1CS]] / [[AIR]] | FRI / hashing | [[BCRSVW19-Aurora\|Aurora]], [[Ligero]], [[FRI]], [[Spartan]] |
+| IOP-based (transparent) | [[R1CS]] / [[AIR]] | FRI / hashing | [[BCRSVW19-Aurora|Aurora]], [[Ligero]], [[FRI]], [[Spartan]] |
 | Inner-product / Bulletproofs | [[R1CS]] | IPA | [[Bulletproofs]], [[Hyrax]] |
 
 ---

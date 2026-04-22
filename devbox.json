@@ -20,7 +20,7 @@
       "verify":            "bun run verify",
       "collect-resources": "bun run utils/collectResources.ts",
       "summaries":         "bun run utils/summaries.ts",
-      "serve":             "mkdocs serve",
+      "serve":             "mkdocs serve --watch hooks.py",
       "build":             "mkdocs build --strict"
     }
   }

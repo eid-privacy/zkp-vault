@@ -22,3 +22,7 @@ The ZKProof standardization proposal for TurboPLONK, an extension of PLONK with 
 
 ## Used by
 - [[TurboPLONK]]
+
+## Related resources
+
+- [[GWC19-PLONK|PLONK: Permutations over Lagrange-bases for Oecumenical Noninteractive arguments of Knowledge]] (paper, 2019)

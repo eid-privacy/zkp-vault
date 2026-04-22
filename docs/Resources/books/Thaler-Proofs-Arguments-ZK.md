@@ -28,3 +28,8 @@ The definitive textbook on zero-knowledge proofs. Covers interactive proofs, sum
 
 ## Resources
 - PDF: https://people.cs.georgetown.edu/jthaler/ProofsArgsAndZK.pdf
+
+## Related resources
+
+- [[LFKN92-Sumcheck|Algebraic Methods for Interactive Proof Systems]] (paper, 1992)
+- [[GMR85-ZK-Complexity|The Knowledge Complexity of Interactive Proof Systems (GMR85)]] (paper, 1985)

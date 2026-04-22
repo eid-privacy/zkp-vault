@@ -28,3 +28,8 @@ Presents Aurora, a transparent (no trusted setup) zkSNARK for R1CS based on inte
 ## Used by
 - [[Libra]]
 - [[Schwartz-Zippel]]
+
+## Related resources
+
+- [[BBHR18-FRI|Fast Reed-Solomon Interactive Oracle Proofs of Proximity (FRI)]] (paper, 2018)
+- [[Set19-Spartan|Spartan: Efficient and General-Purpose zkSNARKs Without Trusted Setup (Setty 2020)]] (paper, 2019)

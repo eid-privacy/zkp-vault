@@ -24,3 +24,7 @@ Presents ZKAttest, a scheme for constructing ring and group signatures that work
 
 ## Used by
 - [[ZKAttest]]
+
+## Related resources
+
+- [[microsoft-crescent-credentials|Microsoft Crescent Credentials (Spartan-t256 Fork)]] (code, 2023)

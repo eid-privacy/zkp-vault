@@ -18,3 +18,7 @@ tags:
 
 ## Summary
 Official documentation for gnark, a fast, open-source Go library for ZKP development. Supports Groth16, PLONK, and Fiat-Shamir-based proofs over BN254 and BLS12-381 curves. gnark is widely used in production systems (e.g., StarkEx) for its performance and ease of use in Go-based blockchain applications.
+
+## Related resources
+
+- [[ZoKrates-Docs|ZoKrates Documentation]] (doc, 2018)

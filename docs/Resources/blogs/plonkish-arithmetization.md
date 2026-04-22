@@ -15,3 +15,7 @@ tags:
 
 ## Summary
 An overview article on PLONKish arithmetization — the family of constraint systems used by PLONK and its descendants (TurboPLONK, UltraPLONK, Halo2). Explains the role of custom gates, lookup arguments, and copy constraints in expressing computations as polynomial identities.
+
+## Related resources
+
+- [[GWC19-PLONK|PLONK: Permutations over Lagrange-bases for Oecumenical Noninteractive arguments of Knowledge]] (paper, 2019)

@@ -15,6 +15,10 @@ tags:
   - iop
   - transparent
   - post-quantum
+related:
+  - BCRSVW19-Aurora
+  - AIR-Docs
+  - Sch80-Schwartz-Zippel
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > BBHR18-FRI
@@ -26,3 +30,9 @@ Introduces the FRI (Fast Reed-Solomon IOP of Proximity) protocol — the polynom
 
 ## Used by
 - [[FRI]]
+
+## Related resources
+
+- [[BCRSVW19-Aurora|Aurora: Transparent Succinct Arguments for R1CS (Ben-Sasson et al. 2019)]] (paper, 2019)
+- [[Sch80-Schwartz-Zippel|Fast Probabilistic Algorithms for Verification of Polynomial Identities]] (paper, 1980)
+- [[AIR-Docs|STARK 101 — AIR Tutorial (StarkWare)]] (doc, 2021)

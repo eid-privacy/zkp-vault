@@ -26,3 +26,7 @@ Introduces Bulletproofs+, an improvement on Bulletproofs achieving shorter proof
 
 ## Used by
 - [[Bulletproofs-Plus]]
+
+## Related resources
+
+- [[BBB+17-Bulletproofs|Bulletproofs: Short Proofs for Confidential Transactions and More (Bünz et al. 2018)]] (paper, 2017)

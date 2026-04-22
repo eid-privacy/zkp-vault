@@ -13,6 +13,9 @@ tags:
   - snark
   - foundational
   - trusted-setup
+related:
+  - PHGR13-Pinocchio
+  - R1CS-Docs
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > GGPR12-QSP-SNARK
@@ -24,3 +27,8 @@ Introduces Quadratic Span Programs (QSPs) as an algebraic characterization of NP
 
 ## Used by
 - [[QSP-GGPR13]]
+
+## Related resources
+
+- [[PHGR13-Pinocchio|Pinocchio: Nearly Practical Verifiable Computation (Parno et al. 2013)]] (paper, 2013)
+- [[R1CS-Docs|R1CS Explainer (0xPARC / Circom)]] (doc, 2022)

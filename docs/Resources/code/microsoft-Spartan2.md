@@ -10,6 +10,8 @@ tags:
   - library
   - transparent
   - snark
+related:
+  - microsoft-crescent-credentials
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [code](README.md) > microsoft-Spartan2
@@ -18,3 +20,8 @@ tags:
 
 ## Summary
 The updated Spartan2 library by Microsoft Research, extending the original Spartan with improved performance, additional commitment schemes, and support for folding/IVC (incremental verifiable computation). Used as the basis for the Nova and Crescent credential systems.
+
+## Related resources
+
+- [[microsoft-crescent-credentials|Microsoft Crescent Credentials (Spartan-t256 Fork)]] (code, 2023)
+- [[Set19-Spartan|Spartan: Efficient and General-Purpose zkSNARKs Without Trusted Setup (Setty 2020)]] (paper, 2019)

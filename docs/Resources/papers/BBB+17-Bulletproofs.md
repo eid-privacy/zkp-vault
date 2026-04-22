@@ -18,6 +18,8 @@ tags:
   - discrete-log
   - range-proof
   - commitment
+related:
+  - CHJ+20-Bulletproofs-Opt
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > BBB+17-Bulletproofs
@@ -29,3 +31,8 @@ Introduces Bulletproofs, a transparent (no trusted setup) proof system based on 
 
 ## Used by
 - [[Bulletproofs]]
+
+## Related resources
+
+- [[CHJ+20-Bulletproofs-Opt|Bulletproofs+: Shorter Proofs for Privacy-Enhanced Distributed Ledger (Chung et al. 2020)]] (paper, 2020)
+- [[Ped91-Commitments|Non-Interactive and Information-Theoretic Secure Verifiable Secret Sharing (Pedersen 1991)]] (paper, 1991)

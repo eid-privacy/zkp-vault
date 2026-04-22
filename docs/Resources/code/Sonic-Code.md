@@ -18,3 +18,7 @@ tags:
 
 ## Summary
 The original proof-of-concept Rust implementation of the Sonic proof system by Sean Bowe. Demonstrates the universal and updatable SRS construction described in the Sonic paper. A historical artifact showing the first practical realization of a universal zkSNARK prior to PLONK.
+
+## Related resources
+
+- [[MBKM19-Sonic|Sonic: Zero-Knowledge SNARKs from Linear-Size Universal and Updateable Structured Reference Strings (Maller et al. 2019)]] (paper, 2019)

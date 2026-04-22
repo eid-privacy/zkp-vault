@@ -24,3 +24,7 @@ Introduces the Camenisch-Stadler notation for sigma protocols and gives efficien
 ## Used by
 - [[Proof-Systems-for-DL]]
 - [[ZK-Proof-Taxonomy]]
+
+## Related resources
+
+- [[Dam04-Sigma-Protocols|On Sigma Protocols (Damgård)]] (paper, 2004)

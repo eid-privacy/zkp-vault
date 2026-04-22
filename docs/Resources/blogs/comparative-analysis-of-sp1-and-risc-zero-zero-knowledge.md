@@ -16,3 +16,7 @@ tags:
 
 ## Summary
 A side-by-side comparison of SP1 (Succinct Labs) and RISC Zero as zkVM platforms. Covers proving system choices, performance characteristics, developer ergonomics, supported instruction sets, and use-case fit. Useful for evaluating which zkVM to use for a given application.
+
+## Related resources
+
+- [[SP1-Docs|SP1 Documentation (Succinct Labs)]] (doc, 2024)

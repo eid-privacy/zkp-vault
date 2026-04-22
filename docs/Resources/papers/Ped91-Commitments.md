@@ -11,6 +11,9 @@ tags:
   - cryptography
   - foundational
   - discrete-log
+related:
+  - BBB+17-Bulletproofs
+  - docknetwork-crypto-library
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > Ped91-Commitments
@@ -23,3 +26,8 @@ Introduces Pedersen commitments — a perfectly hiding, computationally binding 
 ## Used by
 - [[Pedersen-Commitments]]
 - [[ZK-Proof-Taxonomy]]
+
+## Related resources
+
+- [[BBB+17-Bulletproofs|Bulletproofs: Short Proofs for Confidential Transactions and More (Bünz et al. 2018)]] (paper, 2017)
+- [[docknetwork-crypto-library|DockNetwork Crypto Library Analysis]] (doc, 2026)

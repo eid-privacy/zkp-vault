@@ -15,3 +15,7 @@ tags:
 
 ## Summary
 A concise definition entry from the ZK Jargon glossary explaining PLONKish arithmetization — the constraint system format used by PLONK, Halo2, and related systems. Covers the cell matrix, fixed/advice/instance columns, custom gates, and copy constraints in a compact reference format.
+
+## Related resources
+
+- [[GWC19-PLONK|PLONK: Permutations over Lagrange-bases for Oecumenical Noninteractive arguments of Knowledge]] (paper, 2019)

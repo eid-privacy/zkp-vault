@@ -24,3 +24,7 @@ A 2022 follow-up paper by the original Ligero authors (Ames, Hazay, Ishai, Venki
 
 ## Used by
 - [[Ligero]]
+
+## Related resources
+
+- [[AHIV17-Ligero|Ligero: Lightweight Sublinear Arguments Without a Trusted Setup (Ames et al. 2017)]] (paper, 2017)

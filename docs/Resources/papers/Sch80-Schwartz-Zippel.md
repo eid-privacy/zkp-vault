@@ -22,3 +22,8 @@ Introduces the probabilistic polynomial identity test: evaluate both sides of a 
 
 ## Used by
 - [[Schwartz-Zippel]]
+
+## Related resources
+
+- [[LFKN92-Sumcheck|Algebraic Methods for Interactive Proof Systems]] (paper, 1992)
+- [[BBHR18-FRI|Fast Reed-Solomon Interactive Oracle Proofs of Proximity (FRI)]] (paper, 2018)

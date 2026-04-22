@@ -18,3 +18,8 @@ tags:
 
 ## Summary
 Detailed walkthrough of the Groth16 proof system by Alin Tomescu. Covers the QAP-based construction, the trusted setup (CRS), the pairing-based verification equation, and the security assumptions. Companion resource to Tomescu's broader cryptographic principles blog.
+
+## Related resources
+
+- [[Cryptographic-Principles-Tomescu|Cryptographic Principles (Alin Tomescu)]] (blog, 2021)
+- [[Gro16-Groth16|On the Size of Pairing-Based Non-interactive Arguments (Groth16)]] (paper, 2016)

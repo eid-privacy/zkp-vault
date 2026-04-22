@@ -25,3 +25,8 @@ Extends PLONK to the multilinear setting using the sumcheck protocol, enabling l
 
 ## Used by
 - [[HyperPlonk]]
+
+## Related resources
+
+- [[LFKN92-Sumcheck|Algebraic Methods for Interactive Proof Systems]] (paper, 1992)
+- [[GWC19-PLONK|PLONK: Permutations over Lagrange-bases for Oecumenical Noninteractive arguments of Knowledge]] (paper, 2019)

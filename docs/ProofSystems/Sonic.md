@@ -2,7 +2,11 @@
 type: proof_system
 status: research
 year: 2019
-authors: []
+authors:
+  - Mary Maller
+  - Sean Bowe
+  - Markulf Kohlweiss
+  - Sarah Meiklejohn
 paper: Sonic
 doi: 10.1145/3319535.3339817
 tags:

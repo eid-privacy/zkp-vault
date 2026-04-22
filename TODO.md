@@ -1,0 +1,3 @@
+- clean up README.md and add link to the github page
+- update USAGE.md with all relevant information from PAST_STEPS.md
+- write a minimal CLAUDE.md based on PAST_STEPS.md

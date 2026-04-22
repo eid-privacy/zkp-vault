@@ -8,7 +8,7 @@ authors:
   - Carmit Hazay
   - Yuval Ishai
   - Muthuramakrishnan Venkitasubramaniam
-paper: Ligero: Lightweight Sublinear Arguments Without a Trusted Setup
+paper: "Ligero: Lightweight Sublinear Arguments Without a Trusted Setup"
 doi: 10.1145/3133956.3134104
 tags:
   - zkp

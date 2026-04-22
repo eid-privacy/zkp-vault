@@ -11,7 +11,7 @@
     "init_hook": [
       "npm install",
       ". $VENV_DIR/bin/activate",
-      "pip install -r requirements.txt",
+      "pip install -qr requirements.txt",
       "ln -sf ../../scripts/pre-commit.sh .git/hooks/pre-commit"
     ],
     "scripts": {

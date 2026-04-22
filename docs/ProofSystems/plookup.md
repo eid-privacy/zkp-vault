@@ -5,7 +5,7 @@ year: 2020
 authors:
   - Ariel Gabizon
   - Zachary J. Williamson
-paper: plookup: A simplified polynomial protocol for lookup tables
+paper: "plookup: A simplified polynomial protocol for lookup tables"
 tags:
   - zkp
   - plonk-family

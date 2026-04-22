@@ -9,7 +9,7 @@ authors:
   - Muthuramakrishnan Venkitasubramaniam
   - Tiancheng Xie
   - Yupeng Zhang
-paper: Ligero++: A New Optimized Sublinear IOP
+paper: "Ligero++: A New Optimized Sublinear IOP"
 doi: 10.1145/3372297.3417893
 tags:
   - zkp

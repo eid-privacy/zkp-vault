@@ -5,7 +5,7 @@ authors:
   - Armando Faz-Hernández
   - Watson Ladd
   - Deepak Maram
-paper: ZKAttest: Ring and Group Signatures for Existing ECDSA Keys
+paper: "ZKAttest: Ring and Group Signatures for Existing ECDSA Keys"
 doi: 10.1007/978-3-030-99277-4_4
 tags:
   - zkp

@@ -8,7 +8,7 @@ authors:
   - Chanyang Ju
   - Myungsun Kim
   - Jae Hong Seo
-paper: Bulletproofs+: Shorter Proofs for Privacy-Enhanced Distributed Ledger
+paper: "Bulletproofs+: Shorter Proofs for Privacy-Enhanced Distributed Ledger"
 doi: 10.1109/access.2022.3167806
 tags:
   - zkp

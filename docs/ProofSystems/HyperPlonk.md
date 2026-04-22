@@ -7,7 +7,7 @@ authors:
   - Benedikt Bünz
   - Dan Boneh
   - Zhenfei Zhang
-paper: HyperPlonk: Plonk with Linear-Time Prover and High-Degree Custom Gates
+paper: "HyperPlonk: Plonk with Linear-Time Prover and High-Degree Custom Gates"
 doi: 10.1007/978-3-031-30617-4_17
 tags:
   - zkp

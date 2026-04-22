@@ -4,7 +4,7 @@ year: 2021
 authors:
   - Stephan Krenn
   - Michele Orru
-paper: Proposal: ∑-protocols
+paper: "Proposal: ∑-protocols"
 doi: 233404569
 tags:
   - zkp

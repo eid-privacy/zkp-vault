@@ -1,0 +1,2 @@
+- clean up Tags so it only points to techniques and high-level categores. E.g., ligero is not a Tag, it's a protocol.
+- add the following article in all the relevant sections: https://eprint.iacr.org/2026/144

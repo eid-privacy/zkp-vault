@@ -6,7 +6,6 @@ authors:
   - Ligetron
 url: "https://platform.ligetron.com/marketplace"
 tags:
-  - ligero
   - implementations
   - prover-backend
 ---

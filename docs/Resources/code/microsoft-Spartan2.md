@@ -6,7 +6,6 @@ authors:
   - Microsoft Research
 url: "https://github.com/microsoft/Spartan2"
 tags:
-  - spartan
   - implementations
   - library
   - transparent

@@ -7,7 +7,6 @@ authors:
   - Jens Groth
 url: "https://eprint.iacr.org/2016/260.pdf"
 tags:
-  - groth16
   - snark
   - pairing
   - trusted-setup

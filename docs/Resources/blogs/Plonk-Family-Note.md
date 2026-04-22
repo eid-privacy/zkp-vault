@@ -5,7 +5,6 @@ year: 2021
 url: "https://hackmd.io/@learn-zkp/note-plonk-family"
 tags:
   - zkp
-  - plonk-family
   - explainer
 ---
 

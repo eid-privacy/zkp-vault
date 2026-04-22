@@ -15,7 +15,6 @@ tags:
   - snark
   - transparent
   - iop
-  - r1cs
   - post-quantum
 ---
 

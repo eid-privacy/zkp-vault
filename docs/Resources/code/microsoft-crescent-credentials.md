@@ -8,7 +8,6 @@ url: "https://github.com/microsoft/crescent-credentials/tree/main/forks/Spartan-
 tags:
   - eid
   - applications
-  - spartan
   - elliptic-curves
 ---
 

@@ -9,8 +9,6 @@ url: "https://eprint.iacr.org/2019/550"
 tags:
   - snark
   - transparent
-  - spartan
-  - r1cs
   - iop
 ---
 

@@ -6,7 +6,6 @@ paper: TurboPLONK (proposal)
 tags:
   - zkp
   - snark
-  - plonk-family
 ---
 
 [Home](../README.md) > [Proof Systems](README.md) > TurboPLONK

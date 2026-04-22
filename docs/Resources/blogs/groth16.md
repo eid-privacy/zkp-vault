@@ -6,7 +6,6 @@ authors:
   - Alin Tomescu
 url: "https://alinush.github.io/groth16"
 tags:
-  - groth16
   - snark
   - pairing
   - trusted-setup

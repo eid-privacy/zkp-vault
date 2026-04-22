@@ -7,7 +7,6 @@ github: "https://github.com/iden3/circom"
 tags:
   - zkp
   - circuit-dsl
-  - r1cs
   - snark
   - implementations
 ---

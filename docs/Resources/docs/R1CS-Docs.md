@@ -6,7 +6,6 @@ authors:
   - 0xPARC
 url: "https://learn.0xparc.org/materials/circom/additional-resources/r1cs-explainer"
 tags:
-  - r1cs
   - arithmetization
   - learning
   - circuit

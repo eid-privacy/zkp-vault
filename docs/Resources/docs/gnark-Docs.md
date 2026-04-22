@@ -10,8 +10,6 @@ tags:
   - library
   - implementations
   - snark
-  - groth16
-  - plonk
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [docs](README.md) > gnark-Docs

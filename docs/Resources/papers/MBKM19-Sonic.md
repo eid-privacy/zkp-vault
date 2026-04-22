@@ -12,7 +12,6 @@ url: "https://dl.acm.org/doi/pdf/10.1145/3319535.3339817"
 tags:
   - snark
   - universal-setup
-  - plonk-family
   - trusted-setup
 ---
 

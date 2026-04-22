@@ -10,7 +10,6 @@ authors:
   - Muthuramakrishnan Venkitasubramaniam
 url: "https://acmccs.github.io/papers/p2087-amesA.pdf"
 tags:
-  - ligero
   - linear-time-prover
   - transparent
   - iop

@@ -8,7 +8,6 @@ authors:
   - Zachary J. Williamson
 url: "https://docs.zkproof.org/pages/standards/accepted-workshop3/proposal-turbo_plonk.pdf"
 tags:
-  - plonk-family
   - standard
   - arithmetization
   - snark

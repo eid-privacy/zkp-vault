@@ -8,7 +8,6 @@ tags:
   - zkp
   - zkvm
   - stark
-  - plonky3
   - frameworks
   - implementations
 ---

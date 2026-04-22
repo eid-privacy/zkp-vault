@@ -6,7 +6,6 @@ authors:
   - Zcash / Electric Coin Company
 url: "https://zcash.github.io/halo2/concepts/proofs.html"
 tags:
-  - plonk-family
   - implementations
   - circuit-dsl
   - arithmetization

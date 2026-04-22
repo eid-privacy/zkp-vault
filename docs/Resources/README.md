@@ -28,20 +28,18 @@ _This file is auto-generated. Run `devbox run gen-summaries` to update._
 
 ## By Topic
 
-| a-e | e-l | l-p | p-s | s-z |
+| a-e | e-l | l-p | p-s | t-z |
 | --- | --- | --- | --- | --- |
-| [[#acir]] | [[#eid]] | [[#ligero]] | [[#post-quantum]] | [[#standard]] |
-| [[#applications]] | [[#elliptic-curves]] | [[#linear-time-prover]] | [[#prover-backend]] | [[#stark]] |
-| [[#arithmetization]] | [[#explainer]] | [[#llvm]] | [[#qap]] | [[#theory]] |
-| [[#attestation]] | [[#foundational]] | [[#logarithmic]] | [[#qsp]] | [[#transformation]] |
-| [[#book]] | [[#go]] | [[#lookup]] | [[#r1cs]] | [[#transparent]] |
-| [[#bulletproofs]] | [[#groth16]] | [[#mpc]] | [[#range-proof]] | [[#trusted-setup]] |
-| [[#circuit]] | [[#history]] | [[#noir]] | [[#reed-solomon]] | [[#tutorials]] |
-| [[#circuit-dsl]] | [[#implementations]] | [[#non-interactive]] | [[#reference]] | [[#ultraplonk]] |
-| [[#commitment]] | [[#interactive-proof]] | [[#overview]] | [[#scalable]] | [[#universal-setup]] |
-| [[#cryptography]] | [[#iop]] | [[#pairing]] | [[#sigma]] | [[#wasm]] |
-| [[#discrete-log]] | [[#learning]] | [[#plonk]] | [[#snark]] | [[#zkp]] |
-| [[#ecdsa]] | [[#library]] | [[#plonk-family]] | [[#spartan]] | [[#zkvm]] |
+| [[#applications]] | [[#elliptic-curves]] | [[#linear-time-prover]] | [[#prover-backend]] | [[#theory]] |
+| [[#arithmetization]] | [[#explainer]] | [[#llvm]] | [[#range-proof]] | [[#transformation]] |
+| [[#attestation]] | [[#foundational]] | [[#logarithmic]] | [[#reed-solomon]] | [[#transparent]] |
+| [[#book]] | [[#go]] | [[#lookup]] | [[#reference]] | [[#trusted-setup]] |
+| [[#circuit]] | [[#history]] | [[#mpc]] | [[#scalable]] | [[#tutorials]] |
+| [[#circuit-dsl]] | [[#implementations]] | [[#non-interactive]] | [[#sigma]] | [[#universal-setup]] |
+| [[#commitment]] | [[#interactive-proof]] | [[#overview]] | [[#snark]] | [[#wasm]] |
+| [[#cryptography]] | [[#iop]] | [[#pairing]] | [[#standard]] | [[#zkp]] |
+| [[#discrete-log]] | [[#learning]] | [[#post-quantum]] | [[#stark]] | [[#zkvm]] |
+| [[#eid]] | [[#library]] |  |  |  |
 
 ## By Type
 
@@ -49,26 +47,26 @@ _This file is auto-generated. Run `devbox run gen-summaries` to update._
 
 | Resource | Year | Authors | Tags |
 |---|---|---|---|
-| [[CBBZ23-HyperPlonk|HyperPlonk: Plonk with Linear-Time Prover and High-Degree Custom Gates (Chen et al. 2023)]] | 2023 | Binyi Chen et al. | plonk-family, snark, arithmetization, lookup, linear-time-prover |
-| [[AHIV22-Ligero-Ext|Ligero: Lightweight Sublinear Arguments Without a Trusted Setup]] | 2022 | Scott Ames et al. | ligero, linear-time-prover, transparent, iop |
-| [[SAS22-ZKAttest|ZKAttest: Ring and Group Signatures for Existing ECDSA Keys]] | 2022 | Gregor Seiler, Kasra Abbaszadeh, Azam Soleimanian | attestation, ecdsa, zkp, elliptic-curves, applications |
+| [[CBBZ23-HyperPlonk|HyperPlonk: Plonk with Linear-Time Prover and High-Degree Custom Gates (Chen et al. 2023)]] | 2023 | Binyi Chen et al. | snark, arithmetization, lookup, linear-time-prover |
+| [[AHIV22-Ligero-Ext|Ligero: Lightweight Sublinear Arguments Without a Trusted Setup]] | 2022 | Scott Ames et al. | linear-time-prover, transparent, iop |
+| [[SAS22-ZKAttest|ZKAttest: Ring and Group Signatures for Existing ECDSA Keys]] | 2022 | Gregor Seiler, Kasra Abbaszadeh, Azam Soleimanian | attestation, zkp, elliptic-curves, applications |
 | [[ZKP21-Sigma-Standard|ZKProof Sigma Protocol Proposal (Workshop 4)]] | 2021 | ZKProof Community | sigma, standard, non-interactive |
-| [[CHJ+20-Bulletproofs-Opt|Bulletproofs+: Shorter Proofs for Privacy-Enhanced Distributed Ledger (Chung et al. 2020)]] | 2020 | Heewon Chung et al. | bulletproofs, transparent, range-proof, discrete-log, logarithmic |
-| [[BFH+20-Ligero-Plus|Ligero++: A New Optimized Sublinear IOP (Bhadauria et al. 2020)]] | 2020 | Rishabh Bhadauria et al. | ligero, linear-time-prover, transparent, iop |
-| [[GW20-Plookup|Plookup: A Simplified Polynomial Protocol for Lookup Tables (Gabizon-Williamson 2020)]] | 2020 | Ariel Gabizon, Zachary J. Williamson | plonk-family, lookup, arithmetization, snark |
-| [[BCRSVW19-Aurora|Aurora: Transparent Succinct Arguments for R1CS (Ben-Sasson et al. 2019)]] | 2019 | Eli Ben-Sasson et al. | snark, transparent, iop, r1cs, post-quantum |
-| [[GWC19-PLONK|PLONK: Permutations over Lagrange-bases for Oecumenical Noninteractive arguments of Knowledge]] | 2019 | Ariel Gabizon, Zachary J. Williamson, Oana Ciobotaru | plonk, plonk-family, snark, universal-setup, arithmetization |
-| [[MBKM19-Sonic|Sonic: Zero-Knowledge SNARKs from Linear-Size Universal and Updateable Structured Reference Strings (Maller et al. 2019)]] | 2019 | Mary Maller et al. | snark, universal-setup, plonk-family, trusted-setup |
-| [[Set19-Spartan|Spartan: Efficient and General-Purpose zkSNARKs Without Trusted Setup (Setty 2020)]] | 2019 | Srinath Setty | snark, transparent, spartan, r1cs, iop |
-| [[GW19b-TurboPlonk|TurboPLONK Proposal (ZKProof Workshop 3)]] | 2019 | Ariel Gabizon, Zachary J. Williamson | plonk-family, standard, arithmetization, snark |
+| [[CHJ+20-Bulletproofs-Opt|Bulletproofs+: Shorter Proofs for Privacy-Enhanced Distributed Ledger (Chung et al. 2020)]] | 2020 | Heewon Chung et al. | transparent, range-proof, discrete-log, logarithmic |
+| [[BFH+20-Ligero-Plus|Ligero++: A New Optimized Sublinear IOP (Bhadauria et al. 2020)]] | 2020 | Rishabh Bhadauria et al. | linear-time-prover, transparent, iop |
+| [[GW20-Plookup|Plookup: A Simplified Polynomial Protocol for Lookup Tables (Gabizon-Williamson 2020)]] | 2020 | Ariel Gabizon, Zachary J. Williamson | lookup, arithmetization, snark |
+| [[BCRSVW19-Aurora|Aurora: Transparent Succinct Arguments for R1CS (Ben-Sasson et al. 2019)]] | 2019 | Eli Ben-Sasson et al. | snark, transparent, iop, post-quantum |
+| [[GWC19-PLONK|PLONK: Permutations over Lagrange-bases for Oecumenical Noninteractive arguments of Knowledge]] | 2019 | Ariel Gabizon, Zachary J. Williamson, Oana Ciobotaru | snark, universal-setup, arithmetization |
+| [[MBKM19-Sonic|Sonic: Zero-Knowledge SNARKs from Linear-Size Universal and Updateable Structured Reference Strings (Maller et al. 2019)]] | 2019 | Mary Maller et al. | snark, universal-setup, trusted-setup |
+| [[Set19-Spartan|Spartan: Efficient and General-Purpose zkSNARKs Without Trusted Setup (Setty 2020)]] | 2019 | Srinath Setty | snark, transparent, iop |
+| [[GW19b-TurboPlonk|TurboPLONK Proposal (ZKProof Workshop 3)]] | 2019 | Ariel Gabizon, Zachary J. Williamson | standard, arithmetization, snark |
 | [[BBHR18-FRI|Fast Reed-Solomon Interactive Oracle Proofs of Proximity (FRI)]] | 2018 | Eli Ben-Sasson et al. | stark, reed-solomon, iop, transparent, post-quantum |
 | [[GKMM18-Updatable-SRS|Updatable and Universal Common Reference Strings with Applications to zk-SNARKs (Groth et al. 2018)]] | 2018 | Jens Groth et al. | snark, universal-setup, trusted-setup, foundational |
 | [[BBB+17-Bulletproofs|Bulletproofs: Short Proofs for Confidential Transactions and More (Bünz et al. 2018)]] | 2017 | Benedikt Bünz et al. | snark, transparent, logarithmic, discrete-log, range-proof, commitment |
 | [[WTSTW17-Hyrax|Doubly-Efficient zkSNARKs Without Trusted Setup (Hyrax)]] | 2017 | Riad S. Wahby et al. | snark, transparent, iop, scalable, commitment |
-| [[AHIV17-Ligero|Ligero: Lightweight Sublinear Arguments Without a Trusted Setup (Ames et al. 2017)]] | 2017 | Scott Ames et al. | ligero, linear-time-prover, transparent, iop, reed-solomon |
-| [[Gro16-Groth16|On the Size of Pairing-Based Non-interactive Arguments (Groth16)]] | 2016 | Jens Groth | groth16, snark, pairing, trusted-setup, foundational |
-| [[PHGR13-Pinocchio|Pinocchio: Nearly Practical Verifiable Computation (Parno et al. 2013)]] | 2013 | Bryan Parno et al. | snark, qap, r1cs, trusted-setup, foundational |
-| [[GGPR12-QSP-SNARK|Quadratic Span Programs and Succinct NIZKs without PCPs (GGPR 2013)]] | 2012 | Rosario Gennaro et al. | snark, qsp, r1cs, foundational, trusted-setup |
+| [[AHIV17-Ligero|Ligero: Lightweight Sublinear Arguments Without a Trusted Setup (Ames et al. 2017)]] | 2017 | Scott Ames et al. | linear-time-prover, transparent, iop, reed-solomon |
+| [[Gro16-Groth16|On the Size of Pairing-Based Non-interactive Arguments (Groth16)]] | 2016 | Jens Groth | snark, pairing, trusted-setup, foundational |
+| [[PHGR13-Pinocchio|Pinocchio: Nearly Practical Verifiable Computation (Parno et al. 2013)]] | 2013 | Bryan Parno et al. | snark, trusted-setup, foundational |
+| [[GGPR12-QSP-SNARK|Quadratic Span Programs and Succinct NIZKs without PCPs (GGPR 2013)]] | 2012 | Rosario Gennaro et al. | snark, foundational, trusted-setup |
 | [[DI06-Scalable-MPC|Scalable Secure Multiparty Computation (Damgård-Ishai 2006)]] | 2006 | Ivan Damgård, Yuval Ishai | mpc, scalable, theory, linear-time-prover |
 | [[Dam04-Sigma-Protocols|On Sigma Protocols (Damgård)]] | 2004 | Ivan Damgård | sigma, interactive-proof, foundational, theory |
 | [[CM99-Safe-Primes|Proving in Zero-Knowledge that a Number is the Product of Two Safe Primes (Camenisch-Michels 1999)]] | 1999 | Jan Camenisch, Markus Michels | sigma, cryptography, discrete-log, range-proof |
@@ -82,14 +80,14 @@ _This file is auto-generated. Run `devbox run gen-summaries` to update._
 
 | Resource | Year | Authors | Tags |
 |---|---|---|---|
-| [[a-deep-dive-into-axioms-halo2-circuits|A Deep Dive into Axiom's Halo2 Circuits]] | 2025 | Trail of Bits | plonk-family, circuit, implementations, explainer |
+| [[a-deep-dive-into-axioms-halo2-circuits|A Deep Dive into Axiom's Halo2 Circuits]] | 2025 | Trail of Bits | circuit, implementations, explainer |
 | [[comparative-analysis-of-sp1-and-risc-zero-zero-knowledge|Comparative Analysis of SP1 and RISC Zero Zero-Knowledge Virtual Machines]] | 2024 |  | zkvm, implementations, overview, stark |
-| [[groth16|Groth16 (Alin Tomescu)]] | 2024 | Alin Tomescu | groth16, snark, pairing, trusted-setup, explainer |
-| [[noirs-circuit-backend|Noir's Circuit Backend]] | 2023 | JT Riley | noir, acir, circuit-dsl, prover-backend, explainer |
-| [[plonkish-arithmetization|PLONKish Arithmetization]] | 2022 |  | arithmetization, plonk-family, explainer, circuit |
+| [[groth16|Groth16 (Alin Tomescu)]] | 2024 | Alin Tomescu | snark, pairing, trusted-setup, explainer |
+| [[noirs-circuit-backend|Noir's Circuit Backend]] | 2023 | JT Riley | circuit-dsl, prover-backend, explainer |
+| [[plonkish-arithmetization|PLONKish Arithmetization]] | 2022 |  | arithmetization, explainer, circuit |
 | [[Cryptographic-Principles-Tomescu|Cryptographic Principles (Alin Tomescu)]] | 2021 | Alin Tomescu | zkp, cryptography, reference, elliptic-curves, pairing |
-| [[Plonk-Family-Note|Note: PLONK / TurboPLONK / UltraPLONK Family]] | 2021 |  | zkp, plonk-family, explainer |
-| [[PLONK-Blog|Understanding PLONK]] | 2019 | Vitalik Buterin | plonk, plonk-family, snark, universal-setup, explainer |
+| [[Plonk-Family-Note|Note: PLONK / TurboPLONK / UltraPLONK Family]] | 2021 |  | zkp, explainer |
+| [[PLONK-Blog|Understanding PLONK]] | 2019 | Vitalik Buterin | snark, universal-setup, explainer |
 | [[Evolution-of-ZKPs|The Evolution of Zero Knowledge Proofs]] | 2018 |  | zkp, overview, history, learning |
 
 ### Books
@@ -109,38 +107,32 @@ _This file is auto-generated. Run `devbox run gen-summaries` to update._
 | Resource | Year | Authors | Tags |
 |---|---|---|---|
 | [[docknetwork-crypto-library|DockNetwork Crypto Library Analysis]] | 2026 | eid-privacy project | library, implementations, sigma, commitment, eid |
-| [[Ligero-Prover-Docs|Ligetron Marketplace Documentation]] | 2024 | Ligetron | ligero, implementations, prover-backend |
+| [[Ligero-Prover-Docs|Ligetron Marketplace Documentation]] | 2024 | Ligetron | implementations, prover-backend |
 | [[OpenVM-Docs|OpenVM Documentation]] | 2024 | Axiom / OpenVM Team | zkvm, implementations, stark, llvm |
 | [[SP1-Docs|SP1 Documentation (Succinct Labs)]] | 2024 | Succinct Labs | zkvm, implementations, stark, llvm |
 | [[RISC-Zero-Docs|RISC Zero Documentation]] | 2023 | RISC Zero | zkvm, implementations, stark, llvm |
-| [[Noir-Docs|Noir Documentation]] | 2022 | Aztec / Noir Team | noir, circuit-dsl, implementations, acir |
-| [[plonkish_arithmetization|PLONKish Arithmetization — ZK Jargon]] | 2022 |  | arithmetization, plonk-family, reference, circuit |
-| [[R1CS-Docs|R1CS Explainer (0xPARC / Circom)]] | 2022 | 0xPARC | r1cs, arithmetization, learning, circuit |
-| [[Circom2-Docs|Circom2 Documentation]] | 2021 | iden3 / Circom Team | circuit-dsl, implementations, r1cs, snark, wasm |
-| [[gnark-Docs|gnark Documentation (Consensys)]] | 2021 | Consensys / gnark Team | go, library, implementations, snark, groth16, plonk |
-| [[Halo2-Docs|Halo2 Documentation (Zcash)]] | 2021 | Zcash / Electric Coin Company | plonk-family, implementations, circuit-dsl, arithmetization, transparent |
+| [[Noir-Docs|Noir Documentation]] | 2022 | Aztec / Noir Team | circuit-dsl, implementations |
+| [[plonkish_arithmetization|PLONKish Arithmetization — ZK Jargon]] | 2022 |  | arithmetization, reference, circuit |
+| [[R1CS-Docs|R1CS Explainer (0xPARC / Circom)]] | 2022 | 0xPARC | arithmetization, learning, circuit |
+| [[Circom2-Docs|Circom2 Documentation]] | 2021 | iden3 / Circom Team | circuit-dsl, implementations, snark, wasm |
+| [[gnark-Docs|gnark Documentation (Consensys)]] | 2021 | Consensys / gnark Team | go, library, implementations, snark |
+| [[Halo2-Docs|Halo2 Documentation (Zcash)]] | 2021 | Zcash / Electric Coin Company | implementations, circuit-dsl, arithmetization, transparent |
 | [[AIR-Docs|STARK 101 — AIR Tutorial (StarkWare)]] | 2021 | StarkWare | stark, arithmetization, learning, tutorials |
-| [[ZoKrates-Docs|ZoKrates Documentation]] | 2018 | ZoKrates Team | circuit-dsl, implementations, r1cs, snark |
+| [[ZoKrates-Docs|ZoKrates Documentation]] | 2018 | ZoKrates Team | circuit-dsl, implementations, snark |
 
 ### Code & Repositories
 
 | Resource | Year | Authors | Tags |
 |---|---|---|---|
-| [[AztecProtocol-aztec-packages|AztecProtocol: Aztec Packages (UltraHONK Audit Scope)]] | 2023 | Aztec Protocol | ultraplonk, prover-backend, implementations, plonk-family |
-| [[microsoft-crescent-credentials|Microsoft Crescent Credentials (Spartan-t256 Fork)]] | 2023 | Microsoft Research | eid, applications, spartan, elliptic-curves |
-| [[microsoft-Spartan2|Microsoft Spartan2]] | 2022 | Microsoft Research | spartan, implementations, library, transparent, snark |
-| [[noir-lang-noir|noir-lang/noir — ACVM Repository]] | 2022 | Aztec / Noir Team | noir, acir, circuit-dsl, implementations, prover-backend |
-| [[Spartan-Framework-Code|Microsoft Spartan — Commit History]] | 2020 | Srinath Setty, Microsoft Research | spartan, implementations, library, transparent |
-| [[Spartan-Code|Microsoft Spartan (Original)]] | 2020 | Srinath Setty, Microsoft Research | spartan, implementations, library, transparent, r1cs |
+| [[AztecProtocol-aztec-packages|AztecProtocol: Aztec Packages (UltraHONK Audit Scope)]] | 2023 | Aztec Protocol | prover-backend, implementations |
+| [[microsoft-crescent-credentials|Microsoft Crescent Credentials (Spartan-t256 Fork)]] | 2023 | Microsoft Research | eid, applications, elliptic-curves |
+| [[microsoft-Spartan2|Microsoft Spartan2]] | 2022 | Microsoft Research | implementations, library, transparent, snark |
+| [[noir-lang-noir|noir-lang/noir — ACVM Repository]] | 2022 | Aztec / Noir Team | circuit-dsl, implementations, prover-backend |
+| [[Spartan-Framework-Code|Microsoft Spartan — Commit History]] | 2020 | Srinath Setty, Microsoft Research | implementations, library, transparent |
+| [[Spartan-Code|Microsoft Spartan (Original)]] | 2020 | Srinath Setty, Microsoft Research | implementations, library, transparent |
 | [[Sonic-Code|Sonic Reference Implementation (ebfull/sonic)]] | 2019 | Sean Bowe | snark, implementations, library, universal-setup |
 
 ## By Topic
-
-### acir
-
-- [[noirs-circuit-backend|Noir's Circuit Backend]] (blog, 2023)
-- [[Noir-Docs|Noir Documentation]] (doc, 2022)
-- [[noir-lang-noir|noir-lang/noir — ACVM Repository]] (code, 2022)
 
 ### applications
 
@@ -166,10 +158,6 @@ _This file is auto-generated. Run `devbox run gen-summaries` to update._
 ### book
 
 - [[Thaler-Proofs-Arguments-ZK|Proofs, Arguments, and Zero-Knowledge]] (book, 2023)
-
-### bulletproofs
-
-- [[CHJ+20-Bulletproofs-Opt|Bulletproofs+: Shorter Proofs for Privacy-Enhanced Distributed Ledger (Chung et al. 2020)]] (paper, 2020)
 
 ### circuit
 
@@ -209,10 +197,6 @@ _This file is auto-generated. Run `devbox run gen-summaries` to update._
 - [[CS97-DL-Proofs|Proof Systems for General Statements about Discrete Logarithms (Camenisch-Stadler 1997)]] (paper, 1997)
 - [[Ped91-Commitments|Non-Interactive and Information-Theoretic Secure Verifiable Secret Sharing (Pedersen 1991)]] (paper, 1991)
 
-### ecdsa
-
-- [[SAS22-ZKAttest|ZKAttest: Ring and Group Signatures for Existing ECDSA Keys]] (paper, 2022)
-
 ### eid
 
 - [[docknetwork-crypto-library|DockNetwork Crypto Library Analysis]] (doc, 2026)
@@ -250,12 +234,6 @@ _This file is auto-generated. Run `devbox run gen-summaries` to update._
 ### go
 
 - [[gnark-Docs|gnark Documentation (Consensys)]] (doc, 2021)
-
-### groth16
-
-- [[groth16|Groth16 (Alin Tomescu)]] (blog, 2024)
-- [[gnark-Docs|gnark Documentation (Consensys)]] (doc, 2021)
-- [[Gro16-Groth16|On the Size of Pairing-Based Non-interactive Arguments (Groth16)]] (paper, 2016)
 
 ### history
 
@@ -313,13 +291,6 @@ _This file is auto-generated. Run `devbox run gen-summaries` to update._
 - [[Spartan-Code|Microsoft Spartan (Original)]] (code, 2020)
 - [[Sonic-Code|Sonic Reference Implementation (ebfull/sonic)]] (code, 2019)
 
-### ligero
-
-- [[Ligero-Prover-Docs|Ligetron Marketplace Documentation]] (doc, 2024)
-- [[AHIV22-Ligero-Ext|Ligero: Lightweight Sublinear Arguments Without a Trusted Setup]] (paper, 2022)
-- [[BFH+20-Ligero-Plus|Ligero++: A New Optimized Sublinear IOP (Bhadauria et al. 2020)]] (paper, 2020)
-- [[AHIV17-Ligero|Ligero: Lightweight Sublinear Arguments Without a Trusted Setup (Ames et al. 2017)]] (paper, 2017)
-
 ### linear-time-prover
 
 - [[CBBZ23-HyperPlonk|HyperPlonk: Plonk with Linear-Time Prover and High-Degree Custom Gates (Chen et al. 2023)]] (paper, 2023)
@@ -348,12 +319,6 @@ _This file is auto-generated. Run `devbox run gen-summaries` to update._
 
 - [[DI06-Scalable-MPC|Scalable Secure Multiparty Computation (Damgård-Ishai 2006)]] (paper, 2006)
 
-### noir
-
-- [[noirs-circuit-backend|Noir's Circuit Backend]] (blog, 2023)
-- [[Noir-Docs|Noir Documentation]] (doc, 2022)
-- [[noir-lang-noir|noir-lang/noir — ACVM Repository]] (code, 2022)
-
 ### non-interactive
 
 - [[ZKP21-Sigma-Standard|ZKProof Sigma Protocol Proposal (Workshop 4)]] (paper, 2021)
@@ -372,27 +337,6 @@ _This file is auto-generated. Run `devbox run gen-summaries` to update._
 - [[Cryptographic-Principles-Tomescu|Cryptographic Principles (Alin Tomescu)]] (blog, 2021)
 - [[Gro16-Groth16|On the Size of Pairing-Based Non-interactive Arguments (Groth16)]] (paper, 2016)
 
-### plonk
-
-- [[gnark-Docs|gnark Documentation (Consensys)]] (doc, 2021)
-- [[GWC19-PLONK|PLONK: Permutations over Lagrange-bases for Oecumenical Noninteractive arguments of Knowledge]] (paper, 2019)
-- [[PLONK-Blog|Understanding PLONK]] (blog, 2019)
-
-### plonk-family
-
-- [[a-deep-dive-into-axioms-halo2-circuits|A Deep Dive into Axiom's Halo2 Circuits]] (blog, 2025)
-- [[AztecProtocol-aztec-packages|AztecProtocol: Aztec Packages (UltraHONK Audit Scope)]] (code, 2023)
-- [[CBBZ23-HyperPlonk|HyperPlonk: Plonk with Linear-Time Prover and High-Degree Custom Gates (Chen et al. 2023)]] (paper, 2023)
-- [[plonkish-arithmetization|PLONKish Arithmetization]] (blog, 2022)
-- [[plonkish_arithmetization|PLONKish Arithmetization — ZK Jargon]] (doc, 2022)
-- [[Halo2-Docs|Halo2 Documentation (Zcash)]] (doc, 2021)
-- [[Plonk-Family-Note|Note: PLONK / TurboPLONK / UltraPLONK Family]] (blog, 2021)
-- [[GW20-Plookup|Plookup: A Simplified Polynomial Protocol for Lookup Tables (Gabizon-Williamson 2020)]] (paper, 2020)
-- [[GWC19-PLONK|PLONK: Permutations over Lagrange-bases for Oecumenical Noninteractive arguments of Knowledge]] (paper, 2019)
-- [[MBKM19-Sonic|Sonic: Zero-Knowledge SNARKs from Linear-Size Universal and Updateable Structured Reference Strings (Maller et al. 2019)]] (paper, 2019)
-- [[GW19b-TurboPlonk|TurboPLONK Proposal (ZKProof Workshop 3)]] (paper, 2019)
-- [[PLONK-Blog|Understanding PLONK]] (blog, 2019)
-
 ### post-quantum
 
 - [[BCRSVW19-Aurora|Aurora: Transparent Succinct Arguments for R1CS (Ben-Sasson et al. 2019)]] (paper, 2019)
@@ -404,25 +348,6 @@ _This file is auto-generated. Run `devbox run gen-summaries` to update._
 - [[AztecProtocol-aztec-packages|AztecProtocol: Aztec Packages (UltraHONK Audit Scope)]] (code, 2023)
 - [[noirs-circuit-backend|Noir's Circuit Backend]] (blog, 2023)
 - [[noir-lang-noir|noir-lang/noir — ACVM Repository]] (code, 2022)
-
-### qap
-
-- [[PHGR13-Pinocchio|Pinocchio: Nearly Practical Verifiable Computation (Parno et al. 2013)]] (paper, 2013)
-
-### qsp
-
-- [[GGPR12-QSP-SNARK|Quadratic Span Programs and Succinct NIZKs without PCPs (GGPR 2013)]] (paper, 2012)
-
-### r1cs
-
-- [[R1CS-Docs|R1CS Explainer (0xPARC / Circom)]] (doc, 2022)
-- [[Circom2-Docs|Circom2 Documentation]] (doc, 2021)
-- [[Spartan-Code|Microsoft Spartan (Original)]] (code, 2020)
-- [[BCRSVW19-Aurora|Aurora: Transparent Succinct Arguments for R1CS (Ben-Sasson et al. 2019)]] (paper, 2019)
-- [[Set19-Spartan|Spartan: Efficient and General-Purpose zkSNARKs Without Trusted Setup (Setty 2020)]] (paper, 2019)
-- [[ZoKrates-Docs|ZoKrates Documentation]] (doc, 2018)
-- [[PHGR13-Pinocchio|Pinocchio: Nearly Practical Verifiable Computation (Parno et al. 2013)]] (paper, 2013)
-- [[GGPR12-QSP-SNARK|Quadratic Span Programs and Succinct NIZKs without PCPs (GGPR 2013)]] (paper, 2012)
 
 ### range-proof
 
@@ -478,14 +403,6 @@ _This file is auto-generated. Run `devbox run gen-summaries` to update._
 - [[PHGR13-Pinocchio|Pinocchio: Nearly Practical Verifiable Computation (Parno et al. 2013)]] (paper, 2013)
 - [[GGPR12-QSP-SNARK|Quadratic Span Programs and Succinct NIZKs without PCPs (GGPR 2013)]] (paper, 2012)
 
-### spartan
-
-- [[microsoft-crescent-credentials|Microsoft Crescent Credentials (Spartan-t256 Fork)]] (code, 2023)
-- [[microsoft-Spartan2|Microsoft Spartan2]] (code, 2022)
-- [[Spartan-Framework-Code|Microsoft Spartan — Commit History]] (code, 2020)
-- [[Spartan-Code|Microsoft Spartan (Original)]] (code, 2020)
-- [[Set19-Spartan|Spartan: Efficient and General-Purpose zkSNARKs Without Trusted Setup (Setty 2020)]] (paper, 2019)
-
 ### standard
 
 - [[ZKP21-Sigma-Standard|ZKProof Sigma Protocol Proposal (Workshop 4)]] (paper, 2021)
@@ -539,10 +456,6 @@ _This file is auto-generated. Run `devbox run gen-summaries` to update._
 ### tutorials
 
 - [[AIR-Docs|STARK 101 — AIR Tutorial (StarkWare)]] (doc, 2021)
-
-### ultraplonk
-
-- [[AztecProtocol-aztec-packages|AztecProtocol: Aztec Packages (UltraHONK Audit Scope)]] (code, 2023)
 
 ### universal-setup
 

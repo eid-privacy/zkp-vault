@@ -8,7 +8,6 @@ url: "https://zokrates.github.io/"
 tags:
   - circuit-dsl
   - implementations
-  - r1cs
   - snark
 ---
 

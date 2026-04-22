@@ -7,7 +7,6 @@ authors:
   - Microsoft Research
 url: "https://github.com/microsoft/Spartan/commits/master/"
 tags:
-  - spartan
   - implementations
   - library
   - transparent

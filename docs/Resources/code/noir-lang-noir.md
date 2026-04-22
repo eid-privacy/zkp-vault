@@ -6,8 +6,6 @@ authors:
   - Aztec / Noir Team
 url: "https://github.com/noir-lang/noir/tree/master/acvm-repo"
 tags:
-  - noir
-  - acir
   - circuit-dsl
   - implementations
   - prover-backend

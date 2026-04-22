@@ -10,7 +10,6 @@ authors:
   - Muthuramakrishnan Venkitasubramaniam
 url: "https://eprint.iacr.org/2022/1608"
 tags:
-  - ligero
   - linear-time-prover
   - transparent
   - iop

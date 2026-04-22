@@ -25,12 +25,12 @@ _This file is auto-generated. Run `devbox run gen-summaries` to update._
 
 | Resource | Year | Authors | Tags |
 |---|---|---|---|
-| [[a-deep-dive-into-axioms-halo2-circuits|A Deep Dive into Axiom's Halo2 Circuits]] | 2025 | Trail of Bits | plonk-family, circuit, implementations, explainer |
+| [[a-deep-dive-into-axioms-halo2-circuits|A Deep Dive into Axiom's Halo2 Circuits]] | 2025 | Trail of Bits | circuit, implementations, explainer |
 | [[comparative-analysis-of-sp1-and-risc-zero-zero-knowledge|Comparative Analysis of SP1 and RISC Zero Zero-Knowledge Virtual Machines]] | 2024 |  | zkvm, implementations, overview, stark |
-| [[groth16|Groth16 (Alin Tomescu)]] | 2024 | Alin Tomescu | groth16, snark, pairing, trusted-setup, explainer |
-| [[noirs-circuit-backend|Noir's Circuit Backend]] | 2023 | JT Riley | noir, acir, circuit-dsl, prover-backend, explainer |
-| [[plonkish-arithmetization|PLONKish Arithmetization]] | 2022 |  | arithmetization, plonk-family, explainer, circuit |
+| [[groth16|Groth16 (Alin Tomescu)]] | 2024 | Alin Tomescu | snark, pairing, trusted-setup, explainer |
+| [[noirs-circuit-backend|Noir's Circuit Backend]] | 2023 | JT Riley | circuit-dsl, prover-backend, explainer |
+| [[plonkish-arithmetization|PLONKish Arithmetization]] | 2022 |  | arithmetization, explainer, circuit |
 | [[Cryptographic-Principles-Tomescu|Cryptographic Principles (Alin Tomescu)]] | 2021 | Alin Tomescu | zkp, cryptography, reference, elliptic-curves, pairing |
-| [[Plonk-Family-Note|Note: PLONK / TurboPLONK / UltraPLONK Family]] | 2021 |  | zkp, plonk-family, explainer |
-| [[PLONK-Blog|Understanding PLONK]] | 2019 | Vitalik Buterin | plonk, plonk-family, snark, universal-setup, explainer |
+| [[Plonk-Family-Note|Note: PLONK / TurboPLONK / UltraPLONK Family]] | 2021 |  | zkp, explainer |
+| [[PLONK-Blog|Understanding PLONK]] | 2019 | Vitalik Buterin | snark, universal-setup, explainer |
 | [[Evolution-of-ZKPs|The Evolution of Zero Knowledge Proofs]] | 2018 |  | zkp, overview, history, learning |

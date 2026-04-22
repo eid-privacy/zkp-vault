@@ -11,7 +11,6 @@ tags:
   - zkp
   - snark
   - transparent
-  - r1cs
 ---
 
 [Home](../README.md) > [Proof Systems](README.md) > Spartan

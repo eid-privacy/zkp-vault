@@ -3,7 +3,6 @@ type: intermediate_representation
 tags:
   - zkp
   - circuit
-  - noir
 ---
 
 [Home](../README.md) > [Intermediate Representations](README.md) > ACIR

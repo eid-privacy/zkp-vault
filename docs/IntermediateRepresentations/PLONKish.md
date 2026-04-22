@@ -3,7 +3,6 @@ type: intermediate_representation
 tags:
   - zkp
   - circuit
-  - plonk
   - arithmetization
   - mathematics
 ---

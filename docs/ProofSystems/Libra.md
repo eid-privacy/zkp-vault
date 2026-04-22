@@ -15,7 +15,6 @@ tags:
   - zkp
   - snark
   - transparent
-  - gkr
 ---
 
 [Home](../README.md) > [Proof Systems](README.md) > Libra

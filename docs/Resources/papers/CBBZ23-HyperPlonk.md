@@ -10,7 +10,6 @@ authors:
   - Zhenfei Zhang
 url: "https://link.springer.com/chapter/10.1007/978-3-031-30617-4_17"
 tags:
-  - plonk-family
   - snark
   - arithmetization
   - lookup

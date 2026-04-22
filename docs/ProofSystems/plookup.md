@@ -8,7 +8,6 @@ authors:
 paper: "plookup: A simplified polynomial protocol for lookup tables"
 tags:
   - zkp
-  - plonk-family
   - lookup
 ---
 

@@ -6,7 +6,6 @@ paper: HONK (Aztec Protocol internal)
 tags:
   - zkp
   - snark
-  - plonk-family
 ---
 
 [Home](../README.md) > [Proof Systems](README.md) > HONK

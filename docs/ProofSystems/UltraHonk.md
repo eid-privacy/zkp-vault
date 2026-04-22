@@ -6,8 +6,6 @@ paper: UltraHonk (Aztec Protocol)
 tags:
   - zkp
   - snark
-  - plonk-family
-  - ultraplonk
 ---
 
 [Home](../README.md) > [Proof Systems](README.md) > UltraHonk

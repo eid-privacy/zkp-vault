@@ -11,8 +11,6 @@ authors:
 url: "https://eprint.iacr.org/2013/279.pdf"
 tags:
   - snark
-  - qap
-  - r1cs
   - trusted-setup
   - foundational
 ---

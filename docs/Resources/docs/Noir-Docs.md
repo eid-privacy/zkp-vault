@@ -6,10 +6,8 @@ authors:
   - Aztec / Noir Team
 url: "https://noir-lang.org/docs/"
 tags:
-  - noir
   - circuit-dsl
   - implementations
-  - acir
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [docs](README.md) > Noir-Docs

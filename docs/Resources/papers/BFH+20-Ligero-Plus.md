@@ -12,7 +12,6 @@ authors:
   - Yupeng Zhang
 url: "https://acm-stag.literatumonline.com/doi/pdf/10.1145/3372297.3417893"
 tags:
-  - ligero
   - linear-time-prover
   - transparent
   - iop

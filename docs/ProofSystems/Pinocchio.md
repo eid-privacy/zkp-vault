@@ -12,8 +12,6 @@ doi: 10.1109/sp.2013.47
 tags:
   - zkp
   - snark
-  - r1cs
-  - qap
   - trusted-setup
 ---
 

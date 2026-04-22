@@ -9,8 +9,6 @@ authors:
   - Oana Ciobotaru
 url: "https://eprint.iacr.org/2019/953.pdf"
 tags:
-  - plonk
-  - plonk-family
   - snark
   - universal-setup
   - arithmetization

@@ -8,8 +8,6 @@ tags:
   - zkp
   - library
   - go
-  - groth16
-  - plonk
   - frameworks
   - implementations
 ---

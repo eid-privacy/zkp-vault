@@ -8,7 +8,6 @@ url: "https://docs.circom.io/"
 tags:
   - circuit-dsl
   - implementations
-  - r1cs
   - snark
   - wasm
 ---

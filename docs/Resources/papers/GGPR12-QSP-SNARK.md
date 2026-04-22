@@ -11,8 +11,6 @@ authors:
 url: "https://eprint.iacr.org/2012/215"
 tags:
   - snark
-  - qsp
-  - r1cs
   - foundational
   - trusted-setup
 ---

@@ -6,7 +6,6 @@ authors:
   - Trail of Bits
 url: "https://blog.trailofbits.com/2025/05/30/a-deep-dive-into-axioms-halo2-circuits/"
 tags:
-  - plonk-family
   - circuit
   - implementations
   - explainer

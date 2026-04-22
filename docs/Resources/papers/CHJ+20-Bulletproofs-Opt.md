@@ -11,7 +11,6 @@ authors:
   - Jae Hong Seo
 url: "https://eprint.iacr.org/2020/735"
 tags:
-  - bulletproofs
   - transparent
   - range-proof
   - discrete-log

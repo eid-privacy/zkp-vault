@@ -5,7 +5,6 @@ year: 2022
 url: "https://www.emergentmind.com/topics/plonkish-arithmetization"
 tags:
   - arithmetization
-  - plonk-family
   - explainer
   - circuit
 ---

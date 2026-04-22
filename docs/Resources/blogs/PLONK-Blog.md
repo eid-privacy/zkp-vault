@@ -6,8 +6,6 @@ authors:
   - Vitalik Buterin
 url: "https://vitalik.eth.limo/general/2019/09/22/plonk.html"
 tags:
-  - plonk
-  - plonk-family
   - snark
   - universal-setup
   - explainer

@@ -7,8 +7,6 @@ github: "https://github.com/valida-xyz/valida"
 tags:
   - zkp
   - zkvm
-  - plonky3
-  - deprecated
   - frameworks
   - implementations
 ---

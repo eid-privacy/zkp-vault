@@ -6,8 +6,6 @@ authors:
   - JT Riley
 url: "https://jtriley.substack.com/p/noirs-circuit-backend"
 tags:
-  - noir
-  - acir
   - circuit-dsl
   - prover-backend
   - explainer

@@ -12,7 +12,6 @@ tags:
   - zkp
   - snark
   - universal-setup
-  - plonk-family
 ---
 
 [Home](../README.md) > [Proof Systems](README.md) > PLONK

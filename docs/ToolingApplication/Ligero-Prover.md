@@ -8,7 +8,6 @@ github: "https://github.com/ligeroinc/ligero-prover"
 tags:
   - zkp
   - prover-backend
-  - ligero
   - wasm
   - implementations
 ---

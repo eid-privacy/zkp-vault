@@ -8,8 +8,6 @@ github: "https://github.com/zcash/halo2"
 tags:
   - zkp
   - library
-  - plonk
-  - ultraplonk
   - arithmetization
   - implementations
 ---

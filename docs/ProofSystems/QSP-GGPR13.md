@@ -13,7 +13,6 @@ doi: 10.1007/978-3-642-38348-9_37
 tags:
   - zkp
   - snark
-  - qsp
   - trusted-setup
 ---
 

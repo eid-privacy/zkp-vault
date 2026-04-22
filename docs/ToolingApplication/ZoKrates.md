@@ -7,7 +7,6 @@ github: "https://github.com/Zokrates/ZoKrates"
 tags:
   - zkp
   - circuit-dsl
-  - deprecated
   - frameworks
   - implementations
 ---

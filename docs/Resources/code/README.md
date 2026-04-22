@@ -25,10 +25,10 @@ _This file is auto-generated. Run `devbox run gen-summaries` to update._
 
 | Resource | Year | Authors | Tags |
 |---|---|---|---|
-| [[AztecProtocol-aztec-packages|AztecProtocol: Aztec Packages (UltraHONK Audit Scope)]] | 2023 | Aztec Protocol | ultraplonk, prover-backend, implementations, plonk-family |
-| [[microsoft-crescent-credentials|Microsoft Crescent Credentials (Spartan-t256 Fork)]] | 2023 | Microsoft Research | eid, applications, spartan, elliptic-curves |
-| [[microsoft-Spartan2|Microsoft Spartan2]] | 2022 | Microsoft Research | spartan, implementations, library, transparent, snark |
-| [[noir-lang-noir|noir-lang/noir — ACVM Repository]] | 2022 | Aztec / Noir Team | noir, acir, circuit-dsl, implementations, prover-backend |
-| [[Spartan-Framework-Code|Microsoft Spartan — Commit History]] | 2020 | Srinath Setty, Microsoft Research | spartan, implementations, library, transparent |
-| [[Spartan-Code|Microsoft Spartan (Original)]] | 2020 | Srinath Setty, Microsoft Research | spartan, implementations, library, transparent, r1cs |
+| [[AztecProtocol-aztec-packages|AztecProtocol: Aztec Packages (UltraHONK Audit Scope)]] | 2023 | Aztec Protocol | prover-backend, implementations |
+| [[microsoft-crescent-credentials|Microsoft Crescent Credentials (Spartan-t256 Fork)]] | 2023 | Microsoft Research | eid, applications, elliptic-curves |
+| [[microsoft-Spartan2|Microsoft Spartan2]] | 2022 | Microsoft Research | implementations, library, transparent, snark |
+| [[noir-lang-noir|noir-lang/noir — ACVM Repository]] | 2022 | Aztec / Noir Team | circuit-dsl, implementations, prover-backend |
+| [[Spartan-Framework-Code|Microsoft Spartan — Commit History]] | 2020 | Srinath Setty, Microsoft Research | implementations, library, transparent |
+| [[Spartan-Code|Microsoft Spartan (Original)]] | 2020 | Srinath Setty, Microsoft Research | implementations, library, transparent |
 | [[Sonic-Code|Sonic Reference Implementation (ebfull/sonic)]] | 2019 | Sean Bowe | snark, implementations, library, universal-setup |

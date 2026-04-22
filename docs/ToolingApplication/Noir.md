@@ -8,7 +8,6 @@ github: "https://github.com/noir-lang/noir"
 tags:
   - zkp
   - circuit-dsl
-  - acir
   - frameworks
   - implementations
 ---

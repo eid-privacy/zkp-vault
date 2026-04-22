@@ -9,7 +9,6 @@ tags:
   - zkp
   - library
   - eid
-  - bulletproofs
   - implementations
 ---
 

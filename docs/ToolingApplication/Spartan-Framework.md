@@ -7,8 +7,6 @@ github: "https://github.com/microsoft/Spartan"
 tags:
   - zkp
   - library
-  - ecdsa
-  - spartan
   - implementations
 ---
 

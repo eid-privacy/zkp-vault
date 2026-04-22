@@ -10,7 +10,6 @@ authors:
 url: "https://link.springer.com/chapter/10.1007/978-3-030-99277-4_4"
 tags:
   - attestation
-  - ecdsa
   - zkp
   - elliptic-curves
   - applications

@@ -5,7 +5,6 @@ year: 2022
 url: "https://zkjargon.github.io/definitions/plonkish_arithmetization.html"
 tags:
   - arithmetization
-  - plonk-family
   - reference
   - circuit
 ---

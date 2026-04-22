@@ -8,7 +8,6 @@ authors:
   - Zachary J. Williamson
 url: "https://eprint.iacr.org/2020/315.pdf"
 tags:
-  - plonk-family
   - lookup
   - arithmetization
   - snark

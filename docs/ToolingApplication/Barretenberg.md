@@ -7,7 +7,6 @@ github: "https://github.com/noir-lang/barretenberg"
 tags:
   - zkp
   - prover-backend
-  - plonk
   - implementations
 ---
 

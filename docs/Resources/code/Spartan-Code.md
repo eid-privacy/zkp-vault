@@ -7,11 +7,9 @@ authors:
   - Microsoft Research
 url: "https://github.com/microsoft/Spartan"
 tags:
-  - spartan
   - implementations
   - library
   - transparent
-  - r1cs
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [code](README.md) > Spartan-Code

@@ -192,7 +192,12 @@ function renderResourcesByTopic(resources: ResourceMeta[]): string {
   return lines.join('\n');
 }
 
-function buildNavTable(tags: string[], cols: number, cellFn: (s: string) => string = s => `[[#${s}]]`): string {
+/** Convert a heading string to a GitHub/mkdocs-style anchor slug. */
+function headingSlug(s: string): string {
+  return s.toLowerCase().replace(/[^\w\s-]/g, '').replace(/\s+/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, '');
+}
+
+function buildNavTable(tags: string[], cols: number, cellFn: (s: string) => string = s => `[${s}](#${headingSlug(s)})`): string {
   const N = tags.length;
   const baseRows = Math.floor(N / cols);
   const extraCols = N % cols;
@@ -229,7 +234,7 @@ function generateResourcesReadme(): void {
 
   const typeNavItems = SUBTYPES
     .filter(s => resources.some(r => r.subtype === s))
-    .map(s => `- [[#${SUBTYPE_LABELS[s]}]]`)
+    .map(s => `- [${SUBTYPE_LABELS[s]}](#${headingSlug(SUBTYPE_LABELS[s])})`)
     .join('\n');
 
   const allTags = [...new Set(resources.flatMap(r => r.tags))].sort();
@@ -253,7 +258,7 @@ tags:
 
 Curated external resources for Zero-Knowledge Proofs — ${total} entries across papers, blogs, books, wikis, docs, and code repositories.
 
-_This file is auto-generated. Run \`devbox run gen-summaries\` to update._
+_This file is auto-generated. Run \`devbox run summaries\` to update._
 
 ## By Type
 
@@ -313,7 +318,7 @@ tags: []
 
 ${entries.length} entr${entries.length === 1 ? 'y' : 'ies'}.
 
-_This file is auto-generated. Run \`devbox run gen-summaries\` to update._
+_This file is auto-generated. Run \`devbox run summaries\` to update._
 
 ## Navigation
 
@@ -380,7 +385,7 @@ tags: []
 
 All ${tags.length} tag definitions used across the vault.
 
-_This file is auto-generated. Run \`devbox run gen-summaries\` to update._
+_This file is auto-generated. Run \`devbox run summaries\` to update._
 
 ## Navigation
 

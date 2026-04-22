@@ -14,5 +14,5 @@ Tags commit-and-prove SNARKs (CP-SNARKs) — proof systems that prove statements
 
 ## Entries tagged
 
-- [[CFQW19-LegoSNARK|LegoSNARK: Modular Design and Composition of Efficient Zero-Knowledge Proofs (Campanelli et al. 2019)]]
 - [[LegoGroth16|LegoGroth16]]
+- [[CFQW19-LegoSNARK|LegoSNARK: Modular Design and Composition of Efficient Zero-Knowledge Proofs (Campanelli et al. 2019)]]

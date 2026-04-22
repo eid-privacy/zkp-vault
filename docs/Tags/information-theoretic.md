@@ -11,7 +11,6 @@ Marks protocols or constructions whose security holds unconditionally — withou
 
 ## Entries tagged
 
-- [[LFKN92-Sumcheck|Algebraic Methods for Interactive Proof Systems (Lund–Fortnow–Karloff–Nisan 1992)]]
+- [[Sch80-Schwartz-Zippel|Fast Probabilistic Algorithms for Verification of Polynomial Identities]]
 - [[Schwartz-Zippel|Schwartz-Zippel Lemma]]
-- [[Sch80-Schwartz-Zippel|Fast Probabilistic Algorithms for Verification of Polynomial Identities (Schwartz 1980)]]
 - [[SumcheckProofs|Sumcheck Protocol]]

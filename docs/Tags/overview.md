@@ -14,4 +14,5 @@ Tags entries that provide a broad survey or overview of a topic — covering mul
 - [[comparative-analysis-of-sp1-and-risc-zero-zero-knowledge|Comparative Analysis of SP1 and RISC Zero Zero-Knowledge Virtual Machines]]
 - [[Evolution-of-ZKPs|The Evolution of Zero Knowledge Proofs]]
 - [[ZK-Families-Overview|ZK Proof System Families Overview]]
+- [[ZK-Proof-Taxonomy|ZK Proof Taxonomy: Abstraction Levels]]
 - [[ZKProof-Wiki|ZKProof Wiki of Concrete ZKP Schemes]]

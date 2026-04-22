@@ -11,6 +11,8 @@ Marks entries that represent foundational, landmark, or must-know concepts and s
 
 ## Entries tagged
 
+- [[LFKN92-Sumcheck|Algebraic Methods for Interactive Proof Systems]]
+- [[Sch80-Schwartz-Zippel|Fast Probabilistic Algorithms for Verification of Polynomial Identities]]
 - [[FS86-Fiat-Shamir|How to Prove Yourself: Practical Solutions to Identification and Signature Problems (Fiat-Shamir)]]
 - [[Ped91-Commitments|Non-Interactive and Information-Theoretic Secure Verifiable Secret Sharing (Pedersen 1991)]]
 - [[NIZK-Blum|Non-Interactive Zero-Knowledge and Its Applications]]
@@ -22,8 +24,8 @@ Marks entries that represent foundational, landmark, or must-know concepts and s
 - [[CS97-DL-Proofs|Proof Systems for General Statements about Discrete Logarithms (Camenisch-Stadler 1997)]]
 - [[Thaler-Proofs-Arguments-ZK|Proofs, Arguments, and Zero-Knowledge]]
 - [[GGPR12-QSP-SNARK|Quadratic Span Programs and Succinct NIZKs without PCPs (GGPR 2013)]]
+- [[Schwartz-Zippel|Schwartz-Zippel Lemma]]
+- [[SumcheckProofs|Sumcheck Protocol]]
 - [[GMR85-Knowledge-Complexity|The Knowledge Complexity of Interactive Proof Systems]]
 - [[GMR85-ZK-Complexity|The Knowledge Complexity of Interactive Proof Systems (GMR85)]]
 - [[GKMM18-Updatable-SRS|Updatable and Universal Common Reference Strings with Applications to zk-SNARKs (Groth et al. 2018)]]
-- [[Schwartz-Zippel|Schwartz-Zippel Lemma]]
-- [[Sch80-Schwartz-Zippel|Fast Probabilistic Algorithms for Verification of Polynomial Identities (Schwartz 1980)]]

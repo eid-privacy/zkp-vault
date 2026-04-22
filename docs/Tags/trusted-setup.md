@@ -13,6 +13,7 @@ Tags proof systems or tools that require a trusted setup ceremony to generate pu
 
 - [[Groth16|Groth16]]
 - [[groth16|Groth16 (Alin Tomescu)]]
+- [[LegoGroth16|LegoGroth16]]
 - [[Gro16-Groth16|On the Size of Pairing-Based Non-interactive Arguments (Groth16)]]
 - [[Pinocchio|Pinocchio]]
 - [[PHGR13-Pinocchio|Pinocchio: Nearly Practical Verifiable Computation (Parno et al. 2013)]]

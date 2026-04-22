@@ -9,25 +9,25 @@ tags: []
 
 # ZKP Tags
 
-All 52 tag definitions used across the vault.
+All 55 tag definitions used across the vault.
 
-_This file is auto-generated. Run `devbox run gen-summaries` to update._
+_This file is auto-generated. Run `devbox run summaries` to update._
 
 ## Navigation
 
-| a-e | e-l | l-p | p-s | t-z |
+| a-d | e-i | l-o | p-s | s-z |
 | --- | --- | --- | --- | --- |
-| [[applications]] | [[explainer]] | [[llvm]] | [[post-quantum]] | [[theory]] |
-| [[arithmetization]] | [[foundational]] | [[logarithmic]] | [[prover-backend]] | [[transformation]] |
-| [[attestation]] | [[frameworks]] | [[lookup]] | [[range-proof]] | [[transparent]] |
-| [[book]] | [[go]] | [[mathematics]] | [[reed-solomon]] | [[trusted-setup]] |
-| [[circuit-dsl]] | [[history]] | [[mpc]] | [[reference]] | [[tutorials]] |
-| [[circuit]] | [[implementations]] | [[non-interactive]] | [[scalable]] | [[universal-setup]] |
-| [[commitment]] | [[interactive-proof]] | [[optimizer]] | [[sigma]] | [[use-cases]] |
-| [[cryptography]] | [[iop]] | [[overview]] | [[snark]] | [[wasm]] |
-| [[discrete-log]] | [[learning]] | [[pairing]] | [[standard]] | [[zkp]] |
-| [[eid]] | [[library]] | [[papers]] | [[stark]] | [[zkvm]] |
-| [[elliptic-curves]] | [[linear-time-prover]] |  |  |  |
+| [[applications]] | [[eid]] | [[learning]] | [[pairing]] | [[stark]] |
+| [[arithmetization]] | [[elliptic-curves]] | [[library]] | [[papers]] | [[theory]] |
+| [[attestation]] | [[explainer]] | [[linear-time-prover]] | [[post-quantum]] | [[transformation]] |
+| [[book]] | [[foundational]] | [[llvm]] | [[prover-backend]] | [[transparent]] |
+| [[circuit-dsl]] | [[frameworks]] | [[logarithmic]] | [[range-proof]] | [[trusted-setup]] |
+| [[circuit]] | [[go]] | [[lookup]] | [[reed-solomon]] | [[tutorials]] |
+| [[commit-and-prove]] | [[history]] | [[mathematics]] | [[reference]] | [[universal-setup]] |
+| [[commitment]] | [[implementations]] | [[mpc]] | [[scalable]] | [[use-cases]] |
+| [[composition]] | [[information-theoretic]] | [[non-interactive]] | [[sigma]] | [[wasm]] |
+| [[cryptography]] | [[interactive-proof]] | [[optimizer]] | [[snark]] | [[zkp]] |
+| [[discrete-log]] | [[iop]] | [[overview]] | [[standard]] | [[zkvm]] |
 
 ## All Tags
 
@@ -39,7 +39,9 @@ _This file is auto-generated. Run `devbox run gen-summaries` to update._
 | [[book|Book]] | Tags entries that are books or textbooks — including Thaler's 'Proofs, Arguments, and Zero-Knowledge' and other extended reference works. |
 | [[circuit-dsl|Circuit DSL]] | Tags domain-specific languages for writing ZK circuits — e.g., Noir, Circom, ZoKrates. These compile down to an IR like R1CS or ACIR. |
 | [[circuit|Circuit]] | Tags entries related to arithmetic circuits — the primary computational model for ZKP systems. Includes circuit design, optimisation, and analysis. |
+| [[commit-and-prove|Commit-and-Prove]] | Tags commit-and-prove SNARKs (CP-SNARKs) — proof systems that prove statements about values already committed to by a separate commitment scheme, enabling modular composition of proof systems. |
 | [[commitment|Commitment Scheme]] | Tags cryptographic commitment schemes — binding and hiding primitives that underpin polynomial commitments (KZG, IPA, FRI) used throughout ZKP constructions. |
+| [[composition|Proof Composition]] | Tags techniques and systems for composing multiple zero-knowledge proofs — combining sigma protocols via AND/OR rules, commit-and-prove frameworks, or proof system interoperability. |
 | [[cryptography|Cryptography]] | Entries covering classical and modern cryptographic building blocks used in or alongside ZKP systems — hash functions, encryption, commitments, and more. |
 | [[discrete-log|Discrete Logarithm]] | Tags entries relying on the discrete logarithm assumption — the hardness assumption behind Pedersen commitments, Schnorr proofs, and many elliptic-curve-based ZKPs. |
 | [[eid|e-ID / Digital Identity]] | Tags entries relevant to electronic identity (e-ID) use cases — privacy-preserving credential verification, holder binding, and identity-related ZKP applications. |
@@ -50,6 +52,7 @@ _This file is auto-generated. Run `devbox run gen-summaries` to update._
 | [[go|Go]] | Tags ZKP libraries, tools, or implementations written in or with bindings for the Go programming language. |
 | [[history|History]] | Tags entries with a historical perspective — tracing the evolution of ZKP systems, key milestones, and chronological development. |
 | [[implementations|Implementations]] | Tags entries that are concrete implementations of proof systems or protocols — as opposed to theoretical descriptions. |
+| [[information-theoretic|Information-Theoretic]] | Marks protocols or constructions whose security holds unconditionally — without relying on computational hardness assumptions. An information-theoretically secure scheme cannot be broken even by a computationally unbounded adversary, and its soundness or hiding properties depend only on the size of the underlying field or randomness space. |
 | [[interactive-proof|Interactive Proof]] | Tags entries about the general interactive proof model (IP), complexity class IP, and multi-round protocols between prover and verifier. |
 | [[iop|Interactive Oracle Proof]] | Tags Interactive Oracle Proofs (IOPs) — a generalised model for proof systems where the verifier has oracle access to the prover's messages. Subsumes PCPs and used in STARK/FRI constructions. |
 | [[learning|Learning]] | Tags entries specifically recommended as learning resources for those new to ZKPs or a specific sub-topic. |

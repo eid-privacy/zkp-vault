@@ -12,7 +12,7 @@ tags: []
 
 1 entry.
 
-_This file is auto-generated. Run `devbox run gen-summaries` to update._
+_This file is auto-generated. Run `devbox run summaries` to update._
 
 ## Navigation
 

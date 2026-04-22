@@ -14,5 +14,5 @@ Tags techniques and systems for composing multiple zero-knowledge proofs — com
 
 ## Entries tagged
 
-- [[CFQW19-LegoSNARK|LegoSNARK: Modular Design and Composition of Efficient Zero-Knowledge Proofs (Campanelli et al. 2019)]]
 - [[LegoGroth16|LegoGroth16]]
+- [[CFQW19-LegoSNARK|LegoSNARK: Modular Design and Composition of Efficient Zero-Knowledge Proofs (Campanelli et al. 2019)]]

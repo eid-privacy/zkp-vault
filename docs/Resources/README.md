@@ -13,33 +13,34 @@ tags:
 
 # ZKP Resources
 
-Curated external resources for Zero-Knowledge Proofs — 59 entries across papers, blogs, books, wikis, docs, and code repositories.
+Curated external resources for Zero-Knowledge Proofs — 63 entries across papers, blogs, books, wikis, docs, and code repositories.
 
-_This file is auto-generated. Run `devbox run gen-summaries` to update._
+_This file is auto-generated. Run `devbox run summaries` to update._
 
 ## By Type
 
-- [[#Papers]]
-- [[#Blogs & Explainers]]
-- [[#Books]]
-- [[#Wikis & Standards]]
-- [[#Documentation]]
-- [[#Code & Repositories]]
+- [Papers](#papers)
+- [Blogs & Explainers](#blogs-explainers)
+- [Books](#books)
+- [Wikis & Standards](#wikis-standards)
+- [Documentation](#documentation)
+- [Code & Repositories](#code-repositories)
 
 ## By Topic
 
-| a-e | e-l | l-p | p-s | t-z |
+| a-d | e-i | l-o | p-s | s-z |
 | --- | --- | --- | --- | --- |
-| [[#applications]] | [[#elliptic-curves]] | [[#linear-time-prover]] | [[#prover-backend]] | [[#theory]] |
-| [[#arithmetization]] | [[#explainer]] | [[#llvm]] | [[#range-proof]] | [[#transformation]] |
-| [[#attestation]] | [[#foundational]] | [[#logarithmic]] | [[#reed-solomon]] | [[#transparent]] |
-| [[#book]] | [[#go]] | [[#lookup]] | [[#reference]] | [[#trusted-setup]] |
-| [[#circuit]] | [[#history]] | [[#mpc]] | [[#scalable]] | [[#tutorials]] |
-| [[#circuit-dsl]] | [[#implementations]] | [[#non-interactive]] | [[#sigma]] | [[#universal-setup]] |
-| [[#commitment]] | [[#interactive-proof]] | [[#overview]] | [[#snark]] | [[#wasm]] |
-| [[#cryptography]] | [[#iop]] | [[#pairing]] | [[#standard]] | [[#zkp]] |
-| [[#discrete-log]] | [[#learning]] | [[#post-quantum]] | [[#stark]] | [[#zkvm]] |
-| [[#eid]] | [[#library]] |  |  |  |
+| [applications](#applications) | [eid](#eid) | [learning](#learning) | [pairing](#pairing) | [stark](#stark) |
+| [arithmetization](#arithmetization) | [elliptic-curves](#elliptic-curves) | [library](#library) | [post-quantum](#post-quantum) | [theory](#theory) |
+| [attestation](#attestation) | [explainer](#explainer) | [linear-time-prover](#linear-time-prover) | [prover-backend](#prover-backend) | [transformation](#transformation) |
+| [book](#book) | [foundational](#foundational) | [llvm](#llvm) | [range-proof](#range-proof) | [transparent](#transparent) |
+| [circuit](#circuit) | [go](#go) | [logarithmic](#logarithmic) | [reed-solomon](#reed-solomon) | [trusted-setup](#trusted-setup) |
+| [circuit-dsl](#circuit-dsl) | [history](#history) | [lookup](#lookup) | [reference](#reference) | [tutorials](#tutorials) |
+| [commit-and-prove](#commit-and-prove) | [implementations](#implementations) | [mathematics](#mathematics) | [scalable](#scalable) | [universal-setup](#universal-setup) |
+| [commitment](#commitment) | [information-theoretic](#information-theoretic) | [mpc](#mpc) | [sigma](#sigma) | [wasm](#wasm) |
+| [composition](#composition) | [interactive-proof](#interactive-proof) | [non-interactive](#non-interactive) | [snark](#snark) | [zkp](#zkp) |
+| [cryptography](#cryptography) | [iop](#iop) | [overview](#overview) | [standard](#standard) | [zkvm](#zkvm) |
+| [discrete-log](#discrete-log) |  |  |  |  |
 
 ## By Type
 
@@ -47,6 +48,7 @@ _This file is auto-generated. Run `devbox run gen-summaries` to update._
 
 | Resource | Year | Authors | Tags |
 |---|---|---|---|
+| [[WPSP26-DV-Dynamic-zkSNARKs|Designated-Verifier Dynamic zk-SNARKs with Applications to Dynamic Proofs of Index (Wang et al. 2026)]] | 2026 | Weijie Wang et al. | snark, non-interactive, applications |
 | [[CBBZ23-HyperPlonk|HyperPlonk: Plonk with Linear-Time Prover and High-Degree Custom Gates (Chen et al. 2023)]] | 2023 | Binyi Chen et al. | snark, arithmetization, lookup, linear-time-prover |
 | [[AHIV22-Ligero-Ext|Ligero: Lightweight Sublinear Arguments Without a Trusted Setup]] | 2022 | Scott Ames et al. | linear-time-prover, transparent, iop |
 | [[SAS22-ZKAttest|ZKAttest: Ring and Group Signatures for Existing ECDSA Keys]] | 2022 | Gregor Seiler, Kasra Abbaszadeh, Azam Soleimanian | attestation, zkp, elliptic-curves, applications |
@@ -55,6 +57,7 @@ _This file is auto-generated. Run `devbox run gen-summaries` to update._
 | [[BFH+20-Ligero-Plus|Ligero++: A New Optimized Sublinear IOP (Bhadauria et al. 2020)]] | 2020 | Rishabh Bhadauria et al. | linear-time-prover, transparent, iop |
 | [[GW20-Plookup|Plookup: A Simplified Polynomial Protocol for Lookup Tables (Gabizon-Williamson 2020)]] | 2020 | Ariel Gabizon, Zachary J. Williamson | lookup, arithmetization, snark |
 | [[BCRSVW19-Aurora|Aurora: Transparent Succinct Arguments for R1CS (Ben-Sasson et al. 2019)]] | 2019 | Eli Ben-Sasson et al. | snark, transparent, iop, post-quantum |
+| [[CFQW19-LegoSNARK|LegoSNARK: Modular Design and Composition of Efficient Zero-Knowledge Proofs (Campanelli et al. 2019)]] | 2019 | Matteo Campanelli et al. | snark, commit-and-prove, composition, pairing |
 | [[GWC19-PLONK|PLONK: Permutations over Lagrange-bases for Oecumenical Noninteractive arguments of Knowledge]] | 2019 | Ariel Gabizon, Zachary J. Williamson, Oana Ciobotaru | snark, universal-setup, arithmetization |
 | [[MBKM19-Sonic|Sonic: Zero-Knowledge SNARKs from Linear-Size Universal and Updateable Structured Reference Strings (Maller et al. 2019)]] | 2019 | Mary Maller et al. | snark, universal-setup, trusted-setup |
 | [[Set19-Spartan|Spartan: Efficient and General-Purpose zkSNARKs Without Trusted Setup (Setty 2020)]] | 2019 | Srinath Setty | snark, transparent, iop |
@@ -71,10 +74,12 @@ _This file is auto-generated. Run `devbox run gen-summaries` to update._
 | [[Dam04-Sigma-Protocols|On Sigma Protocols (Damgård)]] | 2004 | Ivan Damgård | sigma, interactive-proof, foundational, theory |
 | [[CM99-Safe-Primes|Proving in Zero-Knowledge that a Number is the Product of Two Safe Primes (Camenisch-Michels 1999)]] | 1999 | Jan Camenisch, Markus Michels | sigma, cryptography, discrete-log, range-proof |
 | [[CS97-DL-Proofs|Proof Systems for General Statements about Discrete Logarithms (Camenisch-Stadler 1997)]] | 1997 | Jan Camenisch, Markus Stadler | sigma, discrete-log, foundational, cryptography |
+| [[LFKN92-Sumcheck|Algebraic Methods for Interactive Proof Systems]] | 1992 | Carsten Lund et al. | zkp, interactive-proof, mathematics, foundational |
 | [[Ped91-Commitments|Non-Interactive and Information-Theoretic Secure Verifiable Secret Sharing (Pedersen 1991)]] | 1991 | Torben Pryds Pedersen | commitment, cryptography, foundational, discrete-log |
 | [[BFM88-NIZK-Intro|Non-Interactive Zero-Knowledge and Its Applications (BFM88)]] | 1988 | Manuel Blum, Paul Feldman, Silvio Micali | non-interactive, foundational, zkp, theory |
 | [[FS86-Fiat-Shamir|How to Prove Yourself: Practical Solutions to Identification and Signature Problems (Fiat-Shamir)]] | 1986 | Amos Fiat, Adi Shamir | non-interactive, sigma, transformation, foundational |
 | [[GMR85-ZK-Complexity|The Knowledge Complexity of Interactive Proof Systems (GMR85)]] | 1985 | Shafi Goldwasser, Silvio Micali, Charles Rackoff | interactive-proof, foundational, zkp, theory |
+| [[Sch80-Schwartz-Zippel|Fast Probabilistic Algorithms for Verification of Polynomial Identities]] | 1980 | Jacob T. Schwartz | mathematics, foundational, information-theoretic |
 
 ### Blogs & Explainers
 
@@ -136,6 +141,7 @@ _This file is auto-generated. Run `devbox run gen-summaries` to update._
 
 ### applications
 
+- [[WPSP26-DV-Dynamic-zkSNARKs|Designated-Verifier Dynamic zk-SNARKs with Applications to Dynamic Proofs of Index (Wang et al. 2026)]] (paper, 2026)
 - [[microsoft-crescent-credentials|Microsoft Crescent Credentials (Spartan-t256 Fork)]] (code, 2023)
 - [[SAS22-ZKAttest|ZKAttest: Ring and Group Signatures for Existing ECDSA Keys]] (paper, 2022)
 
@@ -175,12 +181,20 @@ _This file is auto-generated. Run `devbox run gen-summaries` to update._
 - [[Halo2-Docs|Halo2 Documentation (Zcash)]] (doc, 2021)
 - [[ZoKrates-Docs|ZoKrates Documentation]] (doc, 2018)
 
+### commit-and-prove
+
+- [[CFQW19-LegoSNARK|LegoSNARK: Modular Design and Composition of Efficient Zero-Knowledge Proofs (Campanelli et al. 2019)]] (paper, 2019)
+
 ### commitment
 
 - [[docknetwork-crypto-library|DockNetwork Crypto Library Analysis]] (doc, 2026)
 - [[BBB+17-Bulletproofs|Bulletproofs: Short Proofs for Confidential Transactions and More (Bünz et al. 2018)]] (paper, 2017)
 - [[WTSTW17-Hyrax|Doubly-Efficient zkSNARKs Without Trusted Setup (Hyrax)]] (paper, 2017)
 - [[Ped91-Commitments|Non-Interactive and Information-Theoretic Secure Verifiable Secret Sharing (Pedersen 1991)]] (paper, 1991)
+
+### composition
+
+- [[CFQW19-LegoSNARK|LegoSNARK: Modular Design and Composition of Efficient Zero-Knowledge Proofs (Campanelli et al. 2019)]] (paper, 2019)
 
 ### cryptography
 
@@ -226,10 +240,12 @@ _This file is auto-generated. Run `devbox run gen-summaries` to update._
 - [[GGPR12-QSP-SNARK|Quadratic Span Programs and Succinct NIZKs without PCPs (GGPR 2013)]] (paper, 2012)
 - [[Dam04-Sigma-Protocols|On Sigma Protocols (Damgård)]] (paper, 2004)
 - [[CS97-DL-Proofs|Proof Systems for General Statements about Discrete Logarithms (Camenisch-Stadler 1997)]] (paper, 1997)
+- [[LFKN92-Sumcheck|Algebraic Methods for Interactive Proof Systems]] (paper, 1992)
 - [[Ped91-Commitments|Non-Interactive and Information-Theoretic Secure Verifiable Secret Sharing (Pedersen 1991)]] (paper, 1991)
 - [[BFM88-NIZK-Intro|Non-Interactive Zero-Knowledge and Its Applications (BFM88)]] (paper, 1988)
 - [[FS86-Fiat-Shamir|How to Prove Yourself: Practical Solutions to Identification and Signature Problems (Fiat-Shamir)]] (paper, 1986)
 - [[GMR85-ZK-Complexity|The Knowledge Complexity of Interactive Proof Systems (GMR85)]] (paper, 1985)
+- [[Sch80-Schwartz-Zippel|Fast Probabilistic Algorithms for Verification of Polynomial Identities]] (paper, 1980)
 
 ### go
 
@@ -260,9 +276,14 @@ _This file is auto-generated. Run `devbox run gen-summaries` to update._
 - [[Sonic-Code|Sonic Reference Implementation (ebfull/sonic)]] (code, 2019)
 - [[ZoKrates-Docs|ZoKrates Documentation]] (doc, 2018)
 
+### information-theoretic
+
+- [[Sch80-Schwartz-Zippel|Fast Probabilistic Algorithms for Verification of Polynomial Identities]] (paper, 1980)
+
 ### interactive-proof
 
 - [[Dam04-Sigma-Protocols|On Sigma Protocols (Damgård)]] (paper, 2004)
+- [[LFKN92-Sumcheck|Algebraic Methods for Interactive Proof Systems]] (paper, 1992)
 - [[GMR85-ZK-Complexity|The Knowledge Complexity of Interactive Proof Systems (GMR85)]] (paper, 1985)
 
 ### iop
@@ -315,12 +336,18 @@ _This file is auto-generated. Run `devbox run gen-summaries` to update._
 - [[CBBZ23-HyperPlonk|HyperPlonk: Plonk with Linear-Time Prover and High-Degree Custom Gates (Chen et al. 2023)]] (paper, 2023)
 - [[GW20-Plookup|Plookup: A Simplified Polynomial Protocol for Lookup Tables (Gabizon-Williamson 2020)]] (paper, 2020)
 
+### mathematics
+
+- [[LFKN92-Sumcheck|Algebraic Methods for Interactive Proof Systems]] (paper, 1992)
+- [[Sch80-Schwartz-Zippel|Fast Probabilistic Algorithms for Verification of Polynomial Identities]] (paper, 1980)
+
 ### mpc
 
 - [[DI06-Scalable-MPC|Scalable Secure Multiparty Computation (Damgård-Ishai 2006)]] (paper, 2006)
 
 ### non-interactive
 
+- [[WPSP26-DV-Dynamic-zkSNARKs|Designated-Verifier Dynamic zk-SNARKs with Applications to Dynamic Proofs of Index (Wang et al. 2026)]] (paper, 2026)
 - [[ZKP21-Sigma-Standard|ZKProof Sigma Protocol Proposal (Workshop 4)]] (paper, 2021)
 - [[BFM88-NIZK-Intro|Non-Interactive Zero-Knowledge and Its Applications (BFM88)]] (paper, 1988)
 - [[FS86-Fiat-Shamir|How to Prove Yourself: Practical Solutions to Identification and Signature Problems (Fiat-Shamir)]] (paper, 1986)
@@ -335,6 +362,7 @@ _This file is auto-generated. Run `devbox run gen-summaries` to update._
 
 - [[groth16|Groth16 (Alin Tomescu)]] (blog, 2024)
 - [[Cryptographic-Principles-Tomescu|Cryptographic Principles (Alin Tomescu)]] (blog, 2021)
+- [[CFQW19-LegoSNARK|LegoSNARK: Modular Design and Composition of Efficient Zero-Knowledge Proofs (Campanelli et al. 2019)]] (paper, 2019)
 - [[Gro16-Groth16|On the Size of Pairing-Based Non-interactive Arguments (Groth16)]] (paper, 2016)
 
 ### post-quantum
@@ -382,6 +410,7 @@ _This file is auto-generated. Run `devbox run gen-summaries` to update._
 
 ### snark
 
+- [[WPSP26-DV-Dynamic-zkSNARKs|Designated-Verifier Dynamic zk-SNARKs with Applications to Dynamic Proofs of Index (Wang et al. 2026)]] (paper, 2026)
 - [[groth16|Groth16 (Alin Tomescu)]] (blog, 2024)
 - [[CBBZ23-HyperPlonk|HyperPlonk: Plonk with Linear-Time Prover and High-Degree Custom Gates (Chen et al. 2023)]] (paper, 2023)
 - [[microsoft-Spartan2|Microsoft Spartan2]] (code, 2022)
@@ -389,6 +418,7 @@ _This file is auto-generated. Run `devbox run gen-summaries` to update._
 - [[gnark-Docs|gnark Documentation (Consensys)]] (doc, 2021)
 - [[GW20-Plookup|Plookup: A Simplified Polynomial Protocol for Lookup Tables (Gabizon-Williamson 2020)]] (paper, 2020)
 - [[BCRSVW19-Aurora|Aurora: Transparent Succinct Arguments for R1CS (Ben-Sasson et al. 2019)]] (paper, 2019)
+- [[CFQW19-LegoSNARK|LegoSNARK: Modular Design and Composition of Efficient Zero-Knowledge Proofs (Campanelli et al. 2019)]] (paper, 2019)
 - [[GWC19-PLONK|PLONK: Permutations over Lagrange-bases for Oecumenical Noninteractive arguments of Knowledge]] (paper, 2019)
 - [[Sonic-Code|Sonic Reference Implementation (ebfull/sonic)]] (code, 2019)
 - [[MBKM19-Sonic|Sonic: Zero-Knowledge SNARKs from Linear-Size Universal and Updateable Structured Reference Strings (Maller et al. 2019)]] (paper, 2019)
@@ -477,6 +507,7 @@ _This file is auto-generated. Run `devbox run gen-summaries` to update._
 - [[Plonk-Family-Note|Note: PLONK / TurboPLONK / UltraPLONK Family]] (blog, 2021)
 - [[ZKProof-Wiki|ZKProof Wiki of Concrete ZKP Schemes]] (wiki, 2020)
 - [[Evolution-of-ZKPs|The Evolution of Zero Knowledge Proofs]] (blog, 2018)
+- [[LFKN92-Sumcheck|Algebraic Methods for Interactive Proof Systems]] (paper, 1992)
 - [[BFM88-NIZK-Intro|Non-Interactive Zero-Knowledge and Its Applications (BFM88)]] (paper, 1988)
 - [[GMR85-ZK-Complexity|The Knowledge Complexity of Interactive Proof Systems (GMR85)]] (paper, 1985)
 

@@ -4,9 +4,9 @@ A knowledge vault covering Zero-Knowledge Proof papers, frameworks, cryptographi
 
 The vault is organized in three ways:
 
-- [[#The ZK Stack]] — from foundational theory down to working tools
-- [[#Framework Decision Guide]] — evaluation criteria and framework comparison for e-ID credential proofs
-- [[#Encyclopedic Index]] — every entry, organized by category
+- [The ZK Stack](#the-zk-stack) — from foundational theory down to working tools
+- [Framework Decision Guide](#framework-decision-guide) — evaluation criteria and framework comparison for e-ID credential proofs
+- [Encyclopedic Index](#encyclopedic-index) — every entry, organized by category
 
 ---
 

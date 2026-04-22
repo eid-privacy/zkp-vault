@@ -17,3 +17,4 @@ Entries focused on theoretical aspects of ZKPs — formal definitions, complexit
 - [[DI06-Scalable-MPC|Scalable Secure Multiparty Computation (Damgård-Ishai 2006)]]
 - [[GMR85-ZK-Complexity|The Knowledge Complexity of Interactive Proof Systems (GMR85)]]
 - [[ZK-Families-Overview|ZK Proof System Families Overview]]
+- [[ZK-Proof-Taxonomy|ZK Proof Taxonomy: Abstraction Levels]]

@@ -12,6 +12,8 @@ Notes emphasising mathematical constructs: group theory, polynomial algebra, fin
 ## Entries tagged
 
 - [[AIR|AIR — Algebraic Intermediate Representation]]
+- [[LFKN92-Sumcheck|Algebraic Methods for Interactive Proof Systems]]
+- [[Sch80-Schwartz-Zippel|Fast Probabilistic Algorithms for Verification of Polynomial Identities]]
 - [[FRI|FRI]]
 - [[Interactive-Proof-Model|Interactive Proof Model (IP)]]
 - [[Sigma-Protocols-Damgard|On Σ-protocols]]
@@ -22,4 +24,5 @@ Notes emphasising mathematical constructs: group theory, polynomial algebra, fin
 - [[Camenisch-Michels-Safe-Primes|Proving in ZK that a Number Is the Product of Two Safe Primes]]
 - [[R1CS|R1CS — Rank-1 Constraint System]]
 - [[Schwartz-Zippel|Schwartz-Zippel Lemma]]
+- [[SumcheckProofs|Sumcheck Protocol]]
 - [[ZKAttest|ZKAttest]]

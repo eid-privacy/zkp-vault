@@ -81,6 +81,8 @@ cp templates/tags.md Tags/my-new-tag.md
 
 Edit it to add a description.
 
+**Tag rules**: tags must be techniques (e.g. `commit`, `lookup`, `sigma`, `reed-solomon`) or high-level categories (e.g. `snark`, `stark`, `zkvm`, `circuit-dsl`). Do **not** create protocol-specific tags (e.g. `groth16`, `ligero`, `plonk`) — those belong to the content page itself, not as tags.
+
 ### 4. Link external resources
 
 In the `## Resources` section, **do not paste raw URLs**. Instead:
@@ -135,14 +137,13 @@ type: resource
 subtype: paper
 year:
 authors: []
+url: https://eprint.iacr.org/2019/953.pdf
 tags: []
 ---
 
 # IACR 2019 953
 
-URL:: https://eprint.iacr.org/2019/953.pdf
-
-## Description
+## Summary
 ```
 
 Fill in:
@@ -150,7 +151,9 @@ Fill in:
 - `authors` — list of author names
 - `tags` — topic tags (must exist in `Tags/`)
 - The `# Title` line — replace the auto-generated title with the real paper title
-- `## Description` — a short summary
+- `## Summary` — a short summary paragraph
+
+All metadata lives in YAML frontmatter. Do **not** use Dataview inline fields (`URL::`, `Paper::`, etc.) — they are no longer used.
 
 Tags on resource stubs populate the **By Topic** view in `Resources/README.md`.
 
@@ -158,23 +161,23 @@ Tags on resource stubs populate the **By Topic** view in `Resources/README.md`.
 
 ## Updating generated files
 
-### Resources/README.md
+### Resources/README.md and Tags/README.md
 
-Regenerate after adding or editing resource stubs:
+Regenerate after adding or editing resource stubs or tag files:
 
 ```sh
-devbox run gen-resources-readme
+devbox run summaries
 ```
 
-This rewrites `Resources/README.md` with two views: **By Type** (one table per subtype) and **By Topic** (entries grouped by tag).
+This rewrites `Resources/README.md` (By Type and By Topic views) and `Tags/README.md`.
 
 ### Migrate inline URLs → resource stubs
 
 If you've added raw URLs to `## Resources` sections:
 
 ```sh
-devbox run collect-resources           # create stubs + rewrite source files
-devbox run gen-resources-readme        # update the README
+devbox run collect-resources  # create stubs + rewrite source files
+devbox run summaries          # update Resources/README.md and Tags/README.md
 ```
 
 `collect-resources` is idempotent — safe to re-run.
@@ -256,7 +259,7 @@ devbox run verify
 ### Check for a resource before linking
 
 ```sh
-grep -r "URL:: https://eprint.iacr.org/2019/953" Resources/
+grep -r "url: https://eprint.iacr.org/2019/953" Resources/
 ```
 
 If it already exists, use its filename as the wikilink target.

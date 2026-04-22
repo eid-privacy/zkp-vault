@@ -3,3 +3,4 @@ _site/
 .venv/
 PAST_STEPS.md
 __pycache__
+TODO.md

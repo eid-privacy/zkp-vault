@@ -13,6 +13,7 @@
  *   bun run utils/summaries.ts tags                # Tags/README.md + all tag entry lists
  *   bun run utils/summaries.ts tag-files           # Tag entry lists only
  *   bun run utils/summaries.ts related             # ## Related resources sections only
+ *   bun run utils/summaries.ts sections            # ## Contents tables in section READMEs (respects .pages)
  *
  * Cross-linking resources:
  *   Add `related: [<filename>, ...]` to a resource's frontmatter (filename without .md).
@@ -569,6 +570,111 @@ function generateRelatedSections(): void {
 }
 
 // ---------------------------------------------------------------------------
+// Section READMEs (content dirs → ## Contents table, ordered by .pages)
+// ---------------------------------------------------------------------------
+
+/**
+ * Parse the `nav:` list from a `.pages` file.
+ * Returns an array of entry strings (e.g. "README.md", "ZK-Families-Overview.md"),
+ * or null if no `.pages` file exists or it has no nav entries.
+ */
+function parsePagesFile(dir: string): string[] | null {
+  const pagesPath = path.join(dir, '.pages');
+  if (!fs.existsSync(pagesPath)) return null;
+  const content = fs.readFileSync(pagesPath, 'utf-8');
+  const items: string[] = [];
+  let inNav = false;
+  for (const line of content.split('\n')) {
+    if (/^nav:\s*$/.test(line)) { inNav = true; continue; }
+    if (inNav) {
+      const m = line.match(/^\s+-\s+(.+)$/);
+      if (m) items.push(m[1].trim());
+      else if (line.trim() !== '') inNav = false;
+    }
+  }
+  return items.length > 0 ? items : null;
+}
+
+const SECTION_DIRS = [
+  'TheoreticalModels',
+  'CryptographicPrimitives',
+  'ProofSystems',
+  'IntermediateRepresentations',
+  'ToolingApplication',
+  'Applications',
+];
+
+/**
+ * For each section directory that has both a README.md and a .pages file,
+ * reorder the rows in the `## Contents` table to match the .pages nav order.
+ * Existing row text (titles and descriptions) is preserved; only order changes.
+ * Rows for files absent from .pages are appended at the end.
+ */
+function generateSectionReadmes(): void {
+  let updated = 0;
+  for (const sectionName of SECTION_DIRS) {
+    const dir = path.join(VAULT_ROOT, sectionName);
+    if (!fs.existsSync(dir)) continue;
+    const readmePath = path.join(dir, 'README.md');
+    if (!fs.existsSync(readmePath)) continue;
+
+    const pagesOrder = parsePagesFile(dir);
+    if (!pagesOrder) continue; // No .pages file — skip
+
+    // Ordered filenames from .pages, excluding README.md, without extension
+    const orderedFilenames = pagesOrder
+      .filter(f => f !== 'README.md' && f.endsWith('.md'))
+      .map(f => f.replace(/\.md$/, ''));
+
+    const readmeContent = fs.readFileSync(readmePath, 'utf-8');
+    const HEADING = '\n## Contents\n';
+    const headingIdx = readmeContent.indexOf(HEADING);
+    if (headingIdx === -1) continue; // No ## Contents section to reorder
+
+    const bodyStart = headingIdx + HEADING.length;
+    const nextHeadingIdx = readmeContent.indexOf('\n## ', bodyStart);
+    const bodyEnd = nextHeadingIdx === -1 ? readmeContent.length : nextHeadingIdx;
+
+    const bodyLines = readmeContent.slice(bodyStart, bodyEnd).split('\n').filter(l => l !== '');
+
+    // Find the table separator row (e.g. |------|-------------|)
+    const isSeparator = (l: string) => l.startsWith('|') && l.split('|').every(cell => /^[\s-]*$/.test(cell));
+    const sepIdx = bodyLines.findIndex(isSeparator);
+    if (sepIdx === -1) continue; // Unexpected table format — skip
+
+    const tableHeaderLines = bodyLines.slice(0, sepIdx + 1); // column headers + separator
+    const dataRows = bodyLines.slice(sepIdx + 1);
+
+    // Map filename (without .md) → existing row text
+    const rowByFilename = new Map<string, string>();
+    for (const row of dataRows) {
+      const m = row.match(/\]\(\.\/([^)]+?)\.md\)/);
+      if (m) rowByFilename.set(m[1], row);
+    }
+
+    // Build reordered list: .pages order first, then any extra rows
+    const reordered: string[] = [];
+    for (const filename of orderedFilenames) {
+      if (rowByFilename.has(filename)) {
+        reordered.push(rowByFilename.get(filename)!);
+        rowByFilename.delete(filename);
+      }
+    }
+    for (const row of rowByFilename.values()) reordered.push(row); // extras not in .pages
+
+    const newBody = '\n' + [...tableHeaderLines, ...reordered].join('\n') + '\n';
+    const newContent = readmeContent.slice(0, bodyStart) + newBody + readmeContent.slice(bodyEnd);
+
+    if (newContent !== readmeContent) {
+      fs.writeFileSync(readmePath, newContent, 'utf-8');
+      updated++;
+      if (!QUIET) console.log(`  ${sectionName}/README.md: ${reordered.length} entries reordered`);
+    }
+  }
+  if (!QUIET) console.log(`Sections: updated ${updated} section README files.`);
+}
+
+// ---------------------------------------------------------------------------
 // Main
 // ---------------------------------------------------------------------------
 
@@ -579,3 +685,4 @@ if (arg === 'resource-subtypes' || arg === 'all') generateResourceSubtypeReadmes
 if (arg === 'tags' || arg === 'all') generateTagsReadme();
 if (arg === 'tag-files' || arg === 'tags' || arg === 'all') generateTagFiles();
 if (arg === 'related' || arg === 'all') generateRelatedSections();
+if (arg === 'sections' || arg === 'all') generateSectionReadmes();

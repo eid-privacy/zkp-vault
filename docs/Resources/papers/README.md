@@ -10,27 +10,31 @@ tags: []
 
 # ZKP Papers
 
-32 entries.
+36 entries.
 
 _This file is auto-generated. Run `devbox run summaries` to update._
 
 ## Navigation
 
-| w-b | g | b-g | p-c | l-s |
+| w-z | c-m | s-a | g-c | c-s |
 | --- | --- | --- | --- | --- |
-| [[WPSP26-DV-Dynamic-zkSNARKs]] | [[GW20-Plookup]] | [[BBHR18-FRI]] | [[PHGR13-Pinocchio]] | [[LFKN92-Sumcheck]] |
-| [[CBBZ23-HyperPlonk]] | [[BCRSVW19-Aurora]] | [[GKMM18-Updatable-SRS]] | [[GGPR12-QSP-SNARK]] | [[Ped91-Commitments]] |
-| [[AHIV22-Ligero-Ext]] | [[CFQW19-LegoSNARK]] | [[BBB+17-Bulletproofs]] | [[DI06-Scalable-MPC]] | [[BFM88-NIZK-Intro]] |
-| [[SAS22-ZKAttest]] | [[GWC19-PLONK]] | [[WTSTW17-Hyrax]] | [[Dam04-Sigma-Protocols]] | [[FS86-Fiat-Shamir]] |
-| [[ZKP21-Sigma-Standard]] | [[MBKM19-Sonic]] | [[AHIV17-Ligero]] | [[CM99-Safe-Primes]] | [[GMR85-ZK-Complexity]] |
-| [[CHJ+20-Bulletproofs-Opt]] | [[Set19-Spartan]] | [[Gro16-Groth16]] | [[CS97-DL-Proofs]] | [[Sch80-Schwartz-Zippel]] |
-| [[BFH+20-Ligero-Plus]] | [[GW19b-TurboPlonk]] |  |  |  |
+| [[WPSP26-DV-Dynamic-zkSNARKs]] | [[CHJ+20-Bulletproofs-Opt]] | [[Set19-Spartan]] | [[Gro16-Groth16]] | [[CS97-DL-Proofs]] |
+| [[LSZ25-Vision]] | [[BFH+20-Ligero-Plus]] | [[GW19b-TurboPlonk]] | [[PHGR13-Pinocchio]] | [[LFKN92-Sumcheck]] |
+| [[FS24-Longfellow]] | [[GW20-Plookup]] | [[BBHR18-FRI]] | [[GGPR12-QSP-SNARK]] | [[Ped91-Commitments]] |
+| [[PPZ24-Crescent]] | [[BCRSVW19-Aurora]] | [[GKMM18-Updatable-SRS]] | [[DI06-Scalable-MPC]] | [[BFM88-NIZK-Intro]] |
+| [[CBBZ23-HyperPlonk]] | [[CFQW19-LegoSNARK]] | [[BBB+17-Bulletproofs]] | [[Dam04-Sigma-Protocols]] | [[FS86-Fiat-Shamir]] |
+| [[AHIV22-Ligero-Ext]] | [[GWC19-PLONK]] | [[WTSTW17-Hyrax]] | [[BBS04-ShortGroupSigs]] | [[GMR85-ZK-Complexity]] |
+| [[SAS22-ZKAttest]] | [[MBKM19-Sonic]] | [[AHIV17-Ligero]] | [[CM99-Safe-Primes]] | [[Sch80-Schwartz-Zippel]] |
+| [[ZKP21-Sigma-Standard]] |  |  |  |  |
 
 ## All Papers
 
 | Resource | Year | Authors | Tags |
 |---|---|---|---|
 | [[WPSP26-DV-Dynamic-zkSNARKs|Designated-Verifier Dynamic zk-SNARKs with Applications to Dynamic Proofs of Index (Wang et al. 2026)]] | 2026 | Weijie Wang et al. | snark, non-interactive, applications |
+| [[LSZ25-Vision|Vision: A Modular Framework for Anonymous Credential Systems (Lehmann, Sidorenko, Zacharakis 2025)]] | 2025 | Anja Lehmann, Andrey Sidorenko, Alexandros Zacharakis | snark, eid, applications, commit-and-prove, composition |
+| [[FS24-Longfellow|Anonymous Credentials from ECDSA (Frigo & shelat 2024)]] | 2024 | Matteo Frigo, abhi shelat | snark, transparent, eid, elliptic-curves, applications |
+| [[PPZ24-Crescent|Crescent: Stronger Privacy for Existing Credentials (Paquin, Policharla, Zaverucha 2024)]] | 2024 | Christian Paquin, Guru-Vamsi Policharla, Greg Zaverucha | snark, eid, elliptic-curves, applications |
 | [[CBBZ23-HyperPlonk|HyperPlonk: Plonk with Linear-Time Prover and High-Degree Custom Gates (Chen et al. 2023)]] | 2023 | Binyi Chen et al. | snark, arithmetization, lookup, linear-time-prover |
 | [[AHIV22-Ligero-Ext|Ligero: Lightweight Sublinear Arguments Without a Trusted Setup]] | 2022 | Scott Ames et al. | linear-time-prover, transparent, iop |
 | [[SAS22-ZKAttest|ZKAttest: Ring and Group Signatures for Existing ECDSA Keys]] | 2022 | Gregor Seiler, Kasra Abbaszadeh, Azam Soleimanian | attestation, zkp, elliptic-curves, applications |
@@ -54,6 +58,7 @@ _This file is auto-generated. Run `devbox run summaries` to update._
 | [[GGPR12-QSP-SNARK|Quadratic Span Programs and Succinct NIZKs without PCPs (GGPR 2013)]] | 2012 | Rosario Gennaro et al. | snark, foundational, trusted-setup |
 | [[DI06-Scalable-MPC|Scalable Secure Multiparty Computation (Damgård-Ishai 2006)]] | 2006 | Ivan Damgård, Yuval Ishai | mpc, scalable, theory, linear-time-prover |
 | [[Dam04-Sigma-Protocols|On Sigma Protocols (Damgård)]] | 2004 | Ivan Damgård | sigma, interactive-proof, foundational, theory |
+| [[BBS04-ShortGroupSigs|Short Group Signatures (Boneh, Boyen, Shacham 2004)]] | 2004 | Dan Boneh, Xavier Boyen, Hovav Shacham | sigma, commitment, pairing, cryptography, foundational |
 | [[CM99-Safe-Primes|Proving in Zero-Knowledge that a Number is the Product of Two Safe Primes (Camenisch-Michels 1999)]] | 1999 | Jan Camenisch, Markus Michels | sigma, cryptography, discrete-log, range-proof |
 | [[CS97-DL-Proofs|Proof Systems for General Statements about Discrete Logarithms (Camenisch-Stadler 1997)]] | 1997 | Jan Camenisch, Markus Stadler | sigma, discrete-log, foundational, cryptography |
 | [[LFKN92-Sumcheck|Algebraic Methods for Interactive Proof Systems]] | 1992 | Carsten Lund et al. | zkp, interactive-proof, mathematics, foundational |

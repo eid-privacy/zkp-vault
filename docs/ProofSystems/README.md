@@ -57,3 +57,12 @@ Cryptographic proof systems from foundational theory through modern production S
 | Note | Description |
 |------|-------------|
 | [DV-Dynamic-zkSNARKs](./DV-Dynamic-zkSNARKs.md) | Designated-verifier dynamic zk-SNARKs with sublinear proof updates; applied to dynamic proofs of index (Wang et al. 2026) |
+
+## ECDSA-Credential Systems
+
+Proof systems designed to generate ZK proofs for ECDSA-signed credentials (JWTs, SD-JWT, ISO mDOC) without changes to existing issuer infrastructure.
+
+| Note | Description |
+|------|-------------|
+| [Crescent](./Crescent.md) | Microsoft (2024): Groth16 + Spartan over T-256; one-time pre-computation + fast online presentation; trusted setup |
+| [Longfellow](./Longfellow.md) | Google (2024): Sumcheck + Ligero; no trusted setup; transparent and post-quantum safe; 1.2 s on mobile |

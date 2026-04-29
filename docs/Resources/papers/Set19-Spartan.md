@@ -29,6 +29,8 @@ Presents Spartan, a transparent zkSNARK for R1CS that achieves the fastest known
 ## Related resources
 
 - [[LFKN92-Sumcheck|Algebraic Methods for Interactive Proof Systems]] (paper, 1992)
+- [[FS24-Longfellow|Anonymous Credentials from ECDSA (Frigo & shelat 2024)]] (paper, 2024)
 - [[BCRSVW19-Aurora|Aurora: Transparent Succinct Arguments for R1CS (Ben-Sasson et al. 2019)]] (paper, 2019)
+- [[PPZ24-Crescent|Crescent: Stronger Privacy for Existing Credentials (Paquin, Policharla, Zaverucha 2024)]] (paper, 2024)
 - [[Spartan-Code|Microsoft Spartan (Original)]] (code, 2020)
 - [[microsoft-Spartan2|Microsoft Spartan2]] (code, 2022)

@@ -11,6 +11,7 @@ Tags entries for reusable ZKP libraries and SDKs — as opposed to full toolchai
 
 ## Entries tagged
 
+- [[eid-privacy-docknetwork-crypto-library|Choosing a Cryptographic Library for Anonymous Credentials (eid-privacy, 2026)]]
 - [[Docknetwork|Docknetwork]]
 - [[docknetwork-crypto-library|DockNetwork Crypto Library Analysis]]
 - [[gnark|gnark]]

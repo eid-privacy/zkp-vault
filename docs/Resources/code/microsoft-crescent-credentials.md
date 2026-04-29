@@ -22,5 +22,6 @@ Microsoft's Crescent credential system fork of Spartan adapted to use the t256 e
 
 ## Related resources
 
+- [[PPZ24-Crescent|Crescent: Stronger Privacy for Existing Credentials (Paquin, Policharla, Zaverucha 2024)]] (paper, 2024)
 - [[microsoft-Spartan2|Microsoft Spartan2]] (code, 2022)
 - [[SAS22-ZKAttest|ZKAttest: Ring and Group Signatures for Existing ECDSA Keys]] (paper, 2022)

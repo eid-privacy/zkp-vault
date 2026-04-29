@@ -13,7 +13,7 @@ tags:
 
 # ZKP Resources
 
-Curated external resources for Zero-Knowledge Proofs — 63 entries across papers, blogs, books, wikis, docs, and code repositories.
+Curated external resources for Zero-Knowledge Proofs — 77 entries across papers, blogs, books, wikis, docs, and code repositories.
 
 _This file is auto-generated. Run `devbox run summaries` to update._
 
@@ -49,6 +49,9 @@ _This file is auto-generated. Run `devbox run summaries` to update._
 | Resource | Year | Authors | Tags |
 |---|---|---|---|
 | [[WPSP26-DV-Dynamic-zkSNARKs|Designated-Verifier Dynamic zk-SNARKs with Applications to Dynamic Proofs of Index (Wang et al. 2026)]] | 2026 | Weijie Wang et al. | snark, non-interactive, applications |
+| [[LSZ25-Vision|Vision: A Modular Framework for Anonymous Credential Systems (Lehmann, Sidorenko, Zacharakis 2025)]] | 2025 | Anja Lehmann, Andrey Sidorenko, Alexandros Zacharakis | snark, eid, applications, commit-and-prove, composition |
+| [[FS24-Longfellow|Anonymous Credentials from ECDSA (Frigo & shelat 2024)]] | 2024 | Matteo Frigo, abhi shelat | snark, transparent, eid, elliptic-curves, applications |
+| [[PPZ24-Crescent|Crescent: Stronger Privacy for Existing Credentials (Paquin, Policharla, Zaverucha 2024)]] | 2024 | Christian Paquin, Guru-Vamsi Policharla, Greg Zaverucha | snark, eid, elliptic-curves, applications |
 | [[CBBZ23-HyperPlonk|HyperPlonk: Plonk with Linear-Time Prover and High-Degree Custom Gates (Chen et al. 2023)]] | 2023 | Binyi Chen et al. | snark, arithmetization, lookup, linear-time-prover |
 | [[AHIV22-Ligero-Ext|Ligero: Lightweight Sublinear Arguments Without a Trusted Setup]] | 2022 | Scott Ames et al. | linear-time-prover, transparent, iop |
 | [[SAS22-ZKAttest|ZKAttest: Ring and Group Signatures for Existing ECDSA Keys]] | 2022 | Gregor Seiler, Kasra Abbaszadeh, Azam Soleimanian | attestation, zkp, elliptic-curves, applications |
@@ -72,6 +75,7 @@ _This file is auto-generated. Run `devbox run summaries` to update._
 | [[GGPR12-QSP-SNARK|Quadratic Span Programs and Succinct NIZKs without PCPs (GGPR 2013)]] | 2012 | Rosario Gennaro et al. | snark, foundational, trusted-setup |
 | [[DI06-Scalable-MPC|Scalable Secure Multiparty Computation (Damgård-Ishai 2006)]] | 2006 | Ivan Damgård, Yuval Ishai | mpc, scalable, theory, linear-time-prover |
 | [[Dam04-Sigma-Protocols|On Sigma Protocols (Damgård)]] | 2004 | Ivan Damgård | sigma, interactive-proof, foundational, theory |
+| [[BBS04-ShortGroupSigs|Short Group Signatures (Boneh, Boyen, Shacham 2004)]] | 2004 | Dan Boneh, Xavier Boyen, Hovav Shacham | sigma, commitment, pairing, cryptography, foundational |
 | [[CM99-Safe-Primes|Proving in Zero-Knowledge that a Number is the Product of Two Safe Primes (Camenisch-Michels 1999)]] | 1999 | Jan Camenisch, Markus Michels | sigma, cryptography, discrete-log, range-proof |
 | [[CS97-DL-Proofs|Proof Systems for General Statements about Discrete Logarithms (Camenisch-Stadler 1997)]] | 1997 | Jan Camenisch, Markus Stadler | sigma, discrete-log, foundational, cryptography |
 | [[LFKN92-Sumcheck|Algebraic Methods for Interactive Proof Systems]] | 1992 | Carsten Lund et al. | zkp, interactive-proof, mathematics, foundational |
@@ -85,7 +89,17 @@ _This file is auto-generated. Run `devbox run summaries` to update._
 
 | Resource | Year | Authors | Tags |
 |---|---|---|---|
+| [[eid-privacy-docknetwork-crypto-library|Choosing a Cryptographic Library for Anonymous Credentials (eid-privacy, 2026)]] | 2026 | Linus Gässer | eid, library, applications, explainer |
+| [[eid-privacy-poc-report|Proof-of-Concept for ZKPs (eid-privacy, 2026)]] | 2026 | Linus Gässer | eid, applications, overview |
+| [[eid-privacy-zkp-vault|Reading list for ZKP algorithms and implementations (eid-privacy, 2026)]] | 2026 | Linus Gässer | eid, overview, reference, learning |
 | [[a-deep-dive-into-axioms-halo2-circuits|A Deep Dive into Axiom's Halo2 Circuits]] | 2025 | Trail of Bits | circuit, implementations, explainer |
+| [[eid-privacy-comparing-zk-systems|Comparing ZK Systems (eid-privacy, 2025)]] | 2025 | Linus Gässer | eid, overview, explainer, applications |
+| [[eid-privacy-crescent-longfellow|Crescent and Longfellow (eid-privacy, 2025)]] | 2025 | Linus Gässer | eid, applications, explainer, overview |
+| [[eid-privacy-swiyu-demo|Open Source SWIYU Demo application (eid-privacy, 2025)]] | 2025 | Linus Gässer | eid, applications |
+| [[eid-privacy-privacy-unlinkability|Overview of Privacy and Unlinkability (eid-privacy, 2025)]] | 2025 | Linus Gässer | eid, applications, overview |
+| [[eid-privacy-resources-zkp|Resources on Zero-knowledge Systems and Proofs (eid-privacy, 2025)]] | 2025 | Linus Gässer | eid, learning, overview, reference |
+| [[eid-privacy-taxonomy-101|Taxonomy 101 (eid-privacy, 2025)]] | 2025 | Linus Gässer | eid, overview |
+| [[eid-privacy-taxonomy-digital-identity|Taxonomy of digital identity systems (eid-privacy, 2025)]] | 2025 | Linus Gässer | eid, overview, reference |
 | [[comparative-analysis-of-sp1-and-risc-zero-zero-knowledge|Comparative Analysis of SP1 and RISC Zero Zero-Knowledge Virtual Machines]] | 2024 |  | zkvm, implementations, overview, stark |
 | [[groth16|Groth16 (Alin Tomescu)]] | 2024 | Alin Tomescu | snark, pairing, trusted-setup, explainer |
 | [[noirs-circuit-backend|Noir's Circuit Backend]] | 2023 | JT Riley | circuit-dsl, prover-backend, explainer |
@@ -141,7 +155,16 @@ _This file is auto-generated. Run `devbox run summaries` to update._
 
 ### applications
 
+- [[eid-privacy-docknetwork-crypto-library|Choosing a Cryptographic Library for Anonymous Credentials (eid-privacy, 2026)]] (blog, 2026)
 - [[WPSP26-DV-Dynamic-zkSNARKs|Designated-Verifier Dynamic zk-SNARKs with Applications to Dynamic Proofs of Index (Wang et al. 2026)]] (paper, 2026)
+- [[eid-privacy-poc-report|Proof-of-Concept for ZKPs (eid-privacy, 2026)]] (blog, 2026)
+- [[eid-privacy-comparing-zk-systems|Comparing ZK Systems (eid-privacy, 2025)]] (blog, 2025)
+- [[eid-privacy-crescent-longfellow|Crescent and Longfellow (eid-privacy, 2025)]] (blog, 2025)
+- [[eid-privacy-swiyu-demo|Open Source SWIYU Demo application (eid-privacy, 2025)]] (blog, 2025)
+- [[eid-privacy-privacy-unlinkability|Overview of Privacy and Unlinkability (eid-privacy, 2025)]] (blog, 2025)
+- [[LSZ25-Vision|Vision: A Modular Framework for Anonymous Credential Systems (Lehmann, Sidorenko, Zacharakis 2025)]] (paper, 2025)
+- [[FS24-Longfellow|Anonymous Credentials from ECDSA (Frigo & shelat 2024)]] (paper, 2024)
+- [[PPZ24-Crescent|Crescent: Stronger Privacy for Existing Credentials (Paquin, Policharla, Zaverucha 2024)]] (paper, 2024)
 - [[microsoft-crescent-credentials|Microsoft Crescent Credentials (Spartan-t256 Fork)]] (code, 2023)
 - [[SAS22-ZKAttest|ZKAttest: Ring and Group Signatures for Existing ECDSA Keys]] (paper, 2022)
 
@@ -183,6 +206,7 @@ _This file is auto-generated. Run `devbox run summaries` to update._
 
 ### commit-and-prove
 
+- [[LSZ25-Vision|Vision: A Modular Framework for Anonymous Credential Systems (Lehmann, Sidorenko, Zacharakis 2025)]] (paper, 2025)
 - [[CFQW19-LegoSNARK|LegoSNARK: Modular Design and Composition of Efficient Zero-Knowledge Proofs (Campanelli et al. 2019)]] (paper, 2019)
 
 ### commitment
@@ -190,15 +214,18 @@ _This file is auto-generated. Run `devbox run summaries` to update._
 - [[docknetwork-crypto-library|DockNetwork Crypto Library Analysis]] (doc, 2026)
 - [[BBB+17-Bulletproofs|Bulletproofs: Short Proofs for Confidential Transactions and More (Bünz et al. 2018)]] (paper, 2017)
 - [[WTSTW17-Hyrax|Doubly-Efficient zkSNARKs Without Trusted Setup (Hyrax)]] (paper, 2017)
+- [[BBS04-ShortGroupSigs|Short Group Signatures (Boneh, Boyen, Shacham 2004)]] (paper, 2004)
 - [[Ped91-Commitments|Non-Interactive and Information-Theoretic Secure Verifiable Secret Sharing (Pedersen 1991)]] (paper, 1991)
 
 ### composition
 
+- [[LSZ25-Vision|Vision: A Modular Framework for Anonymous Credential Systems (Lehmann, Sidorenko, Zacharakis 2025)]] (paper, 2025)
 - [[CFQW19-LegoSNARK|LegoSNARK: Modular Design and Composition of Efficient Zero-Knowledge Proofs (Campanelli et al. 2019)]] (paper, 2019)
 
 ### cryptography
 
 - [[Cryptographic-Principles-Tomescu|Cryptographic Principles (Alin Tomescu)]] (blog, 2021)
+- [[BBS04-ShortGroupSigs|Short Group Signatures (Boneh, Boyen, Shacham 2004)]] (paper, 2004)
 - [[CM99-Safe-Primes|Proving in Zero-Knowledge that a Number is the Product of Two Safe Primes (Camenisch-Michels 1999)]] (paper, 1999)
 - [[CS97-DL-Proofs|Proof Systems for General Statements about Discrete Logarithms (Camenisch-Stadler 1997)]] (paper, 1997)
 - [[Ped91-Commitments|Non-Interactive and Information-Theoretic Secure Verifiable Secret Sharing (Pedersen 1991)]] (paper, 1991)
@@ -213,18 +240,36 @@ _This file is auto-generated. Run `devbox run summaries` to update._
 
 ### eid
 
+- [[eid-privacy-docknetwork-crypto-library|Choosing a Cryptographic Library for Anonymous Credentials (eid-privacy, 2026)]] (blog, 2026)
 - [[docknetwork-crypto-library|DockNetwork Crypto Library Analysis]] (doc, 2026)
+- [[eid-privacy-poc-report|Proof-of-Concept for ZKPs (eid-privacy, 2026)]] (blog, 2026)
+- [[eid-privacy-zkp-vault|Reading list for ZKP algorithms and implementations (eid-privacy, 2026)]] (blog, 2026)
+- [[eid-privacy-comparing-zk-systems|Comparing ZK Systems (eid-privacy, 2025)]] (blog, 2025)
+- [[eid-privacy-crescent-longfellow|Crescent and Longfellow (eid-privacy, 2025)]] (blog, 2025)
+- [[eid-privacy-swiyu-demo|Open Source SWIYU Demo application (eid-privacy, 2025)]] (blog, 2025)
+- [[eid-privacy-privacy-unlinkability|Overview of Privacy and Unlinkability (eid-privacy, 2025)]] (blog, 2025)
+- [[eid-privacy-resources-zkp|Resources on Zero-knowledge Systems and Proofs (eid-privacy, 2025)]] (blog, 2025)
+- [[eid-privacy-taxonomy-101|Taxonomy 101 (eid-privacy, 2025)]] (blog, 2025)
+- [[eid-privacy-taxonomy-digital-identity|Taxonomy of digital identity systems (eid-privacy, 2025)]] (blog, 2025)
+- [[LSZ25-Vision|Vision: A Modular Framework for Anonymous Credential Systems (Lehmann, Sidorenko, Zacharakis 2025)]] (paper, 2025)
+- [[FS24-Longfellow|Anonymous Credentials from ECDSA (Frigo & shelat 2024)]] (paper, 2024)
+- [[PPZ24-Crescent|Crescent: Stronger Privacy for Existing Credentials (Paquin, Policharla, Zaverucha 2024)]] (paper, 2024)
 - [[microsoft-crescent-credentials|Microsoft Crescent Credentials (Spartan-t256 Fork)]] (code, 2023)
 
 ### elliptic-curves
 
+- [[FS24-Longfellow|Anonymous Credentials from ECDSA (Frigo & shelat 2024)]] (paper, 2024)
+- [[PPZ24-Crescent|Crescent: Stronger Privacy for Existing Credentials (Paquin, Policharla, Zaverucha 2024)]] (paper, 2024)
 - [[microsoft-crescent-credentials|Microsoft Crescent Credentials (Spartan-t256 Fork)]] (code, 2023)
 - [[SAS22-ZKAttest|ZKAttest: Ring and Group Signatures for Existing ECDSA Keys]] (paper, 2022)
 - [[Cryptographic-Principles-Tomescu|Cryptographic Principles (Alin Tomescu)]] (blog, 2021)
 
 ### explainer
 
+- [[eid-privacy-docknetwork-crypto-library|Choosing a Cryptographic Library for Anonymous Credentials (eid-privacy, 2026)]] (blog, 2026)
 - [[a-deep-dive-into-axioms-halo2-circuits|A Deep Dive into Axiom's Halo2 Circuits]] (blog, 2025)
+- [[eid-privacy-comparing-zk-systems|Comparing ZK Systems (eid-privacy, 2025)]] (blog, 2025)
+- [[eid-privacy-crescent-longfellow|Crescent and Longfellow (eid-privacy, 2025)]] (blog, 2025)
 - [[groth16|Groth16 (Alin Tomescu)]] (blog, 2024)
 - [[noirs-circuit-backend|Noir's Circuit Backend]] (blog, 2023)
 - [[plonkish-arithmetization|PLONKish Arithmetization]] (blog, 2022)
@@ -239,6 +284,7 @@ _This file is auto-generated. Run `devbox run summaries` to update._
 - [[PHGR13-Pinocchio|Pinocchio: Nearly Practical Verifiable Computation (Parno et al. 2013)]] (paper, 2013)
 - [[GGPR12-QSP-SNARK|Quadratic Span Programs and Succinct NIZKs without PCPs (GGPR 2013)]] (paper, 2012)
 - [[Dam04-Sigma-Protocols|On Sigma Protocols (Damgård)]] (paper, 2004)
+- [[BBS04-ShortGroupSigs|Short Group Signatures (Boneh, Boyen, Shacham 2004)]] (paper, 2004)
 - [[CS97-DL-Proofs|Proof Systems for General Statements about Discrete Logarithms (Camenisch-Stadler 1997)]] (paper, 1997)
 - [[LFKN92-Sumcheck|Algebraic Methods for Interactive Proof Systems]] (paper, 1992)
 - [[Ped91-Commitments|Non-Interactive and Information-Theoretic Secure Verifiable Secret Sharing (Pedersen 1991)]] (paper, 1991)
@@ -298,6 +344,8 @@ _This file is auto-generated. Run `devbox run summaries` to update._
 
 ### learning
 
+- [[eid-privacy-zkp-vault|Reading list for ZKP algorithms and implementations (eid-privacy, 2026)]] (blog, 2026)
+- [[eid-privacy-resources-zkp|Resources on Zero-knowledge Systems and Proofs (eid-privacy, 2025)]] (blog, 2025)
 - [[Thaler-Proofs-Arguments-ZK|Proofs, Arguments, and Zero-Knowledge]] (book, 2023)
 - [[R1CS-Docs|R1CS Explainer (0xPARC / Circom)]] (doc, 2022)
 - [[AIR-Docs|STARK 101 — AIR Tutorial (StarkWare)]] (doc, 2021)
@@ -305,6 +353,7 @@ _This file is auto-generated. Run `devbox run summaries` to update._
 
 ### library
 
+- [[eid-privacy-docknetwork-crypto-library|Choosing a Cryptographic Library for Anonymous Credentials (eid-privacy, 2026)]] (blog, 2026)
 - [[docknetwork-crypto-library|DockNetwork Crypto Library Analysis]] (doc, 2026)
 - [[microsoft-Spartan2|Microsoft Spartan2]] (code, 2022)
 - [[gnark-Docs|gnark Documentation (Consensys)]] (doc, 2021)
@@ -354,6 +403,14 @@ _This file is auto-generated. Run `devbox run summaries` to update._
 
 ### overview
 
+- [[eid-privacy-poc-report|Proof-of-Concept for ZKPs (eid-privacy, 2026)]] (blog, 2026)
+- [[eid-privacy-zkp-vault|Reading list for ZKP algorithms and implementations (eid-privacy, 2026)]] (blog, 2026)
+- [[eid-privacy-comparing-zk-systems|Comparing ZK Systems (eid-privacy, 2025)]] (blog, 2025)
+- [[eid-privacy-crescent-longfellow|Crescent and Longfellow (eid-privacy, 2025)]] (blog, 2025)
+- [[eid-privacy-privacy-unlinkability|Overview of Privacy and Unlinkability (eid-privacy, 2025)]] (blog, 2025)
+- [[eid-privacy-resources-zkp|Resources on Zero-knowledge Systems and Proofs (eid-privacy, 2025)]] (blog, 2025)
+- [[eid-privacy-taxonomy-101|Taxonomy 101 (eid-privacy, 2025)]] (blog, 2025)
+- [[eid-privacy-taxonomy-digital-identity|Taxonomy of digital identity systems (eid-privacy, 2025)]] (blog, 2025)
 - [[comparative-analysis-of-sp1-and-risc-zero-zero-knowledge|Comparative Analysis of SP1 and RISC Zero Zero-Knowledge Virtual Machines]] (blog, 2024)
 - [[ZKProof-Wiki|ZKProof Wiki of Concrete ZKP Schemes]] (wiki, 2020)
 - [[Evolution-of-ZKPs|The Evolution of Zero Knowledge Proofs]] (blog, 2018)
@@ -364,6 +421,7 @@ _This file is auto-generated. Run `devbox run summaries` to update._
 - [[Cryptographic-Principles-Tomescu|Cryptographic Principles (Alin Tomescu)]] (blog, 2021)
 - [[CFQW19-LegoSNARK|LegoSNARK: Modular Design and Composition of Efficient Zero-Knowledge Proofs (Campanelli et al. 2019)]] (paper, 2019)
 - [[Gro16-Groth16|On the Size of Pairing-Based Non-interactive Arguments (Groth16)]] (paper, 2016)
+- [[BBS04-ShortGroupSigs|Short Group Signatures (Boneh, Boyen, Shacham 2004)]] (paper, 2004)
 
 ### post-quantum
 
@@ -390,6 +448,9 @@ _This file is auto-generated. Run `devbox run summaries` to update._
 
 ### reference
 
+- [[eid-privacy-zkp-vault|Reading list for ZKP algorithms and implementations (eid-privacy, 2026)]] (blog, 2026)
+- [[eid-privacy-resources-zkp|Resources on Zero-knowledge Systems and Proofs (eid-privacy, 2025)]] (blog, 2025)
+- [[eid-privacy-taxonomy-digital-identity|Taxonomy of digital identity systems (eid-privacy, 2025)]] (blog, 2025)
 - [[plonkish_arithmetization|PLONKish Arithmetization — ZK Jargon]] (doc, 2022)
 - [[Cryptographic-Principles-Tomescu|Cryptographic Principles (Alin Tomescu)]] (blog, 2021)
 - [[ZKProof-Wiki|ZKProof Wiki of Concrete ZKP Schemes]] (wiki, 2020)
@@ -404,6 +465,7 @@ _This file is auto-generated. Run `devbox run summaries` to update._
 - [[docknetwork-crypto-library|DockNetwork Crypto Library Analysis]] (doc, 2026)
 - [[ZKP21-Sigma-Standard|ZKProof Sigma Protocol Proposal (Workshop 4)]] (paper, 2021)
 - [[Dam04-Sigma-Protocols|On Sigma Protocols (Damgård)]] (paper, 2004)
+- [[BBS04-ShortGroupSigs|Short Group Signatures (Boneh, Boyen, Shacham 2004)]] (paper, 2004)
 - [[CM99-Safe-Primes|Proving in Zero-Knowledge that a Number is the Product of Two Safe Primes (Camenisch-Michels 1999)]] (paper, 1999)
 - [[CS97-DL-Proofs|Proof Systems for General Statements about Discrete Logarithms (Camenisch-Stadler 1997)]] (paper, 1997)
 - [[FS86-Fiat-Shamir|How to Prove Yourself: Practical Solutions to Identification and Signature Problems (Fiat-Shamir)]] (paper, 1986)
@@ -411,6 +473,9 @@ _This file is auto-generated. Run `devbox run summaries` to update._
 ### snark
 
 - [[WPSP26-DV-Dynamic-zkSNARKs|Designated-Verifier Dynamic zk-SNARKs with Applications to Dynamic Proofs of Index (Wang et al. 2026)]] (paper, 2026)
+- [[LSZ25-Vision|Vision: A Modular Framework for Anonymous Credential Systems (Lehmann, Sidorenko, Zacharakis 2025)]] (paper, 2025)
+- [[FS24-Longfellow|Anonymous Credentials from ECDSA (Frigo & shelat 2024)]] (paper, 2024)
+- [[PPZ24-Crescent|Crescent: Stronger Privacy for Existing Credentials (Paquin, Policharla, Zaverucha 2024)]] (paper, 2024)
 - [[groth16|Groth16 (Alin Tomescu)]] (blog, 2024)
 - [[CBBZ23-HyperPlonk|HyperPlonk: Plonk with Linear-Time Prover and High-Degree Custom Gates (Chen et al. 2023)]] (paper, 2023)
 - [[microsoft-Spartan2|Microsoft Spartan2]] (code, 2022)
@@ -460,6 +525,7 @@ _This file is auto-generated. Run `devbox run summaries` to update._
 
 ### transparent
 
+- [[FS24-Longfellow|Anonymous Credentials from ECDSA (Frigo & shelat 2024)]] (paper, 2024)
 - [[AHIV22-Ligero-Ext|Ligero: Lightweight Sublinear Arguments Without a Trusted Setup]] (paper, 2022)
 - [[microsoft-Spartan2|Microsoft Spartan2]] (code, 2022)
 - [[Halo2-Docs|Halo2 Documentation (Zcash)]] (doc, 2021)

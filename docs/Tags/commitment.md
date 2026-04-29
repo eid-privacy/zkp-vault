@@ -19,3 +19,4 @@ Tags cryptographic commitment schemes — binding and hiding primitives that und
 - [[WTSTW17-Hyrax|Doubly-Efficient zkSNARKs Without Trusted Setup (Hyrax)]]
 - [[Ped91-Commitments|Non-Interactive and Information-Theoretic Secure Verifiable Secret Sharing (Pedersen 1991)]]
 - [[Pedersen-Commitments|Pedersen Commitments]]
+- [[BBS04-ShortGroupSigs|Short Group Signatures (Boneh, Boyen, Shacham 2004)]]

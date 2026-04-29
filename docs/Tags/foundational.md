@@ -25,6 +25,7 @@ Marks entries that represent foundational, landmark, or must-know concepts and s
 - [[Thaler-Proofs-Arguments-ZK|Proofs, Arguments, and Zero-Knowledge]]
 - [[GGPR12-QSP-SNARK|Quadratic Span Programs and Succinct NIZKs without PCPs (GGPR 2013)]]
 - [[Schwartz-Zippel|Schwartz-Zippel Lemma]]
+- [[BBS04-ShortGroupSigs|Short Group Signatures (Boneh, Boyen, Shacham 2004)]]
 - [[SumcheckProofs|Sumcheck Protocol]]
 - [[GMR85-Knowledge-Complexity|The Knowledge Complexity of Interactive Proof Systems]]
 - [[GMR85-ZK-Complexity|The Knowledge Complexity of Interactive Proof Systems (GMR85)]]

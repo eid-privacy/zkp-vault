@@ -15,5 +15,6 @@ Tags proof systems and primitives believed to be secure against quantum adversar
 - [[BBHR18-FRI|Fast Reed-Solomon Interactive Oracle Proofs of Proximity (FRI)]]
 - [[FRI|FRI]]
 - [[Ligero-Plus-Plus|Ligero++]]
+- [[Longfellow|Longfellow]]
 - [[RISC-Zero|RISC Zero]]
 - [[zk-STARKs|zk-STARKs]]

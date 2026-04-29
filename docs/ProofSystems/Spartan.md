@@ -46,3 +46,6 @@ Used by: [[Spartan-Framework]]
 - Code (v2): [[microsoft-Spartan2]]
 - Crescent fork (T-256): [[microsoft-crescent-credentials]]
 - Explainer:
+
+## Used in
+- [[Crescent]] — Spartan over T-256 handles the online presentation phase

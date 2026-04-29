@@ -25,5 +25,6 @@ Tags Sigma (Σ) protocols — three-move interactive proofs (commit, challenge, 
 - [[Sigma-Protocols-Proposal|Proposal: ∑-protocols]]
 - [[CM99-Safe-Primes|Proving in Zero-Knowledge that a Number is the Product of Two Safe Primes (Camenisch-Michels 1999)]]
 - [[Camenisch-Michels-Safe-Primes|Proving in ZK that a Number Is the Product of Two Safe Primes]]
+- [[BBS04-ShortGroupSigs|Short Group Signatures (Boneh, Boyen, Shacham 2004)]]
 - [[ZKAttest|ZKAttest]]
 - [[ZKP21-Sigma-Standard|ZKProof Sigma Protocol Proposal (Workshop 4)]]

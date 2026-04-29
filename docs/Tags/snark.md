@@ -11,10 +11,13 @@ Succinct Non-interactive ARguments of Knowledge. Tags proof systems that achieve
 
 ## Entries tagged
 
+- [[FS24-Longfellow|Anonymous Credentials from ECDSA (Frigo & shelat 2024)]]
 - [[BCRSVW19-Aurora|Aurora: Transparent Succinct Arguments for R1CS (Ben-Sasson et al. 2019)]]
 - [[BBB+17-Bulletproofs|Bulletproofs: Short Proofs for Confidential Transactions and More (Bünz et al. 2018)]]
 - [[Circom2|Circom 2]]
 - [[Circom2-Docs|Circom2 Documentation]]
+- [[Crescent|Crescent]]
+- [[PPZ24-Crescent|Crescent: Stronger Privacy for Existing Credentials (Paquin, Policharla, Zaverucha 2024)]]
 - [[DV-Dynamic-zkSNARKs|Designated-Verifier Dynamic zk-SNARKs]]
 - [[WPSP26-DV-Dynamic-zkSNARKs|Designated-Verifier Dynamic zk-SNARKs with Applications to Dynamic Proofs of Index (Wang et al. 2026)]]
 - [[WTSTW17-Hyrax|Doubly-Efficient zkSNARKs Without Trusted Setup (Hyrax)]]
@@ -28,6 +31,7 @@ Succinct Non-interactive ARguments of Knowledge. Tags proof systems that achieve
 - [[LegoGroth16|LegoGroth16]]
 - [[CFQW19-LegoSNARK|LegoSNARK: Modular Design and Composition of Efficient Zero-Knowledge Proofs (Campanelli et al. 2019)]]
 - [[Libra|Libra]]
+- [[Longfellow|Longfellow]]
 - [[microsoft-Spartan2|Microsoft Spartan2]]
 - [[Gro16-Groth16|On the Size of Pairing-Based Non-interactive Arguments (Groth16)]]
 - [[Pinocchio|Pinocchio]]
@@ -49,4 +53,5 @@ Succinct Non-interactive ARguments of Knowledge. Tags proof systems that achieve
 - [[UltraHonk|UltraHonk]]
 - [[PLONK-Blog|Understanding PLONK]]
 - [[GKMM18-Updatable-SRS|Updatable and Universal Common Reference Strings with Applications to zk-SNARKs (Groth et al. 2018)]]
+- [[LSZ25-Vision|Vision: A Modular Framework for Anonymous Credential Systems (Lehmann, Sidorenko, Zacharakis 2025)]]
 - [[ZoKrates-Docs|ZoKrates Documentation]]

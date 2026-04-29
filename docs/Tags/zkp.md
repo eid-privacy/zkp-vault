@@ -60,6 +60,7 @@ Root tag for all Zero-Knowledge Proof content in this vault. Applied to essentia
 - [[RISC-Zero|RISC Zero]]
 - [[DI06-Scalable-MPC|Scalable Secure Multiparty Computation]]
 - [[Schwartz-Zippel|Schwartz-Zippel Lemma]]
+- [[GHE25-MS2|Secure and Privacy-Preserving Credentials for E-ID Proof-of-Concept (Gasser, Humbert, Elghareeb 2025)]]
 - [[Sonic|Sonic]]
 - [[SP1|SP1]]
 - [[Spartan|Spartan]]

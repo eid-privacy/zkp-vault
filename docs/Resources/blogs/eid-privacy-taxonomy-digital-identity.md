@@ -20,4 +20,4 @@ Presents a Systematization of Knowledge (SoK) paper mapping actors, roles, objec
 
 ## Related resources
 
-- Blog: https://eid-privacy.github.io/wp1/2025/09/17/taxonomy-of-digital-identity-systems.html
+- [[GHE25-Taxonomy|Taxonomy for Privacy-Preserving Electronic Identities (Gasser, Humbert, Elghareeb 2025)]] (paper, 2025)

@@ -19,4 +19,4 @@ Introductory post for the WP1 Systematization of Knowledge paper on privacy-pres
 
 ## Related resources
 
-- [[eid-privacy-taxonomy-digital-identity|Taxonomy of digital identity systems]] (blog, 2025)
+- [[GHE25-Taxonomy|Taxonomy for Privacy-Preserving Electronic Identities (Gasser, Humbert, Elghareeb 2025)]] (paper, 2025)

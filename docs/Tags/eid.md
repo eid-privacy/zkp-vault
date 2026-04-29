@@ -26,6 +26,8 @@ Tags entries relevant to electronic identity (e-ID) use cases — privacy-preser
 - [[eid-privacy-poc-report|Proof-of-Concept for ZKPs (eid-privacy, 2026)]]
 - [[eid-privacy-zkp-vault|Reading list for ZKP algorithms and implementations (eid-privacy, 2026)]]
 - [[eid-privacy-resources-zkp|Resources on Zero-knowledge Systems and Proofs (eid-privacy, 2025)]]
+- [[GHE25-MS2|Secure and Privacy-Preserving Credentials for E-ID Proof-of-Concept (Gasser, Humbert, Elghareeb 2025)]]
 - [[eid-privacy-taxonomy-101|Taxonomy 101 (eid-privacy, 2025)]]
+- [[GHE25-Taxonomy|Taxonomy for Privacy-Preserving Electronic Identities (Gasser, Humbert, Elghareeb 2025)]]
 - [[eid-privacy-taxonomy-digital-identity|Taxonomy of digital identity systems (eid-privacy, 2025)]]
 - [[LSZ25-Vision|Vision: A Modular Framework for Anonymous Credential Systems (Lehmann, Sidorenko, Zacharakis 2025)]]

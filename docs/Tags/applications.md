@@ -24,5 +24,6 @@ Tags entries that are end-to-end ZKP applications or application-level designs, 
 - [[eid-privacy-swiyu-demo|Open Source SWIYU Demo application (eid-privacy, 2025)]]
 - [[eid-privacy-privacy-unlinkability|Overview of Privacy and Unlinkability (eid-privacy, 2025)]]
 - [[eid-privacy-poc-report|Proof-of-Concept for ZKPs (eid-privacy, 2026)]]
+- [[GHE25-MS2|Secure and Privacy-Preserving Credentials for E-ID Proof-of-Concept (Gasser, Humbert, Elghareeb 2025)]]
 - [[LSZ25-Vision|Vision: A Modular Framework for Anonymous Credential Systems (Lehmann, Sidorenko, Zacharakis 2025)]]
 - [[SAS22-ZKAttest|ZKAttest: Ring and Group Signatures for Existing ECDSA Keys]]

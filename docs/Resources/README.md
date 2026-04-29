@@ -13,7 +13,7 @@ tags:
 
 # ZKP Resources
 
-Curated external resources for Zero-Knowledge Proofs — 77 entries across papers, blogs, books, wikis, docs, and code repositories.
+Curated external resources for Zero-Knowledge Proofs — 79 entries across papers, blogs, books, wikis, docs, and code repositories.
 
 _This file is auto-generated. Run `devbox run summaries` to update._
 
@@ -49,6 +49,8 @@ _This file is auto-generated. Run `devbox run summaries` to update._
 | Resource | Year | Authors | Tags |
 |---|---|---|---|
 | [[WPSP26-DV-Dynamic-zkSNARKs|Designated-Verifier Dynamic zk-SNARKs with Applications to Dynamic Proofs of Index (Wang et al. 2026)]] | 2026 | Weijie Wang et al. | snark, non-interactive, applications |
+| [[GHE25-MS2|Secure and Privacy-Preserving Credentials for E-ID Proof-of-Concept (Gasser, Humbert, Elghareeb 2025)]] | 2025 | Linus Gasser, Clement Humbert, Ahmed Elghareeb | eid, applications, zkp |
+| [[GHE25-Taxonomy|Taxonomy for Privacy-Preserving Electronic Identities (Gasser, Humbert, Elghareeb 2025)]] | 2025 | Linus Gasser, Clement Humbert, Ahmed Elghareeb | eid, overview, reference, cryptography |
 | [[LSZ25-Vision|Vision: A Modular Framework for Anonymous Credential Systems (Lehmann, Sidorenko, Zacharakis 2025)]] | 2025 | Anja Lehmann, Andrey Sidorenko, Alexandros Zacharakis | snark, eid, applications, commit-and-prove, composition |
 | [[FS24-Longfellow|Anonymous Credentials from ECDSA (Frigo & shelat 2024)]] | 2024 | Matteo Frigo, abhi shelat | snark, transparent, eid, elliptic-curves, applications |
 | [[PPZ24-Crescent|Crescent: Stronger Privacy for Existing Credentials (Paquin, Policharla, Zaverucha 2024)]] | 2024 | Christian Paquin, Guru-Vamsi Policharla, Greg Zaverucha | snark, eid, elliptic-curves, applications |
@@ -162,6 +164,7 @@ _This file is auto-generated. Run `devbox run summaries` to update._
 - [[eid-privacy-crescent-longfellow|Crescent and Longfellow (eid-privacy, 2025)]] (blog, 2025)
 - [[eid-privacy-swiyu-demo|Open Source SWIYU Demo application (eid-privacy, 2025)]] (blog, 2025)
 - [[eid-privacy-privacy-unlinkability|Overview of Privacy and Unlinkability (eid-privacy, 2025)]] (blog, 2025)
+- [[GHE25-MS2|Secure and Privacy-Preserving Credentials for E-ID Proof-of-Concept (Gasser, Humbert, Elghareeb 2025)]] (paper, 2025)
 - [[LSZ25-Vision|Vision: A Modular Framework for Anonymous Credential Systems (Lehmann, Sidorenko, Zacharakis 2025)]] (paper, 2025)
 - [[FS24-Longfellow|Anonymous Credentials from ECDSA (Frigo & shelat 2024)]] (paper, 2024)
 - [[PPZ24-Crescent|Crescent: Stronger Privacy for Existing Credentials (Paquin, Policharla, Zaverucha 2024)]] (paper, 2024)
@@ -224,6 +227,7 @@ _This file is auto-generated. Run `devbox run summaries` to update._
 
 ### cryptography
 
+- [[GHE25-Taxonomy|Taxonomy for Privacy-Preserving Electronic Identities (Gasser, Humbert, Elghareeb 2025)]] (paper, 2025)
 - [[Cryptographic-Principles-Tomescu|Cryptographic Principles (Alin Tomescu)]] (blog, 2021)
 - [[BBS04-ShortGroupSigs|Short Group Signatures (Boneh, Boyen, Shacham 2004)]] (paper, 2004)
 - [[CM99-Safe-Primes|Proving in Zero-Knowledge that a Number is the Product of Two Safe Primes (Camenisch-Michels 1999)]] (paper, 1999)
@@ -249,7 +253,9 @@ _This file is auto-generated. Run `devbox run summaries` to update._
 - [[eid-privacy-swiyu-demo|Open Source SWIYU Demo application (eid-privacy, 2025)]] (blog, 2025)
 - [[eid-privacy-privacy-unlinkability|Overview of Privacy and Unlinkability (eid-privacy, 2025)]] (blog, 2025)
 - [[eid-privacy-resources-zkp|Resources on Zero-knowledge Systems and Proofs (eid-privacy, 2025)]] (blog, 2025)
+- [[GHE25-MS2|Secure and Privacy-Preserving Credentials for E-ID Proof-of-Concept (Gasser, Humbert, Elghareeb 2025)]] (paper, 2025)
 - [[eid-privacy-taxonomy-101|Taxonomy 101 (eid-privacy, 2025)]] (blog, 2025)
+- [[GHE25-Taxonomy|Taxonomy for Privacy-Preserving Electronic Identities (Gasser, Humbert, Elghareeb 2025)]] (paper, 2025)
 - [[eid-privacy-taxonomy-digital-identity|Taxonomy of digital identity systems (eid-privacy, 2025)]] (blog, 2025)
 - [[LSZ25-Vision|Vision: A Modular Framework for Anonymous Credential Systems (Lehmann, Sidorenko, Zacharakis 2025)]] (paper, 2025)
 - [[FS24-Longfellow|Anonymous Credentials from ECDSA (Frigo & shelat 2024)]] (paper, 2024)
@@ -410,6 +416,7 @@ _This file is auto-generated. Run `devbox run summaries` to update._
 - [[eid-privacy-privacy-unlinkability|Overview of Privacy and Unlinkability (eid-privacy, 2025)]] (blog, 2025)
 - [[eid-privacy-resources-zkp|Resources on Zero-knowledge Systems and Proofs (eid-privacy, 2025)]] (blog, 2025)
 - [[eid-privacy-taxonomy-101|Taxonomy 101 (eid-privacy, 2025)]] (blog, 2025)
+- [[GHE25-Taxonomy|Taxonomy for Privacy-Preserving Electronic Identities (Gasser, Humbert, Elghareeb 2025)]] (paper, 2025)
 - [[eid-privacy-taxonomy-digital-identity|Taxonomy of digital identity systems (eid-privacy, 2025)]] (blog, 2025)
 - [[comparative-analysis-of-sp1-and-risc-zero-zero-knowledge|Comparative Analysis of SP1 and RISC Zero Zero-Knowledge Virtual Machines]] (blog, 2024)
 - [[ZKProof-Wiki|ZKProof Wiki of Concrete ZKP Schemes]] (wiki, 2020)
@@ -450,6 +457,7 @@ _This file is auto-generated. Run `devbox run summaries` to update._
 
 - [[eid-privacy-zkp-vault|Reading list for ZKP algorithms and implementations (eid-privacy, 2026)]] (blog, 2026)
 - [[eid-privacy-resources-zkp|Resources on Zero-knowledge Systems and Proofs (eid-privacy, 2025)]] (blog, 2025)
+- [[GHE25-Taxonomy|Taxonomy for Privacy-Preserving Electronic Identities (Gasser, Humbert, Elghareeb 2025)]] (paper, 2025)
 - [[eid-privacy-taxonomy-digital-identity|Taxonomy of digital identity systems (eid-privacy, 2025)]] (blog, 2025)
 - [[plonkish_arithmetization|PLONKish Arithmetization — ZK Jargon]] (doc, 2022)
 - [[Cryptographic-Principles-Tomescu|Cryptographic Principles (Alin Tomescu)]] (blog, 2021)
@@ -567,6 +575,7 @@ _This file is auto-generated. Run `devbox run summaries` to update._
 
 ### zkp
 
+- [[GHE25-MS2|Secure and Privacy-Preserving Credentials for E-ID Proof-of-Concept (Gasser, Humbert, Elghareeb 2025)]] (paper, 2025)
 - [[Thaler-Proofs-Arguments-ZK|Proofs, Arguments, and Zero-Knowledge]] (book, 2023)
 - [[SAS22-ZKAttest|ZKAttest: Ring and Group Signatures for Existing ECDSA Keys]] (paper, 2022)
 - [[Cryptographic-Principles-Tomescu|Cryptographic Principles (Alin Tomescu)]] (blog, 2021)

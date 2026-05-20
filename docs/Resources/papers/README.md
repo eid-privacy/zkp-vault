@@ -10,28 +10,32 @@ tags: []
 
 # ZKP Papers
 
-38 entries.
+41 entries.
 
 _This file is auto-generated. Run `devbox run summaries` to update._
 
 ## Navigation
 
-| w-a | s-g | m-a | g-c | c-s |
+| w-p | c-b | c-b | w-b | c-s |
 | --- | --- | --- | --- | --- |
-| [[WPSP26-DV-Dynamic-zkSNARKs]] | [[SAS22-ZKAttest]] | [[MBKM19-Sonic]] | [[Gro16-Groth16]] | [[CS97-DL-Proofs]] |
-| [[GHE25-MS2]] | [[ZKP21-Sigma-Standard]] | [[Set19-Spartan]] | [[PHGR13-Pinocchio]] | [[LFKN92-Sumcheck]] |
-| [[GHE25-Taxonomy]] | [[CHJ+20-Bulletproofs-Opt]] | [[GW19b-TurboPlonk]] | [[GGPR12-QSP-SNARK]] | [[Ped91-Commitments]] |
-| [[LSZ25-Vision]] | [[BFH+20-Ligero-Plus]] | [[BBHR18-FRI]] | [[DI06-Scalable-MPC]] | [[BFM88-NIZK-Intro]] |
-| [[FS24-Longfellow]] | [[GW20-Plookup]] | [[GKMM18-Updatable-SRS]] | [[Dam04-Sigma-Protocols]] | [[FS86-Fiat-Shamir]] |
-| [[PPZ24-Crescent]] | [[BCRSVW19-Aurora]] | [[BBB+17-Bulletproofs]] | [[BBS04-ShortGroupSigs]] | [[GMR85-ZK-Complexity]] |
-| [[CBBZ23-HyperPlonk]] | [[CFQW19-LegoSNARK]] | [[WTSTW17-Hyrax]] | [[CM99-Safe-Primes]] | [[Sch80-Schwartz-Zippel]] |
-| [[AHIV22-Ligero-Ext]] | [[GWC19-PLONK]] | [[AHIV17-Ligero]] |  |  |
+| [[WPSP26-DV-Dynamic-zkSNARKs]] | [[CBBZ23-HyperPlonk]] | [[CFQW19-LegoSNARK]] | [[WTSTW17-Hyrax]] | [[CM99-Safe-Primes]] |
+| [[LZ26-AnonCreds-Legacy]] | [[AHIV22-Ligero-Ext]] | [[GWC19-PLONK]] | [[AHIV17-Ligero]] | [[CS97-DL-Proofs]] |
+| [[KVRSCLT26-EUDIF-Harms]] | [[SAS22-ZKAttest]] | [[MBKM19-Sonic]] | [[Gro16-Groth16]] | [[LFKN92-Sumcheck]] |
+| [[FHLL25-AnonCreds-TrustedHW]] | [[ZKP21-Sigma-Standard]] | [[Set19-Spartan]] | [[PHGR13-Pinocchio]] | [[Ped91-Commitments]] |
+| [[GHE25-MS2]] | [[CHJ+20-Bulletproofs-Opt]] | [[GW19b-TurboPlonk]] | [[GGPR12-QSP-SNARK]] | [[BFM88-NIZK-Intro]] |
+| [[GHE25-Taxonomy]] | [[BFH+20-Ligero-Plus]] | [[BBHR18-FRI]] | [[DI06-Scalable-MPC]] | [[FS86-Fiat-Shamir]] |
+| [[LSZ25-Vision]] | [[GW20-Plookup]] | [[GKMM18-Updatable-SRS]] | [[Dam04-Sigma-Protocols]] | [[GMR85-ZK-Complexity]] |
+| [[FS24-Longfellow]] | [[BCRSVW19-Aurora]] | [[BBB+17-Bulletproofs]] | [[BBS04-ShortGroupSigs]] | [[Sch80-Schwartz-Zippel]] |
+| [[PPZ24-Crescent]] |  |  |  |  |
 
 ## All Papers
 
 | Resource | Year | Authors | Tags |
 |---|---|---|---|
 | [[WPSP26-DV-Dynamic-zkSNARKs|Designated-Verifier Dynamic zk-SNARKs with Applications to Dynamic Proofs of Index (Wang et al. 2026)]] | 2026 | Weijie Wang et al. | snark, non-interactive, applications |
+| [[LZ26-AnonCreds-Legacy|Device Binding for Anonymous Credentials on Legacy Phones (Lehmann, Zacharakis 2026)]] | 2026 | Anja Lehmann, Alexandros Zacharakis | eid, applications, cryptography |
+| [[KVRSCLT26-EUDIF-Harms|On the (Privacy) Harms of the European Digital Identity Framework (Knabenhans, Veitch, Raynal, Stadler, Chatel, Lueks, Troncoso 2026)]] | 2026 | Christian Knabenhans et al. | eid, applications |
+| [[FHLL25-AnonCreds-TrustedHW|Device-Bound Anonymous Credentials With(out) Trusted Hardware (Friedrichs, Harding, Lehmann, Lysyanskaya 2025)]] | 2025 | Karla Friedrichs et al. | eid, applications, cryptography |
 | [[GHE25-MS2|Secure and Privacy-Preserving Credentials for E-ID Proof-of-Concept (Gasser, Humbert, Elghareeb 2025)]] | 2025 | Linus Gasser, Clement Humbert, Ahmed Elghareeb | eid, applications, zkp |
 | [[GHE25-Taxonomy|Taxonomy for Privacy-Preserving Electronic Identities (Gasser, Humbert, Elghareeb 2025)]] | 2025 | Linus Gasser, Clement Humbert, Ahmed Elghareeb | eid, overview, reference, cryptography |
 | [[LSZ25-Vision|Vision: A Modular Framework for Anonymous Credential Systems (Lehmann, Sidorenko, Zacharakis 2025)]] | 2025 | Anja Lehmann, Andrey Sidorenko, Alexandros Zacharakis | snark, eid, applications, commit-and-prove, composition |

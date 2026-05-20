@@ -16,9 +16,9 @@ _This file is auto-generated. Run `devbox run summaries` to update._
 
 ## Navigation
 
-| z |  |  |  |  |
-| --- | --- | --- | --- | --- |
-| [[ZKProof-Wiki]] |  |  |  |  |
+| Z |
+| --- |
+| [[ZKProof-Wiki|ZKProof Wiki of Concrete ZKP Schemes]] |
 
 ## All Wikis & Standards
 

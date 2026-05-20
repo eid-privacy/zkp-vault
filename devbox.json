@@ -20,7 +20,7 @@
       "verify":            "bun run verify",
       "collect-resources": "bun run utils/collectResources.ts",
       "summaries":         "bun run utils/summaries.ts",
-      "serve":             "mkdocs serve --watch hooks.py",
+      "serve":             "WATCHDOG_USE_POLLING=1 mkdocs serve --watch hooks.py --watch utils --watch templates --watch scripts",
       "build":             "mkdocs build --strict"
     }
   }

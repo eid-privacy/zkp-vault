@@ -16,9 +16,9 @@ _This file is auto-generated. Run `devbox run summaries` to update._
 
 ## Navigation
 
-| t |  |  |  |  |
-| --- | --- | --- | --- | --- |
-| [[Thaler-Proofs-Arguments-ZK]] |  |  |  |  |
+| P |
+| --- |
+| [[Thaler-Proofs-Arguments-ZK|Proofs, Arguments, and Zero-Knowledge]] |
 
 ## All Books
 

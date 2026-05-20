@@ -16,7 +16,7 @@ _This file is auto-generated. Run `devbox run summaries` to update._
 
 ## Navigation
 
-| w-p | c-b | c-b | w-b | c-s |
+| 2026–2024 | 2023–2019 | 2019–2017 | 2017–2004 | 1999–1980 |
 | --- | --- | --- | --- | --- |
 | [[WPSP26-DV-Dynamic-zkSNARKs]] | [[CBBZ23-HyperPlonk]] | [[CFQW19-LegoSNARK]] | [[WTSTW17-Hyrax]] | [[CM99-Safe-Primes]] |
 | [[LZ26-AnonCreds-Legacy]] | [[AHIV22-Ligero-Ext]] | [[GWC19-PLONK]] | [[AHIV17-Ligero]] | [[CS97-DL-Proofs]] |

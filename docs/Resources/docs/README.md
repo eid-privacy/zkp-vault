@@ -16,11 +16,12 @@ _This file is auto-generated. Run `devbox run summaries` to update._
 
 ## Navigation
 
-| d-o | s-n | p-c | g-h | a-z |
-| --- | --- | --- | --- | --- |
-| [[docknetwork-crypto-library]] | [[SP1-Docs]] | [[plonkish_arithmetization]] | [[gnark-Docs]] | [[AIR-Docs]] |
-| [[Ligero-Prover-Docs]] | [[RISC-Zero-Docs]] | [[R1CS-Docs]] | [[Halo2-Docs]] | [[ZoKrates-Docs]] |
-| [[OpenVM-Docs]] | [[Noir-Docs]] | [[Circom2-Docs]] |  |  |
+| C–H | L–O | P–R | S–Z |
+| --- | --- | --- | --- |
+| [[Circom2-Docs|Circom2 Documentation]] | [[Ligero-Prover-Docs|Ligetron Marketplace Documentation]] | [[plonkish_arithmetization|PLONKish Arithmetization — ZK Jargon]] | [[SP1-Docs|SP1 Documentation (Succinct Labs)]] |
+| [[docknetwork-crypto-library|DockNetwork Crypto Library Analysis]] | [[Noir-Docs|Noir Documentation]] | [[R1CS-Docs|R1CS Explainer (0xPARC / Circom)]] | [[AIR-Docs|STARK 101 — AIR Tutorial (StarkWare)]] |
+| [[gnark-Docs|gnark Documentation (Consensys)]] | [[OpenVM-Docs|OpenVM Documentation]] | [[RISC-Zero-Docs|RISC Zero Documentation]] | [[ZoKrates-Docs|ZoKrates Documentation]] |
+| [[Halo2-Docs|Halo2 Documentation (Zcash)]] |  |  |  |
 
 ## All Documentation
 

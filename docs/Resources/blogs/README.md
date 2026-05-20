@@ -16,12 +16,12 @@ _This file is auto-generated. Run `devbox run summaries` to update._
 
 ## Navigation
 
-| e-a | e | e-c | g-c | p-e |
+| A–C | C–N | N–P | P–T | T–U |
 | --- | --- | --- | --- | --- |
-| [[eid-privacy-docknetwork-crypto-library]] | [[eid-privacy-comparing-zk-systems]] | [[eid-privacy-resources-zkp]] | [[groth16]] | [[Plonk-Family-Note]] |
-| [[eid-privacy-poc-report]] | [[eid-privacy-crescent-longfellow]] | [[eid-privacy-taxonomy-101]] | [[noirs-circuit-backend]] | [[PLONK-Blog]] |
-| [[eid-privacy-zkp-vault]] | [[eid-privacy-swiyu-demo]] | [[eid-privacy-taxonomy-digital-identity]] | [[plonkish-arithmetization]] | [[Evolution-of-ZKPs]] |
-| [[a-deep-dive-into-axioms-halo2-circuits]] | [[eid-privacy-privacy-unlinkability]] | [[comparative-analysis-of-sp1-and-risc-zero-zero-knowledge]] | [[Cryptographic-Principles-Tomescu]] |  |
+| [[a-deep-dive-into-axioms-halo2-circuits|A Deep Dive into Axiom's Halo2 Circuits]] | [[eid-privacy-crescent-longfellow|Crescent and Longfellow (eid-privacy, 2025)]] | [[Plonk-Family-Note|Note: PLONK / TurboPLONK / UltraPLONK Family]] | [[eid-privacy-poc-report|Proof-of-Concept for ZKPs (eid-privacy, 2026)]] | [[eid-privacy-taxonomy-digital-identity|Taxonomy of digital identity systems (eid-privacy, 2025)]] |
+| [[eid-privacy-docknetwork-crypto-library|Choosing a Cryptographic Library for Anonymous Credentials (eid-privacy, 2026)]] | [[Cryptographic-Principles-Tomescu|Cryptographic Principles (Alin Tomescu)]] | [[eid-privacy-swiyu-demo|Open Source SWIYU Demo application (eid-privacy, 2025)]] | [[eid-privacy-zkp-vault|Reading list for ZKP algorithms and implementations (eid-privacy, 2026)]] | [[Evolution-of-ZKPs|The Evolution of Zero Knowledge Proofs]] |
+| [[comparative-analysis-of-sp1-and-risc-zero-zero-knowledge|Comparative Analysis of SP1 and RISC Zero Zero-Knowledge Virtual Machines]] | [[groth16|Groth16 (Alin Tomescu)]] | [[eid-privacy-privacy-unlinkability|Overview of Privacy and Unlinkability (eid-privacy, 2025)]] | [[eid-privacy-resources-zkp|Resources on Zero-knowledge Systems and Proofs (eid-privacy, 2025)]] | [[PLONK-Blog|Understanding PLONK]] |
+| [[eid-privacy-comparing-zk-systems|Comparing ZK Systems (eid-privacy, 2025)]] | [[noirs-circuit-backend|Noir's Circuit Backend]] | [[plonkish-arithmetization|PLONKish Arithmetization]] | [[eid-privacy-taxonomy-101|Taxonomy 101 (eid-privacy, 2025)]] |  |
 
 ## All Blogs & Explainers
 

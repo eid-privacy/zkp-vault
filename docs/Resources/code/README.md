@@ -16,10 +16,12 @@ _This file is auto-generated. Run `devbox run summaries` to update._
 
 ## Navigation
 
-| a-m | m-n | s | s | s |
-| --- | --- | --- | --- | --- |
-| [[AztecProtocol-aztec-packages]] | [[microsoft-Spartan2]] | [[Spartan-Framework-Code]] | [[Spartan-Code]] | [[Sonic-Code]] |
-| [[microsoft-crescent-credentials]] | [[noir-lang-noir]] |  |  |  |
+| A–M | M–S |
+| --- | --- |
+| [[AztecProtocol-aztec-packages|AztecProtocol: Aztec Packages (UltraHONK Audit Scope)]] | [[microsoft-Spartan2|Microsoft Spartan2]] |
+| [[microsoft-crescent-credentials|Microsoft Crescent Credentials (Spartan-t256 Fork)]] | [[noir-lang-noir|noir-lang/noir — ACVM Repository]] |
+| [[Spartan-Framework-Code|Microsoft Spartan — Commit History]] | [[Sonic-Code|Sonic Reference Implementation (ebfull/sonic)]] |
+| [[Spartan-Code|Microsoft Spartan (Original)]] |  |
 
 ## All Code & Repositories
 

@@ -170,7 +170,6 @@ function renderResourcesByType(resources: ResourceMeta[]): string {
 
 function renderResourcesByTopic(resources: ResourceMeta[]): string {
   const lines: string[] = [];
-  lines.push('## By Topic\n');
   const tagMap = new Map<string, ResourceMeta[]>();
   for (const r of resources) {
     for (const tag of r.tags) {
@@ -205,7 +204,12 @@ function headingSlug(s: string): string {
   return s.toLowerCase().replace(/[^\w\s-]/g, '').replace(/\s+/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, '');
 }
 
-function buildNavTable(tags: string[], cols: number, cellFn: (s: string) => string = s => `[${s}](#${headingSlug(s)})`): string {
+function buildNavTable(
+  tags: string[],
+  cols: number,
+  cellFn: (s: string) => string = s => `[${s}](#${headingSlug(s)})`,
+  colHeaderFn?: (col: string[]) => string,
+): string {
   const N = tags.length;
   const baseRows = Math.floor(N / cols);
   const extraCols = N % cols;
@@ -219,6 +223,7 @@ function buildNavTable(tags: string[], cols: number, cellFn: (s: string) => stri
   const numRows = baseRows + (extraCols > 0 ? 1 : 0);
   const colHeaders = columns.map(col => {
     if (col.length === 0) return '';
+    if (colHeaderFn) return colHeaderFn(col);
     const first = col[0][0].toLowerCase();
     const last = col[col.length - 1][0].toLowerCase();
     return first === last ? first : `${first}-${last}`;
@@ -237,12 +242,11 @@ function generateResourcesReadme(): void {
   const resources = loadResources();
   if (!QUIET) console.log(`Resources: loaded ${resources.length} entries.`);
 
-  const byType = renderResourcesByType(resources);
   const byTopic = renderResourcesByTopic(resources);
 
   const typeNavItems = SUBTYPES
     .filter(s => resources.some(r => r.subtype === s))
-    .map(s => `- [${SUBTYPE_LABELS[s]}](#${headingSlug(SUBTYPE_LABELS[s])})`)
+    .map(s => `- [${SUBTYPE_LABELS[s]}](./${s}/README.md)`)
     .join('\n');
 
   const allTags = [...new Set(resources.flatMap(r => r.tags))].sort();
@@ -276,7 +280,6 @@ ${typeNavItems}
 
 ${topicNavTable}
 
-${byType}
 ${byTopic}`;
 
   fs.writeFileSync(path.join(RESOURCES_ROOT, 'README.md'), readme, 'utf-8');
@@ -302,10 +305,33 @@ function generateResourceSubtypeReadmes(): void {
       return yb - ya || a.title.localeCompare(b.title);
     });
 
+    const filenameToYear = new Map(sorted.map(r => [r.filename, parseInt(r.year) || 0]));
+    const yearColHeaderFn = (col: string[]) => {
+      const years = col.map(f => filenameToYear.get(f) ?? 0).filter(y => y > 0);
+      if (years.length === 0) return '';
+      const lo = Math.min(...years);
+      const hi = Math.max(...years);
+      return lo === hi ? String(lo) : `${hi}–${lo}`;
+    };
+    const navSorted = subtype === 'papers'
+      ? sorted
+      : [...entries].sort((a, b) => a.title.localeCompare(b.title, undefined, { sensitivity: 'base' }));
+    const filenameToTitle = new Map(navSorted.map(r => [r.filename, r.title]));
+    const alphaColHeaderFn = (col: string[]) => {
+      const titles = col.map(f => filenameToTitle.get(f) ?? f);
+      const first = titles[0][0].toUpperCase();
+      const last = titles[titles.length - 1][0].toUpperCase();
+      return first === last ? first : `${first}–${last}`;
+    };
+    const navCols = subtype === 'papers' ? 5 : Math.min(5, Math.max(1, Math.ceil(navSorted.length / 4)));
+    const navCellFn = subtype === 'papers'
+      ? (filename: string) => `[[${filename}]]`
+      : (filename: string) => `[[${filename}|${filenameToTitle.get(filename) ?? filename}]]`;
     const navTable = buildNavTable(
-      sorted.map(r => r.filename),
-      5,
-      filename => `[[${filename}]]`,
+      navSorted.map(r => r.filename),
+      navCols,
+      navCellFn,
+      subtype === 'papers' ? yearColHeaderFn : alphaColHeaderFn,
     );
 
     const tableRows = sorted.map(r =>

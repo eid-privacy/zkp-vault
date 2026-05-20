@@ -8,6 +8,18 @@ The vault is organized in four ways:
 - [The ZK Stack](#the-zk-stack) — from foundational theory down to working tools
 - [Framework Decision Guide](#framework-decision-guide) — evaluation criteria and framework comparison for e-ID credential proofs
 - [Encyclopedic Index](#encyclopedic-index) — every entry, organized by category
+- [Paper History](#paper-history) — chronological log of papers added to the vault
+
+---
+
+## Paper History
+
+| Date | Papers added |
+|---|---|
+| 2026-05-20 | [KVRSCLT26-EUDIF-Harms](Resources/papers/KVRSCLT26-EUDIF-Harms.md) · [LZ26-AnonCreds-Legacy](Resources/papers/LZ26-AnonCreds-Legacy.md) · [FHLL25-AnonCreds-TrustedHW](Resources/papers/FHLL25-AnonCreds-TrustedHW.md) |
+| 2026-04-29 | [GHE25-MS2](Resources/papers/GHE25-MS2.md) · [GHE25-Taxonomy](Resources/papers/GHE25-Taxonomy.md) · [PPZ24-Crescent](Resources/papers/PPZ24-Crescent.md) · [FS24-Longfellow](Resources/papers/FS24-Longfellow.md) · [LSZ25-Vision](Resources/papers/LSZ25-Vision.md) · [BBS04-ShortGroupSigs](Resources/papers/BBS04-ShortGroupSigs.md) |
+| 2026-04-22 | [WPSP26-DV-Dynamic-zkSNARKs](Resources/papers/WPSP26-DV-Dynamic-zkSNARKs.md) · [CFQW19-LegoSNARK](Resources/papers/CFQW19-LegoSNARK.md) · [LFKN92-Sumcheck](Resources/papers/LFKN92-Sumcheck.md) · [Sch80-Schwartz-Zippel](Resources/papers/Sch80-Schwartz-Zippel.md) |
+| 2026-03-25 | Initial batch (28 papers) — [browse all](Resources/papers/README.md) |
 
 ---
  

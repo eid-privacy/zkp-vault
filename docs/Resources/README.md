@@ -13,7 +13,7 @@ tags:
 
 # ZKP Resources
 
-Curated external resources for Zero-Knowledge Proofs — 82 entries across papers, blogs, books, wikis, docs, and code repositories.
+Curated external resources for Zero-Knowledge Proofs — 83 entries across papers, blogs, books, wikis, docs, and code repositories.
 
 _This file is auto-generated. Run `devbox run summaries` to update._
 
@@ -48,6 +48,7 @@ _This file is auto-generated. Run `devbox run summaries` to update._
 - [[WPSP26-DV-Dynamic-zkSNARKs|Designated-Verifier Dynamic zk-SNARKs with Applications to Dynamic Proofs of Index (Wang et al. 2026)]] (paper, 2026)
 - [[LZ26-AnonCreds-Legacy|Device Binding for Anonymous Credentials on Legacy Phones (Lehmann, Zacharakis 2026)]] (paper, 2026)
 - [[KVRSCLT26-EUDIF-Harms|On the (Privacy) Harms of the European Digital Identity Framework (Knabenhans, Veitch, Raynal, Stadler, Chatel, Lueks, Troncoso 2026)]] (paper, 2026)
+- [[ENRTTX26-OpenAC|OpenAC: Open Design for Transparent and Lightweight Anonymous Credentials (Eagen, Ngo, Rushi, Tong, Tsai, Xia 2026)]] (paper, 2026)
 - [[eid-privacy-poc-report|Proof-of-Concept for ZKPs (eid-privacy, 2026)]] (blog, 2026)
 - [[eid-privacy-comparing-zk-systems|Comparing ZK Systems (eid-privacy, 2025)]] (blog, 2025)
 - [[eid-privacy-crescent-longfellow|Crescent and Longfellow (eid-privacy, 2025)]] (blog, 2025)
@@ -118,6 +119,7 @@ _This file is auto-generated. Run `devbox run summaries` to update._
 ### cryptography
 
 - [[LZ26-AnonCreds-Legacy|Device Binding for Anonymous Credentials on Legacy Phones (Lehmann, Zacharakis 2026)]] (paper, 2026)
+- [[ENRTTX26-OpenAC|OpenAC: Open Design for Transparent and Lightweight Anonymous Credentials (Eagen, Ngo, Rushi, Tong, Tsai, Xia 2026)]] (paper, 2026)
 - [[FHLL25-AnonCreds-TrustedHW|Device-Bound Anonymous Credentials With(out) Trusted Hardware (Friedrichs, Harding, Lehmann, Lysyanskaya 2025)]] (paper, 2025)
 - [[GHE25-Taxonomy|Taxonomy for Privacy-Preserving Electronic Identities (Gasser, Humbert, Elghareeb 2025)]] (paper, 2025)
 - [[Cryptographic-Principles-Tomescu|Cryptographic Principles (Alin Tomescu)]] (blog, 2021)
@@ -140,6 +142,7 @@ _This file is auto-generated. Run `devbox run summaries` to update._
 - [[LZ26-AnonCreds-Legacy|Device Binding for Anonymous Credentials on Legacy Phones (Lehmann, Zacharakis 2026)]] (paper, 2026)
 - [[docknetwork-crypto-library|DockNetwork Crypto Library Analysis]] (doc, 2026)
 - [[KVRSCLT26-EUDIF-Harms|On the (Privacy) Harms of the European Digital Identity Framework (Knabenhans, Veitch, Raynal, Stadler, Chatel, Lueks, Troncoso 2026)]] (paper, 2026)
+- [[ENRTTX26-OpenAC|OpenAC: Open Design for Transparent and Lightweight Anonymous Credentials (Eagen, Ngo, Rushi, Tong, Tsai, Xia 2026)]] (paper, 2026)
 - [[eid-privacy-poc-report|Proof-of-Concept for ZKPs (eid-privacy, 2026)]] (blog, 2026)
 - [[eid-privacy-zkp-vault|Reading list for ZKP algorithms and implementations (eid-privacy, 2026)]] (blog, 2026)
 - [[eid-privacy-comparing-zk-systems|Comparing ZK Systems (eid-privacy, 2025)]] (blog, 2025)
@@ -428,6 +431,7 @@ _This file is auto-generated. Run `devbox run summaries` to update._
 
 ### transparent
 
+- [[ENRTTX26-OpenAC|OpenAC: Open Design for Transparent and Lightweight Anonymous Credentials (Eagen, Ngo, Rushi, Tong, Tsai, Xia 2026)]] (paper, 2026)
 - [[FS24-Longfellow|Anonymous Credentials from ECDSA (Frigo & shelat 2024)]] (paper, 2024)
 - [[AHIV22-Ligero-Ext|Ligero: Lightweight Sublinear Arguments Without a Trusted Setup]] (paper, 2022)
 - [[microsoft-Spartan2|Microsoft Spartan2]] (code, 2022)
@@ -470,6 +474,7 @@ _This file is auto-generated. Run `devbox run summaries` to update._
 
 ### zkp
 
+- [[ENRTTX26-OpenAC|OpenAC: Open Design for Transparent and Lightweight Anonymous Credentials (Eagen, Ngo, Rushi, Tong, Tsai, Xia 2026)]] (paper, 2026)
 - [[GHE25-MS2|Secure and Privacy-Preserving Credentials for E-ID Proof-of-Concept (Gasser, Humbert, Elghareeb 2025)]] (paper, 2025)
 - [[Thaler-Proofs-Arguments-ZK|Proofs, Arguments, and Zero-Knowledge]] (book, 2023)
 - [[SAS22-ZKAttest|ZKAttest: Ring and Group Signatures for Existing ECDSA Keys]] (paper, 2022)

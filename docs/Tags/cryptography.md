@@ -15,6 +15,7 @@ Entries covering classical and modern cryptographic building blocks used in or a
 - [[LZ26-AnonCreds-Legacy|Device Binding for Anonymous Credentials on Legacy Phones (Lehmann, Zacharakis 2026)]]
 - [[FHLL25-AnonCreds-TrustedHW|Device-Bound Anonymous Credentials With(out) Trusted Hardware (Friedrichs, Harding, Lehmann, Lysyanskaya 2025)]]
 - [[Ped91-Commitments|Non-Interactive and Information-Theoretic Secure Verifiable Secret Sharing (Pedersen 1991)]]
+- [[ENRTTX26-OpenAC|OpenAC: Open Design for Transparent and Lightweight Anonymous Credentials (Eagen, Ngo, Rushi, Tong, Tsai, Xia 2026)]]
 - [[CS97-DL-Proofs|Proof Systems for General Statements about Discrete Logarithms (Camenisch-Stadler 1997)]]
 - [[CM99-Safe-Primes|Proving in Zero-Knowledge that a Number is the Product of Two Safe Primes (Camenisch-Michels 1999)]]
 - [[BBS04-ShortGroupSigs|Short Group Signatures (Boneh, Boyen, Shacham 2004)]]

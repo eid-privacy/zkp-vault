@@ -25,6 +25,7 @@ Tags entries that are end-to-end ZKP applications or application-level designs, 
 - [[microsoft-crescent-credentials|Microsoft Crescent Credentials (Spartan-t256 Fork)]]
 - [[KVRSCLT26-EUDIF-Harms|On the (Privacy) Harms of the European Digital Identity Framework (Knabenhans, Veitch, Raynal, Stadler, Chatel, Lueks, Troncoso 2026)]]
 - [[eid-privacy-swiyu-demo|Open Source SWIYU Demo application (eid-privacy, 2025)]]
+- [[ENRTTX26-OpenAC|OpenAC: Open Design for Transparent and Lightweight Anonymous Credentials (Eagen, Ngo, Rushi, Tong, Tsai, Xia 2026)]]
 - [[eid-privacy-privacy-unlinkability|Overview of Privacy and Unlinkability (eid-privacy, 2025)]]
 - [[eid-privacy-poc-report|Proof-of-Concept for ZKPs (eid-privacy, 2026)]]
 - [[GHE25-MS2|Secure and Privacy-Preserving Credentials for E-ID Proof-of-Concept (Gasser, Humbert, Elghareeb 2025)]]

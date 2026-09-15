@@ -36,6 +36,7 @@ Introduces Crescent, a modular ZK credential scheme for privacy-preserving prese
 - [[eid-privacy-crescent-longfellow|Crescent and Longfellow (eid-privacy, 2025)]] (blog, 2025)
 - [[microsoft-crescent-credentials|Microsoft Crescent Credentials (Spartan-t256 Fork)]] (code, 2023)
 - [[Gro16-Groth16|On the Size of Pairing-Based Non-interactive Arguments (Groth16)]] (paper, 2016)
+- [[ENRTTX26-OpenAC|OpenAC: Open Design for Transparent and Lightweight Anonymous Credentials (Eagen, Ngo, Rushi, Tong, Tsai, Xia 2026)]] (paper, 2026)
 - [[eid-privacy-privacy-unlinkability|Overview of Privacy and Unlinkability (eid-privacy, 2025)]] (blog, 2025)
 - [[eid-privacy-poc-report|Proof-of-Concept for ZKPs (eid-privacy, 2026)]] (blog, 2026)
 - [[Set19-Spartan|Spartan: Efficient and General-Purpose zkSNARKs Without Trusted Setup (Setty 2020)]] (paper, 2019)

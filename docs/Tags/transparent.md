@@ -32,6 +32,7 @@ Tags proof systems with no trusted setup — all randomness is public and verifi
 - [[Spartan-Framework-Code|Microsoft Spartan — Commit History]]
 - [[Spartan-Code|Microsoft Spartan (Original)]]
 - [[microsoft-Spartan2|Microsoft Spartan2]]
+- [[ENRTTX26-OpenAC|OpenAC: Open Design for Transparent and Lightweight Anonymous Credentials (Eagen, Ngo, Rushi, Tong, Tsai, Xia 2026)]]
 - [[Spartan|Spartan]]
 - [[Set19-Spartan|Spartan: Efficient and General-Purpose zkSNARKs Without Trusted Setup (Setty 2020)]]
 - [[zk-STARKs|zk-STARKs]]

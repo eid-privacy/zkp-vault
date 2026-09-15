@@ -43,6 +43,7 @@ Root tag for all Zero-Knowledge Proof content in this vault. Applied to essentia
 - [[BFM88-NIZK-Intro|Non-Interactive Zero-Knowledge and Its Applications (BFM88)]]
 - [[Plonk-Family-Note|Note: PLONK / TurboPLONK / UltraPLONK Family]]
 - [[Sigma-Protocols-Damgard|On Σ-protocols]]
+- [[ENRTTX26-OpenAC|OpenAC: Open Design for Transparent and Lightweight Anonymous Credentials (Eagen, Ngo, Rushi, Tong, Tsai, Xia 2026)]]
 - [[OpenVM|OpenVM]]
 - [[Pedersen-Commitments|Pedersen Commitments]]
 - [[Pico|Pico]]

@@ -10,23 +10,23 @@ tags: []
 
 # ZKP Papers
 
-41 entries.
+42 entries.
 
 _This file is auto-generated. Run `devbox run summaries` to update._
 
 ## Navigation
 
-| 2026–2024 | 2023–2019 | 2019–2017 | 2017–2004 | 1999–1980 |
+| 2026–2024 | 2024–2019 | 2019–2017 | 2017–2004 | 1999–1980 |
 | --- | --- | --- | --- | --- |
-| [[WPSP26-DV-Dynamic-zkSNARKs]] | [[CBBZ23-HyperPlonk]] | [[CFQW19-LegoSNARK]] | [[WTSTW17-Hyrax]] | [[CM99-Safe-Primes]] |
-| [[LZ26-AnonCreds-Legacy]] | [[AHIV22-Ligero-Ext]] | [[GWC19-PLONK]] | [[AHIV17-Ligero]] | [[CS97-DL-Proofs]] |
-| [[KVRSCLT26-EUDIF-Harms]] | [[SAS22-ZKAttest]] | [[MBKM19-Sonic]] | [[Gro16-Groth16]] | [[LFKN92-Sumcheck]] |
-| [[FHLL25-AnonCreds-TrustedHW]] | [[ZKP21-Sigma-Standard]] | [[Set19-Spartan]] | [[PHGR13-Pinocchio]] | [[Ped91-Commitments]] |
-| [[GHE25-MS2]] | [[CHJ+20-Bulletproofs-Opt]] | [[GW19b-TurboPlonk]] | [[GGPR12-QSP-SNARK]] | [[BFM88-NIZK-Intro]] |
-| [[GHE25-Taxonomy]] | [[BFH+20-Ligero-Plus]] | [[BBHR18-FRI]] | [[DI06-Scalable-MPC]] | [[FS86-Fiat-Shamir]] |
-| [[LSZ25-Vision]] | [[GW20-Plookup]] | [[GKMM18-Updatable-SRS]] | [[Dam04-Sigma-Protocols]] | [[GMR85-ZK-Complexity]] |
-| [[FS24-Longfellow]] | [[BCRSVW19-Aurora]] | [[BBB+17-Bulletproofs]] | [[BBS04-ShortGroupSigs]] | [[Sch80-Schwartz-Zippel]] |
-| [[PPZ24-Crescent]] |  |  |  |  |
+| [[WPSP26-DV-Dynamic-zkSNARKs]] | [[PPZ24-Crescent]] | [[CFQW19-LegoSNARK]] | [[WTSTW17-Hyrax]] | [[CM99-Safe-Primes]] |
+| [[LZ26-AnonCreds-Legacy]] | [[CBBZ23-HyperPlonk]] | [[GWC19-PLONK]] | [[AHIV17-Ligero]] | [[CS97-DL-Proofs]] |
+| [[KVRSCLT26-EUDIF-Harms]] | [[AHIV22-Ligero-Ext]] | [[MBKM19-Sonic]] | [[Gro16-Groth16]] | [[LFKN92-Sumcheck]] |
+| [[ENRTTX26-OpenAC]] | [[SAS22-ZKAttest]] | [[Set19-Spartan]] | [[PHGR13-Pinocchio]] | [[Ped91-Commitments]] |
+| [[FHLL25-AnonCreds-TrustedHW]] | [[ZKP21-Sigma-Standard]] | [[GW19b-TurboPlonk]] | [[GGPR12-QSP-SNARK]] | [[BFM88-NIZK-Intro]] |
+| [[GHE25-MS2]] | [[CHJ+20-Bulletproofs-Opt]] | [[BBHR18-FRI]] | [[DI06-Scalable-MPC]] | [[FS86-Fiat-Shamir]] |
+| [[GHE25-Taxonomy]] | [[BFH+20-Ligero-Plus]] | [[GKMM18-Updatable-SRS]] | [[Dam04-Sigma-Protocols]] | [[GMR85-ZK-Complexity]] |
+| [[LSZ25-Vision]] | [[GW20-Plookup]] | [[BBB+17-Bulletproofs]] | [[BBS04-ShortGroupSigs]] | [[Sch80-Schwartz-Zippel]] |
+| [[FS24-Longfellow]] | [[BCRSVW19-Aurora]] |  |  |  |
 
 ## All Papers
 
@@ -35,6 +35,7 @@ _This file is auto-generated. Run `devbox run summaries` to update._
 | [[WPSP26-DV-Dynamic-zkSNARKs|Designated-Verifier Dynamic zk-SNARKs with Applications to Dynamic Proofs of Index (Wang et al. 2026)]] | 2026 | Weijie Wang et al. | snark, non-interactive, applications |
 | [[LZ26-AnonCreds-Legacy|Device Binding for Anonymous Credentials on Legacy Phones (Lehmann, Zacharakis 2026)]] | 2026 | Anja Lehmann, Alexandros Zacharakis | eid, applications, cryptography |
 | [[KVRSCLT26-EUDIF-Harms|On the (Privacy) Harms of the European Digital Identity Framework (Knabenhans, Veitch, Raynal, Stadler, Chatel, Lueks, Troncoso 2026)]] | 2026 | Christian Knabenhans et al. | eid, applications |
+| [[ENRTTX26-OpenAC|OpenAC: Open Design for Transparent and Lightweight Anonymous Credentials (Eagen, Ngo, Rushi, Tong, Tsai, Xia 2026)]] | 2026 | Liam Eagen et al. | eid, applications, cryptography, transparent, zkp |
 | [[FHLL25-AnonCreds-TrustedHW|Device-Bound Anonymous Credentials With(out) Trusted Hardware (Friedrichs, Harding, Lehmann, Lysyanskaya 2025)]] | 2025 | Karla Friedrichs et al. | eid, applications, cryptography |
 | [[GHE25-MS2|Secure and Privacy-Preserving Credentials for E-ID Proof-of-Concept (Gasser, Humbert, Elghareeb 2025)]] | 2025 | Linus Gasser, Clement Humbert, Ahmed Elghareeb | eid, applications, zkp |
 | [[GHE25-Taxonomy|Taxonomy for Privacy-Preserving Electronic Identities (Gasser, Humbert, Elghareeb 2025)]] | 2025 | Linus Gasser, Clement Humbert, Ahmed Elghareeb | eid, overview, reference, cryptography |

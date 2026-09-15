@@ -16,6 +16,7 @@ The vault is organized in four ways:
 
 | Date | Title | Authors |
 |---|---|---|
+| 2026-09-15 | [OpenAC: Open Design for Transparent and Lightweight Anonymous Credentials](Resources/papers/ENRTTX26-OpenAC.md) | Liam Eagen, Hy Ngo, Vikas Rushi, Ying Tong, Moven Tsai, Janabel Xia |
 | 2026-05-20 | [On the (Privacy) Harms of the European Digital Identity Framework](Resources/papers/KVRSCLT26-EUDIF-Harms.md) | Christian Knabenhans, Shannon Veitch, Mathilde Raynal, Theresa Stadler, Sylvain Chatel, Wouter Lueks, Carmela Troncoso |
 | | [Device Binding for Anonymous Credentials on Legacy Phones](Resources/papers/LZ26-AnonCreds-Legacy.md) | Anja Lehmann, Alexandros Zacharakis |
 | | [Device-Bound Anonymous Credentials With(out) Trusted Hardware](Resources/papers/FHLL25-AnonCreds-TrustedHW.md) | Karla Friedrichs, Franklin Harding, Anja Lehmann, Anna Lysyanskaya |

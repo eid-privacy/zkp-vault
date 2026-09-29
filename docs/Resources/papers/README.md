@@ -10,7 +10,7 @@ tags: []
 
 # ZKP Papers
 
-43 entries.
+44 entries.
 
 _This file is auto-generated. Run `devbox run summaries` to update._
 
@@ -21,12 +21,12 @@ _This file is auto-generated. Run `devbox run summaries` to update._
 | [[WPSP26-DV-Dynamic-zkSNARKs]] | [[PPZ24-Crescent]] | [[CFQW19-LegoSNARK]] | [[AHIV17-Ligero]] | [[Cra97-Modular-Design]] |
 | [[LZ26-AnonCreds-Legacy]] | [[CBBZ23-HyperPlonk]] | [[GWC19-PLONK]] | [[Gro16-Groth16]] | [[CS97-DL-Proofs]] |
 | [[KVRSCLT26-EUDIF-Harms]] | [[AHIV22-Ligero-Ext]] | [[MBKM19-Sonic]] | [[PHGR13-Pinocchio]] | [[LFKN92-Sumcheck]] |
-| [[ENRTTX26-OpenAC]] | [[SAS22-ZKAttest]] | [[Set19-Spartan]] | [[GGPR12-QSP-SNARK]] | [[Ped91-Commitments]] |
-| [[FHLL25-AnonCreds-TrustedHW]] | [[ZKP21-Sigma-Standard]] | [[GW19b-TurboPlonk]] | [[DI06-Scalable-MPC]] | [[BFM88-NIZK-Intro]] |
-| [[GHE25-MS2]] | [[CHJ+20-Bulletproofs-Opt]] | [[BBHR18-FRI]] | [[Dam04-Sigma-Protocols]] | [[FS86-Fiat-Shamir]] |
-| [[GHE25-Taxonomy]] | [[BFH+20-Ligero-Plus]] | [[GKMM18-Updatable-SRS]] | [[BBS04-ShortGroupSigs]] | [[GMR85-ZK-Complexity]] |
-| [[LSZ25-Vision]] | [[GW20-Plookup]] | [[BBB+17-Bulletproofs]] | [[CM99-Safe-Primes]] | [[Sch80-Schwartz-Zippel]] |
-| [[FS24-Longfellow]] | [[BCRSVW19-Aurora]] | [[WTSTW17-Hyrax]] |  |  |
+| [[ENRTTX26-OpenAC]] | [[SAS22-ZKAttest]] | [[Set19-Spartan]] | [[BCGTV13-SNARKs-for-C]] | [[Ped91-Commitments]] |
+| [[FHLL25-AnonCreds-TrustedHW]] | [[ZKP21-Sigma-Standard]] | [[GW19b-TurboPlonk]] | [[GGPR12-QSP-SNARK]] | [[BFM88-NIZK-Intro]] |
+| [[GHE25-MS2]] | [[CHJ+20-Bulletproofs-Opt]] | [[BBHR18-FRI]] | [[DI06-Scalable-MPC]] | [[FS86-Fiat-Shamir]] |
+| [[GHE25-Taxonomy]] | [[BFH+20-Ligero-Plus]] | [[GKMM18-Updatable-SRS]] | [[Dam04-Sigma-Protocols]] | [[GMR85-ZK-Complexity]] |
+| [[LSZ25-Vision]] | [[GW20-Plookup]] | [[BBB+17-Bulletproofs]] | [[BBS04-ShortGroupSigs]] | [[Sch80-Schwartz-Zippel]] |
+| [[FS24-Longfellow]] | [[BCRSVW19-Aurora]] | [[WTSTW17-Hyrax]] | [[CM99-Safe-Primes]] |  |
 
 ## All Papers
 
@@ -62,6 +62,7 @@ _This file is auto-generated. Run `devbox run summaries` to update._
 | [[AHIV17-Ligero|Ligero: Lightweight Sublinear Arguments Without a Trusted Setup (Ames et al. 2017)]] | 2017 | Scott Ames et al. | linear-time-prover, transparent, iop, reed-solomon |
 | [[Gro16-Groth16|On the Size of Pairing-Based Non-interactive Arguments (Groth16)]] | 2016 | Jens Groth | snark, pairing, trusted-setup, foundational |
 | [[PHGR13-Pinocchio|Pinocchio: Nearly Practical Verifiable Computation (Parno et al. 2013)]] | 2013 | Bryan Parno et al. | snark, trusted-setup, foundational |
+| [[BCGTV13-SNARKs-for-C|SNARKs for C: Verifying Program Executions Succinctly and in Zero Knowledge (Ben-Sasson et al. 2013)]] | 2013 | Eli Ben-Sasson et al. | snark, trusted-setup, foundational |
 | [[GGPR12-QSP-SNARK|Quadratic Span Programs and Succinct NIZKs without PCPs (GGPR 2013)]] | 2012 | Rosario Gennaro et al. | snark, foundational, trusted-setup |
 | [[DI06-Scalable-MPC|Scalable Secure Multiparty Computation (Damgård-Ishai 2006)]] | 2006 | Ivan Damgård, Yuval Ishai | mpc, scalable, theory, linear-time-prover |
 | [[Dam04-Sigma-Protocols|On Sigma Protocols (Damgård)]] | 2004 | Ivan Damgård | sigma, interactive-proof, foundational, theory |

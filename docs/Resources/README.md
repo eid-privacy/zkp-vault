@@ -13,7 +13,7 @@ tags:
 
 # ZKP Resources
 
-Curated external resources for Zero-Knowledge Proofs — 84 entries across papers, blogs, books, wikis, docs, and code repositories.
+Curated external resources for Zero-Knowledge Proofs — 85 entries across papers, blogs, books, wikis, docs, and code repositories.
 
 _This file is auto-generated. Run `devbox run summaries` to update._
 
@@ -186,6 +186,7 @@ _This file is auto-generated. Run `devbox run summaries` to update._
 - [[GKMM18-Updatable-SRS|Updatable and Universal Common Reference Strings with Applications to zk-SNARKs (Groth et al. 2018)]] (paper, 2018)
 - [[Gro16-Groth16|On the Size of Pairing-Based Non-interactive Arguments (Groth16)]] (paper, 2016)
 - [[PHGR13-Pinocchio|Pinocchio: Nearly Practical Verifiable Computation (Parno et al. 2013)]] (paper, 2013)
+- [[BCGTV13-SNARKs-for-C|SNARKs for C: Verifying Program Executions Succinctly and in Zero Knowledge (Ben-Sasson et al. 2013)]] (paper, 2013)
 - [[GGPR12-QSP-SNARK|Quadratic Span Programs and Succinct NIZKs without PCPs (GGPR 2013)]] (paper, 2012)
 - [[Dam04-Sigma-Protocols|On Sigma Protocols (Damgård)]] (paper, 2004)
 - [[BBS04-ShortGroupSigs|Short Group Signatures (Boneh, Boyen, Shacham 2004)]] (paper, 2004)
@@ -405,6 +406,7 @@ _This file is auto-generated. Run `devbox run summaries` to update._
 - [[WTSTW17-Hyrax|Doubly-Efficient zkSNARKs Without Trusted Setup (Hyrax)]] (paper, 2017)
 - [[Gro16-Groth16|On the Size of Pairing-Based Non-interactive Arguments (Groth16)]] (paper, 2016)
 - [[PHGR13-Pinocchio|Pinocchio: Nearly Practical Verifiable Computation (Parno et al. 2013)]] (paper, 2013)
+- [[BCGTV13-SNARKs-for-C|SNARKs for C: Verifying Program Executions Succinctly and in Zero Knowledge (Ben-Sasson et al. 2013)]] (paper, 2013)
 - [[GGPR12-QSP-SNARK|Quadratic Span Programs and Succinct NIZKs without PCPs (GGPR 2013)]] (paper, 2012)
 
 ### standard
@@ -458,6 +460,7 @@ _This file is auto-generated. Run `devbox run summaries` to update._
 - [[GKMM18-Updatable-SRS|Updatable and Universal Common Reference Strings with Applications to zk-SNARKs (Groth et al. 2018)]] (paper, 2018)
 - [[Gro16-Groth16|On the Size of Pairing-Based Non-interactive Arguments (Groth16)]] (paper, 2016)
 - [[PHGR13-Pinocchio|Pinocchio: Nearly Practical Verifiable Computation (Parno et al. 2013)]] (paper, 2013)
+- [[BCGTV13-SNARKs-for-C|SNARKs for C: Verifying Program Executions Succinctly and in Zero Knowledge (Ben-Sasson et al. 2013)]] (paper, 2013)
 - [[GGPR12-QSP-SNARK|Quadratic Span Programs and Succinct NIZKs without PCPs (GGPR 2013)]] (paper, 2012)
 
 ### tutorials

@@ -32,3 +32,4 @@ Introduces Quadratic Span Programs (QSPs) as an algebraic characterization of NP
 
 - [[PHGR13-Pinocchio|Pinocchio: Nearly Practical Verifiable Computation (Parno et al. 2013)]] (paper, 2013)
 - [[R1CS-Docs|R1CS Explainer (0xPARC / Circom)]] (doc, 2022)
+- [[BCGTV13-SNARKs-for-C|SNARKs for C: Verifying Program Executions Succinctly and in Zero Knowledge (Ben-Sasson et al. 2013)]] (paper, 2013)

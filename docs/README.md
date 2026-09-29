@@ -4,7 +4,7 @@ A knowledge vault covering Zero-Knowledge Proof papers, frameworks, cryptographi
 
 The vault is organized in four ways:
 
-- [Resource Index](#resources-index) — 64 external resources (papers, blogs, books, docs, code) by type and topic
+- [Resource Index](#resources-index) — 65 external resources (papers, blogs, books, docs, code) by type and topic
 - [The ZK Stack](#the-zk-stack) — from foundational theory down to working tools
 - [Framework Decision Guide](#framework-decision-guide) — evaluation criteria and framework comparison for e-ID credential proofs
 - [Encyclopedic Index](#encyclopedic-index) — every entry, organized by category
@@ -16,6 +16,7 @@ The vault is organized in four ways:
 
 | Date | Title | Authors |
 |---|---|---|
+| 2026-09-29 | [SNARKs for C: Verifying Program Executions Succinctly and in Zero Knowledge](Resources/papers/BCGTV13-SNARKs-for-C.md) | Eli Ben-Sasson, Alessandro Chiesa, Daniel Genkin, Eran Tromer, Madars Virza |
 | 2026-09-29 | [Modular Design of Secure yet Practical Cryptographic Protocols](Resources/papers/Cra97-Modular-Design.md) | Ronald Cramer |
 | 2026-09-15 | [OpenAC: Open Design for Transparent and Lightweight Anonymous Credentials](Resources/papers/ENRTTX26-OpenAC.md) | Liam Eagen, Hy Ngo, Vikas Rushi, Ying Tong, Moven Tsai, Janabel Xia |
 | 2026-05-20 | [On the (Privacy) Harms of the European Digital Identity Framework](Resources/papers/KVRSCLT26-EUDIF-Harms.md) | Christian Knabenhans, Shannon Veitch, Mathilde Raynal, Theresa Stadler, Sylvain Chatel, Wouter Lueks, Carmela Troncoso |
@@ -39,7 +40,7 @@ The vault is organized in four ways:
 
 | Type | Count | Browse |
 |---|---|---|
-| Papers | 33 | [Resources/papers](Resources/papers/README.md) |
+| Papers | 34 | [Resources/papers](Resources/papers/README.md) |
 | Blogs & Explainers | 9 | [Resources/blogs](Resources/blogs/README.md) |
 | Books | 1 | [Resources/books](Resources/books/README.md) |
 | Wikis & Standards | 1 | [Resources/wikis](Resources/wikis/README.md) |

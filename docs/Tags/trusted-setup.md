@@ -19,5 +19,6 @@ Tags proof systems or tools that require a trusted setup ceremony to generate pu
 - [[PHGR13-Pinocchio|Pinocchio: Nearly Practical Verifiable Computation (Parno et al. 2013)]]
 - [[QSP-GGPR13|QSP: Quadratic Span Programs and Succinct NIZKs without PCPs]]
 - [[GGPR12-QSP-SNARK|Quadratic Span Programs and Succinct NIZKs without PCPs (GGPR 2013)]]
+- [[BCGTV13-SNARKs-for-C|SNARKs for C: Verifying Program Executions Succinctly and in Zero Knowledge (Ben-Sasson et al. 2013)]]
 - [[MBKM19-Sonic|Sonic: Zero-Knowledge SNARKs from Linear-Size Universal and Updateable Structured Reference Strings (Maller et al. 2019)]]
 - [[GKMM18-Updatable-SRS|Updatable and Universal Common Reference Strings with Applications to zk-SNARKs (Groth et al. 2018)]]

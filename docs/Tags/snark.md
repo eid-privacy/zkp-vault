@@ -42,6 +42,7 @@ Succinct Non-interactive ARguments of Knowledge. Tags proof systems that achieve
 - [[QSP-GGPR13|QSP: Quadratic Span Programs and Succinct NIZKs without PCPs]]
 - [[GGPR12-QSP-SNARK|Quadratic Span Programs and Succinct NIZKs without PCPs (GGPR 2013)]]
 - [[R1CS|R1CS — Rank-1 Constraint System]]
+- [[BCGTV13-SNARKs-for-C|SNARKs for C: Verifying Program Executions Succinctly and in Zero Knowledge (Ben-Sasson et al. 2013)]]
 - [[Sonic|Sonic]]
 - [[Sonic-Code|Sonic Reference Implementation (ebfull/sonic)]]
 - [[MBKM19-Sonic|Sonic: Zero-Knowledge SNARKs from Linear-Size Universal and Updateable Structured Reference Strings (Maller et al. 2019)]]

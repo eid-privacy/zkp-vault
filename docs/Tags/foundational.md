@@ -27,6 +27,7 @@ Marks entries that represent foundational, landmark, or must-know concepts and s
 - [[GGPR12-QSP-SNARK|Quadratic Span Programs and Succinct NIZKs without PCPs (GGPR 2013)]]
 - [[Schwartz-Zippel|Schwartz-Zippel Lemma]]
 - [[BBS04-ShortGroupSigs|Short Group Signatures (Boneh, Boyen, Shacham 2004)]]
+- [[BCGTV13-SNARKs-for-C|SNARKs for C: Verifying Program Executions Succinctly and in Zero Knowledge (Ben-Sasson et al. 2013)]]
 - [[SumcheckProofs|Sumcheck Protocol]]
 - [[GMR85-Knowledge-Complexity|The Knowledge Complexity of Interactive Proof Systems]]
 - [[GMR85-ZK-Complexity|The Knowledge Complexity of Interactive Proof Systems (GMR85)]]

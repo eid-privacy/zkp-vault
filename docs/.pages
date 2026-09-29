@@ -1,6 +1,7 @@
 nav:
   - README.md
   - Resources
+  - Papers: Resources/papers
   - TheoreticalModels
   - CryptographicPrimitives
   - ProofSystems

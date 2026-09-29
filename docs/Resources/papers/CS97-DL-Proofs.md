@@ -27,4 +27,5 @@ Introduces the Camenisch-Stadler notation for sigma protocols and gives efficien
 
 ## Related resources
 
+- [[Cra97-Modular-Design|Modular Design of Secure yet Practical Cryptographic Protocols (Cramer 1997)]] (paper, 1997)
 - [[Dam04-Sigma-Protocols|On Sigma Protocols (Damgård)]] (paper, 2004)

@@ -14,6 +14,7 @@ Marks entries that represent foundational, landmark, or must-know concepts and s
 - [[LFKN92-Sumcheck|Algebraic Methods for Interactive Proof Systems]]
 - [[Sch80-Schwartz-Zippel|Fast Probabilistic Algorithms for Verification of Polynomial Identities]]
 - [[FS86-Fiat-Shamir|How to Prove Yourself: Practical Solutions to Identification and Signature Problems (Fiat-Shamir)]]
+- [[Cra97-Modular-Design|Modular Design of Secure yet Practical Cryptographic Protocols (Cramer 1997)]]
 - [[Ped91-Commitments|Non-Interactive and Information-Theoretic Secure Verifiable Secret Sharing (Pedersen 1991)]]
 - [[NIZK-Blum|Non-Interactive Zero-Knowledge and Its Applications]]
 - [[BFM88-NIZK-Intro|Non-Interactive Zero-Knowledge and Its Applications (BFM88)]]

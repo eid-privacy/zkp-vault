@@ -33,5 +33,6 @@ Ivan Damgård's lecture notes providing a unified treatment of Sigma (Σ) protoc
 
 - [[docknetwork-crypto-library|DockNetwork Crypto Library Analysis]] (doc, 2026)
 - [[FS86-Fiat-Shamir|How to Prove Yourself: Practical Solutions to Identification and Signature Problems (Fiat-Shamir)]] (paper, 1986)
+- [[Cra97-Modular-Design|Modular Design of Secure yet Practical Cryptographic Protocols (Cramer 1997)]] (paper, 1997)
 - [[CS97-DL-Proofs|Proof Systems for General Statements about Discrete Logarithms (Camenisch-Stadler 1997)]] (paper, 1997)
 - [[ZKP21-Sigma-Standard|ZKProof Sigma Protocol Proposal (Workshop 4)]] (paper, 2021)

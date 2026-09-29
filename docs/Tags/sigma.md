@@ -17,6 +17,7 @@ Tags Sigma (Σ) protocols — three-move interactive proofs (commit, challenge, 
 
 - [[docknetwork-crypto-library|DockNetwork Crypto Library Analysis]]
 - [[FS86-Fiat-Shamir|How to Prove Yourself: Practical Solutions to Identification and Signature Problems (Fiat-Shamir)]]
+- [[Cra97-Modular-Design|Modular Design of Secure yet Practical Cryptographic Protocols (Cramer 1997)]]
 - [[Dam04-Sigma-Protocols|On Sigma Protocols (Damgård)]]
 - [[Sigma-Protocols-Damgard|On Σ-protocols]]
 - [[Pedersen-Commitments|Pedersen Commitments]]

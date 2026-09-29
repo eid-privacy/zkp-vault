@@ -12,6 +12,7 @@ Entries focused on theoretical aspects of ZKPs — formal definitions, complexit
 ## Entries tagged
 
 - [[Interactive-Proof-Model|Interactive Proof Model (IP)]]
+- [[Cra97-Modular-Design|Modular Design of Secure yet Practical Cryptographic Protocols (Cramer 1997)]]
 - [[BFM88-NIZK-Intro|Non-Interactive Zero-Knowledge and Its Applications (BFM88)]]
 - [[Dam04-Sigma-Protocols|On Sigma Protocols (Damgård)]]
 - [[DI06-Scalable-MPC|Scalable Secure Multiparty Computation (Damgård-Ishai 2006)]]

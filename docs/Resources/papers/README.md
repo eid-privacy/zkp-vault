@@ -10,23 +10,23 @@ tags: []
 
 # ZKP Papers
 
-42 entries.
+43 entries.
 
 _This file is auto-generated. Run `devbox run summaries` to update._
 
 ## Navigation
 
-| 2026–2024 | 2024–2019 | 2019–2017 | 2017–2004 | 1999–1980 |
+| 2026–2024 | 2024–2019 | 2019–2017 | 2017–1999 | 1997–1980 |
 | --- | --- | --- | --- | --- |
-| [[WPSP26-DV-Dynamic-zkSNARKs]] | [[PPZ24-Crescent]] | [[CFQW19-LegoSNARK]] | [[WTSTW17-Hyrax]] | [[CM99-Safe-Primes]] |
-| [[LZ26-AnonCreds-Legacy]] | [[CBBZ23-HyperPlonk]] | [[GWC19-PLONK]] | [[AHIV17-Ligero]] | [[CS97-DL-Proofs]] |
-| [[KVRSCLT26-EUDIF-Harms]] | [[AHIV22-Ligero-Ext]] | [[MBKM19-Sonic]] | [[Gro16-Groth16]] | [[LFKN92-Sumcheck]] |
-| [[ENRTTX26-OpenAC]] | [[SAS22-ZKAttest]] | [[Set19-Spartan]] | [[PHGR13-Pinocchio]] | [[Ped91-Commitments]] |
-| [[FHLL25-AnonCreds-TrustedHW]] | [[ZKP21-Sigma-Standard]] | [[GW19b-TurboPlonk]] | [[GGPR12-QSP-SNARK]] | [[BFM88-NIZK-Intro]] |
-| [[GHE25-MS2]] | [[CHJ+20-Bulletproofs-Opt]] | [[BBHR18-FRI]] | [[DI06-Scalable-MPC]] | [[FS86-Fiat-Shamir]] |
-| [[GHE25-Taxonomy]] | [[BFH+20-Ligero-Plus]] | [[GKMM18-Updatable-SRS]] | [[Dam04-Sigma-Protocols]] | [[GMR85-ZK-Complexity]] |
-| [[LSZ25-Vision]] | [[GW20-Plookup]] | [[BBB+17-Bulletproofs]] | [[BBS04-ShortGroupSigs]] | [[Sch80-Schwartz-Zippel]] |
-| [[FS24-Longfellow]] | [[BCRSVW19-Aurora]] |  |  |  |
+| [[WPSP26-DV-Dynamic-zkSNARKs]] | [[PPZ24-Crescent]] | [[CFQW19-LegoSNARK]] | [[AHIV17-Ligero]] | [[Cra97-Modular-Design]] |
+| [[LZ26-AnonCreds-Legacy]] | [[CBBZ23-HyperPlonk]] | [[GWC19-PLONK]] | [[Gro16-Groth16]] | [[CS97-DL-Proofs]] |
+| [[KVRSCLT26-EUDIF-Harms]] | [[AHIV22-Ligero-Ext]] | [[MBKM19-Sonic]] | [[PHGR13-Pinocchio]] | [[LFKN92-Sumcheck]] |
+| [[ENRTTX26-OpenAC]] | [[SAS22-ZKAttest]] | [[Set19-Spartan]] | [[GGPR12-QSP-SNARK]] | [[Ped91-Commitments]] |
+| [[FHLL25-AnonCreds-TrustedHW]] | [[ZKP21-Sigma-Standard]] | [[GW19b-TurboPlonk]] | [[DI06-Scalable-MPC]] | [[BFM88-NIZK-Intro]] |
+| [[GHE25-MS2]] | [[CHJ+20-Bulletproofs-Opt]] | [[BBHR18-FRI]] | [[Dam04-Sigma-Protocols]] | [[FS86-Fiat-Shamir]] |
+| [[GHE25-Taxonomy]] | [[BFH+20-Ligero-Plus]] | [[GKMM18-Updatable-SRS]] | [[BBS04-ShortGroupSigs]] | [[GMR85-ZK-Complexity]] |
+| [[LSZ25-Vision]] | [[GW20-Plookup]] | [[BBB+17-Bulletproofs]] | [[CM99-Safe-Primes]] | [[Sch80-Schwartz-Zippel]] |
+| [[FS24-Longfellow]] | [[BCRSVW19-Aurora]] | [[WTSTW17-Hyrax]] |  |  |
 
 ## All Papers
 
@@ -67,6 +67,7 @@ _This file is auto-generated. Run `devbox run summaries` to update._
 | [[Dam04-Sigma-Protocols|On Sigma Protocols (Damgård)]] | 2004 | Ivan Damgård | sigma, interactive-proof, foundational, theory |
 | [[BBS04-ShortGroupSigs|Short Group Signatures (Boneh, Boyen, Shacham 2004)]] | 2004 | Dan Boneh, Xavier Boyen, Hovav Shacham | sigma, commitment, pairing, cryptography, foundational |
 | [[CM99-Safe-Primes|Proving in Zero-Knowledge that a Number is the Product of Two Safe Primes (Camenisch-Michels 1999)]] | 1999 | Jan Camenisch, Markus Michels | sigma, cryptography, discrete-log, range-proof |
+| [[Cra97-Modular-Design|Modular Design of Secure yet Practical Cryptographic Protocols (Cramer 1997)]] | 1997 | Ronald Cramer | sigma, interactive-proof, foundational, theory |
 | [[CS97-DL-Proofs|Proof Systems for General Statements about Discrete Logarithms (Camenisch-Stadler 1997)]] | 1997 | Jan Camenisch, Markus Stadler | sigma, discrete-log, foundational, cryptography |
 | [[LFKN92-Sumcheck|Algebraic Methods for Interactive Proof Systems]] | 1992 | Carsten Lund et al. | zkp, interactive-proof, mathematics, foundational |
 | [[Ped91-Commitments|Non-Interactive and Information-Theoretic Secure Verifiable Secret Sharing (Pedersen 1991)]] | 1991 | Torben Pryds Pedersen | commitment, cryptography, foundational, discrete-log |

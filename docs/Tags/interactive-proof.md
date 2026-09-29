@@ -17,6 +17,7 @@ Tags entries about the general interactive proof model (IP), complexity class IP
 - [[LFKN92-Sumcheck|Algebraic Methods for Interactive Proof Systems]]
 - [[Fiat-Shamir|Fiat-Shamir Transformation]]
 - [[Interactive-Proof-Model|Interactive Proof Model (IP)]]
+- [[Cra97-Modular-Design|Modular Design of Secure yet Practical Cryptographic Protocols (Cramer 1997)]]
 - [[NIZK-Blum|Non-Interactive Zero-Knowledge and Its Applications]]
 - [[Dam04-Sigma-Protocols|On Sigma Protocols (Damgård)]]
 - [[DI06-Scalable-MPC|Scalable Secure Multiparty Computation]]

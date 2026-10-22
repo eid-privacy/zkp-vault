@@ -4,7 +4,7 @@ A knowledge vault covering Zero-Knowledge Proof papers, frameworks, cryptographi
 
 The vault is organized in four ways:
 
-- [Resource Index](#resources-index) — 67 external resources (papers, blogs, books, docs, code) by type and topic
+- [Resource Index](#resources-index) — 87 external resources (papers, blogs, books, docs, code) by type and topic
 - [The ZK Stack](#the-zk-stack) — from foundational theory down to working tools
 - [Framework Decision Guide](#framework-decision-guide) — evaluation criteria and framework comparison for e-ID credential proofs
 - [Encyclopedic Index](#encyclopedic-index) — every entry, organized by category
@@ -42,8 +42,8 @@ The vault is organized in four ways:
 
 | Type | Count | Browse |
 |---|---|---|
-| Papers | 36 | [Resources/papers](Resources/papers/README.md) |
-| Blogs & Explainers | 9 | [Resources/blogs](Resources/blogs/README.md) |
+| Papers | 46 | [Resources/papers](Resources/papers/README.md) |
+| Blogs & Explainers | 19 | [Resources/blogs](Resources/blogs/README.md) |
 | Books | 1 | [Resources/books](Resources/books/README.md) |
 | Wikis & Standards | 1 | [Resources/wikis](Resources/wikis/README.md) |
 | Documentation | 13 | [Resources/docs](Resources/docs/README.md) |

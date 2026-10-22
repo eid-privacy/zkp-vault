@@ -10,23 +10,24 @@ tags: []
 
 # ZKP Papers
 
-44 entries.
+46 entries.
 
 _This file is auto-generated. Run `devbox run summaries` to update._
 
 ## Navigation
 
-| 2026–2024 | 2024–2019 | 2019–2017 | 2017–1999 | 1997–1980 |
+| 2026–2024 | 2024–2020 | 2019–2017 | 2017–2004 | 1999–1980 |
 | --- | --- | --- | --- | --- |
-| [[WPSP26-DV-Dynamic-zkSNARKs]] | [[PPZ24-Crescent]] | [[CFQW19-LegoSNARK]] | [[AHIV17-Ligero]] | [[Cra97-Modular-Design]] |
-| [[LZ26-AnonCreds-Legacy]] | [[CBBZ23-HyperPlonk]] | [[GWC19-PLONK]] | [[Gro16-Groth16]] | [[CS97-DL-Proofs]] |
-| [[KVRSCLT26-EUDIF-Harms]] | [[AHIV22-Ligero-Ext]] | [[MBKM19-Sonic]] | [[PHGR13-Pinocchio]] | [[LFKN92-Sumcheck]] |
-| [[ENRTTX26-OpenAC]] | [[SAS22-ZKAttest]] | [[Set19-Spartan]] | [[BCGTV13-SNARKs-for-C]] | [[Ped91-Commitments]] |
+| [[WPSP26-DV-Dynamic-zkSNARKs]] | [[PPZ24-Crescent]] | [[BCRSVW19-Aurora]] | [[WTSTW17-Hyrax]] | [[CM99-Safe-Primes]] |
+| [[LZ26-AnonCreds-Legacy]] | [[KPRK24-SoK-SSI-Trust]] | [[CFQW19-LegoSNARK]] | [[AHIV17-Ligero]] | [[Cra97-Modular-Design]] |
+| [[KVRSCLT26-EUDIF-Harms]] | [[CBBZ23-HyperPlonk]] | [[GWC19-PLONK]] | [[Gro16-Groth16]] | [[CS97-DL-Proofs]] |
+| [[ENRTTX26-OpenAC]] | [[AHIV22-Ligero-Ext]] | [[MBKM19-Sonic]] | [[PHGR13-Pinocchio]] | [[LFKN92-Sumcheck]] |
+| [[BL26-SoK-AnonCreds]] | [[SAS22-ZKAttest]] | [[Set19-Spartan]] | [[BCGTV13-SNARKs-for-C]] | [[Ped91-Commitments]] |
 | [[FHLL25-AnonCreds-TrustedHW]] | [[ZKP21-Sigma-Standard]] | [[GW19b-TurboPlonk]] | [[GGPR12-QSP-SNARK]] | [[BFM88-NIZK-Intro]] |
 | [[GHE25-MS2]] | [[CHJ+20-Bulletproofs-Opt]] | [[BBHR18-FRI]] | [[DI06-Scalable-MPC]] | [[FS86-Fiat-Shamir]] |
 | [[GHE25-Taxonomy]] | [[BFH+20-Ligero-Plus]] | [[GKMM18-Updatable-SRS]] | [[Dam04-Sigma-Protocols]] | [[GMR85-ZK-Complexity]] |
 | [[LSZ25-Vision]] | [[GW20-Plookup]] | [[BBB+17-Bulletproofs]] | [[BBS04-ShortGroupSigs]] | [[Sch80-Schwartz-Zippel]] |
-| [[FS24-Longfellow]] | [[BCRSVW19-Aurora]] | [[WTSTW17-Hyrax]] | [[CM99-Safe-Primes]] |  |
+| [[FS24-Longfellow]] |  |  |  |  |
 
 ## All Papers
 
@@ -36,12 +37,14 @@ _This file is auto-generated. Run `devbox run summaries` to update._
 | [[LZ26-AnonCreds-Legacy|Device Binding for Anonymous Credentials on Legacy Phones (Lehmann, Zacharakis 2026)]] | 2026 | Anja Lehmann, Alexandros Zacharakis | eid, applications, cryptography |
 | [[KVRSCLT26-EUDIF-Harms|On the (Privacy) Harms of the European Digital Identity Framework (Knabenhans, Veitch, Raynal, Stadler, Chatel, Lueks, Troncoso 2026)]] | 2026 | Christian Knabenhans et al. | eid, applications |
 | [[ENRTTX26-OpenAC|OpenAC: Open Design for Transparent and Lightweight Anonymous Credentials (Eagen, Ngo, Rushi, Tong, Tsai, Xia 2026)]] | 2026 | Liam Eagen et al. | eid, applications, cryptography, transparent, zkp |
+| [[BL26-SoK-AnonCreds|SoK: Anonymous Credentials for Digital Identity Wallets (Bormann, Lehmann 2026)]] | 2026 | Christian Bormann, Anja Lehmann | eid, overview, applications, cryptography |
 | [[FHLL25-AnonCreds-TrustedHW|Device-Bound Anonymous Credentials With(out) Trusted Hardware (Friedrichs, Harding, Lehmann, Lysyanskaya 2025)]] | 2025 | Karla Friedrichs et al. | eid, applications, cryptography |
 | [[GHE25-MS2|Secure and Privacy-Preserving Credentials for E-ID Proof-of-Concept (Gasser, Humbert, Elghareeb 2025)]] | 2025 | Linus Gasser, Clement Humbert, Ahmed Elghareeb | eid, applications, zkp |
 | [[GHE25-Taxonomy|Taxonomy for Privacy-Preserving Electronic Identities (Gasser, Humbert, Elghareeb 2025)]] | 2025 | Linus Gasser, Clement Humbert, Ahmed Elghareeb | eid, overview, reference, cryptography |
 | [[LSZ25-Vision|Vision: A Modular Framework for Anonymous Credential Systems (Lehmann, Sidorenko, Zacharakis 2025)]] | 2025 | Anja Lehmann, Andrey Sidorenko, Alexandros Zacharakis | snark, eid, applications, commit-and-prove, composition |
 | [[FS24-Longfellow|Anonymous Credentials from ECDSA (Frigo & shelat 2024)]] | 2024 | Matteo Frigo, abhi shelat | snark, transparent, eid, elliptic-curves, applications |
 | [[PPZ24-Crescent|Crescent: Stronger Privacy for Existing Credentials (Paquin, Policharla, Zaverucha 2024)]] | 2024 | Christian Paquin, Guru-Vamsi Policharla, Greg Zaverucha | snark, eid, elliptic-curves, applications |
+| [[KPRK24-SoK-SSI-Trust|SoK: Trusting Self-Sovereign Identity (Krul, Paik, Ruj, Kanhere 2024)]] | 2024 | Evan Krul et al. | eid, overview |
 | [[CBBZ23-HyperPlonk|HyperPlonk: Plonk with Linear-Time Prover and High-Degree Custom Gates (Chen et al. 2023)]] | 2023 | Binyi Chen et al. | snark, arithmetization, lookup, linear-time-prover |
 | [[AHIV22-Ligero-Ext|Ligero: Lightweight Sublinear Arguments Without a Trusted Setup]] | 2022 | Scott Ames et al. | linear-time-prover, transparent, iop |
 | [[SAS22-ZKAttest|ZKAttest: Ring and Group Signatures for Existing ECDSA Keys]] | 2022 | Gregor Seiler, Kasra Abbaszadeh, Azam Soleimanian | attestation, zkp, elliptic-curves, applications |

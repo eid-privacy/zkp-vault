@@ -26,5 +26,4 @@ Uses cryptographic modeling to formally capture the information leakage inherent
 
 ## Related resources
 
-- [[GHE25-Taxonomy|Taxonomy for Privacy-Preserving Electronic Identities (Gasser, Humbert, Elghareeb 2025)]] (paper, 2025)
-- [[GHE25-MS2|Secure and Privacy-Preserving Credentials for E-ID PoC (Gasser, Humbert, Elghareeb 2025)]] (paper, 2025)
+- [[KPRK24-SoK-SSI-Trust|SoK: Trusting Self-Sovereign Identity (Krul, Paik, Ruj, Kanhere 2024)]] (paper, 2024)

@@ -16,4 +16,4 @@ Tags entries about attestation — proving properties of credentials or hardware
 - [[Hardware-Security-for-eID|Hardware Security for e-ID]]
 - [[Ora24-BBS-Sharp|The BBS# protocol: Technical details (Orange 2024)]]
 - [[ZKAttest|ZKAttest]]
-- [[SAS22-ZKAttest|ZKAttest: Ring and Group Signatures for Existing ECDSA Keys]]
+- [[FLM22-ZKAttest|ZKAttest: Ring and Group Signatures for Existing ECDSA Keys (Faz-Hernández, Ladd, Maram 2022)]]

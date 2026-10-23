@@ -4,7 +4,7 @@ A knowledge vault covering Zero-Knowledge Proof papers, frameworks, cryptographi
 
 The vault is organized in four ways:
 
-- [Resource Index](#resources-index) — 239 external resources (papers, blogs, books, courses, standards, docs, code) by type and topic
+- [Resource Index](#resources-index) — 240 external resources (papers, blogs, books, courses, standards, docs, code) by type and topic
 - [The ZK Stack](#the-zk-stack) — from foundational theory down to working tools
 - [Framework Decision Guide](#framework-decision-guide) — evaluation criteria and framework comparison for e-ID credential proofs
 - [Encyclopedic Index](#encyclopedic-index) — every entry, organized by category
@@ -16,7 +16,8 @@ The vault is organized in four ways:
 
 | Date | Title | Authors |
 |---|---|---|
-| 2026-10-23 | [Secure and Privacy-Preserving Credentials for E-ID - Final Report](Resources/papers/DHG26-MS4.md) | Carine Dengler, Clement Humbert, Linus Gasser |
+| 2026-10-23 | [CanDID: Can-Do Decentralized Identity with Legacy Compatibility, Sybil-Resistance, and Accountability](Resources/papers/MMZ+21-CanDID.md) | Deepak Maram, Harjasleen Malvai, Fan Zhang, Nerla Jean-Louis, Alexander Frolov, Tyler Kell, Tyrone Lobban, Christine Moy, Ari Juels, Andrew Miller |
+|  | [Secure and Privacy-Preserving Credentials for E-ID - Final Report](Resources/papers/DHG26-MS4.md) | Carine Dengler, Clement Humbert, Linus Gasser |
 |  | [Privacy-Enhancing Technologies for Digital Payments: Mapping the Landscape](Resources/papers/ABCD25-PETs-Payments.md) | Raphael Auer, Rainer Böhme, Jeremy Clark, Didem Demirag |
 |  | [Server-Aided Anonymous Credentials](Resources/papers/CHLT25-Server-Aided-AC.md) | Rutchathon Chairattana-Apirom, Franklin Harding, Anna Lysyanskaya, Stefano Tessaro |
 |  | [Security Analysis of the Swiss e-ID & Trust Infrastructure](Resources/papers/Egg25-Swiss-eID-Security.md) | Fabrice Egger |
@@ -96,7 +97,7 @@ The vault is organized in four ways:
 
 | Type | Count | Browse |
 |---|---|---|
-| Papers | 100 | [Resources/papers](Resources/papers/README.md) |
+| Papers | 101 | [Resources/papers](Resources/papers/README.md) |
 | Blogs & Explainers | 28 | [Resources/blogs](Resources/blogs/README.md) |
 | Books | 4 | [Resources/books](Resources/books/README.md) |
 | Courses | 6 | [Resources/courses](Resources/courses/README.md) |

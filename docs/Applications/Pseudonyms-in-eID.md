@@ -35,7 +35,7 @@ ID Austria derives *bereichsspezifische Personenkennzeichen* (bPK) from a lifelo
 - [[eID-Systems-Overview]]
 
 ## Resources
-- Paper: [[DHG26-MS4]], [[GHE25-Taxonomy]]
+- Paper: [[DHG26-MS4]], [[GHE25-Taxonomy]], [[MMZ+21-CanDID]] (Sybil resistance with accountability)
 - Paper: [[PH10-Privacy-Terminology]] (definition of pseudonymity)
 - Docs: [[EUDI-ARF]]
 - Wiki: [[W3C-VC-DI-BBS]]

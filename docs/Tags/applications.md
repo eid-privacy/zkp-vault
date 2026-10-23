@@ -13,6 +13,7 @@ Tags entries that are end-to-end ZKP applications or application-level designs, 
 
 - [[MRHHL25-Physical-Identities|An Architecture for Distributed Digital Identities in the Physical World (Mayrhofer, Roland, Höller, Hofer, Lins 2025)]]
 - [[FS24-Longfellow|Anonymous Credentials from ECDSA (Frigo & shelat 2024)]]
+- [[MMZ+21-CanDID|CanDID: Can-Do Decentralized Identity with Legacy Compatibility, Sybil-Resistance, and Accountability (Maram et al. 2021)]]
 - [[eid-privacy-docknetwork-crypto-library|Choosing a Cryptographic Library for Anonymous Credentials (eid-privacy, 2026)]]
 - [[DFKP16-Cinderella|Cinderella: Turning Shabby X.509 Certificates into Elegant Anonymous Credentials with the Magic of Verifiable Computation (Delignat-Lavaud, Fournet, Kohlweiss, Parno 2016)]]
 - [[eid-privacy-comparing-zk-systems|Comparing ZK Systems (eid-privacy, 2025)]]
@@ -44,4 +45,4 @@ Tags entries that are end-to-end ZKP applications or application-level designs, 
 - [[SwissCovid-Keeps-Your-Secrets|SwissCovid Keeps Your Secrets (House of Switzerland, 2020)]]
 - [[Dyne-Longfellow-ZK-Review|The Longfellow ZK (Google-zk) (Dyne.org, 2025)]]
 - [[LSZ25-Vision|Vision: A Modular Framework for Anonymous Credential Systems (Lehmann, Sidorenko, Zacharakis 2025)]]
-- [[SAS22-ZKAttest|ZKAttest: Ring and Group Signatures for Existing ECDSA Keys]]
+- [[FLM22-ZKAttest|ZKAttest: Ring and Group Signatures for Existing ECDSA Keys (Faz-Hernández, Ladd, Maram 2022)]]

@@ -26,4 +26,4 @@ Tags entries about elliptic curve cryptography as used in ZKPs — curve selecti
 - [[personaelabs-spartan-ecdsa|personaelabs/spartan-ecdsa]]
 - [[COPZ22-DLEQ-Across-Groups|Proofs of discrete logarithm equality across groups (Chase, Orrù, Perrin, Zaverucha 2022)]]
 - [[BLS01-Short-Sigs|Short Signatures from the Weil Pairing (Boneh, Lynn, Shacham 2001)]]
-- [[SAS22-ZKAttest|ZKAttest: Ring and Group Signatures for Existing ECDSA Keys]]
+- [[FLM22-ZKAttest|ZKAttest: Ring and Group Signatures for Existing ECDSA Keys (Faz-Hernández, Ladd, Maram 2022)]]

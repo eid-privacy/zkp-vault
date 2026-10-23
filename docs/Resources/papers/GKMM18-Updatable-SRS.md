@@ -9,7 +9,7 @@ authors:
   - Mary Maller
   - Sarah Meiklejohn
   - Ian Miers
-url: "https://eprint.iacr.org/2018/046.pdf"
+url: "https://eprint.iacr.org/2018/280"
 tags:
   - snark
   - universal-setup
@@ -25,7 +25,8 @@ tags:
 Introduces the concept of updatable and universal structured reference strings for zkSNARKs, allowing the CRS to be updated by any party without requiring a full MPC ceremony. This work enables "powers-of-tau" ceremonies and underpins universal SNARKs like PLONK and Marlin.
 
 ## Used by
-- [[zk-STARKs]]
+- [[PLONK]]
+- [[Sonic]]
 
 ## Related resources
 

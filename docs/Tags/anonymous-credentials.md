@@ -16,6 +16,7 @@ Tags anonymous credential schemes and the signature schemes designed for them (C
 - [[JLM22-ALLOSAUR|ALLOSAUR: Accumulator with Low-Latency Oblivious Sublinear Anonymous credential Updates with Revocations (Jaques, Lodder, Montgomery 2022)]]
 - [[anoncreds-anoncreds-v2-rs|anoncreds/anoncreds-v2-rs]]
 - [[CDL16-DAA-qSDH|Anonymous Attestation Using the Strong Diffie Hellman Assumption Revisited (Camenisch, Drijvers, Lehmann 2016)]]
+- [[MMZ+21-CanDID|CanDID: Can-Do Decentralized Identity with Legacy Compatibility, Sybil-Resistance, and Accountability (Maram et al. 2021)]]
 - [[DFKP16-Cinderella|Cinderella: Turning Shabby X.509 Certificates into Elegant Anonymous Credentials with the Magic of Verifiable Computation (Delignat-Lavaud, Fournet, Kohlweiss, Parno 2016)]]
 - [[ASM06-Dynamic-kTAA|Constant-Size Dynamic k-TAA (Au, Susilo, Mu 2006)]]
 - [[MSR-Crescent-Library-Blog|Crescent library brings privacy to digital identity systems (Microsoft Research, 2025)]]

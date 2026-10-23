@@ -64,6 +64,6 @@ Used by: [[microsoft-crescent-credentials]]
 - Paper: [[PPZ24-Crescent]]
 - Code: [[microsoft-crescent-credentials]]
 - Blog: [[MSR-Crescent-Library-Blog]]
-- Paper: [[SAS22-ZKAttest]] (origin of the Tom-256 curve)
+- Paper: [[FLM22-ZKAttest]] (origin of the Tom-256 curve)
 - Paper: [[COPZ22-DLEQ-Across-Groups]]
 - Paper: [[TZ23-Revisiting-BBS]]

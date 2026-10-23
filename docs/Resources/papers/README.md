@@ -10,7 +10,7 @@ tags: []
 
 # ZKP Papers
 
-100 entries.
+101 entries.
 
 _This file is auto-generated. Run `devbox run summaries` to update._
 
@@ -18,26 +18,27 @@ _This file is auto-generated. Run `devbox run summaries` to update._
 
 | 2026–2024 | 2024–2022 | 2022–2018 | 2018–2006 | 2004–1976 |
 | --- | --- | --- | --- | --- |
-| [[WPSP26-DV-Dynamic-zkSNARKs]] | [[HLP24-Circle-STARKs]] | [[MW22-Spiral]] | [[GKMM18-Updatable-SRS]] | [[Dam04-Sigma-Protocols]] |
-| [[LZ26-AnonCreds-Legacy]] | [[PPZ24-Crescent]] | [[SAS22-ZKAttest]] | [[BBB+17-Bulletproofs]] | [[BBS04-ShortGroupSigs]] |
-| [[KVRSCLT26-EUDIF-Harms]] | [[BBC+24-ARF-Feedback]] | [[QCY21-Blind-ECDSA]] | [[WTSTW17-Hyrax]] | [[CL04-Bilinear-Sigs]] |
-| [[ENRTTX26-OpenAC]] | [[BBC24-Accumulators]] | [[GKRRS21-Poseidon]] | [[AHIV17-Ligero]] | [[CL02-CL-Signatures]] |
-| [[DHG26-MS4]] | [[ECZJG24-Need-ZKP]] | [[GG21-SoK-Reputation]] | [[CDL16-DAA-qSDH]] | [[BLS01-Short-Sigs]] |
-| [[BL26-SoK-AnonCreds]] | [[AGJLRS24-PQ-Sigs-Privacy]] | [[ZKP21-Sigma-Standard]] | [[DFKP16-Cinderella]] | [[CM99-Safe-Primes]] |
-| [[MRHHL25-Physical-Identities]] | [[Col24-Revocation]] | [[CHJ+20-Bulletproofs-Opt]] | [[BBDT16-KVAC]] | [[Cra97-Modular-Design]] |
-| [[FHLL25-AnonCreds-TrustedHW]] | [[BRD+24-SoK-Privacy-Regulations]] | [[BFH+20-Ligero-Plus]] | [[Gro16-Groth16]] | [[CS97-DL-Proofs]] |
-| [[Mom25-GP-ZKP-VCs]] | [[KPRK24-SoK-SSI-Trust]] | [[HKRW20-Sovrin-Revocation]] | [[PS16-Randomizable-Sigs]] | [[LFKN92-Sumcheck]] |
-| [[ABCD25-PETs-Payments]] | [[RES24-ZK-Systematic-Review]] | [[GW20-Plookup]] | [[PHGR13-Pinocchio]] | [[Sch91-Schnorr-Signatures]] |
-| [[GHE25-MS2]] | [[Ora24-BBS-Sharp]] | [[BCRSVW19-Aurora]] | [[BCGTV13-SNARKs-for-C]] | [[Ped91-Commitments]] |
-| [[Egg25-Swiss-eID-Security]] | [[CLR23-CDLS]] | [[PS19-TrustZone-Survey]] | [[BCTV13-vonNeumann]] | [[GQ88-Identity-Signature]] |
-| [[CHLT25-Server-Aided-AC]] | [[STW23-CCS]] | [[CFQW19-LegoSNARK]] | [[BG13-Polynomial-Evaluation]] | [[BGKW88-MIP]] |
-| [[IES25-SoK-Unusable-Privacy]] | [[CBBZ23-HyperPlonk]] | [[XZZPS19-Libra]] | [[GGPR12-QSP-SNARK]] | [[BFM88-NIZK-Intro]] |
-| [[UZ25-SoK-Threat-Modeling]] | [[TZ23-Revisiting-BBS]] | [[GWC19-PLONK]] | [[BDLSY11-Ed25519]] | [[FS86-Fiat-Shamir]] |
-| [[GHE25-Taxonomy]] | [[PB23-SoK-Linkage-Attacks]] | [[MBKM19-Sonic]] | [[PH10-Privacy-Terminology]] | [[Elg85-ElGamal]] |
-| [[LSZ25-Vision]] | [[HMMP23-SoK-EVoting]] | [[Set19-Spartan]] | [[Mau09-Unifying-ZKPoK]] | [[GMR85-ZK-Complexity]] |
-| [[SAKK25-ZKP-Frameworks-Survey]] | [[JLM22-ALLOSAUR]] | [[GW19b-TurboPlonk]] | [[GKR08-Muggles]] | [[Sch80-Schwartz-Zippel]] |
-| [[FS24-Longfellow]] | [[AHIV22-Ligero-Ext]] | [[BBHR18-FRI]] | [[ASM06-Dynamic-kTAA]] | [[RSA78-RSA]] |
-| [[BMNW24-Arc]] | [[COPZ22-DLEQ-Across-Groups]] | [[BBHR18-STARK]] | [[DI06-Scalable-MPC]] | [[DH76-New-Directions]] |
+| [[WPSP26-DV-Dynamic-zkSNARKs]] | [[PPZ24-Crescent]] | [[FLM22-ZKAttest]] | [[GKMM18-Updatable-SRS]] | [[Dam04-Sigma-Protocols]] |
+| [[LZ26-AnonCreds-Legacy]] | [[BBC+24-ARF-Feedback]] | [[MMZ+21-CanDID]] | [[BBB+17-Bulletproofs]] | [[BBS04-ShortGroupSigs]] |
+| [[KVRSCLT26-EUDIF-Harms]] | [[BBC24-Accumulators]] | [[QCY21-Blind-ECDSA]] | [[WTSTW17-Hyrax]] | [[CL04-Bilinear-Sigs]] |
+| [[ENRTTX26-OpenAC]] | [[ECZJG24-Need-ZKP]] | [[GKRRS21-Poseidon]] | [[AHIV17-Ligero]] | [[CL02-CL-Signatures]] |
+| [[DHG26-MS4]] | [[AGJLRS24-PQ-Sigs-Privacy]] | [[GG21-SoK-Reputation]] | [[CDL16-DAA-qSDH]] | [[BLS01-Short-Sigs]] |
+| [[BL26-SoK-AnonCreds]] | [[Col24-Revocation]] | [[ZKP21-Sigma-Standard]] | [[DFKP16-Cinderella]] | [[CM99-Safe-Primes]] |
+| [[MRHHL25-Physical-Identities]] | [[BRD+24-SoK-Privacy-Regulations]] | [[CHJ+20-Bulletproofs-Opt]] | [[BBDT16-KVAC]] | [[Cra97-Modular-Design]] |
+| [[FHLL25-AnonCreds-TrustedHW]] | [[KPRK24-SoK-SSI-Trust]] | [[BFH+20-Ligero-Plus]] | [[Gro16-Groth16]] | [[CS97-DL-Proofs]] |
+| [[Mom25-GP-ZKP-VCs]] | [[RES24-ZK-Systematic-Review]] | [[HKRW20-Sovrin-Revocation]] | [[PS16-Randomizable-Sigs]] | [[LFKN92-Sumcheck]] |
+| [[ABCD25-PETs-Payments]] | [[Ora24-BBS-Sharp]] | [[GW20-Plookup]] | [[PHGR13-Pinocchio]] | [[Sch91-Schnorr-Signatures]] |
+| [[GHE25-MS2]] | [[CLR23-CDLS]] | [[BCRSVW19-Aurora]] | [[BCGTV13-SNARKs-for-C]] | [[Ped91-Commitments]] |
+| [[Egg25-Swiss-eID-Security]] | [[STW23-CCS]] | [[PS19-TrustZone-Survey]] | [[BCTV13-vonNeumann]] | [[GQ88-Identity-Signature]] |
+| [[CHLT25-Server-Aided-AC]] | [[CBBZ23-HyperPlonk]] | [[CFQW19-LegoSNARK]] | [[BG13-Polynomial-Evaluation]] | [[BGKW88-MIP]] |
+| [[IES25-SoK-Unusable-Privacy]] | [[TZ23-Revisiting-BBS]] | [[XZZPS19-Libra]] | [[GGPR12-QSP-SNARK]] | [[BFM88-NIZK-Intro]] |
+| [[UZ25-SoK-Threat-Modeling]] | [[PB23-SoK-Linkage-Attacks]] | [[GWC19-PLONK]] | [[BDLSY11-Ed25519]] | [[FS86-Fiat-Shamir]] |
+| [[GHE25-Taxonomy]] | [[HMMP23-SoK-EVoting]] | [[MBKM19-Sonic]] | [[PH10-Privacy-Terminology]] | [[Elg85-ElGamal]] |
+| [[LSZ25-Vision]] | [[JLM22-ALLOSAUR]] | [[Set19-Spartan]] | [[Mau09-Unifying-ZKPoK]] | [[GMR85-ZK-Complexity]] |
+| [[SAKK25-ZKP-Frameworks-Survey]] | [[AHIV22-Ligero-Ext]] | [[GW19b-TurboPlonk]] | [[GKR08-Muggles]] | [[Sch80-Schwartz-Zippel]] |
+| [[FS24-Longfellow]] | [[COPZ22-DLEQ-Across-Groups]] | [[BBHR18-FRI]] | [[ASM06-Dynamic-kTAA]] | [[RSA78-RSA]] |
+| [[BMNW24-Arc]] | [[MW22-Spiral]] | [[BBHR18-STARK]] | [[DI06-Scalable-MPC]] | [[DH76-New-Directions]] |
+| [[HLP24-Circle-STARKs]] |  |  |  |  |
 
 ## All Papers
 
@@ -84,7 +85,8 @@ _This file is auto-generated. Run `devbox run summaries` to update._
 | [[AHIV22-Ligero-Ext|Ligero: Lightweight Sublinear Arguments Without a Trusted Setup]] | 2022 | Scott Ames et al. | linear-time-prover, transparent, iop |
 | [[COPZ22-DLEQ-Across-Groups|Proofs of discrete logarithm equality across groups (Chase, Orrù, Perrin, Zaverucha 2022)]] | 2022 | Melissa Chase et al. | sigma, discrete-log, elliptic-curves, zkp |
 | [[MW22-Spiral|Spiral: Fast, High-Rate Single-Server PIR via FHE Composition (Menon, Wu 2022)]] | 2022 | Samir Jordan Menon, David J. Wu | cryptography |
-| [[SAS22-ZKAttest|ZKAttest: Ring and Group Signatures for Existing ECDSA Keys]] | 2022 | Gregor Seiler, Kasra Abbaszadeh, Azam Soleimanian | attestation, zkp, elliptic-curves, applications |
+| [[FLM22-ZKAttest|ZKAttest: Ring and Group Signatures for Existing ECDSA Keys (Faz-Hernández, Ladd, Maram 2022)]] | 2022 | Armando Faz-Hernández, Watson Ladd, Deepak Maram | attestation, zkp, elliptic-curves, applications |
+| [[MMZ+21-CanDID|CanDID: Can-Do Decentralized Identity with Legacy Compatibility, Sybil-Resistance, and Accountability (Maram et al. 2021)]] | 2021 | Deepak Maram et al. | eid, did, anonymous-credentials, mpc, applications |
 | [[QCY21-Blind-ECDSA|One-more Unforgeability of Blind ECDSA (Qin, Cai, Yuen 2021)]] | 2021 | Xianrui Qin, Cailing Cai, Tsz Hon Yuen | signatures, elliptic-curves, cryptography |
 | [[GKRRS21-Poseidon|Poseidon: A New Hash Function for Zero-Knowledge Proof Systems (Grassi, Khovratovich, Rechberger, Roy, Schofnegger 2021)]] | 2021 | Lorenzo Grassi et al. | cryptography, circuit, arithmetization |
 | [[GG21-SoK-Reputation|SoK: Privacy-Preserving Reputation Systems (Gurtler, Goldberg 2021)]] | 2021 | Stan Gurtler, Ian Goldberg | overview, privacy, applications |

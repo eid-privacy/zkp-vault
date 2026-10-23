@@ -14,7 +14,7 @@ tags:
   - elliptic-curves
   - zkp
 related:
-  - SAS22-ZKAttest
+  - FLM22-ZKAttest
   - COPZ22-DLEQ-Across-Groups
   - LZ26-AnonCreds-Legacy
 ---
@@ -30,4 +30,4 @@ Revisits proofs of knowledge of a committed discrete logarithm across groups (as
 
 - [[LZ26-AnonCreds-Legacy|Device Binding for Anonymous Credentials on Legacy Phones (Lehmann, Zacharakis 2026)]] (paper, 2026)
 - [[COPZ22-DLEQ-Across-Groups|Proofs of discrete logarithm equality across groups (Chase, Orrù, Perrin, Zaverucha 2022)]] (paper, 2022)
-- [[SAS22-ZKAttest|ZKAttest: Ring and Group Signatures for Existing ECDSA Keys]] (paper, 2022)
+- [[FLM22-ZKAttest|ZKAttest: Ring and Group Signatures for Existing ECDSA Keys (Faz-Hernández, Ladd, Maram 2022)]] (paper, 2022)

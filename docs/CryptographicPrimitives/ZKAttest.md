@@ -33,5 +33,5 @@ Enables ring and group signatures for existing ECDSA keys using zero-knowledge p
 [[Docknetwork]]
 
 ## Resources
-- Paper: [[SAS22-ZKAttest]]
+- Paper: [[FLM22-ZKAttest]]
 - Explainer:

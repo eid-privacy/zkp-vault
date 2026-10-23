@@ -18,6 +18,7 @@ Tags entries relevant to electronic identity (e-ID) use cases — privacy-preser
 - [[Apple-CryptoKit-SecureEnclave|Apple CryptoKit — SecureEnclave]]
 - [[Apple-Platform-Security-Secure-Enclave|Apple Platform Security — The Secure Enclave]]
 - [[applied-crypto-heimdall|applied-crypto/heimdall]]
+- [[MMZ+21-CanDID|CanDID: Can-Do Decentralized Identity with Legacy Compatibility, Sybil-Resistance, and Accountability (Maram et al. 2021)]]
 - [[eid-privacy-docknetwork-crypto-library|Choosing a Cryptographic Library for Anonymous Credentials (eid-privacy, 2026)]]
 - [[DFKP16-Cinderella|Cinderella: Turning Shabby X.509 Certificates into Elegant Anonymous Credentials with the Magic of Verifiable Computation (Delignat-Lavaud, Fournet, Kohlweiss, Parno 2016)]]
 - [[Communication-Protocols|Communication Protocols for e-ID]]

@@ -13,7 +13,7 @@ tags:
 
 # ZKP Resources
 
-Curated external resources for Zero-Knowledge Proofs — 239 entries across papers, blogs, books, courses, wikis, docs, and code repositories.
+Curated external resources for Zero-Knowledge Proofs — 240 entries across papers, blogs, books, courses, wikis, docs, and code repositories.
 
 _This file is auto-generated. Run `devbox run summaries` to update._
 
@@ -66,6 +66,7 @@ _This file is auto-generated. Run `devbox run summaries` to update._
 - [[JLM22-ALLOSAUR|ALLOSAUR: Accumulator with Low-Latency Oblivious Sublinear Anonymous credential Updates with Revocations (Jaques, Lodder, Montgomery 2022)]] (paper, 2022)
 - [[anoncreds-anoncreds-v2-rs|anoncreds/anoncreds-v2-rs]] (code, 2022)
 - [[microsoft-bbs-node-reference|microsoft/bbs-node-reference]] (code, 2022)
+- [[MMZ+21-CanDID|CanDID: Can-Do Decentralized Identity with Legacy Compatibility, Sybil-Resistance, and Accountability (Maram et al. 2021)]] (paper, 2021)
 - [[docknetwork-crypto|docknetwork/crypto (incl. vb_accumulator)]] (code, 2021)
 - [[mattrglobal-pairing_crypto|mattrglobal/pairing_crypto]] (code, 2021)
 - [[mattrglobal-bbs-signatures|@mattrglobal/bbs-signatures (MATTR)]] (code, 2020)
@@ -107,7 +108,8 @@ _This file is auto-generated. Run `devbox run summaries` to update._
 - [[ECZJG24-Need-ZKP|Do You Need a Zero Knowledge Proof? (Ernstberger, Chaliasos, Zhou, Jovanovic, Gervais 2024)]] (paper, 2024)
 - [[microsoft-crescent-credentials|Microsoft Crescent Credentials (Spartan-t256 Fork)]] (code, 2023)
 - [[HMMP23-SoK-EVoting|SoK: Secure E-Voting with Everlasting Privacy (Haines, Mosaheb, Müller, Pryvalov 2023)]] (paper, 2023)
-- [[SAS22-ZKAttest|ZKAttest: Ring and Group Signatures for Existing ECDSA Keys]] (paper, 2022)
+- [[FLM22-ZKAttest|ZKAttest: Ring and Group Signatures for Existing ECDSA Keys (Faz-Hernández, Ladd, Maram 2022)]] (paper, 2022)
+- [[MMZ+21-CanDID|CanDID: Can-Do Decentralized Identity with Legacy Compatibility, Sybil-Resistance, and Accountability (Maram et al. 2021)]] (paper, 2021)
 - [[GG21-SoK-Reputation|SoK: Privacy-Preserving Reputation Systems (Gurtler, Goldberg 2021)]] (paper, 2021)
 - [[SwissCovid-Keeps-Your-Secrets|SwissCovid Keeps Your Secrets (House of Switzerland, 2020)]] (blog, 2020)
 - [[DFKP16-Cinderella|Cinderella: Turning Shabby X.509 Certificates into Elegant Anonymous Credentials with the Magic of Verifiable Computation (Delignat-Lavaud, Fournet, Kohlweiss, Parno 2016)]] (paper, 2016)
@@ -129,7 +131,7 @@ _This file is auto-generated. Run `devbox run summaries` to update._
 ### attestation
 
 - [[Ora24-BBS-Sharp|The BBS# protocol: Technical details (Orange 2024)]] (paper, 2024)
-- [[SAS22-ZKAttest|ZKAttest: Ring and Group Signatures for Existing ECDSA Keys]] (paper, 2022)
+- [[FLM22-ZKAttest|ZKAttest: Ring and Group Signatures for Existing ECDSA Keys (Faz-Hernández, Ladd, Maram 2022)]] (paper, 2022)
 - [[PS19-TrustZone-Survey|Demystifying Arm TrustZone: A Comprehensive Survey (Pinto, Santos 2019)]] (paper, 2019)
 - [[CDL16-DAA-qSDH|Anonymous Attestation Using the Strong Diffie Hellman Assumption Revisited (Camenisch, Drijvers, Lehmann 2016)]] (paper, 2016)
 
@@ -237,6 +239,7 @@ _This file is auto-generated. Run `devbox run summaries` to update._
 - [[W3C-DID-Core-1.0|Decentralized Identifiers (DIDs) v1.0 (W3C Recommendation)]] (wiki, 2022)
 - [[microsoft-entra-verifiedid-wallet-library|Microsoft Entra Verified ID wallet libraries (Android & iOS)]] (code, 2022)
 - [[openwallet-foundation-didcomm-mediator-credo|openwallet-foundation/didcomm-mediator-credo]] (code, 2022)
+- [[MMZ+21-CanDID|CanDID: Can-Do Decentralized Identity with Legacy Compatibility, Sybil-Resistance, and Accountability (Maram et al. 2021)]] (paper, 2021)
 - [[sicpa-dlab-didcomm-jvm|sicpa-dlab/didcomm-jvm]] (code, 2021)
 - [[sicpa-dlab-didcomm-python|sicpa-dlab/didcomm-python]] (code, 2021)
 - [[sicpa-dlab-didcomm-rust|sicpa-dlab/didcomm-rust]] (code, 2021)
@@ -322,6 +325,7 @@ _This file is auto-generated. Run `devbox run summaries` to update._
 - [[microsoft-crescent-credentials|Microsoft Crescent Credentials (Spartan-t256 Fork)]] (code, 2023)
 - [[W3C-DID-Core-1.0|Decentralized Identifiers (DIDs) v1.0 (W3C Recommendation)]] (wiki, 2022)
 - [[applied-crypto-heimdall|applied-crypto/heimdall]] (code, 2021)
+- [[MMZ+21-CanDID|CanDID: Can-Do Decentralized Identity with Legacy Compatibility, Sybil-Resistance, and Accountability (Maram et al. 2021)]] (paper, 2021)
 - [[ISO-IEC-18013-5-mDL|ISO/IEC 18013-5:2021 — Mobile driving licence (mDL) application]] (wiki, 2021)
 - [[DFKP16-Cinderella|Cinderella: Turning Shabby X.509 Certificates into Elegant Anonymous Credentials with the Magic of Verifiable Computation (Delignat-Lavaud, Fournet, Kohlweiss, Parno 2016)]] (paper, 2016)
 - [[eIDAS-Regulation-910-2014|Regulation (EU) No 910/2014 (eIDAS)]] (wiki, 2014)
@@ -341,7 +345,7 @@ _This file is auto-generated. Run `devbox run summaries` to update._
 - [[microsoft-crescent-credentials|Microsoft Crescent Credentials (Spartan-t256 Fork)]] (code, 2023)
 - [[personaelabs-spartan-ecdsa|personaelabs/spartan-ecdsa]] (code, 2022)
 - [[COPZ22-DLEQ-Across-Groups|Proofs of discrete logarithm equality across groups (Chase, Orrù, Perrin, Zaverucha 2022)]] (paper, 2022)
-- [[SAS22-ZKAttest|ZKAttest: Ring and Group Signatures for Existing ECDSA Keys]] (paper, 2022)
+- [[FLM22-ZKAttest|ZKAttest: Ring and Group Signatures for Existing ECDSA Keys (Faz-Hernández, Ladd, Maram 2022)]] (paper, 2022)
 - [[cloudflare-zkp-ecdsa|cloudflare/zkp-ecdsa]] (code, 2021)
 - [[Cryptographic-Principles-Tomescu|Cryptographic Principles (Alin Tomescu)]] (blog, 2021)
 - [[MIT-18-783-Elliptic-Curves|MIT 18.783 Elliptic Curves (Spring 2021)]] (course, 2021)
@@ -594,6 +598,7 @@ _This file is auto-generated. Run `devbox run summaries` to update._
 ### mpc
 
 - [[JLM22-ALLOSAUR|ALLOSAUR: Accumulator with Low-Latency Oblivious Sublinear Anonymous credential Updates with Revocations (Jaques, Lodder, Montgomery 2022)]] (paper, 2022)
+- [[MMZ+21-CanDID|CanDID: Can-Do Decentralized Identity with Legacy Compatibility, Sybil-Resistance, and Accountability (Maram et al. 2021)]] (paper, 2021)
 - [[HKRW20-Sovrin-Revocation|Multi-Party Revocation in Sovrin: Performance through Distributed Trust (Helminger, Kales, Ramacher, Walch 2020)]] (paper, 2020)
 - [[DI06-Scalable-MPC|Scalable Secure Multiparty Computation (Damgård-Ishai 2006)]] (paper, 2006)
 
@@ -997,7 +1002,7 @@ _This file is auto-generated. Run `devbox run summaries` to update._
 - [[Thaler-Proofs-Arguments-ZK|Proofs, Arguments, and Zero-Knowledge]] (book, 2023)
 - [[COPZ22-DLEQ-Across-Groups|Proofs of discrete logarithm equality across groups (Chase, Orrù, Perrin, Zaverucha 2022)]] (paper, 2022)
 - [[Cronokirby-Paper-That-Keeps-Showing-Up|The Paper that Keeps Showing Up (Cronokirby, 2022)]] (blog, 2022)
-- [[SAS22-ZKAttest|ZKAttest: Ring and Group Signatures for Existing ECDSA Keys]] (paper, 2022)
+- [[FLM22-ZKAttest|ZKAttest: Ring and Group Signatures for Existing ECDSA Keys (Faz-Hernández, Ladd, Maram 2022)]] (paper, 2022)
 - [[Cryptographic-Principles-Tomescu|Cryptographic Principles (Alin Tomescu)]] (blog, 2021)
 - [[MoonMath-Manual|MoonMath Manual to zk-SNARKs]] (book, 2021)
 - [[Plonk-Family-Note|Note: PLONK / TurboPLONK / UltraPLONK Family]] (blog, 2021)

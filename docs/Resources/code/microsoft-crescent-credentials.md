@@ -10,7 +10,7 @@ tags:
   - applications
   - elliptic-curves
 related:
-  - SAS22-ZKAttest
+  - FLM22-ZKAttest
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [code](README.md) > microsoft-crescent-credentials
@@ -24,4 +24,4 @@ Microsoft's Crescent credential system fork of Spartan adapted to use the t256 e
 
 - [[PPZ24-Crescent|Crescent: Stronger Privacy for Existing Credentials (Paquin, Policharla, Zaverucha 2024)]] (paper, 2024)
 - [[microsoft-Spartan2|Microsoft Spartan2]] (code, 2022)
-- [[SAS22-ZKAttest|ZKAttest: Ring and Group Signatures for Existing ECDSA Keys]] (paper, 2022)
+- [[FLM22-ZKAttest|ZKAttest: Ring and Group Signatures for Existing ECDSA Keys (Faz-Hernández, Ladd, Maram 2022)]] (paper, 2022)

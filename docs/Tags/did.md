@@ -12,6 +12,7 @@ Tags entries about Decentralized Identifiers (DIDs): the W3C DID data model, DID
 ## Entries tagged
 
 - [[beatt83-didcomm-swift|beatt83/didcomm-swift]]
+- [[MMZ+21-CanDID|CanDID: Can-Do Decentralized Identity with Legacy Compatibility, Sybil-Resistance, and Accountability (Maram et al. 2021)]]
 - [[Communication-Protocols|Communication Protocols for e-ID]]
 - [[Credential-Data-Structures|Credential Data Structures]]
 - [[W3C-DID-Core-1.0|Decentralized Identifiers (DIDs) v1.0 (W3C Recommendation)]]

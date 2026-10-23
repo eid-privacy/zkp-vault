@@ -16,7 +16,7 @@ tags:
   - zkp
 related:
   - CS97-DL-Proofs
-  - SAS22-ZKAttest
+  - FLM22-ZKAttest
   - CLR23-CDLS
   - LZ26-AnonCreds-Legacy
 ---
@@ -33,4 +33,4 @@ Gives sigma-protocol based proofs that the same secret exponent underlies discre
 - [[CLR23-CDLS|CDLS: Proving Knowledge of Committed Discrete Logarithms with Soundness (Celi, Levin, Rowell 2023)]] (paper, 2023)
 - [[LZ26-AnonCreds-Legacy|Device Binding for Anonymous Credentials on Legacy Phones (Lehmann, Zacharakis 2026)]] (paper, 2026)
 - [[CS97-DL-Proofs|Proof Systems for General Statements about Discrete Logarithms (Camenisch-Stadler 1997)]] (paper, 1997)
-- [[SAS22-ZKAttest|ZKAttest: Ring and Group Signatures for Existing ECDSA Keys]] (paper, 2022)
+- [[FLM22-ZKAttest|ZKAttest: Ring and Group Signatures for Existing ECDSA Keys (Faz-Hernández, Ladd, Maram 2022)]] (paper, 2022)

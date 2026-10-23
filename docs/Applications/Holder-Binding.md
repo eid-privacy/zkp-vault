@@ -31,7 +31,7 @@ The holder keeps `Q` and the signature `(r, s)` secret and proves in a ZKP that 
 
 | Approach | Issuer credential | Idea | Source |
 |---|---|---|---|
-| ZKAttest / CDLS | Any (keys on P-256) | Sigma-protocol proof of an ECDSA signature under a committed key, on a curve whose order matches P-256's field (Tom-256); cross-group equality links it to the credential | [[SAS22-ZKAttest]], [[CLR23-CDLS]], [[COPZ22-DLEQ-Across-Groups]], [[cloudflare-zkp-ecdsa]] |
+| ZKAttest / CDLS | Any (keys on P-256) | Sigma-protocol proof of an ECDSA signature under a committed key, on a curve whose order matches P-256's field (Tom-256); cross-group equality links it to the credential | [[FLM22-ZKAttest]], [[CLR23-CDLS]], [[COPZ22-DLEQ-Across-Groups]], [[cloudflare-zkp-ecdsa]] |
 | Ubique zkattest-rs | BBS | ZKAttest-style proof with Tom-256 plus cross-group equality linking the device key to a BBS attribute; the original ZKAttest optimisation was found insecure (eprint 2023/1595) | [[heidiverse-zkattest-rs]], [[Docknetwork]] |
 | BBS# | BBS variant | Avoids pairings on the holder side; binds to existing ECDSA / EC-Schnorr keys in secure hardware | [[Ora24-BBS-Sharp]] |
 | Device-bound anonymous credentials | BBS-compatible | Single, stateless SE call; privacy does not depend on SE honesty | [[FHLL25-AnonCreds-TrustedHW]] |
@@ -65,7 +65,7 @@ In the pre-computed variant, everything that does not depend on the verifier cha
 
 ## Resources
 - Paper: [[GHE25-MS2]], [[DHG26-MS4]], [[GHE25-Taxonomy]]
-- Paper: [[PPZ24-Crescent]], [[FS24-Longfellow]], [[SAS22-ZKAttest]], [[CLR23-CDLS]], [[COPZ22-DLEQ-Across-Groups]]
+- Paper: [[PPZ24-Crescent]], [[FS24-Longfellow]], [[FLM22-ZKAttest]], [[CLR23-CDLS]], [[COPZ22-DLEQ-Across-Groups]]
 - Paper: [[Ora24-BBS-Sharp]], [[FHLL25-AnonCreds-TrustedHW]], [[LZ26-AnonCreds-Legacy]]
 - Code: [[eid-privacy-zkp-pocs]], [[eid-privacy-spartan-backend]], [[eid-privacy-zkp-android-spartan]]
 - Code: [[heidiverse-zkattest-rs]], [[cloudflare-zkp-ecdsa]], [[docknetwork-crypto]], [[microsoft-crescent-credentials]], [[google-longfellow-zk]], [[personaelabs-spartan-ecdsa]]

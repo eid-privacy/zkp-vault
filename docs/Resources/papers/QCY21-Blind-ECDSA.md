@@ -13,7 +13,7 @@ tags:
   - elliptic-curves
   - cryptography
 related:
-  - SAS22-ZKAttest
+  - FLM22-ZKAttest
   - FS24-Longfellow
 ---
 
@@ -27,4 +27,4 @@ Gives the first formal security analysis of one-more unforgeability for blind EC
 ## Related resources
 
 - [[FS24-Longfellow|Anonymous Credentials from ECDSA (Frigo & shelat 2024)]] (paper, 2024)
-- [[SAS22-ZKAttest|ZKAttest: Ring and Group Signatures for Existing ECDSA Keys]] (paper, 2022)
+- [[FLM22-ZKAttest|ZKAttest: Ring and Group Signatures for Existing ECDSA Keys (Faz-Hernández, Ladd, Maram 2022)]] (paper, 2022)

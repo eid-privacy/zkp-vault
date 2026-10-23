@@ -103,7 +103,7 @@ Root tag for all Zero-Knowledge Proof content in this vault. Applied to essentia
 - [[ZK-Proof-Taxonomy|ZK Proof Taxonomy: Abstraction Levels]]
 - [[zk-STARKs|zk-STARKs]]
 - [[ZKAttest|ZKAttest]]
-- [[SAS22-ZKAttest|ZKAttest: Ring and Group Signatures for Existing ECDSA Keys]]
+- [[FLM22-ZKAttest|ZKAttest: Ring and Group Signatures for Existing ECDSA Keys (Faz-Hernández, Ladd, Maram 2022)]]
 - [[ZKDL-Camp|ZKDL Camp — Lectures on Zero-Knowledge Proving Systems (Distributed Lab)]]
 - [[ZKP-on-Mobile|ZKP on Mobile]]
 - [[ZKProof-Wiki|ZKProof Wiki of Concrete ZKP Schemes]]

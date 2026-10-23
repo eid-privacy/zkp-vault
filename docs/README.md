@@ -4,7 +4,7 @@ A knowledge vault covering Zero-Knowledge Proof papers, frameworks, cryptographi
 
 The vault is organized in four ways:
 
-- [Resource Index](#resources-index) — 87 external resources (papers, blogs, books, docs, code) by type and topic
+- [Resource Index](#resources-index) — 239 external resources (papers, blogs, books, courses, standards, docs, code) by type and topic
 - [The ZK Stack](#the-zk-stack) — from foundational theory down to working tools
 - [Framework Decision Guide](#framework-decision-guide) — evaluation criteria and framework comparison for e-ID credential proofs
 - [Encyclopedic Index](#encyclopedic-index) — every entry, organized by category
@@ -16,6 +16,60 @@ The vault is organized in four ways:
 
 | Date | Title | Authors |
 |---|---|---|
+| 2026-10-23 | [Secure and Privacy-Preserving Credentials for E-ID - Final Report](Resources/papers/DHG26-MS4.md) | Carine Dengler, Clement Humbert, Linus Gasser |
+|  | [Privacy-Enhancing Technologies for Digital Payments: Mapping the Landscape](Resources/papers/ABCD25-PETs-Payments.md) | Raphael Auer, Rainer Böhme, Jeremy Clark, Didem Demirag |
+|  | [Server-Aided Anonymous Credentials](Resources/papers/CHLT25-Server-Aided-AC.md) | Rutchathon Chairattana-Apirom, Franklin Harding, Anna Lysyanskaya, Stefano Tessaro |
+|  | [Security Analysis of the Swiss e-ID & Trust Infrastructure](Resources/papers/Egg25-Swiss-eID-Security.md) | Fabrice Egger |
+|  | [SoK: (Un)usable Privacy: the Lack of Overlap between Privacy-Aware Sensing and Usable Privacy Research](Resources/papers/IES25-SoK-Unusable-Privacy.md) | Yasha Iravantchi, Pardis Emami-Naeini, Alanson Sample |
+|  | [An Architecture for Distributed Digital Identities in the Physical World](Resources/papers/MRHHL25-Physical-Identities.md) | René Mayrhofer, Michael Roland, Tobias Höller, Philipp Hofer, Mario Lins |
+|  | [General-Purpose Zero-Knowledge Proofs for Verifiable Credentials](Resources/papers/Mom25-GP-ZKP-VCs.md) | Damiano Mombelli |
+|  | [Zero-Knowledge Proof Frameworks: A Systematic Survey](Resources/papers/SAKK25-ZKP-Frameworks-Survey.md) | Nojan Sheybani, Anees Ahmed, Michel Kinsy, Farinaz Koushanfar |
+|  | [SoK: A Framework and Guide for Human-Centered Threat Modeling in Security and Privacy Research](Resources/papers/UZ25-SoK-Threat-Modeling.md) | Warda Usman, Daniel Zappala |
+|  | [Practical Post-Quantum Signatures for Privacy](Resources/papers/AGJLRS24-PQ-Sigs-Privacy.md) | Sven Argo, Tim Güneysu, Corentin Jeudy, Georg Land, Adeline Roux-Langlois, Olivier Sanders |
+|  | [Cryptographers' Feedback on the EU Digital Identity's ARF](Resources/papers/BBC+24-ARF-Feedback.md) | Carsten Baum, Olivier Blazy, Jan Camenisch, Jaap-Henk Hoepman, Eysa Lee, Anja Lehmann, Anna Lysyanskaya, René Mayrhofer, Hart Montgomery, Ngoc Khanh Nguyen, Bart Preneel, abhi shelat, Daniel Slamanig, Stefano Tessaro, Søren Eller Thomsen, Carmela Troncoso |
+|  | [Cryptographic Accumulators: New Definitions, Enhanced Security, and Delegatable Proofs](Resources/papers/BBC24-Accumulators.md) | Anaïs Barthoulot, Olivier Blazy, Sébastien Canard |
+|  | [Arc: Accumulation for Reed–Solomon Codes](Resources/papers/BMNW24-Arc.md) | Benedikt Bünz, Pratyush Mishra, Wilson Nguyen, William Wang |
+|  | [SoK: Technical Implementation and Human Impact of Internet Privacy Regulations](Resources/papers/BRD+24-SoK-Privacy-Regulations.md) | Eleanor Birrell, Jay Rodolitz, Angel Ding, Jenna Lee, Emily McReynolds, Jevan Hutson, Ada Lerner |
+|  | [Scalable and Privacy-Preserving Revocation of Verifiable Credentials](Resources/papers/Col24-Revocation.md) | Alessandro Colombo |
+|  | [Do You Need a Zero Knowledge Proof?](Resources/papers/ECZJG24-Need-ZKP.md) | Jens Ernstberger, Stefanos Chaliasos, Liyi Zhou, Philipp Jovanovic, Arthur Gervais |
+|  | [Circle STARKs](Resources/papers/HLP24-Circle-STARKs.md) | Ulrich Haböck, David Levit, Shahar Papini |
+|  | [The BBS# protocol: Technical details](Resources/papers/Ora24-BBS-Sharp.md) | Orange |
+|  | [Systematic review: Comparing zk-SNARK, zk-STARK, and bulletproof protocols for privacy-preserving authentication](Resources/papers/RES24-ZK-Systematic-Review.md) | Bjorn Oude Roelink, Mohammed El-Hajj, Dipti Sarmah |
+|  | [CDLS: Proving Knowledge of Committed Discrete Logarithms with Soundness](Resources/papers/CLR23-CDLS.md) | Sofia Celi, Shai Levin, Joe Rowell |
+|  | [SoK: Secure E-Voting with Everlasting Privacy](Resources/papers/HMMP23-SoK-EVoting.md) | Thomas Haines, Rafieh Mosaheb, Johannes Müller, Ivan Pryvalov |
+|  | [SoK: Managing risks of linkage attacks on data privacy](Resources/papers/PB23-SoK-Linkage-Attacks.md) | Jovan Powar, Alastair R. Beresford |
+|  | [Customizable Constraint Systems for Succinct Arguments](Resources/papers/STW23-CCS.md) | Srinath Setty, Justin Thaler, Riad Wahby |
+|  | [Revisiting BBS Signatures](Resources/papers/TZ23-Revisiting-BBS.md) | Stefano Tessaro, Chenzhi Zhu |
+|  | [Proofs of discrete logarithm equality across groups](Resources/papers/COPZ22-DLEQ-Across-Groups.md) | Melissa Chase, Michele Orrù, Trevor Perrin, Greg Zaverucha |
+|  | [ALLOSAUR: Accumulator with Low-Latency Oblivious Sublinear Anonymous credential Updates with Revocations](Resources/papers/JLM22-ALLOSAUR.md) | Samuel Jaques, Michael Lodder, Hart Montgomery |
+|  | [Spiral: Fast, High-Rate Single-Server PIR via FHE Composition](Resources/papers/MW22-Spiral.md) | Samir Jordan Menon, David J. Wu |
+|  | [SoK: Privacy-Preserving Reputation Systems](Resources/papers/GG21-SoK-Reputation.md) | Stan Gurtler, Ian Goldberg |
+|  | [Poseidon: A New Hash Function for Zero-Knowledge Proof Systems](Resources/papers/GKRRS21-Poseidon.md) | Lorenzo Grassi, Dmitry Khovratovich, Christian Rechberger, Arnab Roy, Markus Schofnegger |
+|  | [One-more Unforgeability of Blind ECDSA](Resources/papers/QCY21-Blind-ECDSA.md) | Xianrui Qin, Cailing Cai, Tsz Hon Yuen |
+|  | [Multi-Party Revocation in Sovrin: Performance through Distributed Trust](Resources/papers/HKRW20-Sovrin-Revocation.md) | Lukas Helminger, Daniel Kales, Sebastian Ramacher, Roman Walch |
+|  | [Demystifying Arm TrustZone: A Comprehensive Survey](Resources/papers/PS19-TrustZone-Survey.md) | Sandro Pinto, Nuno Santos |
+|  | [Libra: Succinct Zero-Knowledge Proofs with Optimal Prover Computation](Resources/papers/XZZPS19-Libra.md) | Tiancheng Xie, Jiaheng Zhang, Yupeng Zhang, Charalampos Papamanthou, Dawn Song |
+|  | [Scalable, Transparent, and Post-Quantum Secure Computational Integrity](Resources/papers/BBHR18-STARK.md) | Eli Ben-Sasson, Iddo Bentov, Yinon Horesh, Michael Riabzev |
+|  | [Improved Algebraic MACs and Practical Keyed-Verification Anonymous Credentials](Resources/papers/BBDT16-KVAC.md) | Amira Barki, Solenn Brunet, Nicolas Desmoulins, Jacques Traoré |
+|  | [Anonymous Attestation Using the Strong Diffie Hellman Assumption Revisited](Resources/papers/CDL16-DAA-qSDH.md) | Jan Camenisch, Manu Drijvers, Anja Lehmann |
+|  | [Cinderella: Turning Shabby X.509 Certificates into Elegant Anonymous Credentials with the Magic of Verifiable Computation](Resources/papers/DFKP16-Cinderella.md) | Antoine Delignat-Lavaud, Cédric Fournet, Markulf Kohlweiss, Bryan Parno |
+|  | [Short Randomizable Signatures](Resources/papers/PS16-Randomizable-Sigs.md) | David Pointcheval, Olivier Sanders |
+|  | [Succinct Non-Interactive Zero Knowledge for a von Neumann Architecture](Resources/papers/BCTV13-vonNeumann.md) | Eli Ben-Sasson, Alessandro Chiesa, Eran Tromer, Madars Virza |
+|  | [Zero-Knowledge Argument for Polynomial Evaluation with Application to Blacklists](Resources/papers/BG13-Polynomial-Evaluation.md) | Stephanie Bayer, Jens Groth |
+|  | [High-Speed High-Security Signatures](Resources/papers/BDLSY11-Ed25519.md) | Daniel J. Bernstein, Niels Duif, Tanja Lange, Peter Schwabe, Bo-Yin Yang |
+|  | [A Terminology for Talking about Privacy by Data Minimization: Anonymity, Unlinkability, Undetectability, Unobservability, Pseudonymity, and Identity Management](Resources/papers/PH10-Privacy-Terminology.md) | Andreas Pfitzmann, Marit Hansen |
+|  | [Unifying Zero-Knowledge Proofs of Knowledge](Resources/papers/Mau09-Unifying-ZKPoK.md) | Ueli Maurer |
+|  | [Delegating Computation: Interactive Proofs for Muggles](Resources/papers/GKR08-Muggles.md) | Shafi Goldwasser, Yael Tauman Kalai, Guy N. Rothblum |
+|  | [Constant-Size Dynamic k-TAA](Resources/papers/ASM06-Dynamic-kTAA.md) | Man Ho Au, Willy Susilo, Yi Mu |
+|  | [Signature Schemes and Anonymous Credentials from Bilinear Maps](Resources/papers/CL04-Bilinear-Sigs.md) | Jan Camenisch, Anna Lysyanskaya |
+|  | [A Signature Scheme with Efficient Protocols](Resources/papers/CL02-CL-Signatures.md) | Jan Camenisch, Anna Lysyanskaya |
+|  | [Short Signatures from the Weil Pairing](Resources/papers/BLS01-Short-Sigs.md) | Dan Boneh, Ben Lynn, Hovav Shacham |
+|  | [Efficient Signature Generation by Smart Cards](Resources/papers/Sch91-Schnorr-Signatures.md) | Claus-Peter Schnorr |
+|  | [Multi-Prover Interactive Proofs: How to Remove Intractability Assumptions](Resources/papers/BGKW88-MIP.md) | Michael Ben-Or, Shafi Goldwasser, Joe Kilian, Avi Wigderson |
+|  | [A "Paradoxical" Identity-Based Signature Scheme Resulting from Zero-Knowledge](Resources/papers/GQ88-Identity-Signature.md) | Louis Claude Guillou, Jean-Jacques Quisquater |
+|  | [A Public Key Cryptosystem and a Signature Scheme Based on Discrete Logarithms](Resources/papers/Elg85-ElGamal.md) | Taher ElGamal |
+|  | [A Method for Obtaining Digital Signatures and Public-Key Cryptosystems](Resources/papers/RSA78-RSA.md) | Ronald L. Rivest, Adi Shamir, Leonard Adleman |
+|  | [New Directions in Cryptography](Resources/papers/DH76-New-Directions.md) | Whitfield Diffie, Martin E. Hellman |
 | 2026-10-22 | [SoK: Trusting Self-Sovereign Identity](Resources/papers/KPRK24-SoK-SSI-Trust.md) | Evan Krul, Hye-young Paik, Sushmita Ruj, Salil S. Kanhere |
 | 2026-10-22 | [SoK: Anonymous Credentials for Digital Identity Wallets](Resources/papers/BL26-SoK-AnonCreds.md) | Christian Bormann, Anja Lehmann |
 | 2026-09-29 | [SNARKs for C: Verifying Program Executions Succinctly and in Zero Knowledge](Resources/papers/BCGTV13-SNARKs-for-C.md) | Eli Ben-Sasson, Alessandro Chiesa, Daniel Genkin, Eran Tromer, Madars Virza |
@@ -42,13 +96,13 @@ The vault is organized in four ways:
 
 | Type | Count | Browse |
 |---|---|---|
-| Papers | 46 | [Resources/papers](Resources/papers/README.md) |
-| Blogs & Explainers | 19 | [Resources/blogs](Resources/blogs/README.md) |
-| Books | 1 | [Resources/books](Resources/books/README.md) |
-| Courses | 0 | [Resources/courses](Resources/courses/README.md) |
-| Wikis & Standards | 1 | [Resources/wikis](Resources/wikis/README.md) |
-| Documentation | 13 | [Resources/docs](Resources/docs/README.md) |
-| Code & Repositories | 7 | [Resources/code](Resources/code/README.md) |
+| Papers | 100 | [Resources/papers](Resources/papers/README.md) |
+| Blogs & Explainers | 28 | [Resources/blogs](Resources/blogs/README.md) |
+| Books | 4 | [Resources/books](Resources/books/README.md) |
+| Courses | 6 | [Resources/courses](Resources/courses/README.md) |
+| Wikis & Standards | 30 | [Resources/wikis](Resources/wikis/README.md) |
+| Documentation | 24 | [Resources/docs](Resources/docs/README.md) |
+| Code & Repositories | 47 | [Resources/code](Resources/code/README.md) |
 
 Full index with by-topic view: [Resources/README.md](Resources/README.md).
 

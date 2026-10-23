@@ -11,4 +11,4 @@ Tags entries enumerating or discussing concrete real-world use cases for ZKPs â€
 
 ## Entries tagged
 
-_No entries tagged yet._
+- [[ABCD25-PETs-Payments|Privacy-Enhancing Technologies for Digital Payments: Mapping the Landscape (Auer, BÃ¶hme, Clark, Demirag 2025)]]

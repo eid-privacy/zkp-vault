@@ -33,6 +33,10 @@ Introduces the FRI (Fast Reed-Solomon IOP of Proximity) protocol — the polynom
 
 ## Related resources
 
+- [[BMNW24-Arc|Arc: Accumulation for Reed–Solomon Codes (Bünz, Mishra, Nguyen, Wang 2024)]] (paper, 2024)
 - [[BCRSVW19-Aurora|Aurora: Transparent Succinct Arguments for R1CS (Ben-Sasson et al. 2019)]] (paper, 2019)
+- [[HLP24-Circle-STARKs|Circle STARKs (Haböck, Levit, Papini 2024)]] (paper, 2024)
 - [[Sch80-Schwartz-Zippel|Fast Probabilistic Algorithms for Verification of Polynomial Identities]] (paper, 1980)
+- [[BBHR18-STARK|Scalable, Transparent, and Post-Quantum Secure Computational Integrity (Ben-Sasson, Bentov, Horesh, Riabzev 2018)]] (paper, 2018)
 - [[AIR-Docs|STARK 101 — AIR Tutorial (StarkWare)]] (doc, 2021)
+- [[RES24-ZK-Systematic-Review|Systematic review: Comparing zk-SNARK, zk-STARK, and bulletproof protocols for privacy-preserving authentication (Oude Roelink, El-Hajj, Sarmah 2024)]] (paper, 2024)

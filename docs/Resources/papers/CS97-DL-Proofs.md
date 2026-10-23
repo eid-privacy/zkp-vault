@@ -27,5 +27,8 @@ Introduces the Camenisch-Stadler notation for sigma protocols and gives efficien
 
 ## Related resources
 
+- [[CL02-CL-Signatures|A Signature Scheme with Efficient Protocols (Camenisch, Lysyanskaya 2002)]] (paper, 2002)
 - [[Cra97-Modular-Design|Modular Design of Secure yet Practical Cryptographic Protocols (Cramer 1997)]] (paper, 1997)
 - [[Dam04-Sigma-Protocols|On Sigma Protocols (Damgård)]] (paper, 2004)
+- [[COPZ22-DLEQ-Across-Groups|Proofs of discrete logarithm equality across groups (Chase, Orrù, Perrin, Zaverucha 2022)]] (paper, 2022)
+- [[Mau09-Unifying-ZKPoK|Unifying Zero-Knowledge Proofs of Knowledge (Maurer 2009)]] (paper, 2009)

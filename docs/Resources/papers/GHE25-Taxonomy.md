@@ -28,6 +28,7 @@ A Systematization of Knowledge (SoK) paper defining a taxonomy for digital ident
 
 ## Related resources
 
+- [[DHG26-MS4|Secure and Privacy-Preserving Credentials for E-ID - Final Report (Dengler, Humbert, Gasser 2026)]] (paper, 2026)
 - [[GHE25-MS2|Secure and Privacy-Preserving Credentials for E-ID Proof-of-Concept (Gasser, Humbert, Elghareeb 2025)]] (paper, 2025)
 - [[eid-privacy-taxonomy-101|Taxonomy 101 (eid-privacy, 2025)]] (blog, 2025)
 - [[eid-privacy-taxonomy-digital-identity|Taxonomy of digital identity systems (eid-privacy, 2025)]] (blog, 2025)

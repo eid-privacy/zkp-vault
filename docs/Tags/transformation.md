@@ -13,3 +13,4 @@ Tags entries describing transformations between proof systems, arithmetizations,
 
 - [[Fiat-Shamir|Fiat-Shamir Transformation]]
 - [[FS86-Fiat-Shamir|How to Prove Yourself: Practical Solutions to Identification and Signature Problems (Fiat-Shamir)]]
+- [[Kilian-Merkle|Kilian's Protocol, Merkle Commitments and the BCS Transform]]

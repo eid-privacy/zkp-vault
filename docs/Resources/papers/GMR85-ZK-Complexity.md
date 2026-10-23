@@ -32,6 +32,8 @@ The foundational paper introducing zero-knowledge proofs. Goldwasser, Micali, an
 
 ## Related resources
 
+- [[GQ88-Identity-Signature|A "Paradoxical" Identity-Based Signature Scheme Resulting from Zero-Knowledge (Guillou, Quisquater 1988)]] (paper, 1988)
+- [[BGKW88-MIP|Multi-Prover Interactive Proofs: How to Remove Intractability Assumptions (Ben-Or, Goldwasser, Kilian, Wigderson 1988)]] (paper, 1988)
 - [[BFM88-NIZK-Intro|Non-Interactive Zero-Knowledge and Its Applications (BFM88)]] (paper, 1988)
 - [[Thaler-Proofs-Arguments-ZK|Proofs, Arguments, and Zero-Knowledge]] (book, 2023)
 - [[Evolution-of-ZKPs|The Evolution of Zero Knowledge Proofs]] (blog, 2018)

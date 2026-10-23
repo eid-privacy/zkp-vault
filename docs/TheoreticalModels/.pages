@@ -4,3 +4,12 @@ nav:
   - ZK-Proof-Taxonomy.md
   - Interactive-Proof-Model.md
   - Schwartz-Zippel.md
+  - Complexity-Classes-Map.md
+  - IP-PSPACE.md
+  - PCP.md
+  - Linearity-and-Low-Degree-Testing.md
+  - IOP.md
+  - Holography-Preprocessing.md
+  - Kilian-Merkle.md
+  - Limits-of-Probabilistic-Proofs.md
+  - MPC-in-the-Head.md

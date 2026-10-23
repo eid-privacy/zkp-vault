@@ -23,5 +23,6 @@ Tags zero-knowledge virtual machines — systems that prove the correct executio
 - [[RISC-Zero-Docs|RISC Zero Documentation]]
 - [[SP1|SP1]]
 - [[SP1-Docs|SP1 Documentation (Succinct Labs)]]
+- [[BCTV13-vonNeumann|Succinct Non-Interactive Zero Knowledge for a von Neumann Architecture (Ben-Sasson, Chiesa, Tromer, Virza 2013)]]
 - [[Valida|Valida]]
 - [[zkVM|zkVM — Zero-Knowledge Virtual Machine]]

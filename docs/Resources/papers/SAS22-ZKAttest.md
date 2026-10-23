@@ -27,4 +27,7 @@ Presents ZKAttest, a scheme for constructing ring and group signatures that work
 
 ## Related resources
 
+- [[CLR23-CDLS|CDLS: Proving Knowledge of Committed Discrete Logarithms with Soundness (Celi, Levin, Rowell 2023)]] (paper, 2023)
 - [[microsoft-crescent-credentials|Microsoft Crescent Credentials (Spartan-t256 Fork)]] (code, 2023)
+- [[QCY21-Blind-ECDSA|One-more Unforgeability of Blind ECDSA (Qin, Cai, Yuen 2021)]] (paper, 2021)
+- [[COPZ22-DLEQ-Across-Groups|Proofs of discrete logarithm equality across groups (Chase, Orrù, Perrin, Zaverucha 2022)]] (paper, 2022)

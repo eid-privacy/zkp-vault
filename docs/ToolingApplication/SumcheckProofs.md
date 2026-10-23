@@ -52,7 +52,8 @@ Uses: multilinear extensions (MLEs), [[Fiat-Shamir]] (for non-interactive varian
 Predecessor: [[Interactive-Proof-Model]]
 
 ## Applications
-Used by: [[Spartan]], [[Hyrax]], [[Libra]], [[HyperPlonk]]
+Used by: [[GKR]], [[Spartan]], [[Hyrax]], [[Libra]], [[HyperPlonk]], [[Longfellow]]
+Theory: [[IP-PSPACE]]
 
 ## Resources
 - Paper: [[LFKN92-Sumcheck]]

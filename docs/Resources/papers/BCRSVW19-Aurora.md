@@ -31,5 +31,7 @@ Presents Aurora, a transparent (no trusted setup) zkSNARK for R1CS based on inte
 
 ## Related resources
 
+- [[BMNW24-Arc|Arc: Accumulation for Reed–Solomon Codes (Bünz, Mishra, Nguyen, Wang 2024)]] (paper, 2024)
 - [[BBHR18-FRI|Fast Reed-Solomon Interactive Oracle Proofs of Proximity (FRI)]] (paper, 2018)
+- [[BBHR18-STARK|Scalable, Transparent, and Post-Quantum Secure Computational Integrity (Ben-Sasson, Bentov, Horesh, Riabzev 2018)]] (paper, 2018)
 - [[Set19-Spartan|Spartan: Efficient and General-Purpose zkSNARKs Without Trusted Setup (Setty 2020)]] (paper, 2019)

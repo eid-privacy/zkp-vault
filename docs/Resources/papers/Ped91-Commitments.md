@@ -31,3 +31,4 @@ Introduces Pedersen commitments — a perfectly hiding, computationally binding 
 
 - [[BBB+17-Bulletproofs|Bulletproofs: Short Proofs for Confidential Transactions and More (Bünz et al. 2018)]] (paper, 2017)
 - [[docknetwork-crypto-library|DockNetwork Crypto Library Analysis]] (doc, 2026)
+- [[BG13-Polynomial-Evaluation|Zero-Knowledge Argument for Polynomial Evaluation with Application to Blacklists (Bayer, Groth 2013)]] (paper, 2013)

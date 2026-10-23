@@ -32,5 +32,7 @@ Presents Spartan, a transparent zkSNARK for R1CS that achieves the fastest known
 - [[FS24-Longfellow|Anonymous Credentials from ECDSA (Frigo & shelat 2024)]] (paper, 2024)
 - [[BCRSVW19-Aurora|Aurora: Transparent Succinct Arguments for R1CS (Ben-Sasson et al. 2019)]] (paper, 2019)
 - [[PPZ24-Crescent|Crescent: Stronger Privacy for Existing Credentials (Paquin, Policharla, Zaverucha 2024)]] (paper, 2024)
+- [[STW23-CCS|Customizable Constraint Systems for Succinct Arguments (Setty, Thaler, Wahby 2023)]] (paper, 2023)
 - [[Spartan-Code|Microsoft Spartan (Original)]] (code, 2020)
 - [[microsoft-Spartan2|Microsoft Spartan2]] (code, 2022)
+- [[DHG26-MS4|Secure and Privacy-Preserving Credentials for E-ID - Final Report (Dengler, Humbert, Gasser 2026)]] (paper, 2026)

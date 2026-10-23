@@ -24,5 +24,8 @@ Formalises device binding for anonymous credentials, where a credential is tied 
 
 ## Related resources
 
+- [[PS19-TrustZone-Survey|Demystifying Arm TrustZone: A Comprehensive Survey (Pinto, Santos 2019)]] (paper, 2019)
 - [[ENRTTX26-OpenAC|OpenAC: Open Design for Transparent and Lightweight Anonymous Credentials (Eagen, Ngo, Rushi, Tong, Tsai, Xia 2026)]] (paper, 2026)
+- [[CHLT25-Server-Aided-AC|Server-Aided Anonymous Credentials (Chairattana-Apirom, Harding, Lysyanskaya, Tessaro 2025)]] (paper, 2025)
 - [[BL26-SoK-AnonCreds|SoK: Anonymous Credentials for Digital Identity Wallets (Bormann, Lehmann 2026)]] (paper, 2026)
+- [[Ora24-BBS-Sharp|The BBS# protocol: Technical details (Orange 2024)]] (paper, 2024)

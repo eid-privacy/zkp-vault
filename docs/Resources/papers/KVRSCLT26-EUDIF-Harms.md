@@ -26,4 +26,5 @@ Uses cryptographic modeling to formally capture the information leakage inherent
 
 ## Related resources
 
+- [[BBC+24-ARF-Feedback|Cryptographers' Feedback on the EU Digital Identity's ARF (Baum et al. 2024)]] (paper, 2024)
 - [[KPRK24-SoK-SSI-Trust|SoK: Trusting Self-Sovereign Identity (Krul, Paik, Ruj, Kanhere 2024)]] (paper, 2024)

@@ -44,6 +44,8 @@ Circuit representation: [[AIR]]
 
 ## Applications
 Used by: [[zk-STARKs]], [[RISC-Zero]], [[SP1]], [[OpenVM]]
+Variants: [[Circle-STARKs]] (Circle FRI over Mersenne-31)
+Theory: [[IOP]], [[Linearity-and-Low-Degree-Testing]], [[Kilian-Merkle]]
 
 ## Resources
 - Paper: [[BBHR18-FRI]]

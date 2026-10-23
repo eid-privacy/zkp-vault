@@ -11,6 +11,8 @@ Marks protocols or constructions whose security holds unconditionally — withou
 
 ## Entries tagged
 
+- [[GKR08-Muggles|Delegating Computation: Interactive Proofs for Muggles (Goldwasser, Kalai, Rothblum 2008)]]
 - [[Sch80-Schwartz-Zippel|Fast Probabilistic Algorithms for Verification of Polynomial Identities]]
+- [[GKR|GKR Protocol]]
 - [[Schwartz-Zippel|Schwartz-Zippel Lemma]]
 - [[SumcheckProofs|Sumcheck Protocol]]

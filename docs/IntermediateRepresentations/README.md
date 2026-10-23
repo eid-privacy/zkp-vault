@@ -12,3 +12,4 @@ Circuit and constraint formats that sit between high-level programs and the unde
 | [PLONKish](./PLONKish.md) | Gate-based arithmetisation used by PLONK and its descendants |
 | [AIR](./AIR.md) | Algebraic Intermediate Representation — the constraint format underlying zk-STARKs |
 | [ACIR](./ACIR.md) | Abstract Circuit IR — Noir's backend-agnostic bytecode format |
+| [CCS](./CCS.md) | Customizable Constraint Systems — generalises R1CS, Plonkish and AIR; used by SuperSpartan and HyperNova |

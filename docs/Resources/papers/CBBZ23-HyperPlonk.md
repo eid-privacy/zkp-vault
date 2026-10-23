@@ -29,4 +29,5 @@ Extends PLONK to the multilinear setting using the sumcheck protocol, enabling l
 ## Related resources
 
 - [[LFKN92-Sumcheck|Algebraic Methods for Interactive Proof Systems]] (paper, 1992)
+- [[STW23-CCS|Customizable Constraint Systems for Succinct Arguments (Setty, Thaler, Wahby 2023)]] (paper, 2023)
 - [[GWC19-PLONK|PLONK: Permutations over Lagrange-bases for Oecumenical Noninteractive arguments of Knowledge]] (paper, 2019)

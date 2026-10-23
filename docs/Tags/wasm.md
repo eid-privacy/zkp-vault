@@ -11,5 +11,6 @@ Tags entries where WebAssembly is relevant — either as a compilation target fo
 
 ## Entries tagged
 
+- [[mattrglobal-bbs-signatures|@mattrglobal/bbs-signatures (MATTR)]]
 - [[Circom2-Docs|Circom2 Documentation]]
 - [[Ligero-Prover|Ligero Prover (Ligetron)]]

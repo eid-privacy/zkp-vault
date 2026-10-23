@@ -39,6 +39,7 @@ Cryptographic proof systems from foundational theory through modern production S
 |------|-------------|
 | [FRI](./FRI.md) | Fast Reed-Solomon IOP — the polynomial commitment scheme powering zk-STARKs |
 | [zk-STARKs](./zk-STARKs.md) | Transparent, post-quantum proofs based on FRI and AIR arithmetisation |
+| [Circle STARKs](./Circle-STARKs.md) | STARKs over the circle curve of Mersenne-31 with Circle FFT and Circle FRI (Stwo) |
 
 ## IOP / Multilinear / Vector Commitments
 
@@ -49,6 +50,7 @@ Cryptographic proof systems from foundational theory through modern production S
 | [Ligero](./Ligero.md) | MPC-in-the-head proof system based on linear codes |
 | [Ligero++](./Ligero-Plus-Plus.md) | Improved Ligero with better concrete efficiency |
 | [Spartan](./Spartan.md) | Transparent SNARK using sum-check and multilinear polynomials; no FFTs |
+| [GKR](./GKR.md) | Goldwasser-Kalai-Rothblum doubly-efficient IP for layered circuits: one sumcheck per layer over multilinear extensions |
 | [Hyrax](./Hyrax.md) | Doubly-efficient zkSNARK using Pedersen commitments and the sum-check protocol |
 | [Libra](./Libra.md) | Linear-time prover SNARK using the sum-check protocol over layered circuits |
 

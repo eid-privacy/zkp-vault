@@ -15,4 +15,6 @@ Tags protocols proving that a secret value lies within a specified range — a c
 - [[BBB+17-Bulletproofs|Bulletproofs: Short Proofs for Confidential Transactions and More (Bünz et al. 2018)]]
 - [[Bulletproofs-Plus|Bulletproofs+]]
 - [[CHJ+20-Bulletproofs-Opt|Bulletproofs+: Shorter Proofs for Privacy-Enhanced Distributed Ledger (Chung et al. 2020)]]
+- [[Predicate-Proofs|Predicate Proofs]]
 - [[CM99-Safe-Primes|Proving in Zero-Knowledge that a Number is the Product of Two Safe Primes (Camenisch-Michels 1999)]]
+- [[zkcrypto-bulletproofs|zkcrypto/bulletproofs]]

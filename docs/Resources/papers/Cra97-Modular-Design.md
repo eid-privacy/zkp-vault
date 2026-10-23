@@ -27,3 +27,4 @@ Ronald Cramer's doctoral dissertation, which introduces Sigma-protocols as a gen
 
 - [[Dam04-Sigma-Protocols|On Sigma Protocols (Damgård)]] (paper, 2004)
 - [[CS97-DL-Proofs|Proof Systems for General Statements about Discrete Logarithms (Camenisch-Stadler 1997)]] (paper, 1997)
+- [[Mau09-Unifying-ZKPoK|Unifying Zero-Knowledge Proofs of Knowledge (Maurer 2009)]] (paper, 2009)

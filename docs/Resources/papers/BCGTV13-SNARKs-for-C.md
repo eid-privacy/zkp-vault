@@ -30,3 +30,4 @@ Presents a publicly-verifiable, non-interactive zero-knowledge argument system f
 
 - [[PHGR13-Pinocchio|Pinocchio: Nearly Practical Verifiable Computation (Parno et al. 2013)]] (paper, 2013)
 - [[GGPR12-QSP-SNARK|Quadratic Span Programs and Succinct NIZKs without PCPs (GGPR 2013)]] (paper, 2012)
+- [[BCTV13-vonNeumann|Succinct Non-Interactive Zero Knowledge for a von Neumann Architecture (Ben-Sasson, Chiesa, Tromer, Virza 2013)]] (paper, 2013)

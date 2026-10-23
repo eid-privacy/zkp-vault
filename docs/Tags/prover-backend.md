@@ -13,6 +13,8 @@ Tags the backend prover component of a ZKP toolchain — responsible for generat
 
 - [[AztecProtocol-aztec-packages|AztecProtocol: Aztec Packages (UltraHONK Audit Scope)]]
 - [[Barretenberg|Barretenberg]]
+- [[eid-privacy-spartan-backend|eid-privacy/spartan-backend]]
+- [[eid-privacy-zkp-android-spartan|eid-privacy/zkp-android-spartan]]
 - [[Ligero-Prover|Ligero Prover (Ligetron)]]
 - [[Ligero-Prover-Docs|Ligetron Marketplace Documentation]]
 - [[noir-lang-noir|noir-lang/noir — ACVM Repository]]

@@ -25,6 +25,14 @@ Introduces BBS (Boneh-Boyen-Shacham) group signatures using pairing-based crypto
 
 ## Related resources
 
+- [[CDL16-DAA-qSDH|Anonymous Attestation Using the Strong Diffie Hellman Assumption Revisited (Camenisch, Drijvers, Lehmann 2016)]] (paper, 2016)
 - [[eid-privacy-docknetwork-crypto-library|Choosing a Cryptographic Library for Anonymous Credentials (eid-privacy, 2026)]] (blog, 2026)
+- [[ASM06-Dynamic-kTAA|Constant-Size Dynamic k-TAA (Au, Susilo, Mu 2006)]] (paper, 2006)
+- [[BBDT16-KVAC|Improved Algebraic MACs and Practical Keyed-Verification Anonymous Credentials (Barki, Brunet, Desmoulins, Traoré 2016)]] (paper, 2016)
 - [[eid-privacy-privacy-unlinkability|Overview of Privacy and Unlinkability (eid-privacy, 2025)]] (blog, 2025)
+- [[TZ23-Revisiting-BBS|Revisiting BBS Signatures (Tessaro, Zhu 2023)]] (paper, 2023)
+- [[PS16-Randomizable-Sigs|Short Randomizable Signatures (Pointcheval, Sanders 2016)]] (paper, 2016)
+- [[BLS01-Short-Sigs|Short Signatures from the Weil Pairing (Boneh, Lynn, Shacham 2001)]] (paper, 2001)
+- [[CL04-Bilinear-Sigs|Signature Schemes and Anonymous Credentials from Bilinear Maps (Camenisch, Lysyanskaya 2004)]] (paper, 2004)
 - [[BL26-SoK-AnonCreds|SoK: Anonymous Credentials for Digital Identity Wallets (Bormann, Lehmann 2026)]] (paper, 2026)
+- [[Ora24-BBS-Sharp|The BBS# protocol: Technical details (Orange 2024)]] (paper, 2024)

@@ -33,3 +33,4 @@ Presents Groth16, the most proof-size-efficient pairing-based SNARK known. Achie
 - [[groth16|Groth16 (Alin Tomescu)]] (blog, 2024)
 - [[CFQW19-LegoSNARK|LegoSNARK: Modular Design and Composition of Efficient Zero-Knowledge Proofs (Campanelli et al. 2019)]] (paper, 2019)
 - [[PHGR13-Pinocchio|Pinocchio: Nearly Practical Verifiable Computation (Parno et al. 2013)]] (paper, 2013)
+- [[RES24-ZK-Systematic-Review|Systematic review: Comparing zk-SNARK, zk-STARK, and bulletproof protocols for privacy-preserving authentication (Oude Roelink, El-Hajj, Sarmah 2024)]] (paper, 2024)

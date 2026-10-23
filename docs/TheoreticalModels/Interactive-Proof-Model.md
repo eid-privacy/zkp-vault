@@ -27,7 +27,7 @@ Key concepts defined:
 - **Zero-knowledge**: The verifier learns nothing beyond the validity of the statement
 
 ## Significance
-Provides the theoretical foundation for all ZKP systems. IP = PSPACE (by Shamir's theorem). All practical ZKP schemes implement or simulate this model, typically made non-interactive via [[Fiat-Shamir]].
+Provides the theoretical foundation for all ZKP systems. IP = PSPACE (by Shamir's theorem, see [[IP-PSPACE]]). All practical ZKP schemes implement or simulate this model, typically made non-interactive via [[Fiat-Shamir]].
 
 Key sub-models:
 - **CRS model** (Common Reference String) — used by [[NIZK-Blum]], [[Groth16]]

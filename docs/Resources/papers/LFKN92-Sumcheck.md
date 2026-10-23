@@ -34,7 +34,9 @@ Introduces the sumcheck protocol, showing that any language in the polynomial hi
 
 ## Related resources
 
+- [[GKR08-Muggles|Delegating Computation: Interactive Proofs for Muggles (Goldwasser, Kalai, Rothblum 2008)]] (paper, 2008)
 - [[Sch80-Schwartz-Zippel|Fast Probabilistic Algorithms for Verification of Polynomial Identities]] (paper, 1980)
 - [[CBBZ23-HyperPlonk|HyperPlonk: Plonk with Linear-Time Prover and High-Degree Custom Gates (Chen et al. 2023)]] (paper, 2023)
+- [[XZZPS19-Libra|Libra: Succinct Zero-Knowledge Proofs with Optimal Prover Computation (Xie, Zhang, Zhang, Papamanthou, Song 2019)]] (paper, 2019)
 - [[Thaler-Proofs-Arguments-ZK|Proofs, Arguments, and Zero-Knowledge]] (book, 2023)
 - [[Set19-Spartan|Spartan: Efficient and General-Purpose zkSNARKs Without Trusted Setup (Setty 2020)]] (paper, 2019)

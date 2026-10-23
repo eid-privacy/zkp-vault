@@ -26,3 +26,4 @@ A ZKProof standardization proposal for sigma protocols accepted at workshop 4. S
 ## Related resources
 
 - [[Dam04-Sigma-Protocols|On Sigma Protocols (Damgård)]] (paper, 2004)
+- [[Mau09-Unifying-ZKPoK|Unifying Zero-Knowledge Proofs of Knowledge (Maurer 2009)]] (paper, 2009)

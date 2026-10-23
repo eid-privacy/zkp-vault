@@ -14,6 +14,7 @@ Tags techniques and systems for composing multiple zero-knowledge proofs — com
 
 ## Entries tagged
 
+- [[BMNW24-Arc|Arc: Accumulation for Reed–Solomon Codes (Bünz, Mishra, Nguyen, Wang 2024)]]
 - [[LegoGroth16|LegoGroth16]]
 - [[CFQW19-LegoSNARK|LegoSNARK: Modular Design and Composition of Efficient Zero-Knowledge Proofs (Campanelli et al. 2019)]]
 - [[LSZ25-Vision|Vision: A Modular Framework for Anonymous Credential Systems (Lehmann, Sidorenko, Zacharakis 2025)]]

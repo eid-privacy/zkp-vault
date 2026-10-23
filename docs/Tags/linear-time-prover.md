@@ -13,6 +13,7 @@ Tags proof systems where the prover runs in linear time (O(n)) relative to witne
 
 - [[HyperPlonk|HyperPlonk]]
 - [[CBBZ23-HyperPlonk|HyperPlonk: Plonk with Linear-Time Prover and High-Degree Custom Gates (Chen et al. 2023)]]
+- [[XZZPS19-Libra|Libra: Succinct Zero-Knowledge Proofs with Optimal Prover Computation (Xie, Zhang, Zhang, Papamanthou, Song 2019)]]
 - [[AHIV22-Ligero-Ext|Ligero: Lightweight Sublinear Arguments Without a Trusted Setup]]
 - [[AHIV17-Ligero|Ligero: Lightweight Sublinear Arguments Without a Trusted Setup (Ames et al. 2017)]]
 - [[BFH+20-Ligero-Plus|Ligero++: A New Optimized Sublinear IOP (Bhadauria et al. 2020)]]

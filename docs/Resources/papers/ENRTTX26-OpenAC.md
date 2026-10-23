@@ -35,3 +35,4 @@ Proposes OpenAC, an anonymous credential design that avoids the drawbacks of exi
 - [[PPZ24-Crescent|Crescent: Stronger Privacy for Existing Credentials (Paquin, Policharla, Zaverucha 2024)]] (paper, 2024)
 - [[LZ26-AnonCreds-Legacy|Device Binding for Anonymous Credentials on Legacy Phones (Lehmann, Zacharakis 2026)]] (paper, 2026)
 - [[FHLL25-AnonCreds-TrustedHW|Device-Bound Anonymous Credentials With(out) Trusted Hardware (Friedrichs, Harding, Lehmann, Lysyanskaya 2025)]] (paper, 2025)
+- [[DHG26-MS4|Secure and Privacy-Preserving Credentials for E-ID - Final Report (Dengler, Humbert, Gasser 2026)]] (paper, 2026)

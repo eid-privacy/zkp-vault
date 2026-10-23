@@ -27,3 +27,8 @@ Presents Hyrax, the first doubly-efficient zkSNARK (efficient for both prover an
 
 ## Used by
 - [[Hyrax]]
+
+## Related resources
+
+- [[GKR08-Muggles|Delegating Computation: Interactive Proofs for Muggles (Goldwasser, Kalai, Rothblum 2008)]] (paper, 2008)
+- [[XZZPS19-Libra|Libra: Succinct Zero-Knowledge Proofs with Optimal Prover Computation (Xie, Zhang, Zhang, Papamanthou, Song 2019)]] (paper, 2019)

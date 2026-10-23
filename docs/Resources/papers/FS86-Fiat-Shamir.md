@@ -27,4 +27,6 @@ Introduces the Fiat-Shamir transform, which converts an interactive sigma protoc
 
 ## Related resources
 
+- [[GQ88-Identity-Signature|A "Paradoxical" Identity-Based Signature Scheme Resulting from Zero-Knowledge (Guillou, Quisquater 1988)]] (paper, 1988)
+- [[Sch91-Schnorr-Signatures|Efficient Signature Generation by Smart Cards (Schnorr 1991)]] (paper, 1991)
 - [[Dam04-Sigma-Protocols|On Sigma Protocols (Damgård)]] (paper, 2004)

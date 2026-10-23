@@ -25,4 +25,5 @@ Systematically analyzes trust in Self-Sovereign Identity (SSI) by breaking SSI s
 
 ## Related resources
 
+- [[MRHHL25-Physical-Identities|An Architecture for Distributed Digital Identities in the Physical World (Mayrhofer, Roland, Höller, Hofer, Lins 2025)]] (paper, 2025)
 - [[KVRSCLT26-EUDIF-Harms|On the (Privacy) Harms of the European Digital Identity Framework (Knabenhans, Veitch, Raynal, Stadler, Chatel, Lueks, Troncoso 2026)]] (paper, 2026)

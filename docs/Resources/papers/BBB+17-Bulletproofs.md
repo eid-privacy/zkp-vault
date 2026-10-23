@@ -36,3 +36,5 @@ Introduces Bulletproofs, a transparent (no trusted setup) proof system based on 
 
 - [[CHJ+20-Bulletproofs-Opt|Bulletproofs+: Shorter Proofs for Privacy-Enhanced Distributed Ledger (Chung et al. 2020)]] (paper, 2020)
 - [[Ped91-Commitments|Non-Interactive and Information-Theoretic Secure Verifiable Secret Sharing (Pedersen 1991)]] (paper, 1991)
+- [[RES24-ZK-Systematic-Review|Systematic review: Comparing zk-SNARK, zk-STARK, and bulletproof protocols for privacy-preserving authentication (Oude Roelink, El-Hajj, Sarmah 2024)]] (paper, 2024)
+- [[BG13-Polynomial-Evaluation|Zero-Knowledge Argument for Polynomial Evaluation with Application to Blacklists (Bayer, Groth 2013)]] (paper, 2013)

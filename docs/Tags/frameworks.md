@@ -11,6 +11,7 @@ Tags entries that are full ZKP frameworks — integrated toolchains combining a 
 
 ## Entries tagged
 
+- [[Mom25-GP-ZKP-VCs|General-Purpose Zero-Knowledge Proofs for Verifiable Credentials (Mombelli 2025)]]
 - [[gnark|gnark]]
 - [[Noir|Noir]]
 - [[OpenVM|OpenVM]]
@@ -19,4 +20,5 @@ Tags entries that are full ZKP frameworks — integrated toolchains combining a 
 - [[RISC-Zero|RISC Zero]]
 - [[SP1|SP1]]
 - [[Valida|Valida]]
+- [[SAKK25-ZKP-Frameworks-Survey|Zero-Knowledge Proof Frameworks: A Systematic Survey (Sheybani, Ahmed, Kinsy, Koushanfar 2025)]]
 - [[ZoKrates|ZoKrates]]

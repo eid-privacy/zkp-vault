@@ -27,6 +27,8 @@ Pinocchio is the first practical pairing-based SNARK, reducing the cost of verif
 
 ## Related resources
 
+- [[DFKP16-Cinderella|Cinderella: Turning Shabby X.509 Certificates into Elegant Anonymous Credentials with the Magic of Verifiable Computation (Delignat-Lavaud, Fournet, Kohlweiss, Parno 2016)]] (paper, 2016)
 - [[Gro16-Groth16|On the Size of Pairing-Based Non-interactive Arguments (Groth16)]] (paper, 2016)
 - [[GGPR12-QSP-SNARK|Quadratic Span Programs and Succinct NIZKs without PCPs (GGPR 2013)]] (paper, 2012)
 - [[BCGTV13-SNARKs-for-C|SNARKs for C: Verifying Program Executions Succinctly and in Zero Knowledge (Ben-Sasson et al. 2013)]] (paper, 2013)
+- [[BCTV13-vonNeumann|Succinct Non-Interactive Zero Knowledge for a von Neumann Architecture (Ben-Sasson, Chiesa, Tromer, Virza 2013)]] (paper, 2013)

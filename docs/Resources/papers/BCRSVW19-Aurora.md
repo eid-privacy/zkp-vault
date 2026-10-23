@@ -10,7 +10,7 @@ authors:
   - Nicholas Spooner
   - Madars Virza
   - Nicholas P. Ward
-url: "https://eprint.iacr.org/2019/317"
+url: "https://eprint.iacr.org/2018/828"
 tags:
   - snark
   - transparent

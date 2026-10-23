@@ -39,6 +39,7 @@ const LABEL_TO_SUBTYPE: Record<string, string> = {
   code: 'code',
   github: 'code',
   wiki: 'wikis',
+  course: 'courses',
   video: 'videos',
   presentation: 'presentations',
   benchmark: 'blogs',
@@ -193,7 +194,7 @@ interface ExistingResource {
 
 function loadExistingResources(): ExistingResource[] {
   const results: ExistingResource[] = [];
-  const subtypeDirs = ['papers', 'blogs', 'books', 'wikis', 'docs', 'code', 'videos', 'presentations'];
+  const subtypeDirs = ['papers', 'blogs', 'books', 'courses', 'wikis', 'docs', 'code', 'videos', 'presentations'];
   for (const sub of subtypeDirs) {
     const dir = path.join(RESOURCES_ROOT, sub);
     if (!fs.existsSync(dir)) continue;

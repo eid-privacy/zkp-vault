@@ -45,6 +45,7 @@ The vault is organized in four ways:
 | Papers | 46 | [Resources/papers](Resources/papers/README.md) |
 | Blogs & Explainers | 19 | [Resources/blogs](Resources/blogs/README.md) |
 | Books | 1 | [Resources/books](Resources/books/README.md) |
+| Courses | 0 | [Resources/courses](Resources/courses/README.md) |
 | Wikis & Standards | 1 | [Resources/wikis](Resources/wikis/README.md) |
 | Documentation | 13 | [Resources/docs](Resources/docs/README.md) |
 | Code & Repositories | 7 | [Resources/code](Resources/code/README.md) |

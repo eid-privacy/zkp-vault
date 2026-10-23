@@ -90,11 +90,12 @@ function extractSectionParagraph(content: string, heading: string): string {
 // ---------------------------------------------------------------------------
 
 const RESOURCES_ROOT = path.join(VAULT_ROOT, 'Resources');
-const SUBTYPES = ['papers', 'blogs', 'books', 'wikis', 'docs', 'code'];
+const SUBTYPES = ['papers', 'blogs', 'books', 'courses', 'wikis', 'docs', 'code'];
 const SUBTYPE_LABELS: Record<string, string> = {
   papers: 'Papers',
   blogs: 'Blogs & Explainers',
   books: 'Books',
+  courses: 'Courses',
   wikis: 'Wikis & Standards',
   docs: 'Documentation',
   code: 'Code & Repositories',
@@ -268,7 +269,7 @@ tags:
 
 # ZKP Resources
 
-Curated external resources for Zero-Knowledge Proofs — ${total} entries across papers, blogs, books, wikis, docs, and code repositories.
+Curated external resources for Zero-Knowledge Proofs — ${total} entries across papers, blogs, books, courses, wikis, docs, and code repositories.
 
 _This file is auto-generated. Run \`devbox run summaries\` to update._
 
@@ -450,6 +451,7 @@ const CONTENT_DIRS = [
   'Resources/papers',
   'Resources/blogs',
   'Resources/books',
+  'Resources/courses',
   'Resources/wikis',
   'Resources/docs',
   'Resources/code',

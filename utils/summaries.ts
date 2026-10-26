@@ -3,6 +3,7 @@
  *
  * Generates summary README files for vault sections:
  *   - Resources/README.md  (by type + by topic views)
+ *   - README.md            (resource counts only; the rest is hand-written)
  *   - Tags/README.md       (alphabetical table with descriptions)
  *   - Tags/<tag>.md        (## Entries tagged section replaced with static list)
  *
@@ -10,6 +11,7 @@
  *   bun run utils/summaries.ts                      # generate all
  *   bun run utils/summaries.ts resources           # Resources/README.md only
  *   bun run utils/summaries.ts resource-subtypes   # Resources/<subtype>/README.md only
+ *   bun run utils/summaries.ts home                # resource counts in README.md only
  *   bun run utils/summaries.ts tags                # Tags/README.md + all tag entry lists
  *   bun run utils/summaries.ts tag-files           # Tag entry lists only
  *   bun run utils/summaries.ts related             # ## Related resources sections only
@@ -285,6 +287,41 @@ ${byTopic}`;
 
   fs.writeFileSync(path.join(RESOURCES_ROOT, 'README.md'), readme, 'utf-8');
   if (!QUIET) console.log('Written: Resources/README.md');
+}
+
+// ---------------------------------------------------------------------------
+// Home README counts (docs/README.md is hand-written; only the counts are generated)
+// ---------------------------------------------------------------------------
+
+/** Replace `re` in `content` with `replacement`, failing loudly if it doesn't match. */
+function replaceOrFail(content: string, re: RegExp, replacement: string, what: string): string {
+  if (!re.test(content)) throw new Error(`README.md: could not find ${what} (pattern ${re})`);
+  return content.replace(re, replacement);
+}
+
+function generateHomeCounts(): void {
+  const resources = loadResources();
+  const total = resources.length;
+  const readmePath = path.join(VAULT_ROOT, 'README.md');
+  const content = fs.readFileSync(readmePath, 'utf-8');
+
+  const rows = SUBTYPES
+    .map(s => ({ s, n: resources.filter(r => r.subtype === s).length }))
+    .filter(({ n }) => n > 0)
+    .map(({ s, n }) => `| ${SUBTYPE_LABELS[s]} | ${n} | [Resources/${s}](Resources/${s}/README.md) |`);
+  const table = ['| Type | Count | Browse |', '|---|---|---|', ...rows].join('\n');
+
+  let updated = replaceOrFail(content, /(## Resources Index\n\n)\| Type \| Count \| Browse \|\n(?:\|.*\|\n)+/,
+    `$1${table}\n`, 'Resources Index table');
+  updated = replaceOrFail(updated, /— \d+ external resources/, `— ${total} external resources`, 'external resources count');
+  updated = replaceOrFail(updated, /for all \d+ entries by type and topic/, `for all ${total} entries by type and topic`, 'entries count');
+
+  if (updated !== content) {
+    fs.writeFileSync(readmePath, updated, 'utf-8');
+    if (!QUIET) console.log('Written: README.md (resource counts)');
+  } else if (!QUIET) {
+    console.log('README.md: resource counts up to date.');
+  }
 }
 
 // ---------------------------------------------------------------------------
@@ -710,6 +747,7 @@ const arg = process.argv[2] ?? 'all';
 
 if (arg === 'resources' || arg === 'all') generateResourcesReadme();
 if (arg === 'resource-subtypes' || arg === 'all') generateResourceSubtypeReadmes();
+if (arg === 'home' || arg === 'all') generateHomeCounts();
 if (arg === 'tags' || arg === 'all') generateTagsReadme();
 if (arg === 'tag-files' || arg === 'tags' || arg === 'all') generateTagFiles();
 if (arg === 'related' || arg === 'all') generateRelatedSections();

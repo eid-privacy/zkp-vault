@@ -204,4 +204,4 @@ Full index with by-topic view: [Resources/README.md](Resources/README.md).
 - [Applications overview](Applications/README.md) — privacy, scalability, enterprise, gaming use cases *(notes not yet written)*
 
 ### Resources
-See [Resources Index](#resources-index) above for all 63 entries by type and topic.
+See [Resources Index](#resources-index) above for all 240 entries by type and topic.

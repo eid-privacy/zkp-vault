@@ -1,0 +1,37 @@
+---
+type: cryptographic_primitive
+year: 2022
+authors:
+  - Armando Faz-Hernández
+  - Watson Ladd
+  - Deepak Maram
+paper: "ZKAttest: Ring and Group Signatures for Existing ECDSA Keys"
+doi: 10.1007/978-3-030-99277-4_4
+tags:
+  - zkp
+  - sigma
+  - attestation
+  - mathematics
+---
+
+[Home](../README.md) > [Sigma Proofs](README.md) > ZKAttest
+
+# ZKAttest
+
+## Description
+Enables ring and group signatures for existing ECDSA keys using zero-knowledge proofs. A party can prove membership in a group or ring without revealing which key they hold, using Pedersen commitments combined with SNARKs.
+
+## Properties
+- Completeness: Yes
+- Soundness: Computational
+- Zero-knowledge: Yes (which key is used is hidden)
+
+## Based on
+[[Pedersen-Commitments]], [[Sigma-Protocols-Damgard]]
+
+## Used by
+[[Docknetwork]]
+
+## Resources
+- Paper: [[FLM22-ZKAttest]]
+- Explainer:

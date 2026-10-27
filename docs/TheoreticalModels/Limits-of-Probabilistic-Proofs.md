@@ -8,7 +8,7 @@ tags:
   - pcp
 ---
 
-[Home](../README.md) > [Theoretical Models](README.md) > Limits-of-Probabilistic-Proofs
+[Home](../README.md) > [Foundations](README.md) > Limits-of-Probabilistic-Proofs
 
 # Limits of Probabilistic Proofs
 

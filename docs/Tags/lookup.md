@@ -10,7 +10,7 @@ type: tag
 Tags proof systems and techniques using lookup arguments (e.g., PLOOKUP, LogUp) to efficiently prove table membership, replacing expensive range-check circuits.
 
 ## Canonical entry
-→ [[ProofSystems/plookup]]
+→ [[plookup]]
 
 ## Entries tagged
 

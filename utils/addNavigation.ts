@@ -1,18 +1,9 @@
 import * as fs from 'fs';
 import * as path from 'path';
+import { SECTION_LABELS } from './sections';
 
 const VAULT_ROOT = path.resolve(__dirname, '../docs');
 
-const SECTION_LABELS: Record<string, string> = {
-  ProofSystems: 'Proof Systems',
-  CryptographicPrimitives: 'Cryptographic Primitives',
-  IntermediateRepresentations: 'Intermediate Representations',
-  TheoreticalModels: 'Theoretical Models',
-  ToolingApplication: 'Tooling & Applications',
-  Resources: 'Resources',
-  Applications: 'Applications',
-  Tags: 'Tags',
-};
 
 const DRY_RUN = process.argv.includes('--dry-run');
 const QUIET = process.argv.includes('--quiet');

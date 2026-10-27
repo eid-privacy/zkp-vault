@@ -41,18 +41,22 @@ devbox run build   # outputs to _site/
 
 ```
 docs/                         # vault content (open this dir in Obsidian)
-  CryptographicPrimitives/
-  ProofSystems/
+  .pages                      # tabs and section grouping (awesome-pages)
+  eID/                        # eID tab: actors, threats, systems, standards, law
+  ZKP/                        # ZKPs tab landing page
+  TheoreticalModels/          # Foundations
+  Sigma/                      # Sigma proofs
+  ProofSystems/               # circuit-based proof systems
   IntermediateRepresentations/
-  TheoreticalModels/
-  ToolingApplication/
+  CircuitTooling/             # circuit DSLs and proving libraries
+  zkVM/
+  AnonymousCredentials/       # BBS, holder binding, predicates, revocation, ...
   Resources/
   Tags/
-  Applications/
-mkdocs.yml                    # MkDocs config
+mkdocs.yml                    # MkDocs config (incl. redirects from old URLs)
 devbox.json                   # dev environment
 requirements.txt              # Python dependencies
-utils/                        # TypeScript generator scripts
+utils/                        # TypeScript generator scripts (sections.ts lists the folders)
 ```
 
 ---
@@ -71,12 +75,15 @@ devbox shell    # enter the environment once
 
 | Directory | Content type |
 |---|---|
-| `ProofSystems/` | Proof system entries (GMR85, PLONK, Groth16, …) |
-| `CryptographicPrimitives/` | Primitive entries (Pedersen, Sigma protocols, …) |
+| `eID/` | e-ID actors, threats, deployed systems, standards, law |
+| `ZKP/` | ZKPs landing page |
+| `TheoreticalModels/` | Foundations: theoretical models, GMR85, Fiat-Shamir, NIZK |
+| `Sigma/` | Sigma proofs: Pedersen, Sigma protocols, commit-and-prove |
+| `ProofSystems/` | Circuit-based proof systems (PLONK, Groth16, …) |
 | `IntermediateRepresentations/` | IR entries (R1CS, AIR, PLONKish, ACIR) |
-| `TheoreticalModels/` | Theoretical model entries |
-| `ToolingApplication/` | Tools, frameworks, libraries, ZK VMs |
-| `Applications/` | Real-world use-case notes |
+| `CircuitTooling/` | Circuit DSLs and proving libraries |
+| `zkVM/` | zkVMs |
+| `AnonymousCredentials/` | Anonymous credentials for e-ID |
 | `Resources/papers/` | Academic paper stubs |
 | `Resources/blogs/` | Blog posts and explainers |
 | `Resources/books/` | Books and comprehensive guides |
@@ -98,14 +105,14 @@ devbox shell    # enter the environment once
 | A cryptographic primitive | `templates/cryptographic_primitive.md` |
 | An intermediate representation | `templates/intermediate_representation.md` |
 | A theoretical model | `templates/theoretical_models.md` |
-| A tool, library, or ZK VM | `templates/tooling_application.md` |
+| A tool, library, or zkVM (→ `CircuitTooling/` or `zkVM/`) | `templates/tooling_application.md` |
 
 #### 2. Create the file
 
 Copy the template into the correct directory and rename it (use `Title-Case-Kebab.md`):
 
 ```sh
-cp templates/proof_system.md ProofSystems/MyNewScheme.md
+cp templates/proof_system.md docs/ProofSystems/MyNewScheme.md
 ```
 
 Fill in the frontmatter fields and body sections.
@@ -244,7 +251,7 @@ devbox run verify
 #### Add a new tool or library
 
 ```sh
-cp templates/tooling_application.md ToolingApplication/NewTool.md
+cp templates/tooling_application.md CircuitTooling/NewTool.md   # or zkVM/
 # subtype options: circuit_dsl | zkvm | library | application
 # edit, add resources
 devbox run collect-resources

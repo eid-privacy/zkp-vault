@@ -10,7 +10,7 @@ type: tag
 Tags entries relying on the discrete logarithm assumption — the hardness assumption behind Pedersen commitments, Schnorr proofs, and many elliptic-curve-based ZKPs.
 
 ## Canonical entry
-→ [[CryptographicPrimitives/Proof-Systems-for-DL]]
+→ [[Proof-Systems-for-DL]]
 
 ## Entries tagged
 

@@ -1,6 +1,6 @@
-[Home](../README.md) > Theoretical Models
+[Home](../README.md) > Foundations
 
-# Theoretical Models
+# Foundations
 
 Foundational computational models and taxonomies that underpin the theory of Zero-Knowledge Proofs.
 

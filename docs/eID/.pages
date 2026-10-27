@@ -1,0 +1,15 @@
+nav:
+  - README.md
+  - Actors, Trust & Threats:
+      - eID-Actors-and-Trust-Goals.md
+      - eID-Threat-Models.md
+      - Pseudonyms-in-eID.md
+  - Deployed Systems:
+      - eID-Systems-Overview.md
+  - Building Blocks:
+      - Credential-Data-Structures.md
+      - Communication-Protocols.md
+      - Hardware-Security-for-eID.md
+  - Regulation:
+      - eID-Legal-Framework.md
+  - eID-Open-Questions.md

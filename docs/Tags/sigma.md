@@ -10,8 +10,8 @@ type: tag
 Tags Sigma (Σ) protocols — three-move interactive proofs (commit, challenge, response) that are the basis of many identification and signature schemes.
 
 ## Canonical entries
-→ [[CryptographicPrimitives/Sigma-Protocols-Damgard]]
-→ [[CryptographicPrimitives/Sigma-Protocols-Proposal]]
+→ [[Sigma-Protocols-Damgard]]
+→ [[Sigma-Protocols-Proposal]]
 
 ## Entries tagged
 

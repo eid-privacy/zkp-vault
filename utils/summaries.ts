@@ -24,6 +24,7 @@
 
 import * as fs from 'fs';
 import * as path from 'path';
+import { CONTENT_SECTIONS } from './sections';
 
 const VAULT_ROOT = path.resolve(__dirname, '../docs');
 const QUIET = process.argv.includes('--quiet');
@@ -479,12 +480,7 @@ ${tableRows.join('\n')}
 // ---------------------------------------------------------------------------
 
 const CONTENT_DIRS = [
-  'CryptographicPrimitives',
-  'ProofSystems',
-  'IntermediateRepresentations',
-  'TheoreticalModels',
-  'ToolingApplication',
-  'Applications',
+  ...Object.keys(CONTENT_SECTIONS),
   'Resources/papers',
   'Resources/blogs',
   'Resources/books',
@@ -660,14 +656,7 @@ function parsePagesFile(dir: string): string[] | null {
   return items.length > 0 ? items : null;
 }
 
-const SECTION_DIRS = [
-  'TheoreticalModels',
-  'CryptographicPrimitives',
-  'ProofSystems',
-  'IntermediateRepresentations',
-  'ToolingApplication',
-  'Applications',
-];
+const SECTION_DIRS = Object.keys(CONTENT_SECTIONS);
 
 /**
  * For each section directory that has both a README.md and a .pages file,

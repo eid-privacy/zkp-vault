@@ -135,13 +135,16 @@ Full index with by-topic view: [Resources/README.md](Resources/README.md).
 
 | Layer | Contents |
 |---|---|
-| [Theoretical Models](TheoreticalModels/README.md) | Interactive proofs, ZK families |
-| [Cryptographic Primitives](CryptographicPrimitives/README.md) | Commitments, Sigma protocols |
+| [ZKPs](ZKP/README.md) | The three families: Sigma proofs, circuit-based proofs, zkVMs |
+| [Foundations](TheoreticalModels/README.md) | Interactive proofs, ZK families, GMR85, Fiat-Shamir |
+| [Sigma Proofs](Sigma/README.md) | Commitments, Sigma protocols, commit-and-prove |
 | [Proof Systems](ProofSystems/README.md) | Groth16 → PLONK → STARKs → … |
 | [Intermediate Repr.](IntermediateRepresentations/README.md) | R1CS · AIR · PLONKish · ACIR |
-| [Tooling & Applications](ToolingApplication/README.md) | Noir · Halo2 · RISC Zero · SP1 |
+| [Circuit Tooling](CircuitTooling/README.md) | Noir · Halo2 · gnark · Circom |
+| [zkVMs](zkVM/README.md) | RISC Zero · SP1 · OpenVM |
+| [Anonymous Credentials](AnonymousCredentials/README.md) | BBS, holder binding, predicates, revocation |
+| [eID](eID/README.md) | Actors, threats, systems, standards, law |
 | [Resources](Resources/README.md) | Books, blog posts, papers |
-| [Applications](Applications/README.md) | Real-world use cases |
 
 ---
 
@@ -153,14 +156,14 @@ Full index with by-topic view: [Resources/README.md](Resources/README.md).
 
 | Framework | Ease | Fast | PQ | Mobile | Maintained | Audited | Sign+Hash |
 |---|---|---|---|---|---|---|---|
-| [Noir](ToolingApplication/Noir.md) | Easy | Yes | No | Possible | Yes | No | Yes |
-| [Circom 2](ToolingApplication/Circom2.md) | Medium | Unclear | No | WASM | Mixed | No | Hash only |
-| [gnark](ToolingApplication/gnark.md) | Medium | Yes | No | No | Yes | Yes (9×) | Yes |
-| [RISC Zero](ToolingApplication/RISC-Zero.md) | Medium | Mixed | Yes | Verifier | Yes | Yes | Yes |
-| [Docknetwork](ToolingApplication/Docknetwork.md) | Medium | Yes | Partial | Yes | Mixed | No | Yes |
-| [Ligero Prover](ToolingApplication/Ligero-Prover.md) | Easy | Partial | Yes | WASM | Yes | No | Yes |
-| [Halo2](ToolingApplication/Halo2.md) | Hard | Unclear | No | Unknown | Some | No | Hash only |
-| [Spartan](ToolingApplication/Spartan-Framework.md) | Low-level | Yes | No | Likely | Mixed | No | Yes |
+| [Noir](CircuitTooling/Noir.md) | Easy | Yes | No | Possible | Yes | No | Yes |
+| [Circom 2](CircuitTooling/Circom2.md) | Medium | Unclear | No | WASM | Mixed | No | Hash only |
+| [gnark](CircuitTooling/gnark.md) | Medium | Yes | No | No | Yes | Yes (9×) | Yes |
+| [RISC Zero](zkVM/RISC-Zero.md) | Medium | Mixed | Yes | Verifier | Yes | Yes | Yes |
+| [Docknetwork](Sigma/Docknetwork.md) | Medium | Yes | Partial | Yes | Mixed | No | Yes |
+| [Ligero Prover](CircuitTooling/Ligero-Prover.md) | Easy | Partial | Yes | WASM | Yes | No | Yes |
+| [Halo2](CircuitTooling/Halo2.md) | Hard | Unclear | No | Unknown | Some | No | Hash only |
+| [Spartan](CircuitTooling/Spartan-Framework.md) | Low-level | Yes | No | Likely | Mixed | No | Yes |
 
 **Background reading (recommended order)**
 
@@ -180,16 +183,16 @@ Full index with by-topic view: [Resources/README.md](Resources/README.md).
 - [Schwartz-Zippel Lemma](TheoreticalModels/Schwartz-Zippel.md) — polynomial identity testing, foundational for many ZKP protocols
 
 ### Cryptographic Primitives
-- [Pedersen Commitments](CryptographicPrimitives/Pedersen-Commitments.md)
-- [Sigma Protocols (Damgård)](CryptographicPrimitives/Sigma-Protocols-Damgard.md)
-- [Sigma Protocols (Proposal)](CryptographicPrimitives/Sigma-Protocols-Proposal.md)
-- [Proof Systems for DL](CryptographicPrimitives/Proof-Systems-for-DL.md)
-- [Camenisch-Michels Safe Primes](CryptographicPrimitives/Camenisch-Michels-Safe-Primes.md)
-- [ZKAttest](CryptographicPrimitives/ZKAttest.md)
+- [Pedersen Commitments](Sigma/Pedersen-Commitments.md)
+- [Sigma Protocols (Damgård)](Sigma/Sigma-Protocols-Damgard.md)
+- [Sigma Protocols (Proposal)](Sigma/Sigma-Protocols-Proposal.md)
+- [Proof Systems for DL](Sigma/Proof-Systems-for-DL.md)
+- [Camenisch-Michels Safe Primes](Sigma/Camenisch-Michels-Safe-Primes.md)
+- [ZKAttest](Sigma/ZKAttest.md)
 
 ### Proof Systems
-- [GMR85 – Knowledge Complexity](ProofSystems/GMR85-Knowledge-Complexity.md) · [Fiat-Shamir](ProofSystems/Fiat-Shamir.md) · [NIZK (Blum)](ProofSystems/NIZK-Blum.md) · [Scalable MPC (DI06)](ProofSystems/DI06-Scalable-MPC.md)
-- [QSP/GGPR13](ProofSystems/QSP-GGPR13.md) · [Pinocchio](ProofSystems/Pinocchio.md) · [Groth16](ProofSystems/Groth16.md) · [LegoGroth16](ProofSystems/LegoGroth16.md)
+- [GMR85 – Knowledge Complexity](TheoreticalModels/GMR85-Knowledge-Complexity.md) · [Fiat-Shamir](TheoreticalModels/Fiat-Shamir.md) · [NIZK (Blum)](TheoreticalModels/NIZK-Blum.md) · [Scalable MPC (DI06)](TheoreticalModels/DI06-Scalable-MPC.md)
+- [QSP/GGPR13](ProofSystems/QSP-GGPR13.md) · [Pinocchio](ProofSystems/Pinocchio.md) · [Groth16](ProofSystems/Groth16.md) · [LegoGroth16](Sigma/LegoGroth16.md)
 - [Ligero](ProofSystems/Ligero.md) · [Ligero++](ProofSystems/Ligero-Plus-Plus.md) · [Bulletproofs](ProofSystems/Bulletproofs.md) · [Bulletproofs+](ProofSystems/Bulletproofs-Plus.md)
 - [FRI](ProofSystems/FRI.md) · [zk-STARKs](ProofSystems/zk-STARKs.md) · [Hyrax](ProofSystems/Hyrax.md) · [Libra](ProofSystems/Libra.md) · [Spartan](ProofSystems/Spartan.md)
 - [Sonic](ProofSystems/Sonic.md) · [PLONK](ProofSystems/PLONK.md) · [TurboPLONK](ProofSystems/TurboPLONK.md) · [HyperPLONK](ProofSystems/HyperPlonk.md)
@@ -203,27 +206,27 @@ Full index with by-topic view: [Resources/README.md](Resources/README.md).
 
 | Name | Type | Based on |
 |---|---|---|
-| [Noir](ToolingApplication/Noir.md) | Circuit DSL | ACIR + Barretenberg (UltraHONK) |
-| [Barretenberg](ToolingApplication/Barretenberg.md) | Library | PLONKish / UltraHONK |
-| [Circom 2](ToolingApplication/Circom2.md) | Circuit DSL | zk-SNARK / R1CS |
-| [gnark](ToolingApplication/gnark.md) | Library | Groth16, PLONK |
-| [Halo2](ToolingApplication/Halo2.md) | Library | UltraPLONK / PLONKish |
-| [ZoKrates](ToolingApplication/ZoKrates.md) | Circuit DSL | SNARKs (archived) |
-| [Docknetwork](ToolingApplication/Docknetwork.md) | Library | Bulletproofs, LegoGroth, ZKAttest |
-| [Ligero Prover](ToolingApplication/Ligero-Prover.md) | Library | Ligero |
-| [Spartan Framework](ToolingApplication/Spartan-Framework.md) | Library | Spartan |
-| [RISC Zero](ToolingApplication/RISC-Zero.md) | zkVM | zk-STARKs |
-| [SP1](ToolingApplication/SP1.md) | zkVM | STARK + Groth16 |
-| [OpenVM](ToolingApplication/OpenVM.md) | zkVM | Plonky3 / STARK |
-| [Pico](ToolingApplication/Pico.md) | zkVM | Plonky3 |
-| [Valida](ToolingApplication/Valida.md) | zkVM | Plonky3 (archived) |
-| [Powdr](ToolingApplication/Powdr.md) | Optimizer | vmLLVM / zkVM |
-| [Arithmetic Circuits](ToolingApplication/Circuits.md) | Concept | — |
-| [Sumcheck Protocol](ToolingApplication/SumcheckProofs.md) | Concept | — |
-| [zkVM](ToolingApplication/zkVM.md) | Concept overview | — |
+| [Noir](CircuitTooling/Noir.md) | Circuit DSL | ACIR + Barretenberg (UltraHONK) |
+| [Barretenberg](CircuitTooling/Barretenberg.md) | Library | PLONKish / UltraHONK |
+| [Circom 2](CircuitTooling/Circom2.md) | Circuit DSL | zk-SNARK / R1CS |
+| [gnark](CircuitTooling/gnark.md) | Library | Groth16, PLONK |
+| [Halo2](CircuitTooling/Halo2.md) | Library | UltraPLONK / PLONKish |
+| [ZoKrates](CircuitTooling/ZoKrates.md) | Circuit DSL | SNARKs (archived) |
+| [Docknetwork](Sigma/Docknetwork.md) | Library | Bulletproofs, LegoGroth, ZKAttest |
+| [Ligero Prover](CircuitTooling/Ligero-Prover.md) | Library | Ligero |
+| [Spartan Framework](CircuitTooling/Spartan-Framework.md) | Library | Spartan |
+| [RISC Zero](zkVM/RISC-Zero.md) | zkVM | zk-STARKs |
+| [SP1](zkVM/SP1.md) | zkVM | STARK + Groth16 |
+| [OpenVM](zkVM/OpenVM.md) | zkVM | Plonky3 / STARK |
+| [Pico](zkVM/Pico.md) | zkVM | Plonky3 |
+| [Valida](zkVM/Valida.md) | zkVM | Plonky3 (archived) |
+| [Powdr](zkVM/Powdr.md) | Optimizer | vmLLVM / zkVM |
+| [Arithmetic Circuits](CircuitTooling/Circuits.md) | Concept | — |
+| [Sumcheck Protocol](CircuitTooling/SumcheckProofs.md) | Concept | — |
+| [zkVM](zkVM/zkVM.md) | Concept overview | — |
 
 ### Applications
-- [Applications overview](Applications/README.md) — privacy, scalability, enterprise, gaming use cases *(notes not yet written)*
+- [Applications overview](eID/README.md) — privacy, scalability, enterprise, gaming use cases *(notes not yet written)*
 
 ### Resources
 See [Resources Index](#resources-index) above for all 266 entries by type and topic.

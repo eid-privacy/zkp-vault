@@ -10,7 +10,7 @@ type: tag
 Tags zero-knowledge virtual machines — systems that prove the correct execution of programs (RISC-V, MIPS, EVM) rather than circuits written by hand.
 
 ## Canonical entry
-→ [[ToolingApplication/zkVM]]
+→ [[zkVM]]
 
 ## Entries tagged
 

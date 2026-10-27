@@ -13,3 +13,7 @@ nav:
   - Kilian-Merkle.md
   - Limits-of-Probabilistic-Proofs.md
   - MPC-in-the-Head.md
+  - GMR85-Knowledge-Complexity.md
+  - Fiat-Shamir.md
+  - NIZK-Blum.md
+  - DI06-Scalable-MPC.md

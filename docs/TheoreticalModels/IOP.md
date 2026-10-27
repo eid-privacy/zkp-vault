@@ -15,7 +15,7 @@ tags:
   - interactive-proof
 ---
 
-[Home](../README.md) > [Theoretical Models](README.md) > IOP
+[Home](../README.md) > [Foundations](README.md) > IOP
 
 # Interactive Oracle Proofs (IOP)
 

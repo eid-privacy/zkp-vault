@@ -10,7 +10,7 @@ type: tag
 Tags techniques and systems for composing multiple zero-knowledge proofs — combining sigma protocols via AND/OR rules, commit-and-prove frameworks, or proof system interoperability.
 
 ## Canonical entries
-→ [[TheoreticalModels/ZK-Proof-Taxonomy]]
+→ [[ZK-Proof-Taxonomy]]
 
 ## Entries tagged
 

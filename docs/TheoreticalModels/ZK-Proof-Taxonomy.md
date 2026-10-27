@@ -6,7 +6,7 @@ tags:
   - overview
 ---
 
-[Home](../README.md) > [Theoretical Models](README.md) > ZK-Proof-Taxonomy
+[Home](../README.md) > [Foundations](README.md) > ZK-Proof-Taxonomy
 
 # ZK Proof Taxonomy: Abstraction Levels
 

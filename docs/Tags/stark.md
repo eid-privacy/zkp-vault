@@ -10,7 +10,7 @@ type: tag
 Scalable Transparent ARguments of Knowledge. Tags proof systems based on FRI and hash-based commitments — transparent (no trusted setup) and post-quantum candidate.
 
 ## Canonical entry
-→ [[ProofSystems/zk-STARKs]]
+→ [[zk-STARKs]]
 
 ## Entries tagged
 

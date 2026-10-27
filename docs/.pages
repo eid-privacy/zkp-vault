@@ -1,11 +1,16 @@
 nav:
-  - README.md
+  - Home: README.md
+  - eID: eID
+  - ZKPs:
+      - Overview: ZKP
+      - Foundations: TheoreticalModels
+      - Sigma Proofs: Sigma
+      - Circuit-Based Proofs:
+          - ProofSystems
+          - IntermediateRepresentations
+          - CircuitTooling
+      - zkVMs: zkVM
+      - Anonymous Credentials: AnonymousCredentials
   - Resources
   - Papers: Resources/papers
-  - TheoreticalModels
-  - CryptographicPrimitives
-  - ProofSystems
-  - IntermediateRepresentations
-  - ToolingApplication
-  - Applications
   - Tags

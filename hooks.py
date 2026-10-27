@@ -2,8 +2,8 @@
 MkDocs hooks for zkp-vault.
 
 1. Monkeypatches os.walk to follow symlinks — required so that the roamlinks
-   plugin can index files under docs/ symlinks (e.g. docs/ProofSystems →
-   ../ProofSystems). Survives pip reinstalls of the plugin.
+   plugin can index files under docs/ symlinks (e.g. docs/<Section> →
+   ../<Section>). Survives pip reinstalls of the plugin.
 
 2. on_page_content — injects a source-metadata block (paper, DOI, URL,
    GitHub) directly after the page's <h1>, sourced from YAML frontmatter.

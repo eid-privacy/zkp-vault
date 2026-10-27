@@ -10,7 +10,7 @@ type: tag
 Tags commit-and-prove SNARKs (CP-SNARKs) — proof systems that prove statements about values already committed to by a separate commitment scheme, enabling modular composition of proof systems.
 
 ## Canonical entries
-→ [[ProofSystems/LegoGroth16]]
+→ [[LegoGroth16]]
 
 ## Entries tagged
 

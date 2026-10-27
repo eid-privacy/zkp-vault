@@ -6,7 +6,7 @@ tags:
   - complexity-theory
 ---
 
-[Home](../README.md) > [Theoretical Models](README.md) > Complexity-Classes-Map
+[Home](../README.md) > [Foundations](README.md) > Complexity-Classes-Map
 
 # Complexity Classes Map
 

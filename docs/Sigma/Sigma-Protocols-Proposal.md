@@ -31,5 +31,6 @@ A standardization proposal submitted to the ZKProof workshop. Defines a unified 
 ## Used by
 
 ## Resources
+- Wiki: [[IRTF-CFRG-Sigma-Protocols]] (the current IRTF CFRG draft)
 - Paper: [[ZKP21-Sigma-Standard]]
 - Explainer:

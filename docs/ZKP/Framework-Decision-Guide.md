@@ -13,6 +13,15 @@ Evaluation criteria and a shortlist of ZKP frameworks for e-ID credential proofs
 
 **Evaluation criteria**
 
+The columns below were evaluated in the eid-privacy project ([[GHE25-MS2]]). [[BL26-SoK-AnonCreds]] adds questions worth asking of any candidate:
+
+- **Is it actually zero-knowledge?** Many systems built for blockchains target succinctness only, and some zkVMs are not ZK.
+- **Prover time on a phone**, not proof size or verifier time, is the bottleneck for credentials ([[ZKP-on-Mobile]]).
+- **Security level**: some fast results use reduced security (Longfellow: 86 bits).
+- **Setup and assumptions**: trusted setup vs. transparent, pairing-based vs. hash-based ([[ZK-Families-Overview]]).
+- **Assurance**: audits, known bugs, formal verification ([[Soundness-Bugs-and-Audits]]).
+- **Extensibility**: tailored circuits are fast but hard to extend to new statements.
+
 **Framework shortlist**
 
 | Framework | Ease | Fast | PQ | Mobile | Maintained | Audited | Sign+Hash |

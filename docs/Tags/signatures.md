@@ -36,6 +36,7 @@ Tags digital signature schemes (RSA, ElGamal, Schnorr, EdDSA/Ed25519, BLS, CL, B
 - [[microsoft-bbs-node-reference|microsoft/bbs-node-reference]]
 - [[NIST-IR-8547|NIST IR 8547: Transition to Post-Quantum Cryptography Standards]]
 - [[QCY21-Blind-ECDSA|One-more Unforgeability of Blind ECDSA (Qin, Cai, Yuen 2021)]]
+- [[Pairing-Free-ACs|Pairing-Free Anonymous Credentials]]
 - [[Post-Quantum-and-eID|Post-Quantum and e-ID]]
 - [[AGJLRS24-PQ-Sigs-Privacy|Practical Post-Quantum Signatures for Privacy (Argo, Güneysu, Jeudy, Land, Roux-Langlois, Sanders 2024)]]
 - [[TZ23-Revisiting-BBS|Revisiting BBS Signatures (Tessaro, Zhu 2023)]]

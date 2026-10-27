@@ -11,6 +11,7 @@ Entries about privacy notions, threats and regulations beyond a single cryptogra
 
 ## Entries tagged
 
+- [[AC-Features|Anonymous Credential Features]]
 - [[BCD+14-ABC4Trust|D2.2 Architecture for Attribute-based Credential Technologies — Final Version (ABC4Trust) (Bichsel et al. 2014)]]
 - [[eID-Actors-and-Trust-Goals|e-ID Actors and Trust Goals]]
 - [[eID-Open-Questions|e-ID Open Questions]]

@@ -21,6 +21,13 @@ Holder binding (also *device binding*, *key binding* or *non-transferability*) e
 
 Since phone hardware only supports ECDSA P-256 ([[Hardware-Security-for-eID]]), both `Q` and the signature are unique, linkable values: plain holder binding defeats unlinkability. The goal of the eid-privacy WP3 was an **unlinkable proof of possession** of the hardware-bound key that the holder can create alone, verifiable without a third party, in **less than 1 s and less than 1 MB** ([[GHE25-MS2]]).
 
+## Three options
+[[BL26-SoK-AnonCreds]] distinguishes three ways to get unlinkable device binding:
+
+1. **Native device binding for BBS**: the secure element computes only the proof-of-possession part, a Schnorr signature in the pairing group: DAA ([[CDL16-DAA-qSDH]]), a single-call variant with a key shared by SE and host ([[HSS23-Bind-AC-Humans]]), BBS# ([[Ora24-BBS-Sharp]]), and a plain BLS-signature interface that doesn't need to trust the SE for unlinkability ([[FHLL25-AnonCreds-TrustedHW]]). Efficient, but today's secure elements only offer P-256, so this needs new SE support and re-certification. Cloud-HSM wallets (planned by Germany, the Netherlands and Sweden for high assurance) are less constrained.
+2. **BBS credential + ECDSA bridge**: the BBS credential contains the device's P-256 public key as an attribute; the SE signs a fresh nonce with ECDSA, and the holder proves in ZK that this signature is valid under the committed key, linked to the BBS proof through commitments. The ZK part is either a Sigma proof (ZKAttest / [[CLR23-CDLS]]) or a SNARK ([[Longfellow]], [[Crescent]], [[WOSPG25-Legacy-PoP]]). Ubique's ZKAttest-based implementation takes about 800 ms and 150 kB ([[heidiverse-zkattest-rs]]). Because the signed message is a fresh nonce and part of the signature (`r`) can be revealed, **no hash has to be proven in the circuit**, which keeps the proof small and leaves attribute statements to flexible Sigma proofs.
+3. **Full SNARK over an ECDSA credential**: issuer signature and device signature are both proven in one circuit, as in Longfellow and the eid-privacy Spartan backend (below). Works with unchanged issuers and secure elements, at the cost of a larger, less flexible circuit.
+
 ## Approach: prove the ECDSA signature in zero knowledge
 The holder keeps `Q` and the signature `(r, s)` secret and proves in a ZKP that "the credential contains a key `Q`, and `(r, s)` is a valid signature under `Q` on the verifier's challenge". The only public input is the challenge, so two proofs cannot be linked through the binding ([[GHE25-MS2]]). Combined with a proof of the issuer signature, this gives the generic unlinkable credential of [[Unlinkable-Anonymous-Credentials]].
 
@@ -34,6 +41,7 @@ The holder keeps `Q` and the signature `(r, s)` secret and proves in a ZKP that 
 | ZKAttest / CDLS | Any (keys on P-256) | Sigma-protocol proof of an ECDSA signature under a committed key, on a curve whose order matches P-256's field (Tom-256); cross-group equality links it to the credential | [[FLM22-ZKAttest]], [[CLR23-CDLS]], [[COPZ22-DLEQ-Across-Groups]], [[cloudflare-zkp-ecdsa]] |
 | Ubique zkattest-rs | BBS | ZKAttest-style proof with Tom-256 plus cross-group equality linking the device key to a BBS attribute; the original ZKAttest optimisation was found insecure (eprint 2023/1595) | [[heidiverse-zkattest-rs]], [[Docknetwork]] |
 | BBS# | BBS variant | Avoids pairings on the holder side; binds to existing ECDSA / EC-Schnorr keys in secure hardware | [[Ora24-BBS-Sharp]] |
+| Single-call device binding | BBS | Schnorr-type signature from the SE plus a key shared by SE and host: one SE call instead of two as in DAA | [[HSS23-Bind-AC-Humans]] |
 | Device-bound anonymous credentials | BBS-compatible | Single, stateless SE call; privacy does not depend on SE honesty | [[FHLL25-AnonCreds-TrustedHW]] |
 | Legacy-phone device binding | Anonymous credentials on pairing curves | Bridges the P-256 / pairing-curve gap without new hardware | [[LZ26-AnonCreds-Legacy]] |
 | Crescent-style circuit | ECDSA (SD-JWT, mDL) | Modified ECDSA equation proven in Spartan over Tom-256 | [[Crescent]], [[DHG26-MS4]] |

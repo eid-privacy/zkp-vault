@@ -31,6 +31,7 @@ Tags entries related to standards or standardisation efforts for ZKP systems —
 - [[OpenID4VCI|OpenID for Verifiable Credential Issuance 1.0]]
 - [[OpenID4VP|OpenID for Verifiable Presentations 1.0]]
 - [[Overlays-Capture-Architecture|Overlays Capture Architecture (OCA)]]
+- [[Pairing-Friendly-Curves|Pairing-Friendly Curves]]
 - [[Sigma-Protocols-Proposal|Proposal: ∑-protocols]]
 - [[IETF-RFC7539-ChaCha20-Poly1305|RFC 7539: ChaCha20 and Poly1305 for IETF Protocols]]
 - [[IETF-RFC9901-SD-JWT|RFC 9901: Selective Disclosure for JSON Web Tokens (SD-JWT)]]

@@ -37,6 +37,13 @@ ZKP systems can be organized by their arithmetic layer (constraint system), info
 - Medium: [[PLONK]] (~500 bytes), [[UltraHonk]]
 - Large: [[Bulletproofs]] (O(log n)), [[zk-STARKs]] (40–200 KB)
 
+## Setup and assumptions
+Two properties that matter when choosing a proof system for credentials ([[BL26-SoK-AnonCreds]]):
+- **Trusted setup**: *circuit-specific* (every circuit change needs a new ceremony, e.g. [[Groth16]]), *universal and updatable* (one reference string for all circuits up to a size, secure if a single contributor was honest, e.g. [[PLONK]]), or *transparent* (no secret setup, e.g. [[Bulletproofs]], [[zk-STARKs]], [[Ligero]]). Transparent systems are easier to deploy, but trusted setups have been run in practice (Zcash).
+- **Assumptions**: pairing-based systems typically rely on non-falsifiable assumptions or idealised models such as the algebraic group model; most transparent systems use the random-oracle model, which complicates choosing concrete security parameters. Hash-based systems ([[FRI]], [[Ligero]]) are plausibly post-quantum sound.
+
+Many systems built for blockchains optimise proof size and verifier time and don't need the zero-knowledge property at all — some zkVMs are not zero-knowledge. For credentials, prover time and zero knowledge matter most.
+
 ## Built upon by
 [[GMR85-Knowledge-Complexity]], [[Fiat-Shamir]], [[NIZK-Blum]]
 

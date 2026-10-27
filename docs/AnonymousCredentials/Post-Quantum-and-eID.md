@@ -27,6 +27,13 @@ Phone secure elements only offer ECDSA P-256, pairing-based credentials are not 
 - Discrete-log or pairing based systems are not: [[Spartan]] as used in the eid-privacy backend ([[DHG26-MS4]]), [[Groth16]] in [[Crescent]], [[Bulletproofs]] and sigma protocols.
 - Post-quantum anonymous credentials with efficient protocols are an active research area, e.g. the lattice-based scheme of [[AGJLRS24-PQ-Sigs-Privacy]].
 
+## Soundness vs. privacy
+Quantum computers threaten anonymous credentials differently from encryption ([[BL26-SoK-AnonCreds]]):
+- Only **soundness** (unforgeability) is at risk for DL-based schemes. If the zero-knowledge property is perfect or statistical, as for BBS presentations and many proof systems, **privacy holds unconditionally**. Extensions such as pseudonyms or conditional disclosure are often DL-based too and need checking.
+- So there is no harvest-now-decrypt-later urgency: schemes with quantum-vulnerable soundness but unconditional privacy can be used until a cryptographically relevant quantum computer exists, in line with [[NIST-IR-8547]] for authentication.
+- A post-quantum proof system doesn't make a credential post-quantum if the credential is still an ECDSA signature. Efficient circuits are tailored to ECDSA; switching to ML-DSA will need new optimisations, possibly new proof systems.
+- Post-quantum building blocks: lattice-based proof systems [[BS23-LaBRADOR]] and [[LSS24-LaZer]], lattice-based proof-friendly signatures ([[DKLW25-Lattice-Proof-Friendly-Sigs]], [[AGJLRS24-PQ-Sigs-Privacy]]).
+
 ## Related
 - [[eID-Threat-Models]]
 - [[Unlinkable-Anonymous-Credentials]]

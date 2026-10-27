@@ -17,3 +17,4 @@ nav:
   - Fiat-Shamir.md
   - NIZK-Blum.md
   - DI06-Scalable-MPC.md
+  - Pairing-Friendly-Curves.md

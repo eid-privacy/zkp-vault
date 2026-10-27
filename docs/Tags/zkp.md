@@ -86,6 +86,7 @@ Root tag for all Zero-Knowledge Proof content in this vault. Applied to essentia
 - [[DHG26-MS4|Secure and Privacy-Preserving Credentials for E-ID - Final Report (Dengler, Humbert, Gasser 2026)]]
 - [[GHE25-MS2|Secure and Privacy-Preserving Credentials for E-ID Proof-of-Concept (Gasser, Humbert, Elghareeb 2025)]]
 - [[Sonic|Sonic]]
+- [[Soundness-Bugs-and-Audits|Soundness Bugs and Audits]]
 - [[SP1|SP1]]
 - [[Spartan|Spartan]]
 - [[Spartan-Framework|Spartan (Framework / Implementation)]]

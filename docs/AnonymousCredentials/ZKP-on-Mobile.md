@@ -41,6 +41,8 @@ Pre-computing the challenge-independent part takes about 5 s on desktop (18 s on
 - **Integration**: Rust provers can be called from Kotlin (and Swift) through UniFFI bindings, as in [[eid-privacy-zkp-android-spartan]].
 - **Server-side wallets** are not free either: SICPA's cloud wallet integration took about 30 s for proving and verification with one vCPU and 10 GB RAM ([[DHG26-MS4]]).
 
+Most SNARKs were designed for blockchains and optimise proof size and verifier time; for credentials the prover runs on the phone, so prover time matters most. Recent work reduces it with ECDSA-specific building blocks ([[Longfellow]]) or by splitting proving into an expensive pre-computation and a fast presentation step ([[Crescent]]); these optimisations are new and less reviewed than the underlying proof systems ([[BL26-SoK-AnonCreds]]).
+
 ## Related
 - [[Holder-Binding]]
 - [[Selective-Disclosure]]

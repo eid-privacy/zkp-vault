@@ -25,6 +25,7 @@ Tags entries about elliptic curve cryptography as used in ZKPs — curve selecti
 - [[microsoft-crescent-credentials|Microsoft Crescent Credentials (Spartan-t256 Fork)]]
 - [[MIT-18-783-Elliptic-Curves|MIT 18.783 Elliptic Curves (Spring 2021)]]
 - [[QCY21-Blind-ECDSA|One-more Unforgeability of Blind ECDSA (Qin, Cai, Yuen 2021)]]
+- [[Pairing-Friendly-Curves|Pairing-Friendly Curves]]
 - [[personaelabs-spartan-ecdsa|personaelabs/spartan-ecdsa]]
 - [[COPZ22-DLEQ-Across-Groups|Proofs of discrete logarithm equality across groups (Chase, Orrù, Perrin, Zaverucha 2022)]]
 - [[BLS01-Short-Sigs|Short Signatures from the Weil Pairing (Boneh, Lynn, Shacham 2001)]]

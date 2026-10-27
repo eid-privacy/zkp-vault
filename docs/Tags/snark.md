@@ -63,6 +63,7 @@ Succinct Non-interactive ARguments of Knowledge. Tags proof systems that achieve
 - [[Sonic|Sonic]]
 - [[Sonic-Code|Sonic Reference Implementation (ebfull/sonic)]]
 - [[MBKM19-Sonic|Sonic: Zero-Knowledge SNARKs from Linear-Size Universal and Updateable Structured Reference Strings (Maller et al. 2019)]]
+- [[Soundness-Bugs-and-Audits|Soundness Bugs and Audits]]
 - [[SP1|SP1]]
 - [[Spartan|Spartan]]
 - [[Set19-Spartan|Spartan: Efficient and General-Purpose zkSNARKs Without Trusted Setup (Setty 2020)]]

@@ -16,3 +16,6 @@ Proofs expressed directly as algebraic relations over a group: commitment scheme
 | [ZKAttest](./ZKAttest.md) | ZK attestation using ECDSA / secp256k1 (2022) |
 | [LegoGroth16](./LegoGroth16.md) | Commit-and-prove Groth16 (LegoSNARK): bridges committed values between Sigma proofs and circuits |
 | [Docknetwork](./Docknetwork.md) | Rust crypto library; includes BBS+ signatures and ZK credential primitives |
+
+## Commit-and-prove: bridging Sigma proofs and circuits
+A commit-and-prove construction lets a Sigma proof and a circuit proof share a witness through a commitment, so each part is proven with the system that suits it ([[ZK-Proof-Taxonomy]]). Examples: [[LegoGroth16]] ([[CFQW19-LegoSNARK]]), proving Sigma statements inside circuits cheaply ([[KMN23-Sigmabus]]), moving expensive operations out of the circuit ([[OKMZ25-Beyond-Circuit]]), and linking a BBS credential to an ECDSA device signature ([[Holder-Binding]]). The IRTF draft [[IRTF-CFRG-Sigma-Protocols]] standardises the Sigma-protocol layer.

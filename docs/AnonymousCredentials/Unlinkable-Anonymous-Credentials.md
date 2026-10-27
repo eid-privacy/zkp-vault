@@ -49,6 +49,10 @@ Implementations: [[docknetwork-crypto]] ([[Docknetwork]]), [[mattrglobal-pairing
 
 Limitations in an e-ID context ([[GHE25-Taxonomy]], [[GHE25-MS2]]): not available in HSMs or phone secure elements; not NIST-standardised, which conflicts with NIST's plan to deprecate non-post-quantum algorithms; not post-quantum. The cryptographers' letter [[BBC+24-ARF-Feedback]] argued for the BBS family in the EUDI ARF, which then opened a ZKP discussion topic. According to [[DHG26-MS4]], ETSI is standardising BBS, Longfellow, Vega and OpenAC for digital-identity use.
 
+**Standardisation** ([[BL26-SoK-AnonCreds]]): BBS is ISO-standardised in ISO/IEC 20008-2:2013 (the 2023 amendment adds PS signatures); the updated variant is in the IRTF CFRG ([[IRTF-CFRG-BBS-Signatures]]), with extensions for blind issuance ([[IRTF-CFRG-BBS-Blind-Signatures]]) and per-verifier pseudonyms ([[IRTF-CFRG-BBS-Per-Verifier-Linkability]]). The IRTF Sigma-protocols draft ([[IRTF-CFRG-Sigma-Protocols]]) would let further Schnorr-style statements be added modularly. Anonymous credentials are already deployed in TPM DAA and SGX EPID. BBS needs a pairing-friendly curve ([[Pairing-Friendly-Curves]]); alternatives without pairings are in [[Pairing-Free-ACs]].
+
+**BBS or PS?** For features that involve the issuer's secret key, such as credential aggregation or distributed issuance, PS signatures have advantages. The Sigma proofs over attributes and the device-binding options work the same for both, so a system can switch or support both ([[BL26-SoK-AnonCreds]]).
+
 ## Other signature schemes
 - **CL signatures** ([[CL02-CL-Signatures]]): strong-RSA based, with protocols to sign committed values and prove knowledge of a signature; the basis of Idemix and AnonCreds v1.
 - **PS signatures** ([[PS16-Randomizable-Sigs]]): short pairing-based signatures that are re-randomisable without a ZKP for the randomisation.

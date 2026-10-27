@@ -17,6 +17,9 @@ related:
   - BL26-SoK-AnonCreds
   - CL02-CL-Signatures
   - BCD+14-ABC4Trust
+doi: "10.1007/978-3-031-30731-7_6"
+citations: 22
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > KMPQ23-SoK-AnonCreds

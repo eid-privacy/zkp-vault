@@ -16,6 +16,9 @@ related:
   - CL04-Bilinear-Sigs
   - CDL16-DAA-qSDH
   - BBDT16-KVAC
+doi: "10.1007/978-3-031-30589-4_24"
+citations: 64
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > TZ23-Revisiting-BBS

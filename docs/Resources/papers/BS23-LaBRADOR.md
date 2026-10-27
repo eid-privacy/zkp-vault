@@ -14,6 +14,9 @@ related:
   - LSS24-LaZer
   - DKLW25-Lattice-Proof-Friendly-Sigs
   - AGJLRS24-PQ-Sigs-Privacy
+doi: "10.1007/978-3-031-38554-4_17"
+citations: 60
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > BS23-LaBRADOR

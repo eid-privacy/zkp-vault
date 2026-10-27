@@ -16,6 +16,7 @@
  *   bun run utils/summaries.ts tag-files           # Tag entry lists only
  *   bun run utils/summaries.ts related             # ## Related resources sections only
  *   bun run utils/summaries.ts sections            # ## Contents tables in section READMEs (respects .pages)
+ *   bun run utils/summaries.ts papers-ranked       # ZKP/ZKP-Papers.md and eID/eID-Papers.md (needs `devbox run citations`)
  *
  * Cross-linking resources:
  *   Add `related: [<filename>, ...]` to a resource's frontmatter (filename without .md).
@@ -746,6 +747,112 @@ function generateSectionReadmes(): void {
 }
 
 // ---------------------------------------------------------------------------
+// Ranked paper tables (ZKP/ZKP-Papers.md, eID/eID-Papers.md)
+// ---------------------------------------------------------------------------
+
+const EID_TAGS = ['eid', 'anonymous-credentials', 'privacy'];
+const FOUNDATION_PERCENTILE = 0.8; // top 20 % by citations
+const RELEVANT_PERCENTILE = 0.7;   // top 30 % by citations per year
+const RECENT_YEARS = 3;
+
+interface RankedPaper {
+  r: ResourceMeta;
+  citations: number | null;
+  perYear: number | null;
+}
+
+function percentile(values: number[], q: number): number {
+  if (values.length === 0) return Infinity;
+  const sorted = [...values].sort((a, b) => a - b);
+  return sorted[Math.min(sorted.length - 1, Math.floor(q * sorted.length))];
+}
+
+function renderPaperTable(papers: RankedPaper[]): string {
+  if (papers.length === 0) return '_None._\n';
+  const rows = [...papers]
+    .sort((a, b) => (b.citations ?? -1) - (a.citations ?? -1) || (parseInt(b.r.year) || 0) - (parseInt(a.r.year) || 0))
+    .map(p => `| ${resourceWikilink(p.r)} | ${p.r.year} | ${p.citations ?? '—'} | ${p.perYear === null ? '—' : p.perYear.toFixed(1)} |`);
+  return ['| Paper | Year | Citations | Per year |', '|---|---|---|---|', ...rows].join('\n') + '\n';
+}
+
+function generateRankedPapers(): void {
+  const thisYear = new Date().getFullYear();
+  const papers: RankedPaper[] = loadResources().filter(r => r.subtype === 'papers').map(r => {
+    const fm = parseFrontmatter(fs.readFileSync(path.join(RESOURCES_ROOT, 'papers', `${r.filename}.md`), 'utf-8'));
+    const c = fm['citations'] === undefined ? null : parseInt(String(fm['citations']));
+    const age = Math.max(1, thisYear - (parseInt(r.year) || thisYear) + 1);
+    return { r, citations: c === null || isNaN(c) ? null : c, perYear: c === null || isNaN(c) ? null : c / age };
+  });
+
+  const tabs = [
+    {
+      file: path.join(VAULT_ROOT, 'ZKP', 'ZKP-Papers.md'),
+      label: 'ZKPs',
+      title: 'ZKP Papers',
+      intro: 'Papers on zero-knowledge proofs and anonymous credentials in the vault',
+      papers: papers.filter(p => !p.r.tags.some(t => EID_TAGS.includes(t)) || p.r.tags.includes('anonymous-credentials')),
+    },
+    {
+      file: path.join(VAULT_ROOT, 'eID', 'eID-Papers.md'),
+      label: 'eID',
+      title: 'eID Papers',
+      intro: 'Papers on electronic identity, privacy and anonymous credentials in the vault',
+      papers: papers.filter(p => p.r.tags.some(t => EID_TAGS.includes(t))),
+    },
+  ];
+
+  for (const tab of tabs) {
+    const cited = tab.papers.filter(p => p.citations !== null);
+    const foundationMin = percentile(cited.map(p => p.citations!), FOUNDATION_PERCENTILE);
+    const relevantMin = percentile(cited.map(p => p.perYear!), RELEVANT_PERCENTILE);
+
+    const isFoundation = (p: RankedPaper) => p.r.tags.includes('foundational') || (p.citations ?? -1) >= foundationMin;
+    const isRelevant = (p: RankedPaper) =>
+      (p.perYear ?? -1) >= relevantMin ||
+      ((p.r.tags.includes('eid') || p.r.tags.includes('overview')) && (parseInt(p.r.year) || 0) >= thisYear - RECENT_YEARS);
+
+    const foundation = tab.papers.filter(isFoundation);
+    const relevant = tab.papers.filter(p => !isFoundation(p) && isRelevant(p));
+    const other = tab.papers.filter(p => !isFoundation(p) && !isRelevant(p));
+    const name = path.basename(tab.file, '.md');
+
+    const content = `---
+type: resource-index
+status: generated
+generated: true
+tags: []
+---
+
+[Home](../README.md) > [${tab.label}](README.md) > ${name}
+
+# ${tab.title}
+
+${tab.intro}, ranked by citation counts from [OpenAlex](https://openalex.org) (${cited.length} of ${tab.papers.length} papers found there).
+
+- **Foundation papers**: tagged \`foundational\`, or in the top ${Math.round((1 - FOUNDATION_PERCENTILE) * 100)} % by citations.
+- **Relevant papers**: in the top ${Math.round((1 - RELEVANT_PERCENTILE) * 100)} % by citations per year, or tagged \`eid\` / \`overview\` and from the last ${RECENT_YEARS} years.
+- **Other papers**: the rest.
+
+Citation counts are only a rough guide: recent papers and IACR ePrints are often missing or under-counted.
+
+_This file is auto-generated. Run \`devbox run citations\` and \`devbox run summaries\` to update._
+
+## Foundation papers
+
+${renderPaperTable(foundation)}
+## Relevant papers
+
+${renderPaperTable(relevant)}
+## Other papers
+
+${renderPaperTable(other)}`;
+
+    fs.writeFileSync(tab.file, content, 'utf-8');
+    if (!QUIET) console.log(`Written: ${path.relative(VAULT_ROOT, tab.file)} (${foundation.length} / ${relevant.length} / ${other.length})`);
+  }
+}
+
+// ---------------------------------------------------------------------------
 // Main
 // ---------------------------------------------------------------------------
 
@@ -758,3 +865,4 @@ if (arg === 'tags' || arg === 'all') generateTagsReadme();
 if (arg === 'tag-files' || arg === 'tags' || arg === 'all') generateTagFiles();
 if (arg === 'related' || arg === 'all') generateRelatedSections();
 if (arg === 'sections' || arg === 'all') generateSectionReadmes();
+if (arg === 'papers-ranked' || arg === 'all') generateRankedPapers();

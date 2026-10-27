@@ -13,6 +13,9 @@ tags:
   - eid
   - applications
   - cryptography
+doi: "10.1007/978-3-032-25317-0_12"
+citations: 1
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > FHLL25-AnonCreds-TrustedHW

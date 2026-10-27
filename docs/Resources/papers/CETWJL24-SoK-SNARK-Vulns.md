@@ -20,6 +20,9 @@ related:
   - CMSCGD23-ZK-Circuit-Verification
   - ECZJG24-Need-ZKP
   - LHWYSW25-SoK-zkSNARKs
+doi: "10.48550/arxiv.2402.15293"
+citations: 2
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > CETWJL24-SoK-SNARK-Vulns

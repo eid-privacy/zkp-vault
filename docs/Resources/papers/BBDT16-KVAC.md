@@ -17,6 +17,9 @@ related:
   - BBS04-ShortGroupSigs
   - TZ23-Revisiting-BBS
   - CDL16-DAA-qSDH
+doi: "10.1007/978-3-319-69453-5_20"
+citations: 27
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > BBDT16-KVAC

@@ -14,6 +14,9 @@ tags:
 related:
   - FHLL25-AnonCreds-TrustedHW
   - LZ26-AnonCreds-Legacy
+doi: "10.1145/3291047"
+citations: 501
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > PS19-TrustZone-Survey

@@ -15,6 +15,9 @@ related:
   - BBDT16-KVAC
   - CHLT25-Server-Aided-AC
   - BL26-SoK-AnonCreds
+doi: "10.1145/3719027.3765163"
+citations: 1
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > Orr25-Revisiting-KVAC

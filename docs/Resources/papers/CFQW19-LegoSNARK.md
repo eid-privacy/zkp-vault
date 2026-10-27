@@ -16,6 +16,8 @@ tags:
   - pairing
 related:
   - GWC19-PLONK
+citations: 10
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > CFQW19-LegoSNARK

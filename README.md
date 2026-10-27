@@ -219,6 +219,18 @@ devbox run verify             # runs vault integrity checks
 
 `collect-resources` is idempotent — safe to re-run.
 
+### Citation counts and ranked paper tables
+
+```sh
+OPENALEX_API_KEY=... devbox run citations   # fetch citation counts from OpenAlex into paper frontmatter
+devbox run summaries                        # regenerates ZKP/ZKP-Papers.md and eID/eID-Papers.md
+```
+
+`citations` writes `doi`, `citations` and `citations_updated` to each paper in `Resources/papers/` and skips entries
+updated in the last 30 days (`--force` to refresh all, `--dry-run` to only show matches). Papers are matched by DOI, or
+by title and year; unmatched papers are listed at the end — add a `doi:` to fix them. Get a free API key at
+https://openalex.org/settings/api; never commit it. Run it manually, not in CI.
+
 ### Verification
 
 ```sh

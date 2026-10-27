@@ -16,6 +16,9 @@ tags:
 related:
   - LFKN92-Sumcheck
   - WTSTW17-Hyrax
+doi: "10.1145/1374376.1374396"
+citations: 484
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > GKR08-Muggles

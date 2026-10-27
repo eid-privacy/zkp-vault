@@ -18,6 +18,8 @@ tags:
 related:
   - BBHR18-FRI
   - BCRSVW19-Aurora
+citations: 309
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > BBHR18-STARK

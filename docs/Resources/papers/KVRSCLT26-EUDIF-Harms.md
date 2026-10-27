@@ -15,6 +15,9 @@ url: "https://eprint.iacr.org/2026/867.pdf"
 tags:
   - eid
   - applications
+doi: "10.60882/cispa.32779635"
+citations: 0
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > KVRSCLT26-EUDIF-Harms

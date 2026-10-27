@@ -27,6 +27,8 @@ related:
   - BL26-SoK-AnonCreds
   - PZ11-U-Prove
   - CL02-CL-Signatures
+citations: 14
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > BCD+14-ABC4Trust

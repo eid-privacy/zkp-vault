@@ -15,6 +15,9 @@ related:
   - CL04-Bilinear-Sigs
   - BBS04-ShortGroupSigs
   - AGJLRS24-PQ-Sigs-Privacy
+doi: "10.1007/978-3-319-29485-8_7"
+citations: 336
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > PS16-Randomizable-Sigs

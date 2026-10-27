@@ -16,6 +16,9 @@ related:
   - Cra97-Modular-Design
   - ZKP21-Sigma-Standard
   - GQ88-Identity-Signature
+doi: "10.1007/978-3-642-02384-2_17"
+citations: 76
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > Mau09-Unifying-ZKPoK

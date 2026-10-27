@@ -18,6 +18,9 @@ related:
   - PPZ24-Crescent
   - FS24-Longfellow
   - BL26-SoK-AnonCreds
+doi: "10.1109/sp46215.2023.10179430"
+citations: 112
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > RWGM23-zk-creds

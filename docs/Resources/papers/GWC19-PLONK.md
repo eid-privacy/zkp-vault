@@ -23,6 +23,8 @@ related:
   - plonkish_arithmetization
   - CBBZ23-HyperPlonk
   - Halo2-Docs
+citations: 187
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > GWC19-PLONK

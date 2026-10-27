@@ -17,6 +17,9 @@ related:
   - Orr25-Revisiting-KVAC
   - CPZ20-Signal-Groups
   - CHLT25-Server-Aided-AC
+doi: "10.1145/2660267.2660328"
+citations: 113
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > CMZ14-KVAC

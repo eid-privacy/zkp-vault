@@ -13,6 +13,8 @@ tags:
   - theory
 related:
   - BL26-SoK-AnonCreds
+citations: 663
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > PH10-Privacy-Terminology

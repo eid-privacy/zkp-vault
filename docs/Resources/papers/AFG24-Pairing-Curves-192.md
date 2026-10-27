@@ -15,6 +15,9 @@ related:
   - BLS01-Short-Sigs
   - BBS04-ShortGroupSigs
   - BL26-SoK-AnonCreds
+doi: "10.62056/angyl86bm"
+citations: 5
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > AFG24-Pairing-Curves-192

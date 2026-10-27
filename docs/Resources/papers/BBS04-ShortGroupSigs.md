@@ -14,6 +14,9 @@ tags:
   - pairing
   - cryptography
   - foundational
+doi: "10.1007/978-3-540-28628-8_3"
+citations: 2129
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > BBS04-ShortGroupSigs

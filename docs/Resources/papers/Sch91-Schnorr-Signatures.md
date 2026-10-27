@@ -14,6 +14,9 @@ tags:
 related:
   - FS86-Fiat-Shamir
   - Dam04-Sigma-Protocols
+doi: "10.1007/bf00196725"
+citations: 2792
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > Sch91-Schnorr-Signatures

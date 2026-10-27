@@ -14,6 +14,9 @@ tags:
   - elliptic-curves
 related:
   - BBS04-ShortGroupSigs
+doi: "10.1007/3-540-45682-1_30"
+citations: 3091
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > BLS01-Short-Sigs

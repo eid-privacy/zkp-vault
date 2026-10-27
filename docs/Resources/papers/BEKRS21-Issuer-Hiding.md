@@ -17,6 +17,9 @@ tags:
 related:
   - BL26-SoK-AnonCreds
   - PS16-Randomizable-Sigs
+doi: "10.1007/978-3-030-92548-2_9"
+citations: 46
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > BEKRS21-Issuer-Hiding

@@ -11,6 +11,8 @@ tags:
   - mathematics
   - foundational
   - information-theoretic
+citations: 1701
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > Sch80-Schwartz-Zippel

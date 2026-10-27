@@ -16,6 +16,9 @@ related:
   - Sch91-Schnorr-Signatures
   - GMR85-ZK-Complexity
   - Dam04-Sigma-Protocols
+doi: "10.1007/0-387-34799-2_16"
+citations: 451
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > GQ88-Identity-Signature

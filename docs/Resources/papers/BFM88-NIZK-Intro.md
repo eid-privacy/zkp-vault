@@ -13,6 +13,9 @@ tags:
   - foundational
   - zkp
   - theory
+doi: "10.1145/62212.62222"
+citations: 905
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > BFM88-NIZK-Intro

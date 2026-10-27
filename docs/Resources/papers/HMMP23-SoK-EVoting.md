@@ -13,6 +13,9 @@ tags:
   - overview
   - privacy
   - applications
+doi: "10.56553/popets-2023-0017"
+citations: 16
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > HMMP23-SoK-EVoting

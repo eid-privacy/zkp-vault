@@ -17,6 +17,9 @@ related:
   - AHIV17-Ligero
   - Set19-Spartan
   - Longfellow
+doi: "10.62056/a3qjmpgxq"
+citations: 3
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > FS24-Longfellow

@@ -13,6 +13,9 @@ tags:
   - linear-time-prover
   - transparent
   - iop
+doi: "10.1007/s10623-023-01222-8"
+citations: 37
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > AHIV22-Ligero-Ext

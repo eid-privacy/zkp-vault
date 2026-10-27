@@ -18,6 +18,9 @@ related:
   - BS23-LaBRADOR
   - LSS24-LaZer
   - BL26-SoK-AnonCreds
+doi: "10.1007/978-3-031-91820-9_15"
+citations: 6
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > DKLW25-Lattice-Proof-Friendly-Sigs

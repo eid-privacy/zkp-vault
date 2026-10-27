@@ -11,6 +11,8 @@ tags:
   - lookup
   - arithmetization
   - snark
+citations: 20
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > GW20-Plookup

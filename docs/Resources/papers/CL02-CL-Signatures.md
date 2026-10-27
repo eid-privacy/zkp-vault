@@ -15,6 +15,9 @@ related:
   - CS97-DL-Proofs
   - BL26-SoK-AnonCreds
   - ASM06-Dynamic-kTAA
+doi: "10.1007/3-540-36413-7_20"
+citations: 692
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > CL02-CL-Signatures

@@ -15,6 +15,9 @@ tags:
 related:
   - BBB+17-Bulletproofs
   - Ped91-Commitments
+doi: "10.1007/978-3-642-38348-9_38"
+citations: 43
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > BG13-Polynomial-Evaluation

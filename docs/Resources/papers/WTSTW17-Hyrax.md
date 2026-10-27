@@ -16,6 +16,9 @@ tags:
   - iop
   - scalable
   - commitment
+doi: "10.1109/sp.2018.00060"
+citations: 274
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > WTSTW17-Hyrax

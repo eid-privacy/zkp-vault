@@ -15,6 +15,9 @@ tags:
 related:
   - Elg85-ElGamal
   - RSA78-RSA
+doi: "10.1109/tit.1976.1055638"
+citations: 14709
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > DH76-New-Directions

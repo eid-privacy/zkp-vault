@@ -13,6 +13,9 @@ tags:
 related:
   - DH76-New-Directions
   - Sch91-Schnorr-Signatures
+doi: "10.1109/tit.1985.1057074"
+citations: 8057
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > Elg85-ElGamal

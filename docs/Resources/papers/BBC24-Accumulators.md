@@ -16,6 +16,9 @@ related:
   - JLM22-ALLOSAUR
   - HKRW20-Sovrin-Revocation
   - Col24-Revocation
+doi: "10.1007/978-3-031-64381-1_5"
+citations: 2
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > BBC24-Accumulators

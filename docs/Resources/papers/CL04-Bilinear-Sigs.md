@@ -17,6 +17,9 @@ related:
   - BBS04-ShortGroupSigs
   - PS16-Randomizable-Sigs
   - TZ23-Revisiting-BBS
+doi: "10.1007/978-3-540-28628-8_4"
+citations: 1002
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > CL04-Bilinear-Sigs

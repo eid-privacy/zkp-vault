@@ -14,6 +14,9 @@ tags:
 related:
   - PZ11-U-Prove
   - BL26-SoK-AnonCreds
+doi: "10.1145/2508859.2516687"
+citations: 182
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > BL13-ACL

@@ -15,6 +15,9 @@ tags:
 related:
   - FLM22-ZKAttest
   - FS24-Longfellow
+doi: "10.1007/978-3-030-88428-4_16"
+citations: 10
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > QCY21-Blind-ECDSA

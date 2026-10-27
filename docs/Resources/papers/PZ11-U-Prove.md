@@ -15,6 +15,8 @@ related:
   - BL13-ACL
   - BCD+14-ABC4Trust
   - BL26-SoK-AnonCreds
+citations: 45
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > PZ11-U-Prove

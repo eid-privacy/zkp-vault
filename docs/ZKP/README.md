@@ -19,6 +19,6 @@ Zero-knowledge proof systems fall into three families, by how the statement is e
 
 The theory behind all three is in [Foundations](../TheoreticalModels/README.md). [Anonymous Credentials](../AnonymousCredentials/README.md) applies them to e-ID.
 
-To choose a framework for e-ID credential proofs, see the [Framework Decision Guide](Framework-Decision-Guide.md); for what can go wrong, see [Soundness Bugs and Audits](Soundness-Bugs-and-Audits.md).
+To choose a framework for e-ID credential proofs, see the [Framework Decision Guide](Framework-Decision-Guide.md); for what can go wrong, see [Soundness Bugs and Audits](Soundness-Bugs-and-Audits.md). The papers in the vault are ranked by citations in [ZKP Papers](ZKP-Papers.md).
 
 Beyond identity, ZKPs are used for private payments (Zcash, Monero), blockchain scaling (zk-rollups, zkEVMs) and verifiable computation in general.

@@ -15,6 +15,8 @@ tags:
   - use-cases
 related:
   - BL26-SoK-AnonCreds
+citations: 0
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > ABCD25-PETs-Payments

@@ -12,6 +12,9 @@ tags:
   - cryptography
   - discrete-log
   - range-proof
+doi: "10.1007/3-540-48910-x_8"
+citations: 300
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > CM99-Safe-Primes

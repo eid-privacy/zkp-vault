@@ -17,6 +17,9 @@ related:
   - FLM22-ZKAttest
   - COPZ22-DLEQ-Across-Groups
   - LZ26-AnonCreds-Legacy
+doi: "10.1007/978-3-031-64381-1_4"
+citations: 5
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > CLR23-CDLS

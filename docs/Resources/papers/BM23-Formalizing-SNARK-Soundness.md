@@ -13,6 +13,8 @@ tags:
 related:
   - CMSCGD23-ZK-Circuit-Verification
   - CETWJL24-SoK-SNARK-Vulns
+citations: 0
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > BM23-Formalizing-SNARK-Soundness

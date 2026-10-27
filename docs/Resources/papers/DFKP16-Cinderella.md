@@ -18,6 +18,9 @@ related:
   - PHGR13-Pinocchio
   - PPZ24-Crescent
   - FS24-Longfellow
+doi: "10.1109/sp.2016.22"
+citations: 56
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > DFKP16-Cinderella

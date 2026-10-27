@@ -20,6 +20,8 @@ related:
   - CBBZ23-HyperPlonk
   - Sch80-Schwartz-Zippel
   - Thaler-Proofs-Arguments-ZK
+citations: 712
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > LFKN92-Sumcheck

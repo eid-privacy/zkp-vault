@@ -11,6 +11,9 @@ tags:
   - eid
   - applications
   - cryptography
+doi: "10.5281/zenodo.22807191"
+citations: 0
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > LZ26-AnonCreds-Legacy

@@ -18,6 +18,9 @@ related:
   - FS24-Longfellow
   - PPZ24-Crescent
   - BBS04-ShortGroupSigs
+doi: "10.1007/978-3-032-19567-8_1"
+citations: 0
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > BL26-SoK-AnonCreds

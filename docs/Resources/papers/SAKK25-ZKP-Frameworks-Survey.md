@@ -15,6 +15,9 @@ tags:
   - implementations
 related:
   - Mom25-GP-ZKP-VCs
+doi: "10.48550/arxiv.2502.07063"
+citations: 2
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > SAKK25-ZKP-Frameworks-Survey

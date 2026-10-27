@@ -11,6 +11,9 @@ url: "https://petsymposium.org/popets/2025/popets-2025-0026.pdf"
 tags:
   - overview
   - privacy
+doi: "10.56553/popets-2025-0026"
+citations: 2
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > IES25-SoK-Unusable-Privacy

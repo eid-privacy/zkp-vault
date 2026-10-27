@@ -17,6 +17,9 @@ tags:
 related:
   - PPZ24-Crescent
   - FS24-Longfellow
+doi: "10.1007/978-3-032-19567-8_3"
+citations: 0
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > LSZ25-Vision

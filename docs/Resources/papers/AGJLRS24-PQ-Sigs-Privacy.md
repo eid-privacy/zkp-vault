@@ -18,6 +18,9 @@ tags:
 related:
   - PS16-Randomizable-Sigs
   - BL26-SoK-AnonCreds
+doi: "10.1145/3658644.3670297"
+citations: 20
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > AGJLRS24-PQ-Sigs-Privacy

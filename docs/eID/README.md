@@ -39,3 +39,4 @@ The cryptographic building blocks (selective disclosure with signatures, holder 
 | [Hardware Security for e-ID](./Hardware-Security-for-eID.md) | Secure elements, TEEs, Secure Enclave and HSMs; ECDSA P-256 as the common denominator on phones |
 | [e-ID Legal Framework](./eID-Legal-Framework.md) | Legal hierarchy in the EU and Switzerland: BGEID, VEID, eIDAS, EUDI |
 | [e-ID Open Questions](./eID-Open-Questions.md) | Open research and engineering questions |
+| [eID Papers](./eID-Papers.md) | Papers on e-ID and anonymous credentials, ranked by citations (generated) |

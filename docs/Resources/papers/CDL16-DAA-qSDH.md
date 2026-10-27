@@ -16,6 +16,9 @@ tags:
 related:
   - BBS04-ShortGroupSigs
   - TZ23-Revisiting-BBS
+doi: "10.1007/978-3-319-45572-3_1"
+citations: 120
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > CDL16-DAA-qSDH

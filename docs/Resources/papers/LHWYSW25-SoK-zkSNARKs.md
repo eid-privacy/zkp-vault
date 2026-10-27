@@ -19,6 +19,9 @@ related:
   - SAKK25-ZKP-Frameworks-Survey
   - CETWJL24-SoK-SNARK-Vulns
   - BL26-SoK-AnonCreds
+doi: "10.48550/arxiv.2502.02387"
+citations: 2
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > LHWYSW25-SoK-zkSNARKs

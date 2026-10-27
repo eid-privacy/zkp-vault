@@ -16,6 +16,9 @@ related:
   - CMZ14-KVAC
   - Orr25-Revisiting-KVAC
   - BL26-SoK-AnonCreds
+doi: "10.1145/3372297.3417887"
+citations: 60
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > CPZ20-Signal-Groups

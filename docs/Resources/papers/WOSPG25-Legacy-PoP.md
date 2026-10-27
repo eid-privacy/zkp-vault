@@ -19,6 +19,9 @@ related:
   - PPZ24-Crescent
   - CLR23-CDLS
   - BL26-SoK-AnonCreds
+doi: "10.1109/sp61157.2025.00080"
+citations: 4
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > WOSPG25-Legacy-PoP

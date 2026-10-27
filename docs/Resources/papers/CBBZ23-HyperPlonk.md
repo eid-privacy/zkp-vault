@@ -14,6 +14,9 @@ tags:
   - arithmetization
   - lookup
   - linear-time-prover
+doi: "10.1007/978-3-031-30617-4_17"
+citations: 135
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > CBBZ23-HyperPlonk

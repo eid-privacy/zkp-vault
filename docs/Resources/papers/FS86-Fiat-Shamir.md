@@ -12,6 +12,9 @@ tags:
   - sigma
   - transformation
   - foundational
+doi: "10.1007/3-540-47721-7_12"
+citations: 3949
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > FS86-Fiat-Shamir

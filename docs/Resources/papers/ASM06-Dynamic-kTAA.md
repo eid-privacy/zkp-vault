@@ -15,6 +15,9 @@ tags:
 related:
   - BBS04-ShortGroupSigs
   - CL02-CL-Signatures
+doi: "10.1007/11832072_8"
+citations: 301
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > ASM06-Dynamic-kTAA

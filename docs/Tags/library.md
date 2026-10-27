@@ -52,6 +52,7 @@ Tags entries for reusable ZKP libraries and SDKs — as opposed to full toolchai
 - [[spruceid-oid4vci-rs|spruceid/oid4vci-rs]]
 - [[spruceid-openid4vp|spruceid/openid4vp]]
 - [[spruceid-ssi|spruceid/ssi]]
+- [[LSS24-LaZer|The LaZer Library: Lattice-Based Zero Knowledge and Succinct Proofs for Quantum-Safe Privacy (Lyubashevsky, Seiler, Steuer 2024)]]
 - [[trustbloc-vcs|trustbloc/vcs]]
 - [[trustbloc-wallet-sdk|trustbloc/wallet-sdk]]
 - [[eid-privacy-WP2-Libraries|WP2 Libraries and Protocols — evaluated libraries tables (eid-privacy)]]

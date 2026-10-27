@@ -11,12 +11,14 @@ Entries about privacy notions, threats and regulations beyond a single cryptogra
 
 ## Entries tagged
 
+- [[BCD+14-ABC4Trust|D2.2 Architecture for Attribute-based Credential Technologies — Final Version (ABC4Trust) (Bichsel et al. 2014)]]
 - [[eID-Actors-and-Trust-Goals|e-ID Actors and Trust Goals]]
 - [[eID-Open-Questions|e-ID Open Questions]]
 - [[eID-Systems-Overview|e-ID Systems Overview]]
 - [[eID-Threat-Models|e-ID Threat Models]]
 - [[EUDI-ARF|EUDI Wallet Architecture and Reference Framework (ARF)]]
 - [[Holder-Binding|Holder Binding]]
+- [[BEKRS21-Issuer-Hiding|Issuer-Hiding Attribute-Based Credentials (Bobolz, Eidens, Krenn, Ramacher, Samelin 2021)]]
 - [[Predicate-Proofs|Predicate Proofs]]
 - [[Private-Information-Retrieval-for-eID|Private Information Retrieval for e-ID]]
 - [[Pseudonyms-in-eID|Pseudonyms in e-ID]]
@@ -32,5 +34,6 @@ Entries about privacy notions, threats and regulations beyond a single cryptogra
 - [[BRD+24-SoK-Privacy-Regulations|SoK: Technical Implementation and Human Impact of Internet Privacy Regulations (Birrell et al. 2024)]]
 - [[Swiss-E-ID-Act-BGEID|Swiss Federal Act on Electronic Identity and Other Electronic Credentials (E-ID Act, BGEID)]]
 - [[SwissCovid-Keeps-Your-Secrets|SwissCovid Keeps Your Secrets (House of Switzerland, 2020)]]
+- [[CPZ20-Signal-Groups|The Signal Private Group System and Anonymous Credentials Supporting Efficient Verifiable Encryption (Chase, Perrin, Zaverucha 2020)]]
 - [[Shostack-Threat-Modeling|Threat Modeling: Designing for Security]]
 - [[Unlinkable-Anonymous-Credentials|Unlinkable Anonymous Credentials]]

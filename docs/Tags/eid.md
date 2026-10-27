@@ -99,4 +99,5 @@ Tags entries relevant to electronic identity (e-ID) use cases — privacy-preser
 - [[W3C-VC-Data-Model-2.0|Verifiable Credentials Data Model v2.0 (W3C Recommendation)]]
 - [[LSZ25-Vision|Vision: A Modular Framework for Anonymous Credential Systems (Lehmann, Sidorenko, Zacharakis 2025)]]
 - [[eid-privacy-WP2-Libraries|WP2 Libraries and Protocols — evaluated libraries tables (eid-privacy)]]
+- [[RWGM23-zk-creds|zk-creds: Flexible Anonymous Credentials from zkSNARKs and Existing Identity Infrastructure (Rosenberg, White, Garman, Miers 2023)]]
 - [[ZKP-on-Mobile|ZKP on Mobile]]

@@ -29,5 +29,6 @@ Revisits proofs of knowledge of a committed discrete logarithm across groups (as
 ## Related resources
 
 - [[LZ26-AnonCreds-Legacy|Device Binding for Anonymous Credentials on Legacy Phones (Lehmann, Zacharakis 2026)]] (paper, 2026)
+- [[WOSPG25-Legacy-PoP|Efficient Proofs of Possession for Legacy Signatures (Woo, Ozdemir, Sharp, Pornin, Grubbs 2025)]] (paper, 2025)
 - [[COPZ22-DLEQ-Across-Groups|Proofs of discrete logarithm equality across groups (Chase, Orrù, Perrin, Zaverucha 2022)]] (paper, 2022)
 - [[FLM22-ZKAttest|ZKAttest: Ring and Group Signatures for Existing ECDSA Keys (Faz-Hernández, Ladd, Maram 2022)]] (paper, 2022)

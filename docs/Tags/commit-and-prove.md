@@ -16,4 +16,5 @@ Tags commit-and-prove SNARKs (CP-SNARKs) — proof systems that prove statements
 
 - [[LegoGroth16|LegoGroth16]]
 - [[CFQW19-LegoSNARK|LegoSNARK: Modular Design and Composition of Efficient Zero-Knowledge Proofs (Campanelli et al. 2019)]]
+- [[KMN23-Sigmabus|Sigmabus: Binding Sigmas in Circuits for Fast Curve Operations (Kadianakis, Maller, Novakovic 2023)]]
 - [[LSZ25-Vision|Vision: A Modular Framework for Anonymous Credential Systems (Lehmann, Sidorenko, Zacharakis 2025)]]

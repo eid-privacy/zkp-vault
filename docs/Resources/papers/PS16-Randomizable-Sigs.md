@@ -26,6 +26,7 @@ Introduces Pointcheval–Sanders (PS) signatures (CT-RSA 2016), a pairing-based 
 
 ## Related resources
 
+- [[BEKRS21-Issuer-Hiding|Issuer-Hiding Attribute-Based Credentials (Bobolz, Eidens, Krenn, Ramacher, Samelin 2021)]] (paper, 2021)
 - [[AGJLRS24-PQ-Sigs-Privacy|Practical Post-Quantum Signatures for Privacy (Argo, Güneysu, Jeudy, Land, Roux-Langlois, Sanders 2024)]] (paper, 2024)
 - [[BBS04-ShortGroupSigs|Short Group Signatures (Boneh, Boyen, Shacham 2004)]] (paper, 2004)
 - [[CL04-Bilinear-Sigs|Signature Schemes and Anonymous Credentials from Bilinear Maps (Camenisch, Lysyanskaya 2004)]] (paper, 2004)

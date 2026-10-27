@@ -14,6 +14,7 @@ Tags entries about attestation — proving properties of credentials or hardware
 - [[CDL16-DAA-qSDH|Anonymous Attestation Using the Strong Diffie Hellman Assumption Revisited (Camenisch, Drijvers, Lehmann 2016)]]
 - [[PS19-TrustZone-Survey|Demystifying Arm TrustZone: A Comprehensive Survey (Pinto, Santos 2019)]]
 - [[Hardware-Security-for-eID|Hardware Security for e-ID]]
+- [[HSS23-Bind-AC-Humans|How to Bind Anonymous Credentials to Humans (Hesse, Singh, Sorniotti 2023)]]
 - [[Ora24-BBS-Sharp|The BBS# protocol: Technical details (Orange 2024)]]
 - [[ZKAttest|ZKAttest]]
 - [[FLM22-ZKAttest|ZKAttest: Ring and Group Signatures for Existing ECDSA Keys (Faz-Hernández, Ladd, Maram 2022)]]

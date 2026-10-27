@@ -25,6 +25,7 @@ Introduces BBS (Boneh-Boyen-Shacham) group signatures using pairing-based crypto
 
 ## Related resources
 
+- [[AFG24-Pairing-Curves-192|A Short-List of Pairing-Friendly Curves Resistant to the Special TNFS Algorithm at the 192-bit Security Level (Aranha, Fotiadis, Guillevic 2024)]] (paper, 2024)
 - [[CDL16-DAA-qSDH|Anonymous Attestation Using the Strong Diffie Hellman Assumption Revisited (Camenisch, Drijvers, Lehmann 2016)]] (paper, 2016)
 - [[eid-privacy-docknetwork-crypto-library|Choosing a Cryptographic Library for Anonymous Credentials (eid-privacy, 2026)]] (blog, 2026)
 - [[ASM06-Dynamic-kTAA|Constant-Size Dynamic k-TAA (Au, Susilo, Mu 2006)]] (paper, 2006)

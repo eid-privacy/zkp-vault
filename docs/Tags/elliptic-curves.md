@@ -11,8 +11,10 @@ Tags entries about elliptic curve cryptography as used in ZKPs — curve selecti
 
 ## Entries tagged
 
+- [[AFG24-Pairing-Curves-192|A Short-List of Pairing-Friendly Curves Resistant to the Special TNFS Algorithm at the 192-bit Security Level (Aranha, Fotiadis, Guillevic 2024)]]
 - [[FS24-Longfellow|Anonymous Credentials from ECDSA (Frigo & shelat 2024)]]
 - [[arkworks-rs-algebra|arkworks-rs/algebra]]
+- [[OKMZ25-Beyond-Circuit|Beyond the Circuit: How to Minimize Foreign Arithmetic in ZKP Circuits (Orrù, Kadianakis, Maller, Zaverucha 2025)]]
 - [[CLR23-CDLS|CDLS: Proving Knowledge of Committed Discrete Logarithms with Soundness (Celi, Levin, Rowell 2023)]]
 - [[cloudflare-zkp-ecdsa|cloudflare/zkp-ecdsa]]
 - [[PPZ24-Crescent|Crescent: Stronger Privacy for Existing Credentials (Paquin, Policharla, Zaverucha 2024)]]
@@ -26,4 +28,5 @@ Tags entries about elliptic curve cryptography as used in ZKPs — curve selecti
 - [[personaelabs-spartan-ecdsa|personaelabs/spartan-ecdsa]]
 - [[COPZ22-DLEQ-Across-Groups|Proofs of discrete logarithm equality across groups (Chase, Orrù, Perrin, Zaverucha 2022)]]
 - [[BLS01-Short-Sigs|Short Signatures from the Weil Pairing (Boneh, Lynn, Shacham 2001)]]
+- [[KMN23-Sigmabus|Sigmabus: Binding Sigmas in Circuits for Fast Curve Operations (Kadianakis, Maller, Novakovic 2023)]]
 - [[FLM22-ZKAttest|ZKAttest: Ring and Group Signatures for Existing ECDSA Keys (Faz-Hernández, Ladd, Maram 2022)]]

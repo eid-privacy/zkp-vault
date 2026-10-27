@@ -4,7 +4,7 @@ A knowledge vault covering Zero-Knowledge Proof papers, frameworks, cryptographi
 
 The vault is organized in four ways:
 
-- [Resource Index](#resources-index) — 240 external resources (papers, blogs, books, courses, standards, docs, code) by type and topic
+- [Resource Index](#resources-index) — 266 external resources (papers, blogs, books, courses, standards, docs, code) by type and topic
 - [The ZK Stack](#the-zk-stack) — from foundational theory down to working tools
 - [Framework Decision Guide](#framework-decision-guide) — evaluation criteria and framework comparison for e-ID credential proofs
 - [Encyclopedic Index](#encyclopedic-index) — every entry, organized by category
@@ -16,6 +16,28 @@ The vault is organized in four ways:
 
 | Date | Title | Authors |
 |---|---|---|
+| 2026-10-27 | [SoK: Understanding zk-SNARKs: The Gap Between Research and Practice](Resources/papers/LHWYSW25-SoK-zkSNARKs.md) | Junkai Liang, Daqi Hu, Pengfei Wu, Yunbo Yang, Qingni Shen, Zhonghai Wu |
+| 2026-10-27 | [SoK: Anonymous Credentials](Resources/papers/KMPQ23-SoK-AnonCreds.md) | Saqib A. Kakvi, Keith M. Martin, Colin Putman, Elizabeth A. Quaglia |
+| 2026-10-27 | [D2.2 Architecture for Attribute-based Credential Technologies — Final Version (ABC4Trust)](Resources/papers/BCD+14-ABC4Trust.md) | Patrik Bichsel, Jan Camenisch, Maria Dubovitskaya, Robert R. Enderlein, Stephan Krenn, Ioannis Krontiris, Anja Lehmann, Gregory Neven, Janus Dam Nielsen, Christian Paquin, Franz-Stefan Preiss, Kai Rannenberg, Ahmad Sabouri, Michael Bladt Stausholm |
+| 2026-10-27 | [zk-creds: Flexible Anonymous Credentials from zkSNARKs and Existing Identity Infrastructure](Resources/papers/RWGM23-zk-creds.md) | Michael Rosenberg, Jacob White, Christina Garman, Ian Miers |
+| 2026-10-27 | [Efficient Proofs of Possession for Legacy Signatures](Resources/papers/WOSPG25-Legacy-PoP.md) | Anna P. Y. Woo, Alex Ozdemir, Chad Sharp, Thomas Pornin, Paul Grubbs |
+| 2026-10-27 | [How to Bind Anonymous Credentials to Humans](Resources/papers/HSS23-Bind-AC-Humans.md) | Julia Hesse, Nitin Singh, Alessandro Sorniotti |
+| 2026-10-27 | [U-Prove Cryptographic Specification V1.1](Resources/papers/PZ11-U-Prove.md) | Christian Paquin, Greg Zaverucha |
+| 2026-10-27 | [Anonymous Credentials Light](Resources/papers/BL13-ACL.md) | Foteini Baldimtsi, Anna Lysyanskaya |
+| 2026-10-27 | [Algebraic MACs and Keyed-Verification Anonymous Credentials](Resources/papers/CMZ14-KVAC.md) | Melissa Chase, Sarah Meiklejohn, Greg Zaverucha |
+| 2026-10-27 | [Revisiting Keyed-Verification Anonymous Credentials](Resources/papers/Orr25-Revisiting-KVAC.md) | Michele Orrù |
+| 2026-10-27 | [The Signal Private Group System and Anonymous Credentials Supporting Efficient Verifiable Encryption](Resources/papers/CPZ20-Signal-Groups.md) | Melissa Chase, Trevor Perrin, Greg Zaverucha |
+| 2026-10-27 | [Issuer-Hiding Attribute-Based Credentials](Resources/papers/BEKRS21-Issuer-Hiding.md) | Jan Bobolz, Fabian Eidens, Stephan Krenn, Sebastian Ramacher, Kai Samelin |
+| 2026-10-27 | [Sigmabus: Binding Sigmas in Circuits for Fast Curve Operations](Resources/papers/KMN23-Sigmabus.md) | George Kadianakis, Mary Maller, Andrija Novakovic |
+| 2026-10-27 | [Beyond the Circuit: How to Minimize Foreign Arithmetic in ZKP Circuits](Resources/papers/OKMZ25-Beyond-Circuit.md) | Michele Orrù, George Kadianakis, Mary Maller, Greg Zaverucha |
+| 2026-10-27 | [LaBRADOR: Compact Proofs for R1CS from Module-SIS](Resources/papers/BS23-LaBRADOR.md) | Ward Beullens, Gregor Seiler |
+| 2026-10-27 | [The LaZer Library: Lattice-Based Zero Knowledge and Succinct Proofs for Quantum-Safe Privacy](Resources/papers/LSS24-LaZer.md) | Vadim Lyubashevsky, Gregor Seiler, Patrick Steuer |
+| 2026-10-27 | [Lattice-Based Proof-Friendly Signatures from Vanishing Short Integer Solutions](Resources/papers/DKLW25-Lattice-Proof-Friendly-Sigs.md) | Adrien Dubois, Michael Klooß, Russell W. F. Lai, Ivy K. Y. Woo |
+| 2026-10-27 | [A Short-List of Pairing-Friendly Curves Resistant to the Special TNFS Algorithm at the 192-bit Security Level](Resources/papers/AFG24-Pairing-Curves-192.md) | Diego F. Aranha, Georgios Fotiadis, Aurore Guillevic |
+| 2026-10-27 | [Formalizing Soundness Proofs of SNARKs](Resources/papers/BM23-Formalizing-SNARK-Soundness.md) | Bolton Bailey, Andrew Miller |
+| 2026-10-27 | [Compositional Formal Verification of Zero-Knowledge Circuits](Resources/papers/CMSCGD23-ZK-Circuit-Verification.md) | Alessandro Coglio, Eric McCarthy, Eric Smith, Collin Chin, Pranav Gaddamadugu, Michel Dellepere |
+| 2026-10-27 | [The Last Challenge Attack: Exploiting a Vulnerable Implementation of the Fiat-Shamir Transform in a KZG-based SNARK](Resources/papers/CPV24-Last-Challenge.md) | Oana Ciobotaru, Maxim Peter, Vesselin Velichkov |
+| 2026-10-27 | [SoK: What Don't We Know? Understanding Security Vulnerabilities in SNARKs](Resources/papers/CETWJL24-SoK-SNARK-Vulns.md) | Stefanos Chaliasos, Jens Ernstberger, David Theodore, David Wong, Mohammad Jahanara, Benjamin Livshits |
 | 2026-10-23 | [CanDID: Can-Do Decentralized Identity with Legacy Compatibility, Sybil-Resistance, and Accountability](Resources/papers/MMZ+21-CanDID.md) | Deepak Maram, Harjasleen Malvai, Fan Zhang, Nerla Jean-Louis, Alexander Frolov, Tyler Kell, Tyrone Lobban, Christine Moy, Ari Juels, Andrew Miller |
 |  | [Secure and Privacy-Preserving Credentials for E-ID - Final Report](Resources/papers/DHG26-MS4.md) | Carine Dengler, Clement Humbert, Linus Gasser |
 |  | [Privacy-Enhancing Technologies for Digital Payments: Mapping the Landscape](Resources/papers/ABCD25-PETs-Payments.md) | Raphael Auer, Rainer Böhme, Jeremy Clark, Didem Demirag |
@@ -97,11 +119,11 @@ The vault is organized in four ways:
 
 | Type | Count | Browse |
 |---|---|---|
-| Papers | 101 | [Resources/papers](Resources/papers/README.md) |
+| Papers | 123 | [Resources/papers](Resources/papers/README.md) |
 | Blogs & Explainers | 28 | [Resources/blogs](Resources/blogs/README.md) |
 | Books | 4 | [Resources/books](Resources/books/README.md) |
 | Courses | 6 | [Resources/courses](Resources/courses/README.md) |
-| Wikis & Standards | 30 | [Resources/wikis](Resources/wikis/README.md) |
+| Wikis & Standards | 34 | [Resources/wikis](Resources/wikis/README.md) |
 | Documentation | 24 | [Resources/docs](Resources/docs/README.md) |
 | Code & Repositories | 47 | [Resources/code](Resources/code/README.md) |
 
@@ -204,4 +226,4 @@ Full index with by-topic view: [Resources/README.md](Resources/README.md).
 - [Applications overview](Applications/README.md) — privacy, scalability, enterprise, gaming use cases *(notes not yet written)*
 
 ### Resources
-See [Resources Index](#resources-index) above for all 240 entries by type and topic.
+See [Resources Index](#resources-index) above for all 266 entries by type and topic.

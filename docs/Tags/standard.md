@@ -11,7 +11,9 @@ Tags entries related to standards or standardisation efforts for ZKP systems —
 
 ## Entries tagged
 
+- [[IRTF-CFRG-BBS-Per-Verifier-Linkability|BBS per Verifier Linkability — IRTF CFRG draft]]
 - [[W3C-Bitstring-Status-List|Bitstring Status List v1.0 (W3C Recommendation)]]
+- [[IRTF-CFRG-BBS-Blind-Signatures|Blind BBS Signatures — IRTF CFRG draft]]
 - [[W3C-VC-DI-BBS|Data Integrity BBS Cryptosuites v1.0 (W3C)]]
 - [[W3C-DID-Core-1.0|Decentralized Identifiers (DIDs) v1.0 (W3C Recommendation)]]
 - [[did-web-Method|did:web Method Specification (W3C CCG)]]
@@ -25,6 +27,7 @@ Tags entries related to standards or standardisation efforts for ZKP systems —
 - [[ISO-IEC-18013-5-mDL|ISO/IEC 18013-5:2021 — Mobile driving licence (mDL) application]]
 - [[W3C-JSON-LD-1.1|JSON-LD 1.1 (W3C Recommendation)]]
 - [[IETF-draft-google-cfrg-libzk|Longfellow ZK — IETF draft-google-cfrg-libzk]]
+- [[NIST-IR-8547|NIST IR 8547: Transition to Post-Quantum Cryptography Standards]]
 - [[OpenID4VCI|OpenID for Verifiable Credential Issuance 1.0]]
 - [[OpenID4VP|OpenID for Verifiable Presentations 1.0]]
 - [[Overlays-Capture-Architecture|Overlays Capture Architecture (OCA)]]
@@ -33,11 +36,13 @@ Tags entries related to standards or standardisation efforts for ZKP systems —
 - [[IETF-RFC9901-SD-JWT|RFC 9901: Selective Disclosure for JSON Web Tokens (SD-JWT)]]
 - [[IETF-SD-JWT-VC|SD-JWT-based Verifiable Digital Credentials (SD-JWT VC) — IETF draft]]
 - [[SIOPv2|Self-Issued OpenID Provider v2 (SIOPv2)]]
+- [[IRTF-CFRG-Sigma-Protocols|Sigma Protocols — IRTF CFRG draft]]
 - [[swiyu-Trust-Protocol|swiyu Trust Protocol 2.0 Specification]]
 - [[IRTF-CFRG-BBS-Signatures|The BBS Signature Scheme — IRTF CFRG draft]]
 - [[did-webvh-Method|The did:webvh DID Method — did:web + Verifiable History (v1.0)]]
 - [[IETF-OAuth-Token-Status-List|Token Status List (TSL) — IETF draft]]
 - [[GW19b-TurboPlonk|TurboPLONK Proposal (ZKProof Workshop 3)]]
+- [[PZ11-U-Prove|U-Prove Cryptographic Specification V1.1 (Paquin, Zaverucha 2011)]]
 - [[W3C-VC-Data-Model-1.1|Verifiable Credentials Data Model v1.1 (W3C Recommendation)]]
 - [[W3C-VC-Data-Model-2.0|Verifiable Credentials Data Model v2.0 (W3C Recommendation)]]
 - [[ZKP21-Sigma-Standard|ZKProof Sigma Protocol Proposal (Workshop 4)]]

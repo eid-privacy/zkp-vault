@@ -27,6 +27,7 @@ Shows that the security proofs of several q-SDH-based Direct Anonymous Attestati
 
 ## Related resources
 
+- [[HSS23-Bind-AC-Humans|How to Bind Anonymous Credentials to Humans (Hesse, Singh, Sorniotti 2023)]] (paper, 2023)
 - [[BBDT16-KVAC|Improved Algebraic MACs and Practical Keyed-Verification Anonymous Credentials (Barki, Brunet, Desmoulins, Traoré 2016)]] (paper, 2016)
 - [[TZ23-Revisiting-BBS|Revisiting BBS Signatures (Tessaro, Zhu 2023)]] (paper, 2023)
 - [[BBS04-ShortGroupSigs|Short Group Signatures (Boneh, Boyen, Shacham 2004)]] (paper, 2004)

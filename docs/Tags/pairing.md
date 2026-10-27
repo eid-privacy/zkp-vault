@@ -11,8 +11,11 @@ Tags entries using bilinear pairings over elliptic curves — the foundation of 
 
 ## Entries tagged
 
+- [[AFG24-Pairing-Curves-192|A Short-List of Pairing-Friendly Curves Resistant to the Special TNFS Algorithm at the 192-bit Security Level (Aranha, Fotiadis, Guillevic 2024)]]
 - [[CDL16-DAA-qSDH|Anonymous Attestation Using the Strong Diffie Hellman Assumption Revisited (Camenisch, Drijvers, Lehmann 2016)]]
 - [[arkworks-rs-algebra|arkworks-rs/algebra]]
+- [[IRTF-CFRG-BBS-Per-Verifier-Linkability|BBS per Verifier Linkability — IRTF CFRG draft]]
+- [[IRTF-CFRG-BBS-Blind-Signatures|Blind BBS Signatures — IRTF CFRG draft]]
 - [[ASM06-Dynamic-kTAA|Constant-Size Dynamic k-TAA (Au, Susilo, Mu 2006)]]
 - [[Cryptographic-Principles-Tomescu|Cryptographic Principles (Alin Tomescu)]]
 - [[Groth16|Groth16]]

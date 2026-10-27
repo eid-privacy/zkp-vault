@@ -29,5 +29,8 @@ Proposes a lattice-based signature scheme with efficient protocols (signing comm
 
 ## Related resources
 
+- [[BS23-LaBRADOR|LaBRADOR: Compact Proofs for R1CS from Module-SIS (Beullens, Seiler 2023)]] (paper, 2023)
+- [[DKLW25-Lattice-Proof-Friendly-Sigs|Lattice-Based Proof-Friendly Signatures from Vanishing Short Integer Solutions (Dubois, Klooß, Lai, Woo 2025)]] (paper, 2025)
 - [[PS16-Randomizable-Sigs|Short Randomizable Signatures (Pointcheval, Sanders 2016)]] (paper, 2016)
 - [[BL26-SoK-AnonCreds|SoK: Anonymous Credentials for Digital Identity Wallets (Bormann, Lehmann 2026)]] (paper, 2026)
+- [[LSS24-LaZer|The LaZer Library: Lattice-Based Zero Knowledge and Succinct Proofs for Quantum-Safe Privacy (Lyubashevsky, Seiler, Steuer 2024)]] (paper, 2024)

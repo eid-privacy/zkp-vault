@@ -28,8 +28,10 @@ Presents a new algebraic MAC derived from BBS+ and builds keyed-verification ano
 
 ## Related resources
 
+- [[CMZ14-KVAC|Algebraic MACs and Keyed-Verification Anonymous Credentials (Chase, Meiklejohn, Zaverucha 2014)]] (paper, 2014)
 - [[CDL16-DAA-qSDH|Anonymous Attestation Using the Strong Diffie Hellman Assumption Revisited (Camenisch, Drijvers, Lehmann 2016)]] (paper, 2016)
 - [[TZ23-Revisiting-BBS|Revisiting BBS Signatures (Tessaro, Zhu 2023)]] (paper, 2023)
+- [[Orr25-Revisiting-KVAC|Revisiting Keyed-Verification Anonymous Credentials (Orrù 2025)]] (paper, 2025)
 - [[CHLT25-Server-Aided-AC|Server-Aided Anonymous Credentials (Chairattana-Apirom, Harding, Lysyanskaya, Tessaro 2025)]] (paper, 2025)
 - [[BBS04-ShortGroupSigs|Short Group Signatures (Boneh, Boyen, Shacham 2004)]] (paper, 2004)
 - [[Ora24-BBS-Sharp|The BBS# protocol: Technical details (Orange 2024)]] (paper, 2024)

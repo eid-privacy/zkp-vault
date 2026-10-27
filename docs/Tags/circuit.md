@@ -19,6 +19,7 @@ Tags entries related to arithmetic circuits — the primary computational model 
 - [[Circuits|Arithmetic Circuits]]
 - [[arkworks-rs-crypto-primitives|arkworks-rs/crypto-primitives]]
 - [[CCS|CCS — Customizable Constraint Systems]]
+- [[CMSCGD23-ZK-Circuit-Verification|Compositional Formal Verification of Zero-Knowledge Circuits (Coglio, McCarthy, Smith, Chin, Gaddamadugu, Dellepere 2023)]]
 - [[PLONKish|PLONKish Arithmetization]]
 - [[plonkish-arithmetization|PLONKish Arithmetization]]
 - [[plonkish_arithmetization|PLONKish Arithmetization — ZK Jargon]]

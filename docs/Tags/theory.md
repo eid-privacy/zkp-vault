@@ -14,6 +14,7 @@ Entries focused on theoretical aspects of ZKPs — formal definitions, complexit
 - [[PH10-Privacy-Terminology|A Terminology for Talking about Privacy by Data Minimization: Anonymity, Unlinkability, Undetectability, Unobservability, Pseudonymity, and Identity Management (Pfitzmann, Hansen 2010)]]
 - [[Complexity-Classes-Map|Complexity Classes Map]]
 - [[GKR08-Muggles|Delegating Computation: Interactive Proofs for Muggles (Goldwasser, Kalai, Rothblum 2008)]]
+- [[BM23-Formalizing-SNARK-Soundness|Formalizing Soundness Proofs of SNARKs (Bailey, Miller 2023)]]
 - [[Chiesa-Foundations-Probabilistic-Proofs|Foundations of Probabilistic Proofs (Alessandro Chiesa, EPFL CS-459)]]
 - [[Holography-Preprocessing|Holography and Preprocessing SNARKs]]
 - [[IOP|Interactive Oracle Proofs (IOP)]]

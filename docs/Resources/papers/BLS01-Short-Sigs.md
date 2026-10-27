@@ -25,4 +25,5 @@ Introduces BLS signatures: a signature is a single group element H(m)^x on a pai
 
 ## Related resources
 
+- [[AFG24-Pairing-Curves-192|A Short-List of Pairing-Friendly Curves Resistant to the Special TNFS Algorithm at the 192-bit Security Level (Aranha, Fotiadis, Guillevic 2024)]] (paper, 2024)
 - [[BBS04-ShortGroupSigs|Short Group Signatures (Boneh, Boyen, Shacham 2004)]] (paper, 2004)

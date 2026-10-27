@@ -45,6 +45,7 @@ Introduces PLONK, a universal and updatable zkSNARK that avoids circuit-specific
 - [[plonkish_arithmetization|PLONKish Arithmetization — ZK Jargon]] (doc, 2022)
 - [[GW20-Plookup|Plookup: A Simplified Polynomial Protocol for Lookup Tables (Gabizon-Williamson 2020)]] (paper, 2020)
 - [[MBKM19-Sonic|Sonic: Zero-Knowledge SNARKs from Linear-Size Universal and Updateable Structured Reference Strings (Maller et al. 2019)]] (paper, 2019)
+- [[CPV24-Last-Challenge|The Last Challenge Attack: Exploiting a Vulnerable Implementation of the Fiat-Shamir Transform in a KZG-based SNARK (Ciobotaru, Peter, Velichkov 2024)]] (paper, 2024)
 - [[GW19b-TurboPlonk|TurboPLONK Proposal (ZKProof Workshop 3)]] (paper, 2019)
 - [[PLONK-Blog|Understanding PLONK]] (blog, 2019)
 - [[GKMM18-Updatable-SRS|Updatable and Universal Common Reference Strings with Applications to zk-SNARKs (Groth et al. 2018)]] (paper, 2018)

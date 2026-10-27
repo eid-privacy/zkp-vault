@@ -19,4 +19,5 @@ Secure hardware relevant for e-ID: trusted execution environments, secure elemen
 - [[PS19-TrustZone-Survey|Demystifying Arm TrustZone: A Comprehensive Survey (Pinto, Santos 2019)]]
 - [[Hardware-Security-for-eID|Hardware Security for e-ID]]
 - [[Holder-Binding|Holder Binding]]
+- [[HSS23-Bind-AC-Humans|How to Bind Anonymous Credentials to Humans (Hesse, Singh, Sorniotti 2023)]]
 - [[ZKP-on-Mobile|ZKP on Mobile]]

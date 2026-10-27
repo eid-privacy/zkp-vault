@@ -27,3 +27,4 @@ Surveys and benchmarks 25 general-purpose open-source ZKP frameworks, assessing 
 ## Related resources
 
 - [[Mom25-GP-ZKP-VCs|General-Purpose Zero-Knowledge Proofs for Verifiable Credentials (Mombelli 2025)]] (paper, 2025)
+- [[LHWYSW25-SoK-zkSNARKs|SoK: Understanding zk-SNARKs: The Gap Between Research and Practice (Liang et al. 2025)]] (paper, 2025)

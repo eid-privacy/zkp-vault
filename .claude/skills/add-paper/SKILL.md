@@ -57,7 +57,7 @@ Notes:
 
 ## 4. Update `docs/Paper-History.md`
 Prepend a row to the table (newest-first) with today's date, the linked title (`Resources/papers/<cite_as>.md`), and the comma-separated author list.
-The resource counts and the "What's new" table in `docs/README.md` are regenerated from it by `devbox run summaries`; don't edit them by hand.
+The "Latest paper additions" table in `docs/README.md` is regenerated from it by `devbox run summaries`; don't edit them by hand.
 
 ## 5. Regenerate + verify
 Requires an active devbox shell (`$DEVBOX_SHELL_ENABLED` set — if unset, ask the user to run Claude inside `devbox shell`).

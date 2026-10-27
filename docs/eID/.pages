@@ -1,21 +1,21 @@
 nav:
   - README.md
   - Actors, Trust & Threats:
-      - eID-Actors-and-Trust-Goals.md
-      - eID-Threat-Models.md
-      - Privacy-Requirements.md
-      - Pseudonyms-in-eID.md
+      - Actors and Trust Goals: eID-Actors-and-Trust-Goals.md
+      - Threat Models: eID-Threat-Models.md
+      - Privacy Requirements: Privacy-Requirements.md
+      - Pseudonyms: Pseudonyms-in-eID.md
   - Deployed Systems:
-      - eID-Systems-Overview.md
-      - swiyu.md
-      - EUDI-ARF.md
-      - ID-Austria.md
+      - Overview and Comparison: eID-Systems-Overview.md
+      - swiyu (CH): swiyu.md
+      - EUDI Wallet / ARF (EU): EUDI-ARF.md
+      - ID Austria (AT): ID-Austria.md
   - Building Blocks:
-      - Credential-Data-Structures.md
-      - Communication-Protocols.md
-      - Status-Lists.md
-      - Hardware-Security-for-eID.md
+      - Credential Data Structures: Credential-Data-Structures.md
+      - Communication Protocols: Communication-Protocols.md
+      - Status Lists: Status-Lists.md
+      - Hardware Security: Hardware-Security-for-eID.md
   - Regulation:
-      - eID-Legal-Framework.md
-  - eID-Open-Questions.md
-  - eID-Papers.md
+      - Legal Framework: eID-Legal-Framework.md
+  - Open Questions: eID-Open-Questions.md
+  - eID Papers: eID-Papers.md

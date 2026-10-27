@@ -223,7 +223,7 @@ devbox run verify             # runs vault integrity checks
 
 ```sh
 OPENALEX_API_KEY=... devbox run citations   # fetch citation counts from OpenAlex into paper frontmatter
-devbox run summaries                        # regenerates ZKP/ZKP-Papers.md and eID/eID-Papers.md
+devbox run summaries                        # ranked tables in Resources/papers, ZKP/ZKP-Papers.md, eID/eID-Papers.md and the home page
 ```
 
 `citations` writes `doi`, `citations` and `citations_updated` to each paper in `Resources/papers/` and skips entries

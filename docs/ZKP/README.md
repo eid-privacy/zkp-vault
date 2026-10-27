@@ -9,23 +9,23 @@ tags:
 
 # Zero-Knowledge Proofs
 
-A zero-knowledge proof convinces a verifier that a statement is true without revealing anything else — for e-ID, for example, that a credential carries a valid issuer signature and the holder is over 18, without showing the credential. Proof systems fall into three families, by how the statement is expressed ([[ZK-Proof-Taxonomy]]):
+A zero-knowledge proof lets a prover convince a verifier that a statement is true without revealing anything beyond its truth: that they know a secret key, that a hidden value lies in a range, or that a program ran correctly on private inputs. Since the first definitions in the 1980s, ZKPs have gone from a theoretical curiosity to practical systems, driven by succinct proofs (SNARKs and STARKs) and their use in blockchains. Today they are used for private payments (Zcash, Monero), blockchain scaling (zk-rollups, zkEVMs), verifiable computation, and privacy-preserving identity — for example to show that a credential carries a valid issuer signature and its holder is over 18, without showing the credential.
+
+This tab goes from the theory to concrete proof systems and tools, and then to their use for anonymous credentials in e-ID.
+
+## Foundations
+
+The theory behind zero-knowledge proofs, in [Foundations](../TheoreticalModels/README.md): the [interactive proof model](../TheoreticalModels/Interactive-Proof-Model.md) and the papers that defined zero knowledge ([GMR85](../TheoreticalModels/GMR85-Knowledge-Complexity.md), [NIZK](../TheoreticalModels/NIZK-Blum.md), [Fiat–Shamir](../TheoreticalModels/Fiat-Shamir.md)); complexity results ([IP = PSPACE](../TheoreticalModels/IP-PSPACE.md), [PCP](../TheoreticalModels/PCP.md), [IOP](../TheoreticalModels/IOP.md)); the tools modern SNARKs are built from ([Schwartz–Zippel](../TheoreticalModels/Schwartz-Zippel.md), [Kilian, Merkle and BCS](../TheoreticalModels/Kilian-Merkle.md), [MPC-in-the-head](../TheoreticalModels/MPC-in-the-Head.md)); and [pairing-friendly curves](../TheoreticalModels/Pairing-Friendly-Curves.md). [ZK Families Overview](../TheoreticalModels/ZK-Families-Overview.md) compares SNARKs, STARKs, Bulletproofs and others, including trusted setup and security assumptions.
+
+## ZKP Families
+
+Proof systems fall into three families, by how the statement is expressed ([[ZK-Proof-Taxonomy]]). The next three sections cover one family each.
 
 | Family | Statement expressed as… | Typical use |
 |---|---|---|
 | [Sigma proofs](../Sigma/README.md) | Algebraic relations over a group (discrete log, commitments) | BBS / CL / PS anonymous credentials |
 | [Circuit-based proofs](../ProofSystems/README.md) | Arithmetic circuit / constraint system | Proofs over existing ECDSA credentials (Longfellow, Crescent, our Spartan backend) |
 | [zkVMs](../zkVM/README.md) | Execution trace of an arbitrary program | General verifiable computation |
-
-Beyond identity, ZKPs are used for private payments (Zcash, Monero), blockchain scaling (zk-rollups, zkEVMs) and verifiable computation in general.
-
-## Choosing, Auditing and Reading
-
-Practical guides across all families. The [Framework Decision Guide](Framework-Decision-Guide.md) compares Noir, Circom, gnark, RISC Zero, Docknetwork, Ligero, Halo2 and Spartan for e-ID credential proofs, and lists what to check in any candidate. [Soundness Bugs and Audits](Soundness-Bugs-and-Audits.md) covers what goes wrong in practice — under-constrained circuits, Fiat–Shamir mistakes, the Longfellow review findings — and links our external security review. [ZKP Papers](ZKP-Papers.md) ranks the vault's ZKP papers by citations into foundation, relevant and other papers.
-
-## Foundations
-
-The theory behind all three families, in [Foundations](../TheoreticalModels/README.md): the [interactive proof model](../TheoreticalModels/Interactive-Proof-Model.md) and the papers that defined zero knowledge ([GMR85](../TheoreticalModels/GMR85-Knowledge-Complexity.md), [NIZK](../TheoreticalModels/NIZK-Blum.md), [Fiat–Shamir](../TheoreticalModels/Fiat-Shamir.md)); complexity results ([IP = PSPACE](../TheoreticalModels/IP-PSPACE.md), [PCP](../TheoreticalModels/PCP.md), [IOP](../TheoreticalModels/IOP.md)); the tools modern SNARKs are built from ([Schwartz–Zippel](../TheoreticalModels/Schwartz-Zippel.md), [Kilian, Merkle and BCS](../TheoreticalModels/Kilian-Merkle.md), [MPC-in-the-head](../TheoreticalModels/MPC-in-the-Head.md)); and [pairing-friendly curves](../TheoreticalModels/Pairing-Friendly-Curves.md). [ZK Families Overview](../TheoreticalModels/ZK-Families-Overview.md) compares SNARKs, STARKs, Bulletproofs and others, including trusted setup and security assumptions.
 
 ## Sigma Proofs
 
@@ -42,3 +42,7 @@ General-purpose proofs over arithmetic circuits, in three parts. [Proof Systems]
 ## Anonymous Credentials
 
 How to use these proofs for e-ID, in [Anonymous Credentials](../AnonymousCredentials/README.md), based on the Bormann–Lehmann SoK: the two families (multi-message signatures with Sigma proofs vs. general-purpose ZKPs over ECDSA) and the [features](../AnonymousCredentials/AC-Features.md) they enable. Notes cover [selective disclosure](../AnonymousCredentials/Selective-Disclosure.md), [unlinkable credentials](../AnonymousCredentials/Unlinkable-Anonymous-Credentials.md), [pairing-free credentials](../AnonymousCredentials/Pairing-Free-ACs.md), [holder binding](../AnonymousCredentials/Holder-Binding.md), [predicate proofs](../AnonymousCredentials/Predicate-Proofs.md), [revocation](../AnonymousCredentials/Revocation-in-eID.md) with [signed lists](../AnonymousCredentials/Signed-Revocation-Lists.md) and [PIR](../AnonymousCredentials/Private-Information-Retrieval-for-eID.md), [performance on phones](../AnonymousCredentials/ZKP-on-Mobile.md) and [post-quantum security](../AnonymousCredentials/Post-Quantum-and-eID.md).
+
+## Choosing, Auditing and Reading
+
+Practical guides across all families. The [Framework Decision Guide](Framework-Decision-Guide.md) compares Noir, Circom, gnark, RISC Zero, Docknetwork, Ligero, Halo2 and Spartan for e-ID credential proofs, and lists what to check in any candidate. [Soundness Bugs and Audits](Soundness-Bugs-and-Audits.md) covers what goes wrong in practice — under-constrained circuits, Fiat–Shamir mistakes, the Longfellow review findings — and links our external security review. [ZKP Papers](ZKP-Papers.md) ranks the vault's ZKP papers by citations into foundation, relevant and other papers.

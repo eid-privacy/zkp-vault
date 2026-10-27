@@ -14,36 +14,6 @@ tags: []
 
 _This file is auto-generated. Run `devbox run summaries` to update._
 
-## Navigation
-
-| 2026–2024 | 2024–2023 | 2023–2019 | 2019–2010 | 2009–1976 |
-| --- | --- | --- | --- | --- |
-| [[WPSP26-DV-Dynamic-zkSNARKs]] | [[BMNW24-Arc]] | [[PB23-SoK-Linkage-Attacks]] | [[Set19-Spartan]] | [[Mau09-Unifying-ZKPoK]] |
-| [[LZ26-AnonCreds-Legacy]] | [[HLP24-Circle-STARKs]] | [[HMMP23-SoK-EVoting]] | [[GW19b-TurboPlonk]] | [[GKR08-Muggles]] |
-| [[KVRSCLT26-EUDIF-Harms]] | [[PPZ24-Crescent]] | [[RWGM23-zk-creds]] | [[BBHR18-FRI]] | [[ASM06-Dynamic-kTAA]] |
-| [[ENRTTX26-OpenAC]] | [[BBC+24-ARF-Feedback]] | [[JLM22-ALLOSAUR]] | [[BBHR18-STARK]] | [[DI06-Scalable-MPC]] |
-| [[DHG26-MS4]] | [[BBC24-Accumulators]] | [[AHIV22-Ligero-Ext]] | [[GKMM18-Updatable-SRS]] | [[Dam04-Sigma-Protocols]] |
-| [[BL26-SoK-AnonCreds]] | [[ECZJG24-Need-ZKP]] | [[COPZ22-DLEQ-Across-Groups]] | [[BBB+17-Bulletproofs]] | [[BBS04-ShortGroupSigs]] |
-| [[MRHHL25-Physical-Identities]] | [[AGJLRS24-PQ-Sigs-Privacy]] | [[MW22-Spiral]] | [[WTSTW17-Hyrax]] | [[CL04-Bilinear-Sigs]] |
-| [[OKMZ25-Beyond-Circuit]] | [[Col24-Revocation]] | [[FLM22-ZKAttest]] | [[AHIV17-Ligero]] | [[CL02-CL-Signatures]] |
-| [[FHLL25-AnonCreds-TrustedHW]] | [[BRD+24-SoK-Privacy-Regulations]] | [[MMZ+21-CanDID]] | [[CDL16-DAA-qSDH]] | [[BLS01-Short-Sigs]] |
-| [[WOSPG25-Legacy-PoP]] | [[KPRK24-SoK-SSI-Trust]] | [[BEKRS21-Issuer-Hiding]] | [[DFKP16-Cinderella]] | [[CM99-Safe-Primes]] |
-| [[Mom25-GP-ZKP-VCs]] | [[CETWJL24-SoK-SNARK-Vulns]] | [[QCY21-Blind-ECDSA]] | [[BBDT16-KVAC]] | [[Cra97-Modular-Design]] |
-| [[DKLW25-Lattice-Proof-Friendly-Sigs]] | [[RES24-ZK-Systematic-Review]] | [[GKRRS21-Poseidon]] | [[Gro16-Groth16]] | [[CS97-DL-Proofs]] |
-| [[ABCD25-PETs-Payments]] | [[Ora24-BBS-Sharp]] | [[GG21-SoK-Reputation]] | [[PS16-Randomizable-Sigs]] | [[LFKN92-Sumcheck]] |
-| [[Orr25-Revisiting-KVAC]] | [[CPV24-Last-Challenge]] | [[ZKP21-Sigma-Standard]] | [[CMZ14-KVAC]] | [[Sch91-Schnorr-Signatures]] |
-| [[GHE25-MS2]] | [[LSS24-LaZer]] | [[CHJ+20-Bulletproofs-Opt]] | [[BCD+14-ABC4Trust]] | [[Ped91-Commitments]] |
-| [[Egg25-Swiss-eID-Security]] | [[CLR23-CDLS]] | [[BFH+20-Ligero-Plus]] | [[BL13-ACL]] | [[GQ88-Identity-Signature]] |
-| [[CHLT25-Server-Aided-AC]] | [[CMSCGD23-ZK-Circuit-Verification]] | [[HKRW20-Sovrin-Revocation]] | [[PHGR13-Pinocchio]] | [[BGKW88-MIP]] |
-| [[IES25-SoK-Unusable-Privacy]] | [[STW23-CCS]] | [[GW20-Plookup]] | [[BCGTV13-SNARKs-for-C]] | [[BFM88-NIZK-Intro]] |
-| [[UZ25-SoK-Threat-Modeling]] | [[BM23-Formalizing-SNARK-Soundness]] | [[CPZ20-Signal-Groups]] | [[BCTV13-vonNeumann]] | [[FS86-Fiat-Shamir]] |
-| [[LHWYSW25-SoK-zkSNARKs]] | [[HSS23-Bind-AC-Humans]] | [[BCRSVW19-Aurora]] | [[BG13-Polynomial-Evaluation]] | [[Elg85-ElGamal]] |
-| [[GHE25-Taxonomy]] | [[CBBZ23-HyperPlonk]] | [[PS19-TrustZone-Survey]] | [[GGPR12-QSP-SNARK]] | [[GMR85-ZK-Complexity]] |
-| [[LSZ25-Vision]] | [[BS23-LaBRADOR]] | [[CFQW19-LegoSNARK]] | [[BDLSY11-Ed25519]] | [[Sch80-Schwartz-Zippel]] |
-| [[SAKK25-ZKP-Frameworks-Survey]] | [[TZ23-Revisiting-BBS]] | [[XZZPS19-Libra]] | [[PZ11-U-Prove]] | [[RSA78-RSA]] |
-| [[AFG24-Pairing-Curves-192]] | [[KMN23-Sigmabus]] | [[GWC19-PLONK]] | [[PH10-Privacy-Terminology]] | [[DH76-New-Directions]] |
-| [[FS24-Longfellow]] | [[KMPQ23-SoK-AnonCreds]] | [[MBKM19-Sonic]] |  |  |
-
 Ranked by citation counts from [OpenAlex](https://openalex.org):
 
 - **Foundational papers**: the 20 most-cited papers in the vault.
@@ -189,3 +159,33 @@ Citation counts are only a rough guide: recent papers and ePrints are often miss
 | [[ZKP21-Sigma-Standard|ZKProof Sigma Protocol Proposal (Workshop 4)]] | 2021 | — | — | ZKProof Community |
 | [[GW19b-TurboPlonk|TurboPLONK Proposal (ZKProof Workshop 3)]] | 2019 | — | — | Ariel Gabizon, Zachary J. Williamson |
 | [[Dam04-Sigma-Protocols|On Sigma Protocols (Damgård)]] | 2004 | — | — | Ivan Damgård |
+
+## Chronological
+
+| 2026–2024 | 2024–2023 | 2023–2019 | 2019–2010 | 2009–1976 |
+| --- | --- | --- | --- | --- |
+| [[WPSP26-DV-Dynamic-zkSNARKs]] | [[BMNW24-Arc]] | [[PB23-SoK-Linkage-Attacks]] | [[Set19-Spartan]] | [[Mau09-Unifying-ZKPoK]] |
+| [[LZ26-AnonCreds-Legacy]] | [[HLP24-Circle-STARKs]] | [[HMMP23-SoK-EVoting]] | [[GW19b-TurboPlonk]] | [[GKR08-Muggles]] |
+| [[KVRSCLT26-EUDIF-Harms]] | [[PPZ24-Crescent]] | [[RWGM23-zk-creds]] | [[BBHR18-FRI]] | [[ASM06-Dynamic-kTAA]] |
+| [[ENRTTX26-OpenAC]] | [[BBC+24-ARF-Feedback]] | [[JLM22-ALLOSAUR]] | [[BBHR18-STARK]] | [[DI06-Scalable-MPC]] |
+| [[DHG26-MS4]] | [[BBC24-Accumulators]] | [[AHIV22-Ligero-Ext]] | [[GKMM18-Updatable-SRS]] | [[Dam04-Sigma-Protocols]] |
+| [[BL26-SoK-AnonCreds]] | [[ECZJG24-Need-ZKP]] | [[COPZ22-DLEQ-Across-Groups]] | [[BBB+17-Bulletproofs]] | [[BBS04-ShortGroupSigs]] |
+| [[MRHHL25-Physical-Identities]] | [[AGJLRS24-PQ-Sigs-Privacy]] | [[MW22-Spiral]] | [[WTSTW17-Hyrax]] | [[CL04-Bilinear-Sigs]] |
+| [[OKMZ25-Beyond-Circuit]] | [[Col24-Revocation]] | [[FLM22-ZKAttest]] | [[AHIV17-Ligero]] | [[CL02-CL-Signatures]] |
+| [[FHLL25-AnonCreds-TrustedHW]] | [[BRD+24-SoK-Privacy-Regulations]] | [[MMZ+21-CanDID]] | [[CDL16-DAA-qSDH]] | [[BLS01-Short-Sigs]] |
+| [[WOSPG25-Legacy-PoP]] | [[KPRK24-SoK-SSI-Trust]] | [[BEKRS21-Issuer-Hiding]] | [[DFKP16-Cinderella]] | [[CM99-Safe-Primes]] |
+| [[Mom25-GP-ZKP-VCs]] | [[CETWJL24-SoK-SNARK-Vulns]] | [[QCY21-Blind-ECDSA]] | [[BBDT16-KVAC]] | [[Cra97-Modular-Design]] |
+| [[DKLW25-Lattice-Proof-Friendly-Sigs]] | [[RES24-ZK-Systematic-Review]] | [[GKRRS21-Poseidon]] | [[Gro16-Groth16]] | [[CS97-DL-Proofs]] |
+| [[ABCD25-PETs-Payments]] | [[Ora24-BBS-Sharp]] | [[GG21-SoK-Reputation]] | [[PS16-Randomizable-Sigs]] | [[LFKN92-Sumcheck]] |
+| [[Orr25-Revisiting-KVAC]] | [[CPV24-Last-Challenge]] | [[ZKP21-Sigma-Standard]] | [[CMZ14-KVAC]] | [[Sch91-Schnorr-Signatures]] |
+| [[GHE25-MS2]] | [[LSS24-LaZer]] | [[CHJ+20-Bulletproofs-Opt]] | [[BCD+14-ABC4Trust]] | [[Ped91-Commitments]] |
+| [[Egg25-Swiss-eID-Security]] | [[CLR23-CDLS]] | [[BFH+20-Ligero-Plus]] | [[BL13-ACL]] | [[GQ88-Identity-Signature]] |
+| [[CHLT25-Server-Aided-AC]] | [[CMSCGD23-ZK-Circuit-Verification]] | [[HKRW20-Sovrin-Revocation]] | [[PHGR13-Pinocchio]] | [[BGKW88-MIP]] |
+| [[IES25-SoK-Unusable-Privacy]] | [[STW23-CCS]] | [[GW20-Plookup]] | [[BCGTV13-SNARKs-for-C]] | [[BFM88-NIZK-Intro]] |
+| [[UZ25-SoK-Threat-Modeling]] | [[BM23-Formalizing-SNARK-Soundness]] | [[CPZ20-Signal-Groups]] | [[BCTV13-vonNeumann]] | [[FS86-Fiat-Shamir]] |
+| [[LHWYSW25-SoK-zkSNARKs]] | [[HSS23-Bind-AC-Humans]] | [[BCRSVW19-Aurora]] | [[BG13-Polynomial-Evaluation]] | [[Elg85-ElGamal]] |
+| [[GHE25-Taxonomy]] | [[CBBZ23-HyperPlonk]] | [[PS19-TrustZone-Survey]] | [[GGPR12-QSP-SNARK]] | [[GMR85-ZK-Complexity]] |
+| [[LSZ25-Vision]] | [[BS23-LaBRADOR]] | [[CFQW19-LegoSNARK]] | [[BDLSY11-Ed25519]] | [[Sch80-Schwartz-Zippel]] |
+| [[SAKK25-ZKP-Frameworks-Survey]] | [[TZ23-Revisiting-BBS]] | [[XZZPS19-Libra]] | [[PZ11-U-Prove]] | [[RSA78-RSA]] |
+| [[AFG24-Pairing-Curves-192]] | [[KMN23-Sigmabus]] | [[GWC19-PLONK]] | [[PH10-Privacy-Terminology]] | [[DH76-New-Directions]] |
+| [[FS24-Longfellow]] | [[KMPQ23-SoK-AnonCreds]] | [[MBKM19-Sonic]] |  |  |

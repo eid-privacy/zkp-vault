@@ -39,6 +39,7 @@ Tags anonymous credential schemes and the signature schemes designed for them (C
 - [[openwallet-foundation-acapy|openwallet-foundation/acapy (ACA-Py)]]
 - [[Post-Quantum-and-eID|Post-Quantum and e-ID]]
 - [[AGJLRS24-PQ-Sigs-Privacy|Practical Post-Quantum Signatures for Privacy (Argo, Güneysu, Jeudy, Land, Roux-Langlois, Sanders 2024)]]
+- [[Privacy-Requirements|Privacy Requirements]]
 - [[Pseudonyms-in-eID|Pseudonyms in e-ID]]
 - [[TZ23-Revisiting-BBS|Revisiting BBS Signatures (Tessaro, Zhu 2023)]]
 - [[Orr25-Revisiting-KVAC|Revisiting Keyed-Verification Anonymous Credentials (Orrù 2025)]]

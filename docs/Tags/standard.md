@@ -37,6 +37,7 @@ Tags entries related to standards or standardisation efforts for ZKP systems —
 - [[IETF-SD-JWT-VC|SD-JWT-based Verifiable Digital Credentials (SD-JWT VC) — IETF draft]]
 - [[SIOPv2|Self-Issued OpenID Provider v2 (SIOPv2)]]
 - [[IRTF-CFRG-Sigma-Protocols|Sigma Protocols — IRTF CFRG draft]]
+- [[Status-Lists|Status Lists]]
 - [[swiyu-Trust-Protocol|swiyu Trust Protocol 2.0 Specification]]
 - [[IRTF-CFRG-BBS-Signatures|The BBS Signature Scheme — IRTF CFRG draft]]
 - [[did-webvh-Method|The did:webvh DID Method — did:web + Verifiable History (v1.0)]]

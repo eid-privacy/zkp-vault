@@ -15,6 +15,8 @@ tags:
 A verifier must be convinced that a credential is still valid: not expired (a date comparison, see [[Predicate-Proofs]]) and **not revoked**. The privacy requirement (eid-privacy WP6) is that the verifier and the revocation provider learn only the minimum during revocation, during creation of a non-revocation proof and during its verification, and that a non-revocation proof cannot be reused with another credential or verifier. Target: proof and daily updates under 1 s and 1 MB ([[GHE25-MS2]]).
 
 ## Taxonomy of approaches
+The first three rows are what deployed systems use today; they are described in more detail in [[Status-Lists]] on the eID side.
+
 
 | Approach | How it works | Privacy | Cost / issues |
 |---|---|---|---|
@@ -45,6 +47,7 @@ Accumulators are the most popular privacy-preserving revocation technique becaus
 Because of the holder-side witness-update overhead, eid-privacy chose not to use accumulators, and abandoned the swiyu status-list format because of compression, in favour of [[Signed-Revocation-Lists]] ([[DHG26-MS4]]).
 
 ## Related
+- [[Status-Lists]]
 - [[Signed-Revocation-Lists]]
 - [[Private-Information-Retrieval-for-eID]]
 - [[Credential-Data-Structures]]

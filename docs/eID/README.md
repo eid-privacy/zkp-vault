@@ -27,10 +27,15 @@ The cryptographic building blocks (selective disclosure with signatures, holder 
 |------|-------------|
 | [e-ID Actors and Trust Goals](./eID-Actors-and-Trust-Goals.md) | Legal entities vs. functional roles (issuer, holder, verifier) and the trust goals of users, businesses and governments |
 | [e-ID Threat Models](./eID-Threat-Models.md) | External, internal and systemic threats, including supply-chain attacks |
+| [Privacy Requirements](./Privacy-Requirements.md) | Selective disclosure, unlinkability, untraceability, freshness, pseudonyms; why salted-hash credentials need batch issuance |
 | [Pseudonyms in e-ID](./Pseudonyms-in-eID.md) | Per-verifier unlinkable pseudonyms and Austria's sector-specific identifiers (bPK) |
-| [e-ID Systems Overview](./eID-Systems-Overview.md) | swiyu, EUDI/ARF, ID Austria, AnonCreds v2, Aadhaar, MOSIP and others |
+| [e-ID Systems Overview](./eID-Systems-Overview.md) | Comparison of swiyu, EUDI, ID Austria and AnonCreds v2; Aadhaar, MOSIP and others |
+| [swiyu](./swiyu.md) | The Swiss e-ID: SD-JWT VC, OpenID4VC, DIDs, base and trust registries, status lists |
+| [EUDI Wallet and the ARF](./EUDI-ARF.md) | The EU wallet: regulation, implementing acts, reference implementation, batch issuance vs. anonymous credentials |
+| [ID Austria](./ID-Austria.md) | Austria's central authentication service and sector-specific identifiers (bPK) |
 | [Credential Data Structures](./Credential-Data-Structures.md) | VC DM 1.1/2.0, JSON-LD, SD-JWT VC, mdoc/mDL, X.509, DIDs, status lists and their ZKP-friendliness |
 | [Communication Protocols](./Communication-Protocols.md) | DIDs, DIDComm v2, OpenID4VCI/VP, SIOPv2, ISO 18013-5, and a library table |
+| [Status Lists](./Status-Lists.md) | IETF Token Status List and W3C Bitstring Status List, and why their indices are linkable |
 | [Hardware Security for e-ID](./Hardware-Security-for-eID.md) | Secure elements, TEEs, Secure Enclave and HSMs; ECDSA P-256 as the common denominator on phones |
 | [e-ID Legal Framework](./eID-Legal-Framework.md) | Legal hierarchy in the EU and Switzerland: BGEID, VEID, eIDAS, EUDI |
 | [e-ID Open Questions](./eID-Open-Questions.md) | Open research and engineering questions |

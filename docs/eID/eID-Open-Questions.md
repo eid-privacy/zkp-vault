@@ -29,6 +29,11 @@ The taxonomy is a glossary and the first step of a systematisation. The planned 
 - **Linking credentials** from different issuers to the same person without a linkable identifier (name and birth date? social-security number?) ([[Predicate-Proofs]]).
 - **Verifier-exclusive and deniable proofs** suitable for e-ID ([[Predicate-Proofs]]).
 
+## Post-quantum migration
+- **BBS+ and other pairing-based anonymous credentials are not post-quantum** and are not available in HSMs or phone secure elements ([[GHE25-Taxonomy]]). If regulation requires hardware-backed non-transferability, any scheme not supported by hardware may need years of standardisation and roll-out, during which post-quantum security may become necessary.
+- NIST plans to deprecate non-post-quantum algorithms by 2030 and disallow them by 2035 ([[NIST-IR-8547]], cited in [[GHE25-MS2]]). Standardising a new non-PQ scheme such as BBS at NIST would run counter to that plan.
+- **Phone hardware** today offers ECDSA P-256 only ([[Hardware-Security-for-eID]]), so [[Holder-Binding]] is not post-quantum either, regardless of the proof system.
+
 ## Revocation and metadata
 - A **ZKP-friendly revocation standard**: IETF status lists are compressed or long bit strings, which explode circuit size; [[Signed-Revocation-Lists]] are one proposal that still needs standardisation ([[DHG26-MS4]]).
 - **Private retrieval** of revocation lists and trust-registry entries ([[Private-Information-Retrieval-for-eID]]).

@@ -21,8 +21,8 @@ Selective disclosure lets a holder of signed data reveal only some attributes wh
 | Salted-hash | The issuer signs a list of salted hashes `H(salt ‖ value)`; the holder discloses `(salt, value)` for chosen attributes and the verifier recomputes the hash. | SD-JWT ([[IETF-RFC9901-SD-JWT]], [[IETF-SD-JWT-VC]]), ISO mdoc / mDL ([[ISO-IEC-18013-5-mDL]]) | No: issuer signature and hashes are stable identifiers |
 | ZKP over existing signatures | The credential stays a standard ECDSA-signed SD-JWT / mdoc / X.509; the holder proves in a general-purpose ZKP that it holds a valid credential satisfying a statement. | [[Crescent]], [[Longfellow]], [[DFKP16-Cinderella]], [[ENRTTX26-OpenAC]], the eid-privacy Spartan backend ([[DHG26-MS4]]) | Yes |
 
-## Salted-hash credentials and their linkability
-In SD-JWT, every attribute is stored as `sha256(salt | attribute_value)`; to disclose a value the holder sends it with the salt ([[GHE25-MS2]]). Predicates are only possible if the issuer pre-computes them as extra claims (e.g. `age_over_18`). Every presentation shows the same issuer signature and hash list, which form a unique fingerprint that colluding verifiers (and the issuer) can match. Deployments such as swiyu therefore use **batch issuance**: the holder receives a batch of single-use credentials (usually about 10, per [[GHE25-MS2]]) and deletes each after use. This costs issuance bandwidth and storage, and does not protect against issuer–verifier collusion.
+## Salted-hash credentials
+SD-JWT and mdoc are what swiyu and the EUDI wallet deploy today. Because every presentation shows the same issuer signature and hash list, they need batch issuance of single-use credentials and still don't protect against issuer–verifier collusion; see [[Privacy-Requirements]] on the eID side.
 
 ## Signature-based schemes
 BBS-style multi-message signatures allow fast sigma-protocol proofs of knowledge with selective disclosure and unlinkability ([[Unlinkable-Anonymous-Credentials]]). Their main obstacles in e-ID are that they are pairing-based, not supported by mobile secure elements or HSMs, not FIPS-approved and not post-quantum ([[Hardware-Security-for-eID]], [[Post-Quantum-and-eID]]).
@@ -35,6 +35,7 @@ Here the issuer keeps signing with ECDSA P-256, and privacy is added on the hold
 
 ## Related
 - [[Credential-Data-Structures]] — SD-JWT VC, mdoc, VC DM, X.509
+- [[Privacy-Requirements]] — linkability of salted-hash credentials
 - [[Unlinkable-Anonymous-Credentials]]
 - [[Predicate-Proofs]]
 - [[Holder-Binding]]

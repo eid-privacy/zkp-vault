@@ -20,9 +20,7 @@ A large, high-quality universal quantum computer could invert integer factorisat
 - **Transport**: TLS / JWE encryption of presentations is subject to classic "store now, decrypt later" by nation-state adversaries ([[eID-Threat-Models]]).
 
 ## Constraints specific to e-ID
-- **BBS+ and other pairing-based anonymous credentials are not post-quantum** and are not available in HSMs or phone secure elements ([[GHE25-Taxonomy]]). If regulation requires hardware-backed non-transferability, any scheme not supported by hardware may need years of standardisation and roll-out, during which post-quantum security may become necessary.
-- NIST plans to deprecate non-post-quantum algorithms by 2030 and disallow them by 2035 (NIST IR 8547, cited in [[GHE25-MS2]]). Standardising a new non-PQ scheme such as BBS at NIST would run counter to that plan.
-- **Phone hardware** today offers ECDSA P-256 only ([[Hardware-Security-for-eID]]), so [[Holder-Binding]] is not post-quantum either, regardless of the proof system.
+Phone secure elements only offer ECDSA P-256, pairing-based credentials are not available in hardware, and NIST plans to deprecate non-post-quantum algorithms by 2030. These deployment constraints are discussed in [[eID-Open-Questions]].
 
 ## Post-quantum status of proof systems
 - Hash-based proof systems ([[Ligero]], [[FRI]], [[zk-STARKs]]) are plausibly post-quantum. [[Longfellow]] (Ligero + sumcheck) is the exception among e-ID proposals ([[DHG26-MS4]]); its statement still involves ECDSA, whose *soundness* would fall with a quantum computer.

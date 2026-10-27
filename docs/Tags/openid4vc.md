@@ -13,6 +13,7 @@ Tags entries about the OpenID for Verifiable Credentials protocol family (OpenID
 
 - [[Communication-Protocols|Communication Protocols for e-ID]]
 - [[eID-Systems-Overview|e-ID Systems Overview and Comparison]]
+- [[eid-privacy-SWIYU-Demo|eid-privacy/SWIYU-Demo]]
 - [[eu-digital-identity-wallet|eu-digital-identity-wallet — EUDI Wallet reference implementation]]
 - [[EUDI-ARF|EUDI Wallet and the ARF (European Union)]]
 - [[microsoft-entra-verifiedid-wallet-library|Microsoft Entra Verified ID wallet libraries (Android & iOS)]]

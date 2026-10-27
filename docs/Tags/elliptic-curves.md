@@ -19,6 +19,7 @@ Tags entries about elliptic curve cryptography as used in ZKPs — curve selecti
 - [[cloudflare-zkp-ecdsa|cloudflare/zkp-ecdsa]]
 - [[PPZ24-Crescent|Crescent: Stronger Privacy for Existing Credentials (Paquin, Policharla, Zaverucha 2024)]]
 - [[Cryptographic-Principles-Tomescu|Cryptographic Principles (Alin Tomescu)]]
+- [[eid-privacy-ark-tom256|eid-privacy/ark-tom256]]
 - [[NIST-FIPS-186-5|FIPS 186-5: Digital Signature Standard (DSS)]]
 - [[heidiverse-zkattest-rs|heidiverse/zkattest-rs (formerly UbiqueInnovation/zkattest-rs)]]
 - [[BDLSY11-Ed25519|High-Speed High-Security Signatures (Bernstein, Duif, Lange, Schwabe, Yang 2011)]]

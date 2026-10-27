@@ -13,7 +13,7 @@ tags:
 
 # ZKP Resources
 
-Curated external resources for Zero-Knowledge Proofs — 266 entries across papers, blogs, books, courses, wikis, docs, and code repositories.
+Curated external resources for Zero-Knowledge Proofs — 272 entries across papers, blogs, books, courses, wikis, docs, and code repositories.
 
 _This file is auto-generated. Run `devbox run summaries` to update._
 
@@ -171,6 +171,7 @@ _This file is auto-generated. Run `devbox run summaries` to update._
 
 ### circuit-dsl
 
+- [[eid-privacy-noir-tom256|eid-privacy/noir]] (code, 2026)
 - [[eid-privacy-spartan-backend|eid-privacy/spartan-backend]] (code, 2026)
 - [[eid-privacy-zkp-pocs|eid-privacy/zkp-pocs]] (code, 2025)
 - [[noirs-circuit-backend|Noir's Circuit Backend]] (blog, 2023)
@@ -290,7 +291,9 @@ _This file is auto-generated. Run `devbox run summaries` to update._
 - [[eid-privacy-docknetwork-crypto-library|Choosing a Cryptographic Library for Anonymous Credentials (eid-privacy, 2026)]] (blog, 2026)
 - [[LZ26-AnonCreds-Legacy|Device Binding for Anonymous Credentials on Legacy Phones (Lehmann, Zacharakis 2026)]] (paper, 2026)
 - [[docknetwork-crypto-library|DockNetwork Crypto Library Analysis]] (doc, 2026)
+- [[eid-privacy-noir-tom256|eid-privacy/noir]] (code, 2026)
 - [[eid-privacy-spartan-backend|eid-privacy/spartan-backend]] (code, 2026)
+- [[eid-privacy-zkp-android|eid-privacy/zkp-android]] (code, 2026)
 - [[eid-privacy-zkp-android-spartan|eid-privacy/zkp-android-spartan]] (code, 2026)
 - [[IETF-draft-google-cfrg-libzk|Longfellow ZK — IETF draft-google-cfrg-libzk]] (wiki, 2026)
 - [[KVRSCLT26-EUDIF-Harms|On the (Privacy) Harms of the European Digital Identity Framework (Knabenhans, Veitch, Raynal, Stadler, Chatel, Lueks, Troncoso 2026)]] (paper, 2026)
@@ -308,6 +311,7 @@ _This file is auto-generated. Run `devbox run summaries` to update._
 - [[eid-privacy-crescent-longfellow|Crescent and Longfellow (eid-privacy, 2025)]] (blog, 2025)
 - [[MSR-Crescent-Library-Blog|Crescent library brings privacy to digital identity systems (Microsoft Research, 2025)]] (blog, 2025)
 - [[FHLL25-AnonCreds-TrustedHW|Device-Bound Anonymous Credentials With(out) Trusted Hardware (Friedrichs, Harding, Lehmann, Lysyanskaya 2025)]] (paper, 2025)
+- [[eid-privacy-SWIYU-Demo|eid-privacy/SWIYU-Demo]] (code, 2025)
 - [[eid-privacy-zkp-pocs|eid-privacy/zkp-pocs]] (code, 2025)
 - [[EUDI-ARF|EUDI Wallet Architecture and Reference Framework (ARF)]] (doc, 2025)
 - [[Mom25-GP-ZKP-VCs|General-Purpose Zero-Knowledge Proofs for Verifiable Credentials (Mombelli 2025)]] (paper, 2025)
@@ -360,6 +364,7 @@ _This file is auto-generated. Run `devbox run summaries` to update._
 ### elliptic-curves
 
 - [[OKMZ25-Beyond-Circuit|Beyond the Circuit: How to Minimize Foreign Arithmetic in ZKP Circuits (Orrù, Kadianakis, Maller, Zaverucha 2025)]] (paper, 2025)
+- [[eid-privacy-ark-tom256|eid-privacy/ark-tom256]] (code, 2025)
 - [[heidiverse-zkattest-rs|heidiverse/zkattest-rs (formerly UbiqueInnovation/zkattest-rs)]] (code, 2025)
 - [[AFG24-Pairing-Curves-192|A Short-List of Pairing-Friendly Curves Resistant to the Special TNFS Algorithm at the 192-bit Security Level (Aranha, Fotiadis, Guillevic 2024)]] (paper, 2024)
 - [[FS24-Longfellow|Anonymous Credentials from ECDSA (Frigo & shelat 2024)]] (paper, 2024)
@@ -455,8 +460,14 @@ _This file is auto-generated. Run `devbox run summaries` to update._
 ### implementations
 
 - [[docknetwork-crypto-library|DockNetwork Crypto Library Analysis]] (doc, 2026)
+- [[eid-privacy-flakes|eid-privacy/flakes]] (code, 2026)
+- [[eid-privacy-noir-tom256|eid-privacy/noir]] (code, 2026)
+- [[eid-privacy-vega-prover|eid-privacy/vega-prover]] (code, 2026)
+- [[eid-privacy-zkp-android|eid-privacy/zkp-android]] (code, 2026)
 - [[eid-privacy-zkp-android-spartan|eid-privacy/zkp-android-spartan]] (code, 2026)
 - [[a-deep-dive-into-axioms-halo2-circuits|A Deep Dive into Axiom's Halo2 Circuits]] (blog, 2025)
+- [[eid-privacy-ark-tom256|eid-privacy/ark-tom256]] (code, 2025)
+- [[eid-privacy-SWIYU-Demo|eid-privacy/SWIYU-Demo]] (code, 2025)
 - [[eid-privacy-zkp-pocs|eid-privacy/zkp-pocs]] (code, 2025)
 - [[google-longfellow-zk|longfellow-zk (Google)]] (code, 2025)
 - [[mombelld-general-purpose-zkps-vcs|mombelld/general-purpose-zkps-vcs]] (code, 2025)
@@ -551,6 +562,7 @@ _This file is auto-generated. Run `devbox run summaries` to update._
 
 - [[eid-privacy-docknetwork-crypto-library|Choosing a Cryptographic Library for Anonymous Credentials (eid-privacy, 2026)]] (blog, 2026)
 - [[docknetwork-crypto-library|DockNetwork Crypto Library Analysis]] (doc, 2026)
+- [[eid-privacy-ark-tom256|eid-privacy/ark-tom256]] (code, 2025)
 - [[heidiverse-zkattest-rs|heidiverse/zkattest-rs (formerly UbiqueInnovation/zkattest-rs)]] (code, 2025)
 - [[google-longfellow-zk|longfellow-zk (Google)]] (code, 2025)
 - [[Sphereon-did-jwt|Sphereon-Opensource/did-jwt]] (code, 2025)
@@ -647,6 +659,7 @@ _This file is auto-generated. Run `devbox run summaries` to update._
 
 ### openid4vc
 
+- [[eid-privacy-SWIYU-Demo|eid-privacy/SWIYU-Demo]] (code, 2025)
 - [[OpenID4VCI|OpenID for Verifiable Credential Issuance 1.0]] (wiki, 2025)
 - [[OpenID4VP|OpenID for Verifiable Presentations 1.0]] (wiki, 2025)
 - [[FOSDEM-2025-OpenID4VP-BLE|Sample implementation of OpenID 4 Verifiable Presentation over Bluetooth Low Energy (FOSDEM 2025)]] (blog, 2025)
@@ -751,6 +764,7 @@ _This file is auto-generated. Run `devbox run summaries` to update._
 ### prover-backend
 
 - [[eid-privacy-spartan-backend|eid-privacy/spartan-backend]] (code, 2026)
+- [[eid-privacy-vega-prover|eid-privacy/vega-prover]] (code, 2026)
 - [[eid-privacy-zkp-android-spartan|eid-privacy/zkp-android-spartan]] (code, 2026)
 - [[Ligero-Prover-Docs|Ligetron Marketplace Documentation]] (doc, 2024)
 - [[AztecProtocol-aztec-packages|AztecProtocol: Aztec Packages (UltraHONK Audit Scope)]] (code, 2023)

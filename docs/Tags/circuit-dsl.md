@@ -13,6 +13,7 @@ Tags domain-specific languages for writing ZK circuits — e.g., Noir, Circom, Z
 
 - [[Circom2|Circom 2]]
 - [[Circom2-Docs|Circom2 Documentation]]
+- [[eid-privacy-noir-tom256|eid-privacy/noir]]
 - [[eid-privacy-spartan-backend|eid-privacy/spartan-backend]]
 - [[eid-privacy-zkp-pocs|eid-privacy/zkp-pocs]]
 - [[Halo2-Docs|Halo2 Documentation (Zcash)]]

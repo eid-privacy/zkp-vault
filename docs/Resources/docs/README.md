@@ -14,6 +14,11 @@ tags: []
 
 _This file is auto-generated. Run `devbox run summaries` to update._
 
+## From the eid-privacy project
+
+- [[docknetwork-crypto-library|DockNetwork Crypto Library Analysis]]
+- [[eid-privacy-WP2-Libraries|WP2 Libraries and Protocols — evaluated libraries tables (eid-privacy)]]
+
 ## Navigation
 
 | A | A–G | H–P | R–S | S–Z |

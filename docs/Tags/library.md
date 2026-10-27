@@ -23,6 +23,7 @@ Tags entries for reusable ZKP libraries and SDKs — as opposed to full toolchai
 - [[Docknetwork|Docknetwork]]
 - [[docknetwork-crypto-library|DockNetwork Crypto Library Analysis]]
 - [[docknetwork-crypto|docknetwork/crypto (incl. vb_accumulator)]]
+- [[eid-privacy-ark-tom256|eid-privacy/ark-tom256]]
 - [[facebook-winterfell|facebook/winterfell]]
 - [[gnark|gnark]]
 - [[gnark-Docs|gnark Documentation (Consensys)]]

@@ -39,12 +39,13 @@ Sources and all versions: [eid-privacy/zkp-reports](https://github.com/eid-priva
 |---|---|
 | [spartan-backend](https://github.com/eid-privacy/spartan-backend) · [notes](Resources/code/eid-privacy-spartan-backend.md) | Spartan backend for Noir, with the e-ID circuits (SD-JWT verification, ECDSA-P256 holder binding over Tom-256) |
 | [zkp-pocs](https://github.com/eid-privacy/zkp-pocs) · [notes](Resources/code/eid-privacy-zkp-pocs.md) | Proofs of concept: BBS + Bulletproofs (docknetwork/crypto) and Noir/UltraHONK circuits, with benchmarks |
-| [zkp-android](https://github.com/eid-privacy/zkp-android) | Android app generating and verifying Noir proofs (UltraHONK via mopro) on the phone |
+| [zkp-android](https://github.com/eid-privacy/zkp-android) · [notes](Resources/code/eid-privacy-zkp-android.md) | Android app generating and verifying Noir proofs (UltraHONK via mopro) on the phone |
 | [zkp-android-spartan](https://github.com/eid-privacy/zkp-android-spartan) · [notes](Resources/code/eid-privacy-zkp-android-spartan.md) | Android app benchmarking proof generation and verification with the Spartan backend |
-| [ark-tom256](https://github.com/eid-privacy/ark-tom256) | The Tom-256 curve for arkworks, whose order equals the base field of P-256 |
-| [noir (tom-256)](https://github.com/eid-privacy/noir) | Noir fork with Tom-256 / P-256 support (`nargo-t256`) |
-| [flakes](https://github.com/eid-privacy/flakes) | Nix flakes and binary cache for pinned Noir, Barretenberg and `nargo-t256` |
-| [SWIYU-Demo](https://github.com/eid-privacy/SWIYU-Demo) | Issuer / verifier proof of concept on top of the swiyu infrastructure |
+| [ark-tom256](https://github.com/eid-privacy/ark-tom256) · [notes](Resources/code/eid-privacy-ark-tom256.md) | The Tom-256 curve for arkworks, whose order equals the base field of P-256 |
+| [noir (tom-256)](https://github.com/eid-privacy/noir) · [notes](Resources/code/eid-privacy-noir-tom256.md) | Noir fork with Tom-256 / P-256 support (`nargo-t256`) |
+| [flakes](https://github.com/eid-privacy/flakes) · [notes](Resources/code/eid-privacy-flakes.md) | Nix flakes and binary cache for pinned Noir, Barretenberg and `nargo-t256` |
+| [vega-prover](https://github.com/eid-privacy/vega-prover) · [notes](Resources/code/eid-privacy-vega-prover.md) | Fork of Microsoft's Vega prover with faster loading of the precomputed prover state |
+| [SWIYU-Demo](https://github.com/eid-privacy/SWIYU-Demo) · [notes](Resources/code/eid-privacy-SWIYU-Demo.md) | Issuer / verifier proof of concept on top of the swiyu infrastructure |
 
 All repositories: [github.com/eid-privacy](https://github.com/eid-privacy) · overview: [eid-privacy/overview](https://github.com/eid-privacy/overview).
 
@@ -83,6 +84,6 @@ Full list: [Paper History](Paper-History.md).
 | Courses | 6 | [Resources/courses](Resources/courses/README.md) |
 | Wikis & Standards | 34 | [Resources/wikis](Resources/wikis/README.md) |
 | Documentation | 24 | [Resources/docs](Resources/docs/README.md) |
-| Code & Repositories | 47 | [Resources/code](Resources/code/README.md) |
+| Code & Repositories | 53 | [Resources/code](Resources/code/README.md) |
 
-266 external resources in total. Full index with by-topic view: [Resources/README.md](Resources/README.md). To add content, see [Contribute](Contribute.md).
+272 external resources in total. Full index with by-topic view: [Resources/README.md](Resources/README.md). To add content, see [Contribute](Contribute.md).

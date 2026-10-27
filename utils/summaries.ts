@@ -382,6 +382,14 @@ function generateResourceSubtypeReadmes(): void {
       subtype === 'papers' ? yearColHeaderFn : alphaColHeaderFn,
     );
 
+    // Our own work first: eid-privacy-* entries or entries authored by the eid-privacy project
+    const ours = sorted.filter(r => r.filename.startsWith('eid-privacy-') || r.authors.some(a => /eid-privacy/i.test(a)));
+    const oursSection = ours.length === 0 ? '' : `## From the eid-privacy project
+
+${ours.map(r => `- ${resourceWikilink(r)}`).join('\n')}
+
+`;
+
     const tableRows = sorted.map(r =>
       `| ${resourceWikilink(r)} | ${r.year} | ${authorsStr(r.authors)} | ${r.tags.join(', ')} |`
     );
@@ -402,7 +410,7 @@ ${entries.length} entr${entries.length === 1 ? 'y' : 'ies'}.
 
 _This file is auto-generated. Run \`devbox run summaries\` to update._
 
-## Navigation
+${oursSection}## Navigation
 
 ${navTable}
 

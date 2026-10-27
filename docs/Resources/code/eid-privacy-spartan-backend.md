@@ -5,6 +5,7 @@ year: 2026
 authors:
   - eid-privacy project
 url: "https://github.com/eid-privacy/spartan-backend"
+doi: "10.5281/zenodo.23694668"
 tags:
   - eid
   - prover-backend

@@ -5,6 +5,7 @@ year: 2026
 authors:
   - eid-privacy project
 url: "https://github.com/eid-privacy/zkp-android-spartan"
+doi: "10.5281/zenodo.23694719"
 tags:
   - eid
   - implementations

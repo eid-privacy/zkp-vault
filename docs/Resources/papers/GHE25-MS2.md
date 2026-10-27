@@ -8,6 +8,7 @@ authors:
   - Clement Humbert
   - Ahmed Elghareeb
 url: "https://github.com/eid-privacy/zkp-reports/releases/download/latest/eid-privacy-MS2.pdf"
+doi: "10.5281/zenodo.23694201"
 tags:
   - eid
   - applications

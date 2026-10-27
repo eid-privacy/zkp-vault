@@ -29,12 +29,13 @@ It links our own reports and code to the papers, standards and tools we used.
 
 | Document | Content |
 |---|---|
-| [Final report (MS4)](https://github.com/eid-privacy/zkp-reports/releases/download/latest/eid-privacy-MS4.pdf) · [notes](Resources/papers/DHG26-MS4.md) | Final report of the grant: holder binding, unlinkability, predicates and revocation with ZKPs over SD-JWT / ECDSA P-256, benchmarks on phones |
-| [Proof-of-concept report (MS2)](https://github.com/eid-privacy/zkp-reports/releases/download/latest/eid-privacy-MS2.pdf) · [notes](Resources/papers/GHE25-MS2.md) | Proof of concept and comparison of ZKP stacks for e-ID |
-| [Taxonomy of e-ID systems (draft paper)](https://github.com/eid-privacy/zkp-reports/releases/download/latest/eid-privacy-taxonomy-eid.pdf) · [notes](Resources/papers/GHE25-Taxonomy.md) | Actors, trust goals, threat models, solution foundations and regulation of the Swiss and EU e-ID systems |
+| [Final report (MS4)](https://github.com/eid-privacy/zkp-reports/releases/download/latest/eid-privacy-MS4.pdf) · [notes](Resources/papers/DHG26-MS4.md) · [DOI](https://doi.org/10.5281/zenodo.23694203) | Final report of the grant: holder binding, unlinkability, predicates and revocation with ZKPs over SD-JWT / ECDSA P-256, benchmarks on phones |
+| [Proof-of-concept report (MS2)](https://github.com/eid-privacy/zkp-reports/releases/download/latest/eid-privacy-MS2.pdf) · [notes](Resources/papers/GHE25-MS2.md) · [DOI](https://doi.org/10.5281/zenodo.23694201) | Proof of concept and comparison of ZKP stacks for e-ID |
+| [Taxonomy of e-ID systems (draft paper)](https://github.com/eid-privacy/zkp-reports/releases/download/latest/eid-privacy-taxonomy-eid.pdf) · [notes](Resources/papers/GHE25-Taxonomy.md) · [DOI](https://doi.org/10.5281/zenodo.23694217) | Actors, trust goals, threat models, solution foundations and regulation of the Swiss and EU e-ID systems |
 | [External security review](https://github.com/eid-privacy/zkp-reports/blob/main/security-review/zksecurity-epfl-sicpa.pdf) | Review of our circuits and the Spartan prover by [zkSecurity](https://zksecurity.xyz/), 2026-10 |
 
 Sources and all versions: [eid-privacy/zkp-reports](https://github.com/eid-privacy/zkp-reports).
+All DOIs are in the [eid-privacy community on Zenodo](https://zenodo.org/communities/eid-privacy); BibTeX in [zkp-reports](https://github.com/eid-privacy/zkp-reports#how-to-cite).
 
 ## Our code
 
@@ -42,10 +43,10 @@ Sources and all versions: [eid-privacy/zkp-reports](https://github.com/eid-priva
 
 | Repository | Content |
 |---|---|
-| [spartan-backend](https://github.com/eid-privacy/spartan-backend) · [notes](Resources/code/eid-privacy-spartan-backend.md) | Spartan backend for Noir, with the e-ID circuits (SD-JWT verification, ECDSA-P256 holder binding over Tom-256) |
-| [zkp-pocs](https://github.com/eid-privacy/zkp-pocs) · [notes](Resources/code/eid-privacy-zkp-pocs.md) | Proofs of concept: BBS + Bulletproofs (docknetwork/crypto) and Noir/UltraHONK circuits, with benchmarks |
+| [spartan-backend](https://github.com/eid-privacy/spartan-backend) · [notes](Resources/code/eid-privacy-spartan-backend.md) · [DOI](https://doi.org/10.5281/zenodo.23694668) | Spartan backend for Noir, with the e-ID circuits (SD-JWT verification, ECDSA-P256 holder binding over Tom-256) |
+| [zkp-pocs](https://github.com/eid-privacy/zkp-pocs) · [notes](Resources/code/eid-privacy-zkp-pocs.md) · [DOI](https://doi.org/10.5281/zenodo.23694674) | Proofs of concept: BBS + Bulletproofs (docknetwork/crypto) and Noir/UltraHONK circuits, with benchmarks |
 | [zkp-android](https://github.com/eid-privacy/zkp-android) · [notes](Resources/code/eid-privacy-zkp-android.md) | Android app generating and verifying Noir proofs (UltraHONK via mopro) on the phone |
-| [zkp-android-spartan](https://github.com/eid-privacy/zkp-android-spartan) · [notes](Resources/code/eid-privacy-zkp-android-spartan.md) | Android app benchmarking proof generation and verification with the Spartan backend |
+| [zkp-android-spartan](https://github.com/eid-privacy/zkp-android-spartan) · [notes](Resources/code/eid-privacy-zkp-android-spartan.md) · [DOI](https://doi.org/10.5281/zenodo.23694719) | Android app benchmarking proof generation and verification with the Spartan backend |
 | [ark-tom256](https://github.com/eid-privacy/ark-tom256) · [notes](Resources/code/eid-privacy-ark-tom256.md) | The Tom-256 curve for arkworks, whose order equals the base field of P-256 |
 | [flakes](https://github.com/eid-privacy/flakes) · [notes](Resources/code/eid-privacy-flakes.md) | Nix flakes and binary cache for pinned Noir, Barretenberg and `nargo-t256` |
 | [SWIYU-Demo](https://github.com/eid-privacy/SWIYU-Demo) · [notes](Resources/code/eid-privacy-SWIYU-Demo.md) | Issuer / verifier proof of concept on top of the swiyu infrastructure |

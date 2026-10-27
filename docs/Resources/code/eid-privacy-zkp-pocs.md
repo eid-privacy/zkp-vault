@@ -5,6 +5,7 @@ year: 2025
 authors:
   - eid-privacy project
 url: "https://github.com/eid-privacy/zkp-pocs"
+doi: "10.5281/zenodo.23694674"
 tags:
   - eid
   - circuit-dsl

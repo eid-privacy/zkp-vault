@@ -8,6 +8,7 @@ authors:
   - Clement Humbert
   - Linus Gasser
 url: "https://github.com/eid-privacy/zkp-reports/releases/download/latest/eid-privacy-MS4.pdf"
+doi: "10.5281/zenodo.23694203"
 tags:
   - eid
   - applications

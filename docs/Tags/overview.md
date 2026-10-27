@@ -18,6 +18,7 @@ Tags entries that provide a broad survey or overview of a topic — covering mul
 - [[BCD+14-ABC4Trust|D2.2 Architecture for Attribute-based Credential Technologies — Final Version (ABC4Trust) (Bichsel et al. 2014)]]
 - [[PS19-TrustZone-Survey|Demystifying Arm TrustZone: A Comprehensive Survey (Pinto, Santos 2019)]]
 - [[ECZJG24-Need-ZKP|Do You Need a Zero Knowledge Proof? (Ernstberger, Chaliasos, Zhou, Jovanovic, Gervais 2024)]]
+- [[Framework-Decision-Guide|Framework Decision Guide]]
 - [[eid-privacy-privacy-unlinkability|Overview of Privacy and Unlinkability (eid-privacy, 2025)]]
 - [[ABCD25-PETs-Payments|Privacy-Enhancing Technologies for Digital Payments: Mapping the Landscape (Auer, Böhme, Clark, Demirag 2025)]]
 - [[eid-privacy-poc-report|Proof-of-Concept for ZKPs (eid-privacy, 2026)]]

@@ -1,6 +1,6 @@
 ---
 name: add-paper
-description: Add a new academic paper to the ZKP Vault (docs/Resources/papers) — correct cite_as naming, frontmatter, manual Paper History / count updates in docs/README.md, regeneration via devbox run summaries, and verification. Use whenever asked to add a paper by URL, DOI, or citation.
+description: Add a new academic paper to the ZKP Vault (docs/Resources/papers) — correct cite_as naming, frontmatter, Paper History row in docs/Paper-History.md, regeneration via devbox run summaries, and verification. Use whenever asked to add a paper by URL, DOI, or citation.
 ---
 
 # Add a Paper to the ZKP Vault
@@ -55,11 +55,9 @@ Notes:
 - Tags: reuse existing tags — check `docs/Tags/README.md`. Every tag used must have a corresponding `docs/Tags/<tag>.md` file (Tag consistency check); if a new tag is genuinely warranted, create it from `templates/tags.md`.
 - `related:` entries here get mirrored into a `## Related resources` block on *both* files the next time `devbox run summaries` runs — don't hand-edit the other file.
 
-## 4. Update the manually-maintained parts of `docs/README.md`
-Almost everything else regenerates, but this file is hand-maintained:
-- Bump the resource count in the intro bullet (`Resource Index — N external resources...`).
-- Bump the `Papers` row count in the `## Resources Index` table.
-- Prepend a row to the `## Paper History` table (newest-first) with today's date, the linked title, and the comma-separated author list.
+## 4. Update `docs/Paper-History.md`
+Prepend a row to the table (newest-first) with today's date, the linked title (`Resources/papers/<cite_as>.md`), and the comma-separated author list.
+The resource counts and the "What's new" table in `docs/README.md` are regenerated from it by `devbox run summaries`; don't edit them by hand.
 
 ## 5. Regenerate + verify
 Requires an active devbox shell (`$DEVBOX_SHELL_ENABLED` set — if unset, ask the user to run Claude inside `devbox shell`).
@@ -85,6 +83,6 @@ source .venv/bin/activate && pip install -qr requirements.txt
 then retry the build.
 
 ## 6. Commit
-Stage exactly the files that changed: the new paper file, `docs/README.md`, and whatever `devbox run summaries` touched (typically `docs/Resources/README.md`, `docs/Resources/papers/README.md`, `docs/Tags/*.md`, and any `related:` counterpart files). Do not blindly `git add -A`.
+Stage exactly the files that changed: the new paper file, `docs/Paper-History.md`, `docs/README.md`, and whatever `devbox run summaries` touched (typically `docs/Resources/README.md`, `docs/Resources/papers/README.md`, `docs/Tags/*.md`, and any `related:` counterpart files). Do not blindly `git add -A`.
 
 The repo's pre-commit hook regenerates and checks `devbox.lock`; if the commit fails with `generated files are out of date: devbox.lock`, stage `devbox.lock` too and re-commit — expected, not a sign of unrelated changes.

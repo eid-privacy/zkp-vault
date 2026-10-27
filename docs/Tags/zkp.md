@@ -31,6 +31,7 @@ Root tag for all Zero-Knowledge Proof content in this vault. Applied to essentia
 - [[Docknetwork|Docknetwork]]
 - [[Fiat-Shamir|Fiat-Shamir Transformation]]
 - [[Chiesa-Foundations-Probabilistic-Proofs|Foundations of Probabilistic Proofs (Alessandro Chiesa, EPFL CS-459)]]
+- [[Framework-Decision-Guide|Framework Decision Guide]]
 - [[FRI|FRI]]
 - [[GKR|GKR Protocol]]
 - [[gnark|gnark]]

@@ -7,7 +7,7 @@ authors:
   - Linus Gasser
   - Clement Humbert
   - Ahmed Elghareeb
-url: "https://github.com/eid-privacy/sok-eid/releases/latest/download/taxonomy-eid-paper.pdf"
+url: "https://github.com/eid-privacy/zkp-reports/releases/download/latest/taxonomy-eid-paper.pdf"
 tags:
   - eid
   - overview

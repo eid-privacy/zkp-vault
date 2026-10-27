@@ -97,6 +97,7 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.highlight
   - attr_list
+  - md_in_html
 
 exclude_docs: |
   *.json

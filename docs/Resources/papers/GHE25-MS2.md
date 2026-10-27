@@ -7,7 +7,7 @@ authors:
   - Linus Gasser
   - Clement Humbert
   - Ahmed Elghareeb
-url: "https://github.com/eid-privacy/MS2-Minimal-Viable-Project/releases/download/latest/eid_privacy-101.292-IP-ICT-ms2-report.pdf"
+url: "https://github.com/eid-privacy/zkp-reports/releases/download/latest/eid_privacy-101.292-IP-ICT-ms2-report.pdf"
 tags:
   - eid
   - applications

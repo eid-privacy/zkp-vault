@@ -14,6 +14,9 @@ tags:
 related:
   - BBB+17-Bulletproofs
   - docknetwork-crypto-library
+doi: "10.1007/3-540-46766-1_9"
+citations: 2454
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > Ped91-Commitments

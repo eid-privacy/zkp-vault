@@ -17,6 +17,9 @@ related:
   - BFM88-NIZK-Intro
   - Evolution-of-ZKPs
   - Thaler-Proofs-Arguments-ZK
+doi: "10.1137/0218012"
+citations: 3264
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > GMR85-ZK-Complexity

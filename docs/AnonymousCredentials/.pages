@@ -1,0 +1,13 @@
+nav:
+  - README.md
+  - AC-Features.md
+  - Selective-Disclosure.md
+  - Unlinkable-Anonymous-Credentials.md
+  - Pairing-Free-ACs.md
+  - Holder-Binding.md
+  - Predicate-Proofs.md
+  - Revocation-in-eID.md
+  - Signed-Revocation-Lists.md
+  - Private-Information-Retrieval-for-eID.md
+  - ZKP-on-Mobile.md
+  - Post-Quantum-and-eID.md

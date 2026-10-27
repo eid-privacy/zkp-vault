@@ -16,6 +16,9 @@ tags:
   - transparent
   - iop
   - post-quantum
+doi: "10.1007/978-3-030-17653-2_4"
+citations: 331
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > BCRSVW19-Aurora

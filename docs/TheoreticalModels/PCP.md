@@ -17,7 +17,7 @@ tags:
   - complexity-theory
 ---
 
-[Home](../README.md) > [Theoretical Models](README.md) > PCP
+[Home](../README.md) > [Foundations](README.md) > PCP
 
 # Probabilistically Checkable Proofs (PCP)
 

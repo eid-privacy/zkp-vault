@@ -13,8 +13,7 @@ theme:
     accent: cyan
   features:
     - navigation.tabs
-    - navigation.sections
-    - navigation.expand
+    - navigation.indexes
     - navigation.top
     - search.suggest
     - search.highlight
@@ -30,6 +29,59 @@ plugins:
   - search
   - roamlinks
   - awesome-pages
+  - redirects:
+      # old locations from the 2026-10 restructure (generated from git renames)
+      redirect_maps:
+        'Applications/index.md': 'eID/README.md'
+        'Applications/Communication-Protocols.md': 'eID/Communication-Protocols.md'
+        'Applications/Credential-Data-Structures.md': 'eID/Credential-Data-Structures.md'
+        'Applications/Hardware-Security-for-eID.md': 'eID/Hardware-Security-for-eID.md'
+        'Applications/Holder-Binding.md': 'AnonymousCredentials/Holder-Binding.md'
+        'Applications/Post-Quantum-and-eID.md': 'AnonymousCredentials/Post-Quantum-and-eID.md'
+        'Applications/Predicate-Proofs.md': 'AnonymousCredentials/Predicate-Proofs.md'
+        'Applications/Private-Information-Retrieval-for-eID.md': 'AnonymousCredentials/Private-Information-Retrieval-for-eID.md'
+        'Applications/Pseudonyms-in-eID.md': 'eID/Pseudonyms-in-eID.md'
+        'Applications/Revocation-in-eID.md': 'AnonymousCredentials/Revocation-in-eID.md'
+        'Applications/Selective-Disclosure.md': 'AnonymousCredentials/Selective-Disclosure.md'
+        'Applications/Signed-Revocation-Lists.md': 'AnonymousCredentials/Signed-Revocation-Lists.md'
+        'Applications/Unlinkable-Anonymous-Credentials.md': 'AnonymousCredentials/Unlinkable-Anonymous-Credentials.md'
+        'Applications/ZKP-on-Mobile.md': 'AnonymousCredentials/ZKP-on-Mobile.md'
+        'Applications/eID-Actors-and-Trust-Goals.md': 'eID/eID-Actors-and-Trust-Goals.md'
+        'Applications/eID-Legal-Framework.md': 'eID/eID-Legal-Framework.md'
+        'Applications/eID-Open-Questions.md': 'eID/eID-Open-Questions.md'
+        'Applications/eID-Systems-Overview.md': 'eID/eID-Systems-Overview.md'
+        'Applications/eID-Threat-Models.md': 'eID/eID-Threat-Models.md'
+        'CryptographicPrimitives/Camenisch-Michels-Safe-Primes.md': 'Sigma/Camenisch-Michels-Safe-Primes.md'
+        'CryptographicPrimitives/Pedersen-Commitments.md': 'Sigma/Pedersen-Commitments.md'
+        'CryptographicPrimitives/Proof-Systems-for-DL.md': 'Sigma/Proof-Systems-for-DL.md'
+        'CryptographicPrimitives/Sigma-Protocols-Damgard.md': 'Sigma/Sigma-Protocols-Damgard.md'
+        'CryptographicPrimitives/Sigma-Protocols-Proposal.md': 'Sigma/Sigma-Protocols-Proposal.md'
+        'CryptographicPrimitives/ZKAttest.md': 'Sigma/ZKAttest.md'
+        'CryptographicPrimitives/index.md': 'Sigma/README.md'
+        'ProofSystems/DI06-Scalable-MPC.md': 'TheoreticalModels/DI06-Scalable-MPC.md'
+        'ProofSystems/Fiat-Shamir.md': 'TheoreticalModels/Fiat-Shamir.md'
+        'ProofSystems/GMR85-Knowledge-Complexity.md': 'TheoreticalModels/GMR85-Knowledge-Complexity.md'
+        'ProofSystems/LegoGroth16.md': 'Sigma/LegoGroth16.md'
+        'ProofSystems/NIZK-Blum.md': 'TheoreticalModels/NIZK-Blum.md'
+        'ToolingApplication/Barretenberg.md': 'CircuitTooling/Barretenberg.md'
+        'ToolingApplication/Circom2.md': 'CircuitTooling/Circom2.md'
+        'ToolingApplication/Circuits.md': 'CircuitTooling/Circuits.md'
+        'ToolingApplication/Docknetwork.md': 'Sigma/Docknetwork.md'
+        'ToolingApplication/Halo2.md': 'CircuitTooling/Halo2.md'
+        'ToolingApplication/Ligero-Prover.md': 'CircuitTooling/Ligero-Prover.md'
+        'ToolingApplication/Noir.md': 'CircuitTooling/Noir.md'
+        'ToolingApplication/OpenVM.md': 'zkVM/OpenVM.md'
+        'ToolingApplication/Pico.md': 'zkVM/Pico.md'
+        'ToolingApplication/Powdr.md': 'zkVM/Powdr.md'
+        'ToolingApplication/RISC-Zero.md': 'zkVM/RISC-Zero.md'
+        'ToolingApplication/SP1.md': 'zkVM/SP1.md'
+        'ToolingApplication/Spartan-Framework.md': 'CircuitTooling/Spartan-Framework.md'
+        'ToolingApplication/SumcheckProofs.md': 'CircuitTooling/SumcheckProofs.md'
+        'ToolingApplication/Valida.md': 'zkVM/Valida.md'
+        'ToolingApplication/ZoKrates.md': 'CircuitTooling/ZoKrates.md'
+        'ToolingApplication/gnark.md': 'CircuitTooling/gnark.md'
+        'ToolingApplication/index.md': 'CircuitTooling/README.md'
+        'ToolingApplication/zkVM.md': 'zkVM/zkVM.md'
 
 markdown_extensions:
   - admonition
@@ -43,6 +95,7 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.highlight
   - attr_list
+  - md_in_html
 
 exclude_docs: |
   *.json

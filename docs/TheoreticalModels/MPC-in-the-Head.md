@@ -16,7 +16,7 @@ tags:
   - post-quantum
 ---
 
-[Home](../README.md) > [Theoretical Models](README.md) > MPC-in-the-Head
+[Home](../README.md) > [Foundations](README.md) > MPC-in-the-Head
 
 # MPC-in-the-Head (IKOS07)
 

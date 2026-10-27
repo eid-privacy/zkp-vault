@@ -30,8 +30,10 @@ Formalizes server-aided anonymous credentials (SAAC), where the holder, when sho
 
 ## Related resources
 
+- [[CMZ14-KVAC|Algebraic MACs and Keyed-Verification Anonymous Credentials (Chase, Meiklejohn, Zaverucha 2014)]] (paper, 2014)
 - [[LZ26-AnonCreds-Legacy|Device Binding for Anonymous Credentials on Legacy Phones (Lehmann, Zacharakis 2026)]] (paper, 2026)
 - [[FHLL25-AnonCreds-TrustedHW|Device-Bound Anonymous Credentials With(out) Trusted Hardware (Friedrichs, Harding, Lehmann, Lysyanskaya 2025)]] (paper, 2025)
 - [[BBDT16-KVAC|Improved Algebraic MACs and Practical Keyed-Verification Anonymous Credentials (Barki, Brunet, Desmoulins, Traoré 2016)]] (paper, 2016)
+- [[Orr25-Revisiting-KVAC|Revisiting Keyed-Verification Anonymous Credentials (Orrù 2025)]] (paper, 2025)
 - [[BL26-SoK-AnonCreds|SoK: Anonymous Credentials for Digital Identity Wallets (Bormann, Lehmann 2026)]] (paper, 2026)
 - [[Ora24-BBS-Sharp|The BBS# protocol: Technical details (Orange 2024)]] (paper, 2024)

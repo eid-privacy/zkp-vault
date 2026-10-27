@@ -19,6 +19,9 @@ related:
   - BCRSVW19-Aurora
   - AIR-Docs
   - Sch80-Schwartz-Zippel
+doi: "10.4230/lipics.icalp.2018.14"
+citations: 114
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > BBHR18-FRI

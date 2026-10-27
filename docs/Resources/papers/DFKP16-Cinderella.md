@@ -18,6 +18,9 @@ related:
   - PHGR13-Pinocchio
   - PPZ24-Crescent
   - FS24-Longfellow
+doi: "10.1109/sp.2016.22"
+citations: 56
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > DFKP16-Cinderella
@@ -32,3 +35,4 @@ Uses general-purpose zkSNARKs (Pinocchio/Geppetto) to prove possession of a vali
 - [[FS24-Longfellow|Anonymous Credentials from ECDSA (Frigo & shelat 2024)]] (paper, 2024)
 - [[PPZ24-Crescent|Crescent: Stronger Privacy for Existing Credentials (Paquin, Policharla, Zaverucha 2024)]] (paper, 2024)
 - [[PHGR13-Pinocchio|Pinocchio: Nearly Practical Verifiable Computation (Parno et al. 2013)]] (paper, 2013)
+- [[RWGM23-zk-creds|zk-creds: Flexible Anonymous Credentials from zkSNARKs and Existing Identity Infrastructure (Rosenberg, White, Garman, Miers 2023)]] (paper, 2023)

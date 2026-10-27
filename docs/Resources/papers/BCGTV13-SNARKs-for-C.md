@@ -17,6 +17,9 @@ tags:
 related:
   - PHGR13-Pinocchio
   - GGPR12-QSP-SNARK
+doi: "10.1007/978-3-642-40084-1_6"
+citations: 596
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > BCGTV13-SNARKs-for-C

@@ -16,6 +16,9 @@ tags:
 related:
   - PHGR13-Pinocchio
   - R1CS-Docs
+doi: "10.1007/978-3-642-38348-9_37"
+citations: 743
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > GGPR12-QSP-SNARK

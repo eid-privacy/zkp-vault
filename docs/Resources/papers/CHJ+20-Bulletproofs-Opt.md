@@ -15,6 +15,9 @@ tags:
   - range-proof
   - discrete-log
   - logarithmic
+doi: "10.1109/access.2022.3167806"
+citations: 41
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > CHJ+20-Bulletproofs-Opt

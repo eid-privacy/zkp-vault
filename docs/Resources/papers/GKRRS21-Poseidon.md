@@ -16,6 +16,8 @@ tags:
   - arithmetization
 related:
   - BBHR18-STARK
+citations: 114
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > GKRRS21-Poseidon

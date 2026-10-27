@@ -10,7 +10,7 @@ type: tag
 Tags cryptographic commitment schemes — binding and hiding primitives that underpin polynomial commitments (KZG, IPA, FRI) used throughout ZKP constructions.
 
 ## Canonical entry
-→ [[CryptographicPrimitives/Pedersen-Commitments]]
+→ [[Pedersen-Commitments]]
 
 ## Entries tagged
 

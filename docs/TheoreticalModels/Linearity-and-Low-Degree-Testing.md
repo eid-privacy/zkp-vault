@@ -15,7 +15,7 @@ tags:
   - mathematics
 ---
 
-[Home](../README.md) > [Theoretical Models](README.md) > Linearity-and-Low-Degree-Testing
+[Home](../README.md) > [Foundations](README.md) > Linearity-and-Low-Degree-Testing
 
 # Linearity and Low-Degree Testing
 

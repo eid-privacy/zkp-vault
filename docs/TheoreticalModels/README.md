@@ -1,6 +1,6 @@
-[Home](../README.md) > Theoretical Models
+[Home](../README.md) > Foundations
 
-# Theoretical Models
+# Foundations
 
 Foundational computational models and taxonomies that underpin the theory of Zero-Knowledge Proofs.
 
@@ -21,3 +21,4 @@ Foundational computational models and taxonomies that underpin the theory of Zer
 | [Kilian, Merkle and BCS](./Kilian-Merkle.md) | Merkle commitments, Kilian's succinct argument, Micali's CS proofs and the BCS transform |
 | [Limits of Probabilistic Proofs](./Limits-of-Probabilistic-Proofs.md) | Public vs private coins, perfect completeness, parallel repetition, impossibility results, hardness of approximation |
 | [MPC-in-the-Head](./MPC-in-the-Head.md) | IKOS07 paradigm: ZK from simulated MPC; ZKBoo/KKW/Picnic and its relation to Ligero |
+| [Pairing-Friendly Curves](./Pairing-Friendly-Curves.md) | BN254, BLS12-381, BLS24-509: security, standardisation status, implementations |

@@ -13,19 +13,14 @@
 
 import * as fs from 'fs';
 import * as path from 'path';
+import { CONTENT_SECTIONS } from './sections';
 
 const VAULT_ROOT = path.resolve(__dirname, '../docs');
 const RESOURCES_ROOT = path.join(VAULT_ROOT, 'Resources');
 const DRY_RUN = process.argv.includes('--dry-run');
 
 // Directories to scan for ## Resources sections
-const SCAN_DIRS = [
-  'ProofSystems',
-  'CryptographicPrimitives',
-  'IntermediateRepresentations',
-  'TheoreticalModels',
-  'ToolingApplication',
-];
+const SCAN_DIRS = Object.keys(CONTENT_SECTIONS);
 
 // Label → subtype mapping
 const LABEL_TO_SUBTYPE: Record<string, string> = {

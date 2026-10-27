@@ -13,7 +13,7 @@ tags:
   - information-theoretic
 ---
 
-[Home](../README.md) > [Theoretical Models](README.md) > Schwartz-Zippel
+[Home](../README.md) > [Foundations](README.md) > Schwartz-Zippel
 
 # Schwartz-Zippel Lemma
 

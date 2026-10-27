@@ -21,6 +21,9 @@ tags:
   - anonymous-credentials
   - mpc
   - applications
+doi: "10.1109/sp40001.2021.00038"
+citations: 166
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > MMZ+21-CanDID

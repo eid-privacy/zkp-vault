@@ -15,7 +15,7 @@ tags:
   - non-interactive
 ---
 
-[Home](../README.md) > [Theoretical Models](README.md) > Kilian-Merkle
+[Home](../README.md) > [Foundations](README.md) > Kilian-Merkle
 
 # Kilian's Protocol, Merkle Commitments and the BCS Transform
 

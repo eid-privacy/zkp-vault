@@ -16,6 +16,9 @@ tags:
 related:
   - Sonic-Code
   - GKMM18-Updatable-SRS
+doi: "10.1145/3319535.3339817"
+citations: 9
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > MBKM19-Sonic

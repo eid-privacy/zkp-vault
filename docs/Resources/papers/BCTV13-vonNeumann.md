@@ -17,6 +17,8 @@ related:
   - BCGTV13-SNARKs-for-C
   - PHGR13-Pinocchio
   - GGPR12-QSP-SNARK
+citations: 426
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > BCTV13-vonNeumann

@@ -16,6 +16,9 @@ tags:
   - history
 related:
   - GMR85-ZK-Complexity
+doi: "10.1145/62212.62223"
+citations: 469
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > BGKW88-MIP

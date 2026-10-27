@@ -20,6 +20,9 @@ tags:
   - commitment
 related:
   - CHJ+20-Bulletproofs-Opt
+doi: "10.1109/sp.2018.00020"
+citations: 1152
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > BBB+17-Bulletproofs

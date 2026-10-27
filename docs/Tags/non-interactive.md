@@ -20,4 +20,5 @@ Tags proof systems that are non-interactive (single message from prover to verif
 - [[MIT-6-5630-Advanced-Topics-Cryptography|MIT 6.5630 Advanced Topics in Cryptography (Fall 2023)]]
 - [[NIZK-Blum|Non-Interactive Zero-Knowledge and Its Applications]]
 - [[BFM88-NIZK-Intro|Non-Interactive Zero-Knowledge and Its Applications (BFM88)]]
+- [[CPV24-Last-Challenge|The Last Challenge Attack: Exploiting a Vulnerable Implementation of the Fiat-Shamir Transform in a KZG-based SNARK (Ciobotaru, Peter, Velichkov 2024)]]
 - [[ZKP21-Sigma-Standard|ZKProof Sigma Protocol Proposal (Workshop 4)]]

@@ -7,7 +7,7 @@ authors:
   - Carine Dengler
   - Clement Humbert
   - Linus Gasser
-url: "https://github.com/eid-privacy/MS4-Implementation-Report/releases/download/2026-10-07_14-50/eid_privacy-101.292-IP-ICT-ms4-report-2026-10-07_14-50.pdf"
+url: "https://github.com/eid-privacy/zkp-reports/releases/download/latest/eid_privacy-101.292-IP-ICT-ms4-report.pdf"
 tags:
   - eid
   - applications

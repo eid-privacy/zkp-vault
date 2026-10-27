@@ -15,6 +15,9 @@ url: "https://arxiv.org/abs/2312.15383"
 tags:
   - overview
   - privacy
+doi: "10.1109/sp54263.2024.00206"
+citations: 9
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > BRD+24-SoK-Privacy-Regulations

@@ -15,6 +15,9 @@ related:
   - groth16
   - PHGR13-Pinocchio
   - CFQW19-LegoSNARK
+doi: "10.1007/978-3-662-49896-5_11"
+citations: 1265
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > Gro16-Groth16

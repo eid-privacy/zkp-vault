@@ -16,6 +16,8 @@ tags:
   - pairing
 related:
   - GWC19-PLONK
+citations: 10
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > CFQW19-LegoSNARK
@@ -33,3 +35,4 @@ Introduces the commit-and-prove SNARK (CP-SNARK) framework, which allows differe
 
 - [[Gro16-Groth16|On the Size of Pairing-Based Non-interactive Arguments (Groth16)]] (paper, 2016)
 - [[GWC19-PLONK|PLONK: Permutations over Lagrange-bases for Oecumenical Noninteractive arguments of Knowledge]] (paper, 2019)
+- [[KMN23-Sigmabus|Sigmabus: Binding Sigmas in Circuits for Fast Curve Operations (Kadianakis, Maller, Novakovic 2023)]] (paper, 2023)

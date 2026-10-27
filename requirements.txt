@@ -3,3 +3,4 @@ mkdocs-material>=9.0,<10.0
 pymdown-extensions
 mkdocs-roamlinks-plugin
 mkdocs-awesome-pages-plugin
+mkdocs-redirects

@@ -14,7 +14,7 @@ tags:
   - mathematics
 ---
 
-[Home](../README.md) > [Theoretical Models](README.md) > Interactive-Proof-Model
+[Home](../README.md) > [Foundations](README.md) > Interactive-Proof-Model
 
 # Interactive Proof Model (IP)
 

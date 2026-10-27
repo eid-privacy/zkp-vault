@@ -13,6 +13,9 @@ tags:
   - snark
   - trusted-setup
   - foundational
+doi: "10.1109/sp.2013.47"
+citations: 864
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > PHGR13-Pinocchio

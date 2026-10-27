@@ -15,6 +15,9 @@ tags:
   - universal-setup
   - trusted-setup
   - foundational
+doi: "10.1007/978-3-319-96878-0_24"
+citations: 157
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > GKMM18-Updatable-SRS

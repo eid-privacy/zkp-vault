@@ -17,7 +17,7 @@ tags:
   - complexity-theory
 ---
 
-[Home](../README.md) > [Theoretical Models](README.md) > IP-PSPACE
+[Home](../README.md) > [Foundations](README.md) > IP-PSPACE
 
 # IP = PSPACE
 

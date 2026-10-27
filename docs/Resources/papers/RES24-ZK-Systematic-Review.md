@@ -17,6 +17,9 @@ related:
   - BBB+17-Bulletproofs
   - Gro16-Groth16
   - BBHR18-FRI
+doi: "10.1002/spy2.401"
+citations: 55
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > RES24-ZK-Systematic-Review

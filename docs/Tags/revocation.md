@@ -24,5 +24,6 @@ Mechanisms for revoking credentials, ideally while preserving holder privacy: ac
 - [[Revocation-in-eID|Revocation in e-ID]]
 - [[Col24-Revocation|Scalable and Privacy-Preserving Revocation of Verifiable Credentials (Colombo 2024)]]
 - [[Signed-Revocation-Lists|Signed Revocation Lists]]
+- [[Status-Lists|Status Lists]]
 - [[IETF-OAuth-Token-Status-List|Token Status List (TSL) — IETF draft]]
 - [[BG13-Polynomial-Evaluation|Zero-Knowledge Argument for Polynomial Evaluation with Application to Blacklists (Bayer, Groth 2013)]]

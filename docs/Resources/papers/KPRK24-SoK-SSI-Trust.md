@@ -14,6 +14,9 @@ tags:
   - overview
 related:
   - KVRSCLT26-EUDIF-Harms
+doi: "10.56553/popets-2024-0079"
+citations: 21
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > KPRK24-SoK-SSI-Trust

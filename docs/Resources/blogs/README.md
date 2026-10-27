@@ -14,6 +14,19 @@ tags: []
 
 _This file is auto-generated. Run `devbox run summaries` to update._
 
+## From the eid-privacy project
+
+- [[eid-privacy-docknetwork-crypto-library|Choosing a Cryptographic Library for Anonymous Credentials (eid-privacy, 2026)]]
+- [[eid-privacy-poc-report|Proof-of-Concept for ZKPs (eid-privacy, 2026)]]
+- [[eid-privacy-zkp-vault|Reading list for ZKP algorithms and implementations (eid-privacy, 2026)]]
+- [[eid-privacy-comparing-zk-systems|Comparing ZK Systems (eid-privacy, 2025)]]
+- [[eid-privacy-crescent-longfellow|Crescent and Longfellow (eid-privacy, 2025)]]
+- [[eid-privacy-swiyu-demo|Open Source SWIYU Demo application (eid-privacy, 2025)]]
+- [[eid-privacy-privacy-unlinkability|Overview of Privacy and Unlinkability (eid-privacy, 2025)]]
+- [[eid-privacy-resources-zkp|Resources on Zero-knowledge Systems and Proofs (eid-privacy, 2025)]]
+- [[eid-privacy-taxonomy-101|Taxonomy 101 (eid-privacy, 2025)]]
+- [[eid-privacy-taxonomy-digital-identity|Taxonomy of digital identity systems (eid-privacy, 2025)]]
+
 ## Navigation
 
 | A–C | C–N | O–R | R–T | T–W |

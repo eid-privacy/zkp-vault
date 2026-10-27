@@ -11,6 +11,9 @@ tags:
   - overview
   - privacy
   - applications
+doi: "10.2478/popets-2021-0007"
+citations: 17
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > GG21-SoK-Reputation

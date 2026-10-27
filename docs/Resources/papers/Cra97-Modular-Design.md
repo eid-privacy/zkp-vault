@@ -14,6 +14,8 @@ tags:
 related:
   - Dam04-Sigma-Protocols
   - CS97-DL-Proofs
+citations: 169
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > Cra97-Modular-Design

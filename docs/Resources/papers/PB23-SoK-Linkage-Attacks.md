@@ -10,6 +10,9 @@ url: "https://petsymposium.org/popets/2023/popets-2023-0043.pdf"
 tags:
   - overview
   - privacy
+doi: "10.56553/popets-2023-0043"
+citations: 30
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > PB23-SoK-Linkage-Attacks

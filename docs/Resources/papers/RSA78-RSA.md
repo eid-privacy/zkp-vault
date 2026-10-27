@@ -16,6 +16,9 @@ tags:
 related:
   - DH76-New-Directions
   - CL02-CL-Signatures
+doi: "10.1145/359340.359342"
+citations: 13434
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > RSA78-RSA

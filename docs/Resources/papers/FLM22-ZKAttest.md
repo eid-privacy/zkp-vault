@@ -13,6 +13,9 @@ tags:
   - zkp
   - elliptic-curves
   - applications
+doi: "10.1007/978-3-030-99277-4_4"
+citations: 9
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > FLM22-ZKAttest

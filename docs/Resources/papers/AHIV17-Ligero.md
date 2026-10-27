@@ -18,6 +18,9 @@ related:
   - AHIV22-Ligero-Ext
   - BFH+20-Ligero-Plus
   - Ligero-Prover-Docs
+doi: "10.1145/3133956.3134104"
+citations: 302
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > AHIV17-Ligero

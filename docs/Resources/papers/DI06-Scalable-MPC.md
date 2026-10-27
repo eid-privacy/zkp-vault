@@ -12,6 +12,9 @@ tags:
   - scalable
   - theory
   - linear-time-prover
+doi: "10.1007/11818175_30"
+citations: 135
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > DI06-Scalable-MPC

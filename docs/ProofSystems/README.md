@@ -2,16 +2,7 @@
 
 # Proof Systems
 
-Cryptographic proof systems from foundational theory through modern production SNARKs. Notes cover construction, security assumptions, setup requirements, and proof/verifier complexity.
-
-## Foundational Theory
-
-| Note | Description |
-|------|-------------|
-| [GMR85 — Knowledge Complexity](./GMR85-Knowledge-Complexity.md) | Goldwasser-Micali-Rackoff (1985): the paper that defined zero-knowledge |
-| [NIZK (Blum-Feldman-Micali)](./NIZK-Blum.md) | First non-interactive ZK construction in the common reference string model |
-| [Fiat-Shamir Transform](./Fiat-Shamir.md) | Heuristic to compile interactive proofs into non-interactive ones via a hash function |
-| [DI06 — Scalable MPC](./DI06-Scalable-MPC.md) | Damgard-Ishai MPC-in-the-head approach (basis of Ligero and descendants) |
+Circuit-based proof systems, from early SNARKs to modern production systems. Foundational papers (GMR85, Fiat-Shamir, NIZK) are in [Foundations](../TheoreticalModels/README.md). Notes cover construction, security assumptions, setup requirements, and proof/verifier complexity.
 
 ## Early SNARKs
 

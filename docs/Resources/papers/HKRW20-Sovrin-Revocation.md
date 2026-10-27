@@ -16,6 +16,9 @@ tags:
 related:
   - JLM22-ALLOSAUR
   - BBC24-Accumulators
+doi: "10.1007/978-3-030-75539-3_22"
+citations: 9
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > HKRW20-Sovrin-Revocation

@@ -12,6 +12,9 @@ tags:
   - discrete-log
   - foundational
   - cryptography
+doi: "10.3929/ethz-a-006651937"
+citations: 226
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > CS97-DL-Proofs

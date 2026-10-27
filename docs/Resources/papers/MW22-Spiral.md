@@ -9,6 +9,9 @@ authors:
 url: "https://eprint.iacr.org/2022/368"
 tags:
   - cryptography
+doi: "10.1109/sp46214.2022.9833700"
+citations: 121
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > MW22-Spiral

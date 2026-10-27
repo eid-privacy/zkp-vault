@@ -10,6 +10,9 @@ url: "https://doi.org/10.1109/SP61157.2025.00033"
 tags:
   - overview
   - privacy
+doi: "10.1109/sp61157.2025.00033"
+citations: 7
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > UZ25-SoK-Threat-Modeling

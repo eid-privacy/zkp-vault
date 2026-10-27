@@ -15,7 +15,7 @@ tags:
   - preprocessing
 ---
 
-[Home](../README.md) > [Theoretical Models](README.md) > Holography-Preprocessing
+[Home](../README.md) > [Foundations](README.md) > Holography-Preprocessing
 
 # Holography and Preprocessing SNARKs
 

@@ -10,10 +10,11 @@ type: tag
 Tags proof systems and techniques using lookup arguments (e.g., PLOOKUP, LogUp) to efficiently prove table membership, replacing expensive range-check circuits.
 
 ## Canonical entry
-→ [[ProofSystems/plookup]]
+→ [[plookup]]
 
 ## Entries tagged
 
+- [[OKMZ25-Beyond-Circuit|Beyond the Circuit: How to Minimize Foreign Arithmetic in ZKP Circuits (Orrù, Kadianakis, Maller, Zaverucha 2025)]]
 - [[CBBZ23-HyperPlonk|HyperPlonk: Plonk with Linear-Time Prover and High-Degree Custom Gates (Chen et al. 2023)]]
 - [[plookup|plookup]]
 - [[GW20-Plookup|Plookup: A Simplified Polynomial Protocol for Lookup Tables (Gabizon-Williamson 2020)]]

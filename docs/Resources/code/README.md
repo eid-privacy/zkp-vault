@@ -10,31 +10,50 @@ tags: []
 
 # ZKP Code & Repositories
 
-47 entries.
+53 entries.
 
 _This file is auto-generated. Run `devbox run summaries` to update._
 
+## From the eid-privacy project
+
+- [[eid-privacy-flakes|eid-privacy/flakes]]
+- [[eid-privacy-noir-tom256|eid-privacy/noir]]
+- [[eid-privacy-spartan-backend|eid-privacy/spartan-backend]]
+- [[eid-privacy-vega-prover|eid-privacy/vega-prover]]
+- [[eid-privacy-zkp-android|eid-privacy/zkp-android]]
+- [[eid-privacy-zkp-android-spartan|eid-privacy/zkp-android-spartan]]
+- [[eid-privacy-ark-tom256|eid-privacy/ark-tom256]]
+- [[eid-privacy-SWIYU-Demo|eid-privacy/SWIYU-Demo]]
+- [[eid-privacy-zkp-pocs|eid-privacy/zkp-pocs]]
+
 ## Navigation
 
-| @–D | D–M | M–O | P–S | S–Z |
+| @–D | E–F | H–N | O–S | S–Z |
 | --- | --- | --- | --- | --- |
-| [[mattrglobal-bbs-signatures|@mattrglobal/bbs-signatures (MATTR)]] | [[docknetwork-crypto|docknetwork/crypto (incl. vb_accumulator)]] | [[microsoft-entra-verifiedid-wallet-library|Microsoft Entra Verified ID wallet libraries (Android & iOS)]] | [[personaelabs-spartan-ecdsa|personaelabs/spartan-ecdsa]] | [[Sphereon-did-jwt|Sphereon-Opensource/did-jwt]] |
-| [[anoncreds-anoncreds-v2-rs|anoncreds/anoncreds-v2-rs]] | [[eid-privacy-spartan-backend|eid-privacy/spartan-backend]] | [[Spartan-Framework-Code|Microsoft Spartan — Commit History]] | [[0xPolygonZero-plonky2|Plonky2 and Starky (Polygon Zero)]] | [[Sphereon-OID4VC|Sphereon-Opensource/OID4VC (OpenID4VCI / OpenID4VP)]] |
-| [[applied-crypto-heimdall|applied-crypto/heimdall]] | [[eid-privacy-zkp-android-spartan|eid-privacy/zkp-android-spartan]] | [[Spartan-Code|Microsoft Spartan (Original)]] | [[Plonky3-Plonky3|Plonky3/Plonky3]] | [[Sphereon-SSI-SDK|Sphereon-Opensource/SSI-SDK]] |
-| [[arkworks-rs-algebra|arkworks-rs/algebra]] | [[eid-privacy-zkp-pocs|eid-privacy/zkp-pocs]] | [[microsoft-Spartan2|Microsoft Spartan2]] | [[procivis-one-core|procivis/one-core]] | [[spruceid-oid4vci-rs|spruceid/oid4vci-rs]] |
-| [[arkworks-rs-crypto-primitives|arkworks-rs/crypto-primitives]] | [[eu-digital-identity-wallet|eu-digital-identity-wallet — EUDI Wallet reference implementation]] | [[microsoft-bbs-node-reference|microsoft/bbs-node-reference]] | [[scipr-lab-libiop|scipr-lab/libiop]] | [[spruceid-openid4vp|spruceid/openid4vp]] |
-| [[AztecProtocol-aztec-packages|AztecProtocol: Aztec Packages (UltraHONK Audit Scope)]] | [[facebook-winterfell|facebook/winterfell]] | [[mombelld-general-purpose-zkps-vcs|mombelld/general-purpose-zkps-vcs]] | [[sicpa-dlab-didcomm-jvm|sicpa-dlab/didcomm-jvm]] | [[spruceid-ssi|spruceid/ssi]] |
-| [[beatt83-didcomm-swift|beatt83/didcomm-swift]] | [[heidiverse-zkattest-rs|heidiverse/zkattest-rs (formerly UbiqueInnovation/zkattest-rs)]] | [[noir-lang-noir|noir-lang/noir — ACVM Repository]] | [[sicpa-dlab-didcomm-python|sicpa-dlab/didcomm-python]] | [[trustbloc-vcs|trustbloc/vcs]] |
-| [[cloudflare-zkp-ecdsa|cloudflare/zkp-ecdsa]] | [[google-longfellow-zk|longfellow-zk (Google)]] | [[openwallet-foundation-acapy|openwallet-foundation/acapy (ACA-Py)]] | [[sicpa-dlab-didcomm-rust|sicpa-dlab/didcomm-rust]] | [[trustbloc-wallet-sdk|trustbloc/wallet-sdk]] |
-| [[decentralized-identity-veramo|decentralized-identity/veramo]] | [[mattrglobal-pairing_crypto|mattrglobal/pairing_crypto]] | [[openwallet-foundation-didcomm-mediator-credo|openwallet-foundation/didcomm-mediator-credo]] | [[Sonic-Code|Sonic Reference Implementation (ebfull/sonic)]] | [[zkcrypto-bulletproofs|zkcrypto/bulletproofs]] |
-| [[did-webvh-Libraries|did:webvh implementations (TypeScript, Python, Rust, Go)]] | [[microsoft-crescent-credentials|Microsoft Crescent Credentials (Spartan-t256 Fork)]] |  |  |  |
+| [[mattrglobal-bbs-signatures|@mattrglobal/bbs-signatures (MATTR)]] | [[eid-privacy-ark-tom256|eid-privacy/ark-tom256]] | [[heidiverse-zkattest-rs|heidiverse/zkattest-rs (formerly UbiqueInnovation/zkattest-rs)]] | [[openwallet-foundation-acapy|openwallet-foundation/acapy (ACA-Py)]] | [[Sonic-Code|Sonic Reference Implementation (ebfull/sonic)]] |
+| [[anoncreds-anoncreds-v2-rs|anoncreds/anoncreds-v2-rs]] | [[eid-privacy-flakes|eid-privacy/flakes]] | [[google-longfellow-zk|longfellow-zk (Google)]] | [[openwallet-foundation-didcomm-mediator-credo|openwallet-foundation/didcomm-mediator-credo]] | [[Sphereon-did-jwt|Sphereon-Opensource/did-jwt]] |
+| [[applied-crypto-heimdall|applied-crypto/heimdall]] | [[eid-privacy-noir-tom256|eid-privacy/noir]] | [[mattrglobal-pairing_crypto|mattrglobal/pairing_crypto]] | [[personaelabs-spartan-ecdsa|personaelabs/spartan-ecdsa]] | [[Sphereon-OID4VC|Sphereon-Opensource/OID4VC (OpenID4VCI / OpenID4VP)]] |
+| [[arkworks-rs-algebra|arkworks-rs/algebra]] | [[eid-privacy-spartan-backend|eid-privacy/spartan-backend]] | [[microsoft-crescent-credentials|Microsoft Crescent Credentials (Spartan-t256 Fork)]] | [[0xPolygonZero-plonky2|Plonky2 and Starky (Polygon Zero)]] | [[Sphereon-SSI-SDK|Sphereon-Opensource/SSI-SDK]] |
+| [[arkworks-rs-crypto-primitives|arkworks-rs/crypto-primitives]] | [[eid-privacy-SWIYU-Demo|eid-privacy/SWIYU-Demo]] | [[microsoft-entra-verifiedid-wallet-library|Microsoft Entra Verified ID wallet libraries (Android & iOS)]] | [[Plonky3-Plonky3|Plonky3/Plonky3]] | [[spruceid-oid4vci-rs|spruceid/oid4vci-rs]] |
+| [[AztecProtocol-aztec-packages|AztecProtocol: Aztec Packages (UltraHONK Audit Scope)]] | [[eid-privacy-vega-prover|eid-privacy/vega-prover]] | [[Spartan-Framework-Code|Microsoft Spartan — Commit History]] | [[procivis-one-core|procivis/one-core]] | [[spruceid-openid4vp|spruceid/openid4vp]] |
+| [[beatt83-didcomm-swift|beatt83/didcomm-swift]] | [[eid-privacy-zkp-android|eid-privacy/zkp-android]] | [[Spartan-Code|Microsoft Spartan (Original)]] | [[scipr-lab-libiop|scipr-lab/libiop]] | [[spruceid-ssi|spruceid/ssi]] |
+| [[cloudflare-zkp-ecdsa|cloudflare/zkp-ecdsa]] | [[eid-privacy-zkp-android-spartan|eid-privacy/zkp-android-spartan]] | [[microsoft-Spartan2|Microsoft Spartan2]] | [[sicpa-dlab-didcomm-jvm|sicpa-dlab/didcomm-jvm]] | [[trustbloc-vcs|trustbloc/vcs]] |
+| [[decentralized-identity-veramo|decentralized-identity/veramo]] | [[eid-privacy-zkp-pocs|eid-privacy/zkp-pocs]] | [[microsoft-bbs-node-reference|microsoft/bbs-node-reference]] | [[sicpa-dlab-didcomm-python|sicpa-dlab/didcomm-python]] | [[trustbloc-wallet-sdk|trustbloc/wallet-sdk]] |
+| [[did-webvh-Libraries|did:webvh implementations (TypeScript, Python, Rust, Go)]] | [[eu-digital-identity-wallet|eu-digital-identity-wallet — EUDI Wallet reference implementation]] | [[mombelld-general-purpose-zkps-vcs|mombelld/general-purpose-zkps-vcs]] | [[sicpa-dlab-didcomm-rust|sicpa-dlab/didcomm-rust]] | [[zkcrypto-bulletproofs|zkcrypto/bulletproofs]] |
+| [[docknetwork-crypto|docknetwork/crypto (incl. vb_accumulator)]] | [[facebook-winterfell|facebook/winterfell]] | [[noir-lang-noir|noir-lang/noir — ACVM Repository]] |  |  |
 
 ## All Code & Repositories
 
 | Resource | Year | Authors | Tags |
 |---|---|---|---|
+| [[eid-privacy-flakes|eid-privacy/flakes]] | 2026 | eid-privacy project | implementations |
+| [[eid-privacy-noir-tom256|eid-privacy/noir]] | 2026 | eid-privacy project | circuit-dsl, eid, implementations |
 | [[eid-privacy-spartan-backend|eid-privacy/spartan-backend]] | 2026 | eid-privacy project | eid, prover-backend, circuit-dsl, transparent |
+| [[eid-privacy-vega-prover|eid-privacy/vega-prover]] | 2026 | eid-privacy project | prover-backend, implementations |
+| [[eid-privacy-zkp-android|eid-privacy/zkp-android]] | 2026 | eid-privacy project | eid, implementations |
 | [[eid-privacy-zkp-android-spartan|eid-privacy/zkp-android-spartan]] | 2026 | eid-privacy project | eid, implementations, prover-backend |
+| [[eid-privacy-ark-tom256|eid-privacy/ark-tom256]] | 2025 | eid-privacy project | elliptic-curves, implementations, library |
+| [[eid-privacy-SWIYU-Demo|eid-privacy/SWIYU-Demo]] | 2025 | eid-privacy project | eid, implementations, openid4vc |
 | [[eid-privacy-zkp-pocs|eid-privacy/zkp-pocs]] | 2025 | eid-privacy project | eid, circuit-dsl, implementations, revocation |
 | [[heidiverse-zkattest-rs|heidiverse/zkattest-rs (formerly UbiqueInnovation/zkattest-rs)]] | 2025 | Ubique Innovation | eid, elliptic-curves, sigma, library |
 | [[google-longfellow-zk|longfellow-zk (Google)]] | 2025 | Google | eid, implementations, library, transparent |

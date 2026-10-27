@@ -15,6 +15,9 @@ related:
   - CS97-DL-Proofs
   - BL26-SoK-AnonCreds
   - ASM06-Dynamic-kTAA
+doi: "10.1007/3-540-36413-7_20"
+citations: 692
+citations_updated: 2026-10-27
 ---
 
 [Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > CL02-CL-Signatures
@@ -28,6 +31,8 @@ Presents the CL signature scheme (strong RSA assumption) together with efficient
 
 - [[RSA78-RSA|A Method for Obtaining Digital Signatures and Public-Key Cryptosystems (Rivest, Shamir, Adleman 1978)]] (paper, 1978)
 - [[ASM06-Dynamic-kTAA|Constant-Size Dynamic k-TAA (Au, Susilo, Mu 2006)]] (paper, 2006)
+- [[BCD+14-ABC4Trust|D2.2 Architecture for Attribute-based Credential Technologies — Final Version (ABC4Trust) (Bichsel et al. 2014)]] (paper, 2014)
 - [[CS97-DL-Proofs|Proof Systems for General Statements about Discrete Logarithms (Camenisch-Stadler 1997)]] (paper, 1997)
 - [[CL04-Bilinear-Sigs|Signature Schemes and Anonymous Credentials from Bilinear Maps (Camenisch, Lysyanskaya 2004)]] (paper, 2004)
+- [[KMPQ23-SoK-AnonCreds|SoK: Anonymous Credentials (Kakvi, Martin, Putman, Quaglia 2023)]] (paper, 2023)
 - [[BL26-SoK-AnonCreds|SoK: Anonymous Credentials for Digital Identity Wallets (Bormann, Lehmann 2026)]] (paper, 2026)

@@ -1,0 +1,36 @@
+---
+type: cryptographic_primitive
+year: 2021
+authors:
+  - Stephan Krenn
+  - Michele Orru
+paper: "Proposal: ∑-protocols"
+doi: 233404569
+tags:
+  - zkp
+  - sigma
+  - standard
+  - mathematics
+---
+
+[Home](../README.md) > [Sigma Proofs](README.md) > Sigma-Protocols-Proposal
+
+# Proposal: ∑-protocols
+
+## Description
+A standardization proposal submitted to the ZKProof workshop. Defines a unified framework, notation, and requirements for Sigma-protocol-based zero-knowledge proofs to enable interoperability and standardization.
+
+## Properties
+- Completeness: Yes
+- Soundness: Special soundness
+- Zero-knowledge: HVZK
+
+## Based on
+[[Sigma-Protocols-Damgard]]
+
+## Used by
+
+## Resources
+- Wiki: [[IRTF-CFRG-Sigma-Protocols]] (the current IRTF CFRG draft)
+- Paper: [[ZKP21-Sigma-Standard]]
+- Explainer:

@@ -10,12 +10,14 @@ type: tag
 Tags Sigma (Σ) protocols — three-move interactive proofs (commit, challenge, response) that are the basis of many identification and signature schemes.
 
 ## Canonical entries
-→ [[CryptographicPrimitives/Sigma-Protocols-Damgard]]
-→ [[CryptographicPrimitives/Sigma-Protocols-Proposal]]
+→ [[Sigma-Protocols-Damgard]]
+→ [[Sigma-Protocols-Proposal]]
 
 ## Entries tagged
 
 - [[GQ88-Identity-Signature|A "Paradoxical" Identity-Based Signature Scheme Resulting from Zero-Knowledge (Guillou, Quisquater 1988)]]
+- [[CMZ14-KVAC|Algebraic MACs and Keyed-Verification Anonymous Credentials (Chase, Meiklejohn, Zaverucha 2014)]]
+- [[OKMZ25-Beyond-Circuit|Beyond the Circuit: How to Minimize Foreign Arithmetic in ZKP Circuits (Orrù, Kadianakis, Maller, Zaverucha 2025)]]
 - [[CLR23-CDLS|CDLS: Proving Knowledge of Committed Discrete Logarithms with Soundness (Celi, Levin, Rowell 2023)]]
 - [[cloudflare-zkp-ecdsa|cloudflare/zkp-ecdsa]]
 - [[docknetwork-crypto-library|DockNetwork Crypto Library Analysis]]
@@ -33,7 +35,10 @@ Tags Sigma (Σ) protocols — three-move interactive proofs (commit, challenge, 
 - [[Sigma-Protocols-Proposal|Proposal: ∑-protocols]]
 - [[CM99-Safe-Primes|Proving in Zero-Knowledge that a Number is the Product of Two Safe Primes (Camenisch-Michels 1999)]]
 - [[Camenisch-Michels-Safe-Primes|Proving in ZK that a Number Is the Product of Two Safe Primes]]
+- [[Orr25-Revisiting-KVAC|Revisiting Keyed-Verification Anonymous Credentials (Orrù 2025)]]
 - [[BBS04-ShortGroupSigs|Short Group Signatures (Boneh, Boyen, Shacham 2004)]]
+- [[IRTF-CFRG-Sigma-Protocols|Sigma Protocols — IRTF CFRG draft]]
+- [[KMN23-Sigmabus|Sigmabus: Binding Sigmas in Circuits for Fast Curve Operations (Kadianakis, Maller, Novakovic 2023)]]
 - [[Stanford-CS355-Topics-Cryptography|Stanford CS 355: Topics in Cryptography]]
 - [[Cronokirby-Paper-That-Keeps-Showing-Up|The Paper that Keeps Showing Up (Cronokirby, 2022)]]
 - [[Mau09-Unifying-ZKPoK|Unifying Zero-Knowledge Proofs of Knowledge (Maurer 2009)]]

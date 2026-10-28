@@ -12,7 +12,7 @@ tags:
 # Predicate Proofs
 
 ## Description
-Sending an attribute's value is often more than a verifier needs and can enable linking or de-anonymisation. A **predicate proof** shows only that the value satisfies a condition, e.g. "older than 18" instead of the birth date ([[GHE25-Taxonomy]]). The predicate itself still leaks information (an age range). The eid-privacy WP5 targeted range proofs, inclusion (set-membership) proofs and combinations of credentials, with proof generation under 1 s and 1 MB ([[GHE25-MS2]]).
+Sending an attribute's value is often more than a verifier needs and can enable linking or de-anonymisation. A **predicate proof** shows only that the value satisfies a condition, e.g. "older than 18" instead of the birth date ([[GHE25-Taxonomy]]). The predicate itself still leaks information (an age range). The eid-privacy WP5 targeted range proofs, inclusion (set-membership) proofs and combinations of credentials, with proof generation under 1 s and 1 MB ([[GHE26-MS2]]).
 
 ## Types of statements
 From the use-case analysis in [[DHG26-MS4]], ordered from most to least probable for the Swiss e-ID ecosystem:
@@ -32,15 +32,15 @@ From the use-case analysis in [[DHG26-MS4]], ordered from most to least probable
 - **Range proofs**: [[Bulletproofs]] with logarithmic proof size, no trusted setup.
 - **Accumulators** for large-set membership or non-membership ([[Revocation-in-eID]]); polynomial-evaluation arguments for blacklists ([[BG13-Polynomial-Evaluation]]).
 - **Circuits** (e.g. [[Noir]] on [[Spartan]] or UltraHonk): every row of the table above becomes a small function on top of common building blocks (parse SD-JWT, verify issuer signature, holder binding, non-revocation), which an IT professional can write and an auditor can review ([[DHG26-MS4]]). With sigma protocols each row needs a different protocol.
-- **Salted-hash credentials** (SD-JWT, mdoc) only support predicates pre-computed by the issuer, e.g. a list of `age_over_X` claims ([[GHE25-MS2]]).
+- **Salted-hash credentials** (SD-JWT, mdoc) only support predicates pre-computed by the issuer, e.g. a list of `age_over_X` claims ([[GHE26-MS2]]).
 
 ### Measurements (age range proof)
 
 | Implementation | Time | Size | Source |
 |---|---|---|---|
-| Noir / UltraHonk (`c05_age_verification`, range proof only) | ~0.13 s proof (+0.04 s key generation) | 16 kB | [[GHE25-MS2]] benchmark data |
-| Docknetwork / Bulletproofs (BBS credential) | ~0.03 s | ~2 kB | [[GHE25-MS2]] benchmark data |
-| Longfellow (from the paper, phone, signature verification deducted) | 410 ms | 291 kB | [[GHE25-MS2]], from [[FS24-Longfellow]] |
+| Noir / UltraHonk (`c05_age_verification`, range proof only) | ~0.13 s proof (+0.04 s key generation) | 16 kB | [[GHE26-MS2]] benchmark data |
+| Docknetwork / Bulletproofs (BBS credential) | ~0.03 s | ~2 kB | [[GHE26-MS2]] benchmark data |
+| Longfellow (from the paper, phone, signature verification deducted) | 410 ms | 291 kB | [[GHE26-MS2]], from [[FS24-Longfellow]] |
 | Full swiyu SD-JWT age proof incl. issuer signature and holder binding, Spartan with pre-computation | 4.5 s on a Galaxy A54 | — | [[DHG26-MS4]] |
 
 ## Alternative: issuer-precomputed attribute proofs
@@ -61,7 +61,7 @@ Two stretch goals of WP5:
 - [[ZKP-on-Mobile]]
 
 ## Resources
-- Paper: [[GHE25-Taxonomy]], [[GHE25-MS2]], [[DHG26-MS4]]
+- Paper: [[GHE25-Taxonomy]], [[GHE26-MS2]], [[DHG26-MS4]]
 - Paper: [[BBB+17-Bulletproofs]], [[BG13-Polynomial-Evaluation]], [[FS24-Longfellow]], [[WPSP26-DV-Dynamic-zkSNARKs]], [[Ora24-BBS-Sharp]]
 - Paper: [[ECZJG24-Need-ZKP]]
 - Code: [[eid-privacy-zkp-pocs]], [[eid-privacy-spartan-backend]], [[zkcrypto-bulletproofs]], [[docknetwork-crypto]]

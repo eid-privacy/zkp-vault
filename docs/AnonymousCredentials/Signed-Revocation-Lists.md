@@ -29,7 +29,7 @@ Each credential gets a unique ID known only to the issuer; ideally IDs are assig
 
 System-wide parameters: `LIST_LENGTH` (= 1024 for a 128-byte bit field), `LIST_VALIDITY_SECONDS`, `issuer_public_key`, and the public input `timestamp_now`.
 
-The MS4 variant stores an expiry time (`EXPIRES_AT`) instead of the creation time, with the check `timestamp_now < EXPIRES_AT` ([[DHG26-MS4]]); the MS2 PoC used a fixed validity of 7 days after the signature time ([[GHE25-MS2]]).
+The MS4 variant stores an expiry time (`EXPIRES_AT`) instead of the creation time, with the check `timestamp_now < EXPIRES_AT` ([[DHG26-MS4]]); the MS2 PoC used a fixed validity of 7 days after the signature time ([[GHE26-MS2]]).
 
 ## Checks in the circuit
 1. **The list covers the credential**
@@ -45,7 +45,7 @@ The MS4 variant stores an expiry time (`EXPIRES_AT`) instead of the creation tim
 In a full presentation, `credential_ID` must be taken from the issuer-signed credential proven in the same circuit; otherwise a holder could prove non-revocation for an arbitrary ID. The standalone benchmark circuit `c06_non_revocation` does not do this, which the external security review flagged as expected for a measurement-only circuit ([[DHG26-MS4]]). The most expensive operation is the ECDSA verification including its SHA-256 hash.
 
 ## Cost and variants
-- Noir PoC (`noir/c06_non_revocation` in [[eid-privacy-zkp-pocs]]): 0.8 s / 16 kB ([[GHE25-MS2]]).
+- Noir PoC (`noir/c06_non_revocation` in [[eid-privacy-zkp-pocs]]): 0.8 s / 16 kB ([[GHE26-MS2]]).
 - Integrated in the e-ID circuit `circuits/eid` of [[eid-privacy-spartan-backend]].
 - A JSON encoding of the same list is possible, but is expected to add about 20–40% proving time.
 - With pre-computation, the non-revocation part only needs to be redone when the list is refreshed (once per week in the MS4 assumptions), not per presentation ([[DHG26-MS4]]).
@@ -62,6 +62,6 @@ In a full presentation, `credential_ID` must be taken from the issuer-signed cre
 - [[ZKP-on-Mobile]]
 
 ## Resources
-- Paper: [[DHG26-MS4]], [[GHE25-MS2]]
+- Paper: [[DHG26-MS4]], [[GHE26-MS2]]
 - Wiki: [[IETF-OAuth-Token-Status-List]], [[W3C-Bitstring-Status-List]], [[NIST-FIPS-186-5]]
 - Code: [[eid-privacy-zkp-pocs]], [[eid-privacy-spartan-backend]]

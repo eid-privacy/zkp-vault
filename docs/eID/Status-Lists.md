@@ -18,7 +18,7 @@ Deployed e-ID systems check revocation with **status lists**: the issuer publish
 | Variant | How it works | Trade-off |
 |---|---|---|
 | One central list | One list per issuer with a bit per credential | Fetching the whole list gives herd privacy, but the list can be large |
-| Multiple lists ([[swiyu]]) | The status list is split into smaller packets | Packets must be large enough to avoid identifying the holder and small enough to download ([[GHE25-MS2]]) |
+| Multiple lists ([[swiyu]]) | The status list is split into smaller packets | Packets must be large enough to avoid identifying the holder and small enough to download ([[GHE26-MS2]]) |
 | Short-lived credentials | No list; credentials are only renewed if not revoked | Frequent issuance vs. a window in which a revoked credential is still accepted |
 
 ## Privacy problems
@@ -36,5 +36,5 @@ Privacy-preserving alternatives (signed lists proven in ZK, accumulators, polyno
 
 ## Resources
 - Wiki: [[IETF-OAuth-Token-Status-List]], [[W3C-Bitstring-Status-List]]
-- Paper: [[GHE25-Taxonomy]], [[GHE25-MS2]], [[DHG26-MS4]]
+- Paper: [[GHE25-Taxonomy]], [[GHE26-MS2]], [[DHG26-MS4]]
 - Docs: [[swiyu-Technical-Documentation]]

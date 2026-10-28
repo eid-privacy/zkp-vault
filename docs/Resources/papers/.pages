@@ -104,10 +104,10 @@ nav:
       - BM23-Formalizing-SNARK-Soundness.md
       - WPSP26-DV-Dynamic-zkSNARKs.md
       - DHG26-MS4.md
+      - GHE26-MS2.md
       - ENRTTX26-OpenAC.md
       - CHLT25-Server-Aided-AC.md
       - Egg25-Swiss-eID-Security.md
-      - GHE25-MS2.md
       - MRHHL25-Physical-Identities.md
       - OKMZ25-Beyond-Circuit.md
       - GHE25-Taxonomy.md

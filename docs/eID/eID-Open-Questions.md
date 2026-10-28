@@ -12,7 +12,7 @@ tags:
 # e-ID Open Questions
 
 ## Description
-Open research and engineering questions for privacy-preserving e-ID, collected from the follow-ups of the taxonomy ([[GHE25-Taxonomy]]) and the remaining challenges identified in the eid-privacy reports ([[GHE25-MS2]], [[DHG26-MS4]]).
+Open research and engineering questions for privacy-preserving e-ID, collected from the follow-ups of the taxonomy ([[GHE25-Taxonomy]]) and the remaining challenges identified in the eid-privacy reports ([[GHE26-MS2]], [[DHG26-MS4]]).
 
 ## From the taxonomy follow-ups
 The taxonomy is a glossary and the first step of a systematisation. The planned next step is to define **evaluation criteria** and apply them to higher-order constructions and complete systems:
@@ -31,7 +31,7 @@ The taxonomy is a glossary and the first step of a systematisation. The planned 
 
 ## Post-quantum migration
 - **BBS+ and other pairing-based anonymous credentials are not post-quantum** and are not available in HSMs or phone secure elements ([[GHE25-Taxonomy]]). If regulation requires hardware-backed non-transferability, any scheme not supported by hardware may need years of standardisation and roll-out, during which post-quantum security may become necessary.
-- NIST plans to deprecate non-post-quantum algorithms by 2030 and disallow them by 2035 ([[NIST-IR-8547]], cited in [[GHE25-MS2]]). Standardising a new non-PQ scheme such as BBS at NIST would run counter to that plan.
+- NIST plans to deprecate non-post-quantum algorithms by 2030 and disallow them by 2035 ([[NIST-IR-8547]], cited in [[GHE26-MS2]]). Standardising a new non-PQ scheme such as BBS at NIST would run counter to that plan.
 - **Phone hardware** today offers ECDSA P-256 only ([[Hardware-Security-for-eID]]), so [[Holder-Binding]] is not post-quantum either, regardless of the proof system.
 
 ## Revocation and metadata
@@ -56,6 +56,6 @@ The taxonomy is a glossary and the first step of a systematisation. The planned 
 - [[eID-Systems-Overview]]
 
 ## Resources
-- Paper: [[GHE25-Taxonomy]], [[GHE25-MS2]], [[DHG26-MS4]]
+- Paper: [[GHE25-Taxonomy]], [[GHE26-MS2]], [[DHG26-MS4]]
 - Paper: [[BL26-SoK-AnonCreds]], [[KVRSCLT26-EUDIF-Harms]], [[ECZJG24-Need-ZKP]], [[IES25-SoK-Unusable-Privacy]]
 - Blog: [[eid-privacy-crescent-longfellow]], [[eid-privacy-comparing-zk-systems]]

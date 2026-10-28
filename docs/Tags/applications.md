@@ -37,7 +37,7 @@ Tags entries that are end-to-end ZKP applications or application-level designs, 
 - [[ABCD25-PETs-Payments|Privacy-Enhancing Technologies for Digital Payments: Mapping the Landscape (Auer, Böhme, Clark, Demirag 2025)]]
 - [[eid-privacy-poc-report|Proof-of-Concept for ZKPs (eid-privacy, 2026)]]
 - [[DHG26-MS4|Secure and Privacy-Preserving Credentials for E-ID - Final Report (Dengler, Humbert, Gasser 2026)]]
-- [[GHE25-MS2|Secure and Privacy-Preserving Credentials for E-ID Proof-of-Concept (Gasser, Humbert, Elghareeb 2025)]]
+- [[GHE26-MS2|Secure and Privacy-Preserving Credentials for E-ID Proof-of-Concept (Gasser, Humbert, Elghareeb 2026)]]
 - [[Egg25-Swiss-eID-Security|Security Analysis of the Swiss e-ID & Trust Infrastructure (Egger 2025)]]
 - [[BL26-SoK-AnonCreds|SoK: Anonymous Credentials for Digital Identity Wallets (Bormann, Lehmann 2026)]]
 - [[GG21-SoK-Reputation|SoK: Privacy-Preserving Reputation Systems (Gurtler, Goldberg 2021)]]

@@ -1,8 +1,8 @@
 ---
 type: resource
 subtype: paper
-cite_as: GHE25-MS2
-year: 2025
+cite_as: GHE26-MS2
+year: 2026
 authors:
   - Linus Gasser
   - Clement Humbert
@@ -20,9 +20,9 @@ related:
   - eid-privacy-crescent-longfellow
 ---
 
-[Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > GHE25-MS2
+[Home](../../README.md) > [Resources](../README.md) > [papers](README.md) > GHE26-MS2
 
-# Secure and Privacy-Preserving Credentials for E-ID Proof-of-Concept (Gasser, Humbert, Elghareeb 2025)
+# Secure and Privacy-Preserving Credentials for E-ID Proof-of-Concept (Gasser, Humbert, Elghareeb 2026)
 
 ## Summary
 Milestone 2 report for Innosuisse grant 101.292 IP-ICT, covering proof-of-concept implementations for an anonymous, unlinkable e-ID credential. Benchmarks three candidate frameworks — Noir/UltraHONK, Docknetwork/BBS, and Longfellow — across four work packages: device/holder binding (WP3), issuer signature (WP4), predicate proofs (WP5), and non-revocation (WP6). Evaluates proof size and creation time for each, and charts the path forward for the remainder of the project.

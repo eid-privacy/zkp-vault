@@ -84,7 +84,7 @@ Root tag for all Zero-Knowledge Proof content in this vault. Applied to essentia
 - [[DI06-Scalable-MPC|Scalable Secure Multiparty Computation]]
 - [[Schwartz-Zippel|Schwartz-Zippel Lemma]]
 - [[DHG26-MS4|Secure and Privacy-Preserving Credentials for E-ID - Final Report (Dengler, Humbert, Gasser 2026)]]
-- [[GHE25-MS2|Secure and Privacy-Preserving Credentials for E-ID Proof-of-Concept (Gasser, Humbert, Elghareeb 2025)]]
+- [[GHE26-MS2|Secure and Privacy-Preserving Credentials for E-ID Proof-of-Concept (Gasser, Humbert, Elghareeb 2026)]]
 - [[Sonic|Sonic]]
 - [[Soundness-Bugs-and-Audits|Soundness Bugs and Audits]]
 - [[SP1|SP1]]

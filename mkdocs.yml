@@ -32,6 +32,7 @@ plugins:
   - redirects:
       # old locations from the 2026-10 restructure (generated from git renames)
       redirect_maps:
+        'Resources/papers/GHE25-MS2.md': 'Resources/papers/GHE26-MS2.md'
         'Applications/index.md': 'eID/README.md'
         'Applications/Communication-Protocols.md': 'eID/Communication-Protocols.md'
         'Applications/Credential-Data-Structures.md': 'eID/Credential-Data-Structures.md'

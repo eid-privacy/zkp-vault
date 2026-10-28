@@ -85,7 +85,7 @@ Tags entries relevant to electronic identity (e-ID) use cases — privacy-preser
 - [[Col24-Revocation|Scalable and Privacy-Preserving Revocation of Verifiable Credentials (Colombo 2024)]]
 - [[IETF-SD-JWT-VC|SD-JWT-based Verifiable Digital Credentials (SD-JWT VC) — IETF draft]]
 - [[DHG26-MS4|Secure and Privacy-Preserving Credentials for E-ID - Final Report (Dengler, Humbert, Gasser 2026)]]
-- [[GHE25-MS2|Secure and Privacy-Preserving Credentials for E-ID Proof-of-Concept (Gasser, Humbert, Elghareeb 2025)]]
+- [[GHE26-MS2|Secure and Privacy-Preserving Credentials for E-ID Proof-of-Concept (Gasser, Humbert, Elghareeb 2026)]]
 - [[Egg25-Swiss-eID-Security|Security Analysis of the Swiss e-ID & Trust Infrastructure (Egger 2025)]]
 - [[Selective-Disclosure|Selective Disclosure]]
 - [[CHLT25-Server-Aided-AC|Server-Aided Anonymous Credentials (Chairattana-Apirom, Harding, Lysyanskaya, Tessaro 2025)]]

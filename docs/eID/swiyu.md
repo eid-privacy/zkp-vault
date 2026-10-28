@@ -43,7 +43,7 @@ Unlinkability relies on **batch issuance** of single-use SD-JWT credentials: the
 - [[Credential-Data-Structures]]
 
 ## Resources
-- Paper: [[GHE25-Taxonomy]], [[GHE25-MS2]], [[DHG26-MS4]], [[Egg25-Swiss-eID-Security]], [[Mom25-GP-ZKP-VCs]]
+- Paper: [[GHE25-Taxonomy]], [[GHE26-MS2]], [[DHG26-MS4]], [[Egg25-Swiss-eID-Security]], [[Mom25-GP-ZKP-VCs]]
 - Docs: [[swiyu-Technical-Documentation]], [[swiyu-Trust-Protocol]], [[swiyu-Beta-ID-Cookbook]]
 - Wiki: [[Swiss-E-ID-Act-BGEID]], [[Swiss-E-ID-Ordinance-VEID]], [[IETF-SD-JWT-VC]], [[IETF-OAuth-Token-Status-List]], [[did-webvh-Method]]
 - Blog: [[eid-privacy-swiyu-demo]]

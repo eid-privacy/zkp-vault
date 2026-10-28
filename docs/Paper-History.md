@@ -91,7 +91,7 @@ Papers added to the vault, newest first. Browse all papers in [Resources/papers]
 | 2026-05-20 | [On the (Privacy) Harms of the European Digital Identity Framework](Resources/papers/KVRSCLT26-EUDIF-Harms.md) | Christian Knabenhans, Shannon Veitch, Mathilde Raynal, Theresa Stadler, Sylvain Chatel, Wouter Lueks, Carmela Troncoso |
 | | [Device Binding for Anonymous Credentials on Legacy Phones](Resources/papers/LZ26-AnonCreds-Legacy.md) | Anja Lehmann, Alexandros Zacharakis |
 | | [Device-Bound Anonymous Credentials With(out) Trusted Hardware](Resources/papers/FHLL25-AnonCreds-TrustedHW.md) | Karla Friedrichs, Franklin Harding, Anja Lehmann, Anna Lysyanskaya |
-| 2026-04-29 | [Secure and Privacy-Preserving Credentials for E-ID Proof-of-Concept](Resources/papers/GHE25-MS2.md) | Linus Gasser, Clement Humbert, Ahmed Elghareeb |
+| 2026-04-29 | [Secure and Privacy-Preserving Credentials for E-ID Proof-of-Concept](Resources/papers/GHE26-MS2.md) | Linus Gasser, Clement Humbert, Ahmed Elghareeb |
 | | [Taxonomy for Privacy-Preserving Electronic Identities](Resources/papers/GHE25-Taxonomy.md) | Linus Gasser, Clement Humbert, Ahmed Elghareeb |
 | | [Crescent: Stronger Privacy for Existing Credentials](Resources/papers/PPZ24-Crescent.md) | Christian Paquin, Guru-Vamsi Policharla, Greg Zaverucha |
 | | [Anonymous Credentials from ECDSA](Resources/papers/FS24-Longfellow.md) | Matteo Frigo, abhi shelat |

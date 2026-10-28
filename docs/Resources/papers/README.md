@@ -136,10 +136,10 @@ Citation counts are only a rough guide: recent papers and ePrints are often miss
 | [[BM23-Formalizing-SNARK-Soundness|Formalizing Soundness Proofs of SNARKs (Bailey, Miller 2023)]] | 2023 | 0 | 0.0 | Bolton Bailey, Andrew Miller |
 | [[WPSP26-DV-Dynamic-zkSNARKs|Designated-Verifier Dynamic zk-SNARKs with Applications to Dynamic Proofs of Index (Wang et al. 2026)]] | 2026 | — | — | Weijie Wang et al. |
 | [[DHG26-MS4|Secure and Privacy-Preserving Credentials for E-ID - Final Report (Dengler, Humbert, Gasser 2026)]] | 2026 | — | — | Carine Dengler, Clement Humbert, Linus Gasser |
+| [[GHE26-MS2|Secure and Privacy-Preserving Credentials for E-ID Proof-of-Concept (Gasser, Humbert, Elghareeb 2026)]] | 2026 | — | — | Linus Gasser, Clement Humbert, Ahmed Elghareeb |
 | [[ENRTTX26-OpenAC|OpenAC: Open Design for Transparent and Lightweight Anonymous Credentials (Eagen, Ngo, Rushi, Tong, Tsai, Xia 2026)]] | 2026 | — | — | Liam Eagen et al. |
 | [[CHLT25-Server-Aided-AC|Server-Aided Anonymous Credentials (Chairattana-Apirom, Harding, Lysyanskaya, Tessaro 2025)]] | 2025 | — | — | Rutchathon Chairattana-Apirom et al. |
 | [[Egg25-Swiss-eID-Security|Security Analysis of the Swiss e-ID & Trust Infrastructure (Egger 2025)]] | 2025 | — | — | Fabrice Egger |
-| [[GHE25-MS2|Secure and Privacy-Preserving Credentials for E-ID Proof-of-Concept (Gasser, Humbert, Elghareeb 2025)]] | 2025 | — | — | Linus Gasser, Clement Humbert, Ahmed Elghareeb |
 | [[MRHHL25-Physical-Identities|An Architecture for Distributed Digital Identities in the Physical World (Mayrhofer, Roland, Höller, Hofer, Lins 2025)]] | 2025 | — | — | René Mayrhofer et al. |
 | [[OKMZ25-Beyond-Circuit|Beyond the Circuit: How to Minimize Foreign Arithmetic in ZKP Circuits (Orrù, Kadianakis, Maller, Zaverucha 2025)]] | 2025 | — | — | Michele Orrù et al. |
 | [[GHE25-Taxonomy|Taxonomy for Privacy-Preserving Electronic Identities (Gasser, Humbert, Elghareeb 2025)]] | 2025 | — | — | Linus Gasser, Clement Humbert, Ahmed Elghareeb |
@@ -169,16 +169,16 @@ Citation counts are only a rough guide: recent papers and ePrints are often miss
 | [[KVRSCLT26-EUDIF-Harms]] | [[PPZ24-Crescent]] | [[RWGM23-zk-creds]] | [[BBHR18-FRI]] | [[ASM06-Dynamic-kTAA]] |
 | [[ENRTTX26-OpenAC]] | [[BBC+24-ARF-Feedback]] | [[JLM22-ALLOSAUR]] | [[BBHR18-STARK]] | [[DI06-Scalable-MPC]] |
 | [[DHG26-MS4]] | [[BBC24-Accumulators]] | [[AHIV22-Ligero-Ext]] | [[GKMM18-Updatable-SRS]] | [[Dam04-Sigma-Protocols]] |
-| [[BL26-SoK-AnonCreds]] | [[ECZJG24-Need-ZKP]] | [[COPZ22-DLEQ-Across-Groups]] | [[BBB+17-Bulletproofs]] | [[BBS04-ShortGroupSigs]] |
-| [[MRHHL25-Physical-Identities]] | [[AGJLRS24-PQ-Sigs-Privacy]] | [[MW22-Spiral]] | [[WTSTW17-Hyrax]] | [[CL04-Bilinear-Sigs]] |
-| [[OKMZ25-Beyond-Circuit]] | [[Col24-Revocation]] | [[FLM22-ZKAttest]] | [[AHIV17-Ligero]] | [[CL02-CL-Signatures]] |
-| [[FHLL25-AnonCreds-TrustedHW]] | [[BRD+24-SoK-Privacy-Regulations]] | [[MMZ+21-CanDID]] | [[CDL16-DAA-qSDH]] | [[BLS01-Short-Sigs]] |
-| [[WOSPG25-Legacy-PoP]] | [[KPRK24-SoK-SSI-Trust]] | [[BEKRS21-Issuer-Hiding]] | [[DFKP16-Cinderella]] | [[CM99-Safe-Primes]] |
-| [[Mom25-GP-ZKP-VCs]] | [[CETWJL24-SoK-SNARK-Vulns]] | [[QCY21-Blind-ECDSA]] | [[BBDT16-KVAC]] | [[Cra97-Modular-Design]] |
-| [[DKLW25-Lattice-Proof-Friendly-Sigs]] | [[RES24-ZK-Systematic-Review]] | [[GKRRS21-Poseidon]] | [[Gro16-Groth16]] | [[CS97-DL-Proofs]] |
-| [[ABCD25-PETs-Payments]] | [[Ora24-BBS-Sharp]] | [[GG21-SoK-Reputation]] | [[PS16-Randomizable-Sigs]] | [[LFKN92-Sumcheck]] |
-| [[Orr25-Revisiting-KVAC]] | [[CPV24-Last-Challenge]] | [[ZKP21-Sigma-Standard]] | [[CMZ14-KVAC]] | [[Sch91-Schnorr-Signatures]] |
-| [[GHE25-MS2]] | [[LSS24-LaZer]] | [[CHJ+20-Bulletproofs-Opt]] | [[BCD+14-ABC4Trust]] | [[Ped91-Commitments]] |
+| [[GHE26-MS2]] | [[ECZJG24-Need-ZKP]] | [[COPZ22-DLEQ-Across-Groups]] | [[BBB+17-Bulletproofs]] | [[BBS04-ShortGroupSigs]] |
+| [[BL26-SoK-AnonCreds]] | [[AGJLRS24-PQ-Sigs-Privacy]] | [[MW22-Spiral]] | [[WTSTW17-Hyrax]] | [[CL04-Bilinear-Sigs]] |
+| [[MRHHL25-Physical-Identities]] | [[Col24-Revocation]] | [[FLM22-ZKAttest]] | [[AHIV17-Ligero]] | [[CL02-CL-Signatures]] |
+| [[OKMZ25-Beyond-Circuit]] | [[BRD+24-SoK-Privacy-Regulations]] | [[MMZ+21-CanDID]] | [[CDL16-DAA-qSDH]] | [[BLS01-Short-Sigs]] |
+| [[FHLL25-AnonCreds-TrustedHW]] | [[KPRK24-SoK-SSI-Trust]] | [[BEKRS21-Issuer-Hiding]] | [[DFKP16-Cinderella]] | [[CM99-Safe-Primes]] |
+| [[WOSPG25-Legacy-PoP]] | [[CETWJL24-SoK-SNARK-Vulns]] | [[QCY21-Blind-ECDSA]] | [[BBDT16-KVAC]] | [[Cra97-Modular-Design]] |
+| [[Mom25-GP-ZKP-VCs]] | [[RES24-ZK-Systematic-Review]] | [[GKRRS21-Poseidon]] | [[Gro16-Groth16]] | [[CS97-DL-Proofs]] |
+| [[DKLW25-Lattice-Proof-Friendly-Sigs]] | [[Ora24-BBS-Sharp]] | [[GG21-SoK-Reputation]] | [[PS16-Randomizable-Sigs]] | [[LFKN92-Sumcheck]] |
+| [[ABCD25-PETs-Payments]] | [[CPV24-Last-Challenge]] | [[ZKP21-Sigma-Standard]] | [[CMZ14-KVAC]] | [[Sch91-Schnorr-Signatures]] |
+| [[Orr25-Revisiting-KVAC]] | [[LSS24-LaZer]] | [[CHJ+20-Bulletproofs-Opt]] | [[BCD+14-ABC4Trust]] | [[Ped91-Commitments]] |
 | [[Egg25-Swiss-eID-Security]] | [[CLR23-CDLS]] | [[BFH+20-Ligero-Plus]] | [[BL13-ACL]] | [[GQ88-Identity-Signature]] |
 | [[CHLT25-Server-Aided-AC]] | [[CMSCGD23-ZK-Circuit-Verification]] | [[HKRW20-Sovrin-Revocation]] | [[PHGR13-Pinocchio]] | [[BGKW88-MIP]] |
 | [[IES25-SoK-Unusable-Privacy]] | [[STW23-CCS]] | [[GW20-Plookup]] | [[BCGTV13-SNARKs-for-C]] | [[BFM88-NIZK-Intro]] |

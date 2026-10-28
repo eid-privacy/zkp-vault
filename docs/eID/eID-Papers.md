@@ -72,10 +72,10 @@ _This file is auto-generated. Run `devbox run citations` and `devbox run summari
 | [[BL26-SoK-AnonCreds|SoK: Anonymous Credentials for Digital Identity Wallets (Bormann, Lehmann 2026)]] | 2026 | 0 | 0.0 |
 | [[LSZ25-Vision|Vision: A Modular Framework for Anonymous Credential Systems (Lehmann, Sidorenko, Zacharakis 2025)]] | 2025 | 0 | 0.0 |
 | [[DHG26-MS4|Secure and Privacy-Preserving Credentials for E-ID - Final Report (Dengler, Humbert, Gasser 2026)]] | 2026 | — | — |
+| [[GHE26-MS2|Secure and Privacy-Preserving Credentials for E-ID Proof-of-Concept (Gasser, Humbert, Elghareeb 2026)]] | 2026 | — | — |
 | [[ENRTTX26-OpenAC|OpenAC: Open Design for Transparent and Lightweight Anonymous Credentials (Eagen, Ngo, Rushi, Tong, Tsai, Xia 2026)]] | 2026 | — | — |
 | [[CHLT25-Server-Aided-AC|Server-Aided Anonymous Credentials (Chairattana-Apirom, Harding, Lysyanskaya, Tessaro 2025)]] | 2025 | — | — |
 | [[Egg25-Swiss-eID-Security|Security Analysis of the Swiss e-ID & Trust Infrastructure (Egger 2025)]] | 2025 | — | — |
-| [[GHE25-MS2|Secure and Privacy-Preserving Credentials for E-ID Proof-of-Concept (Gasser, Humbert, Elghareeb 2025)]] | 2025 | — | — |
 | [[MRHHL25-Physical-Identities|An Architecture for Distributed Digital Identities in the Physical World (Mayrhofer, Roland, Höller, Hofer, Lins 2025)]] | 2025 | — | — |
 | [[GHE25-Taxonomy|Taxonomy for Privacy-Preserving Electronic Identities (Gasser, Humbert, Elghareeb 2025)]] | 2025 | — | — |
 | [[Mom25-GP-ZKP-VCs|General-Purpose Zero-Knowledge Proofs for Verifiable Credentials (Mombelli 2025)]] | 2025 | — | — |

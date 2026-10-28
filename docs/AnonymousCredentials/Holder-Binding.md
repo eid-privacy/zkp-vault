@@ -19,7 +19,7 @@ Holder binding (also *device binding*, *key binding* or *non-transferability*) e
 2. The issuer checks the holder and embeds `Q` in the signed credential.
 3. At presentation, the verifier sends a fresh challenge; the secure element signs it with the device key, and the verifier checks the signature against `Q`.
 
-Since phone hardware only supports ECDSA P-256 ([[Hardware-Security-for-eID]]), both `Q` and the signature are unique, linkable values: plain holder binding defeats unlinkability. The goal of the eid-privacy WP3 was an **unlinkable proof of possession** of the hardware-bound key that the holder can create alone, verifiable without a third party, in **less than 1 s and less than 1 MB** ([[GHE25-MS2]]).
+Since phone hardware only supports ECDSA P-256 ([[Hardware-Security-for-eID]]), both `Q` and the signature are unique, linkable values: plain holder binding defeats unlinkability. The goal of the eid-privacy WP3 was an **unlinkable proof of possession** of the hardware-bound key that the holder can create alone, verifiable without a third party, in **less than 1 s and less than 1 MB** ([[GHE26-MS2]]).
 
 ## Three options
 [[BL26-SoK-AnonCreds]] distinguishes three ways to get unlinkable device binding:
@@ -29,7 +29,7 @@ Since phone hardware only supports ECDSA P-256 ([[Hardware-Security-for-eID]]), 
 3. **Full SNARK over an ECDSA credential**: issuer signature and device signature are both proven in one circuit, as in Longfellow and the eid-privacy Spartan backend (below). Works with unchanged issuers and secure elements, at the cost of a larger, less flexible circuit.
 
 ## Approach: prove the ECDSA signature in zero knowledge
-The holder keeps `Q` and the signature `(r, s)` secret and proves in a ZKP that "the credential contains a key `Q`, and `(r, s)` is a valid signature under `Q` on the verifier's challenge". The only public input is the challenge, so two proofs cannot be linked through the binding ([[GHE25-MS2]]). Combined with a proof of the issuer signature, this gives the generic unlinkable credential of [[Unlinkable-Anonymous-Credentials]].
+The holder keeps `Q` and the signature `(r, s)` secret and proves in a ZKP that "the credential contains a key `Q`, and `(r, s)` is a valid signature under `Q` on the verifier's challenge". The only public input is the challenge, so two proofs cannot be linked through the binding ([[GHE26-MS2]]). Combined with a proof of the issuer signature, this gives the generic unlinkable credential of [[Unlinkable-Anonymous-Credentials]].
 
 ### Crescent-style optimisation
 [[Crescent]] (Section 3.4.1 of [[PPZ24-Crescent]]) rewrites ECDSA verification. With the nonce point `R` (where `r = x(R)`) and message hash `M`, verification is equivalent to `T^s · U = Q` with `T = R^(1/r)` and `U = G^(−M/r)`. `R` is random and reveals nothing about the key, so the prover reveals it, the verifier computes `T, U` itself, and the circuit only proves one scalar multiplication and one point addition, with `s` and `Q` private. Instantiated with Spartan over the Tom-256 curve (whose group order is the P-256 base-field prime), a scalar multiplication costs about 2700 R1CS constraints ([[DHG26-MS4]], citing Crescent).
@@ -51,9 +51,9 @@ The holder keeps `Q` and the signature `(r, s)` secret and proves in a ZKP that 
 
 | PoC | Technique | Result | Source |
 |---|---|---|---|
-| `noir/c03_holder_binding` ([[eid-privacy-zkp-pocs]]) | Noir / UltraHonk; fixed-size credential, ECDSA P-256 | 0.7 s / 16 kB (holder binding only, without issuer signature) | [[GHE25-MS2]] |
-| Docknetwork + ZKAttest ([[eid-privacy-zkp-pocs]]) | Sigma protocols, BBS credential | 0.95 s / 182 kB; only works with BBS on the issuer side | [[GHE25-MS2]] |
-| Longfellow (estimate) | ECDSA verification in circuit | ~80 ms for an ECDSA verification on a Pixel 6 Pro, < 300 kB | [[GHE25-MS2]], from [[FS24-Longfellow]] |
+| `noir/c03_holder_binding` ([[eid-privacy-zkp-pocs]]) | Noir / UltraHonk; fixed-size credential, ECDSA P-256 | 0.7 s / 16 kB (holder binding only, without issuer signature) | [[GHE26-MS2]] |
+| Docknetwork + ZKAttest ([[eid-privacy-zkp-pocs]]) | Sigma protocols, BBS credential | 0.95 s / 182 kB; only works with BBS on the issuer side | [[GHE26-MS2]] |
+| Longfellow (estimate) | ECDSA verification in circuit | ~80 ms for an ECDSA verification on a Pixel 6 Pro, < 300 kB | [[GHE26-MS2]], from [[FS24-Longfellow]] |
 | `c0100_holder_binding_crescent_style` ([[eid-privacy-spartan-backend]]) | Crescent-style, Spartan over Tom-256 | Building block of the full SD-JWT circuit | [[DHG26-MS4]] |
 | `c0200_swiyu_jwt` ([[eid-privacy-spartan-backend]], [[eid-privacy-zkp-android-spartan]]) | Full swiyu SD-JWT age proof incl. issuer signature and holder binding | Samsung Galaxy A54: 11.0 s (Spartan), 4.5 s with pre-computation; MacBook M2 Max: 1.5 s with pre-computation | [[DHG26-MS4]] |
 
@@ -72,7 +72,7 @@ In the pre-computed variant, everything that does not depend on the verifier cha
 - [[ZKAttest]], [[Crescent]], [[Longfellow]], [[Spartan]], [[Noir]]
 
 ## Resources
-- Paper: [[GHE25-MS2]], [[DHG26-MS4]], [[GHE25-Taxonomy]]
+- Paper: [[GHE26-MS2]], [[DHG26-MS4]], [[GHE25-Taxonomy]]
 - Paper: [[PPZ24-Crescent]], [[FS24-Longfellow]], [[FLM22-ZKAttest]], [[CLR23-CDLS]], [[COPZ22-DLEQ-Across-Groups]]
 - Paper: [[Ora24-BBS-Sharp]], [[FHLL25-AnonCreds-TrustedHW]], [[LZ26-AnonCreds-Legacy]]
 - Code: [[eid-privacy-zkp-pocs]], [[eid-privacy-spartan-backend]], [[eid-privacy-zkp-android-spartan]]

@@ -29,7 +29,7 @@ BBS-style multi-message signatures allow fast sigma-protocol proofs of knowledge
 
 ## ZKP over existing signatures
 Here the issuer keeps signing with ECDSA P-256, and privacy is added on the holder side. Costs come from proving SHA-256, base64 / JSON or CBOR parsing and ECDSA verification inside a circuit. Reported results:
-- [[Longfellow]] (mdoc): about 1.2 s prover and 0.7 s verifier on a phone with a ~300 kB proof ([[GHE25-MS2]], [[eid-privacy-crescent-longfellow]]).
+- [[Longfellow]] (mdoc): about 1.2 s prover and 0.7 s verifier on a phone with a ~300 kB proof ([[GHE26-MS2]], [[eid-privacy-crescent-longfellow]]).
 - [[Crescent]] (SD-JWT / mDL): about 1 s online proof on mobile after a one-time pre-computation ([[eid-privacy-crescent-longfellow]]).
 - eid-privacy Noir + Spartan over unmodified swiyu SD-JWT, including holder binding: 4.5 s on a mid-range Android phone with pre-computation ([[DHG26-MS4]]; see [[ZKP-on-Mobile]]).
 
@@ -42,7 +42,7 @@ Here the issuer keeps signing with ECDSA P-256, and privacy is added on the hold
 - [[Revocation-in-eID]] — the status index is another linkable artefact
 
 ## Resources
-- Paper: [[GHE25-Taxonomy]], [[GHE25-MS2]], [[DHG26-MS4]]
+- Paper: [[GHE25-Taxonomy]], [[GHE26-MS2]], [[DHG26-MS4]]
 - Wiki: [[IETF-RFC9901-SD-JWT]], [[IETF-SD-JWT-VC]], [[ISO-IEC-18013-5-mDL]], [[IRTF-CFRG-BBS-Signatures]], [[W3C-VC-DI-BBS]]
 - Paper: [[CL02-CL-Signatures]], [[PS16-Randomizable-Sigs]], [[TZ23-Revisiting-BBS]]
 - Paper: [[PPZ24-Crescent]], [[FS24-Longfellow]], [[DFKP16-Cinderella]], [[ENRTTX26-OpenAC]], [[BL26-SoK-AnonCreds]]

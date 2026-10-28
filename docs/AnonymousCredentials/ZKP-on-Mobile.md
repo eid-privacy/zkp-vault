@@ -12,7 +12,7 @@ tags:
 # ZKP on Mobile
 
 ## Description
-In e-ID, the prover is the holder's phone. Unlike blockchain applications, which optimise proof size first to save on-chain storage, e-ID work optimises **prover run time first**, because proofs are generated on resource-constrained consumer phones at presentation time; proof size matters second, for transmission ([[GHE25-Taxonomy]]). The eid-privacy target was less than 1 s and less than 1 MB per proof ([[GHE25-MS2]]). Verifier cost matters mainly for server-side deployments.
+In e-ID, the prover is the holder's phone. Unlike blockchain applications, which optimise proof size first to save on-chain storage, e-ID work optimises **prover run time first**, because proofs are generated on resource-constrained consumer phones at presentation time; proof size matters second, for transmission ([[GHE25-Taxonomy]]). The eid-privacy target was less than 1 s and less than 1 MB per proof ([[GHE26-MS2]]). Verifier cost matters mainly for server-side deployments.
 
 ## Measurements
 
@@ -31,7 +31,7 @@ Pre-computing the challenge-independent part takes about 5 s on desktop (18 s on
 - [[Longfellow]]: 1.17 s prover / 0.68 s verifier on a Pixel 6 Pro, ~300 kB proof, mdoc ([[eid-privacy-crescent-longfellow]]).
 - [[Crescent]]: ~1 s online proof on mobile after a ~20 s pre-computation ([[eid-privacy-crescent-longfellow]]).
 - Desktop comparison for a 1920-byte MSO, reproduced in [[DHG26-MS4]] from [[ENRTTX26-OpenAC]]: prove 680 ms (Longfellow), 237 ms (Crescent), 247 / 212 ms (Vega single / multi-circuit), 102 ms (OpenAC), measured on different hardware.
-- Building blocks with Noir / UltraHonk and Docknetwork on desktop: see [[Holder-Binding]], [[Predicate-Proofs]], [[Revocation-in-eID]] ([[GHE25-MS2]]).
+- Building blocks with Noir / UltraHonk and Docknetwork on desktop: see [[Holder-Binding]], [[Predicate-Proofs]], [[Revocation-in-eID]] ([[GHE26-MS2]]).
 
 ## Lessons
 - **Pre-computation** ("prepare and prove") is the most effective lever: only the part depending on the verifier challenge is computed per presentation ([[Crescent]], Vega, [[ENRTTX26-OpenAC]], [[DHG26-MS4]]).
@@ -50,7 +50,7 @@ Most SNARKs were designed for blockchains and optimise proof size and verifier t
 - [[Noir]], [[Spartan]], [[Spartan-Framework]], [[Longfellow]], [[Crescent]]
 
 ## Resources
-- Paper: [[DHG26-MS4]], [[GHE25-MS2]], [[GHE25-Taxonomy]]
+- Paper: [[DHG26-MS4]], [[GHE26-MS2]], [[GHE25-Taxonomy]]
 - Paper: [[Mom25-GP-ZKP-VCs]] — benchmarks general-purpose ZKP frameworks for the Swiss e-ID
 - Paper: [[ENRTTX26-OpenAC]], [[PPZ24-Crescent]], [[FS24-Longfellow]], [[SAKK25-ZKP-Frameworks-Survey]], [[RES24-ZK-Systematic-Review]]
 - Code: [[eid-privacy-zkp-android-spartan]], [[eid-privacy-spartan-backend]], [[eid-privacy-zkp-pocs]], [[mombelld-general-purpose-zkps-vcs]], [[microsoft-Spartan2]]

@@ -30,7 +30,7 @@ tags:
 AnonCreds (v1 with CL signatures, v2 with BBS / PS over VC DM 2.0) is a credential system rather than a single format; see [[Unlinkable-Anonymous-Credentials]].
 
 ## ZKP-friendliness
-Proving a standard credential in a circuit means re-doing the verifier's work inside the proof: base64url decoding, JSON or CBOR parsing, SHA-256 over the whole payload and ECDSA verification. In the eid-privacy Spartan backend, dedicated optimisations for base64 decoding, a barrel shifter for locating claims, and passing indices as private inputs were needed to make SD-JWT proofs feasible on phones ([[DHG26-MS4]]). Compressed status lists are particularly unfriendly, which motivated the binary [[Signed-Revocation-Lists]]. Simple, fixed-size "flat" credentials were used as a baseline in the first proofs of concept ([[GHE25-MS2]]).
+Proving a standard credential in a circuit means re-doing the verifier's work inside the proof: base64url decoding, JSON or CBOR parsing, SHA-256 over the whole payload and ECDSA verification. In the eid-privacy Spartan backend, dedicated optimisations for base64 decoding, a barrel shifter for locating claims, and passing indices as private inputs were needed to make SD-JWT proofs feasible on phones ([[DHG26-MS4]]). Compressed status lists are particularly unfriendly, which motivated the binary [[Signed-Revocation-Lists]]. Simple, fixed-size "flat" credentials were used as a baseline in the first proofs of concept ([[GHE26-MS2]]).
 
 ## Related
 - [[Selective-Disclosure]]
@@ -39,7 +39,7 @@ Proving a standard credential in a circuit means re-doing the verifier's work in
 - [[eID-Systems-Overview]]
 
 ## Resources
-- Paper: [[GHE25-Taxonomy]], [[GHE25-MS2]], [[DHG26-MS4]]
+- Paper: [[GHE25-Taxonomy]], [[GHE26-MS2]], [[DHG26-MS4]]
 - Wiki: [[W3C-VC-Data-Model-1.1]], [[W3C-VC-Data-Model-2.0]], [[W3C-JSON-LD-1.1]], [[W3C-VC-DI-BBS]]
 - Wiki: [[IETF-RFC9901-SD-JWT]], [[IETF-SD-JWT-VC]], [[ISO-IEC-18013-5-mDL]]
 - Wiki: [[W3C-DID-Core-1.0]], [[did-web-Method]], [[did-webvh-Method]]

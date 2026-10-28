@@ -28,7 +28,7 @@ Following [[BL26-SoK-AnonCreds]], the core requirements are:
 Further features that anonymous credentials can offer (composite proofs, deniable presentations, blind issuance, issuer hiding, conditional disclosure) are listed in [[AC-Features]].
 
 ## Salted-hash credentials and their linkability
-In SD-JWT, every attribute is stored as `sha256(salt | attribute_value)`; to disclose a value the holder sends it with the salt ([[GHE25-MS2]]). Predicates are only possible if the issuer pre-computes them as extra claims (e.g. `age_over_18`). Every presentation shows the same issuer signature and hash list, which form a unique fingerprint that colluding verifiers (and the issuer) can match. Deployments such as swiyu therefore use **batch issuance**: the holder receives a batch of single-use credentials (usually about 10, per [[GHE25-MS2]]) and deletes each after use. This costs issuance bandwidth and storage, and does not protect against issuer–verifier collusion.
+In SD-JWT, every attribute is stored as `sha256(salt | attribute_value)`; to disclose a value the holder sends it with the salt ([[GHE26-MS2]]). Predicates are only possible if the issuer pre-computes them as extra claims (e.g. `age_over_18`). Every presentation shows the same issuer signature and hash list, which form a unique fingerprint that colluding verifiers (and the issuer) can match. Deployments such as swiyu therefore use **batch issuance**: the holder receives a batch of single-use credentials (usually about 10, per [[GHE26-MS2]]) and deletes each after use. This costs issuance bandwidth and storage, and does not protect against issuer–verifier collusion.
 
 ## What anonymous credentials would change
 [[BL26-SoK-AnonCreds]] argues that anonymous credentials improve not only privacy but also security and deployability:
@@ -45,5 +45,5 @@ In SD-JWT, every attribute is stored as `sha256(salt | attribute_value)`; to dis
 - [[EUDI-ARF]]
 
 ## Resources
-- Paper: [[BL26-SoK-AnonCreds]], [[GHE25-Taxonomy]], [[GHE25-MS2]], [[BBC+24-ARF-Feedback]], [[PH10-Privacy-Terminology]]
+- Paper: [[BL26-SoK-AnonCreds]], [[GHE25-Taxonomy]], [[GHE26-MS2]], [[BBC+24-ARF-Feedback]], [[PH10-Privacy-Terminology]]
 - Wiki: [[IETF-RFC9901-SD-JWT]], [[ISO-IEC-18013-5-mDL]]

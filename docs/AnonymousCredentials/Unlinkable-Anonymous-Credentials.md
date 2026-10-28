@@ -19,7 +19,7 @@ An unlinkable anonymous credential (UAC) lets a holder convince a verifier that 
 - the **holder** can do everything alone (contacting only the verifier), chooses which attributes to present, and has a secure element that signs arbitrary messages;
 - the **verifier** learns only the presented attributes and cannot link two presentations, even of the same attributes.
 
-Holder binding alone only proves the credential has not left the device; the issuer's signature must be proven too, and a plain signature makes every presentation linkable. The eid-privacy target was proof generation in less than 1 s and less than 1 MB ([[GHE25-MS2]]).
+Holder binding alone only proves the credential has not left the device; the issuer's signature must be proven too, and a plain signature makes every presentation linkable. The eid-privacy target was proof generation in less than 1 s and less than 1 MB ([[GHE26-MS2]]).
 
 ## Two architectures
 Following [[BL26-SoK-AnonCreds]] and the modular blueprint of [[LSZ25-Vision]] (commitment + signature + NIZK):
@@ -47,7 +47,7 @@ BBS is the main contender for natively unlinkable credentials ([[IRTF-CFRG-BBS-S
 
 Implementations: [[docknetwork-crypto]] ([[Docknetwork]]), [[mattrglobal-pairing_crypto]], [[mattrglobal-bbs-signatures]], [[microsoft-bbs-node-reference]]. The W3C binding to VCs is [[W3C-VC-DI-BBS]]. Variants for EUDI include [[Ora24-BBS-Sharp]] and the server-aided approach of [[CHLT25-Server-Aided-AC]].
 
-Limitations in an e-ID context ([[GHE25-Taxonomy]], [[GHE25-MS2]]): not available in HSMs or phone secure elements; not NIST-standardised, which conflicts with NIST's plan to deprecate non-post-quantum algorithms; not post-quantum. The cryptographers' letter [[BBC+24-ARF-Feedback]] argued for the BBS family in the EUDI ARF, which then opened a ZKP discussion topic. According to [[DHG26-MS4]], ETSI is standardising BBS, Longfellow, Vega and OpenAC for digital-identity use.
+Limitations in an e-ID context ([[GHE25-Taxonomy]], [[GHE26-MS2]]): not available in HSMs or phone secure elements; not NIST-standardised, which conflicts with NIST's plan to deprecate non-post-quantum algorithms; not post-quantum. The cryptographers' letter [[BBC+24-ARF-Feedback]] argued for the BBS family in the EUDI ARF, which then opened a ZKP discussion topic. According to [[DHG26-MS4]], ETSI is standardising BBS, Longfellow, Vega and OpenAC for digital-identity use.
 
 **Standardisation** ([[BL26-SoK-AnonCreds]]): BBS is ISO-standardised in ISO/IEC 20008-2:2013 (the 2023 amendment adds PS signatures); the updated variant is in the IRTF CFRG ([[IRTF-CFRG-BBS-Signatures]]), with extensions for blind issuance ([[IRTF-CFRG-BBS-Blind-Signatures]]) and per-verifier pseudonyms ([[IRTF-CFRG-BBS-Per-Verifier-Linkability]]). The IRTF Sigma-protocols draft ([[IRTF-CFRG-Sigma-Protocols]]) would let further Schnorr-style statements be added modularly. Anonymous credentials are already deployed in TPM DAA and SGX EPID. BBS needs a pairing-friendly curve ([[Pairing-Friendly-Curves]]); alternatives without pairings are in [[Pairing-Free-ACs]].
 
@@ -71,7 +71,7 @@ AnonCreds v2 keeps the AnonCreds v1 concepts (credential schema, credential defi
 - [[Post-Quantum-and-eID]]
 
 ## Resources
-- Paper: [[GHE25-Taxonomy]], [[GHE25-MS2]], [[DHG26-MS4]]
+- Paper: [[GHE25-Taxonomy]], [[GHE26-MS2]], [[DHG26-MS4]]
 - Paper: [[BL26-SoK-AnonCreds]], [[LSZ25-Vision]], [[CHLT25-Server-Aided-AC]]
 - Paper: [[BBS04-ShortGroupSigs]], [[CL04-Bilinear-Sigs]], [[ASM06-Dynamic-kTAA]], [[CDL16-DAA-qSDH]], [[BBDT16-KVAC]], [[TZ23-Revisiting-BBS]]
 - Paper: [[CL02-CL-Signatures]], [[PS16-Randomizable-Sigs]], [[AGJLRS24-PQ-Sigs-Privacy]], [[QCY21-Blind-ECDSA]], [[BBC+24-ARF-Feedback]]

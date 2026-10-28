@@ -41,7 +41,7 @@ Quantum computers threaten anonymous credentials differently from encryption ([[
 - [[eID-Open-Questions]]
 
 ## Resources
-- Paper: [[GHE25-Taxonomy]], [[GHE25-MS2]], [[DHG26-MS4]]
+- Paper: [[GHE25-Taxonomy]], [[GHE26-MS2]], [[DHG26-MS4]]
 - Paper: [[AGJLRS24-PQ-Sigs-Privacy]]
 - Blog: [[Taurus-Quantum-Doomsday-Planning]], [[Quanta-Which-Computational-Universe]], [[eid-privacy-comparing-zk-systems]]
 - Wiki: [[NIST-FIPS-186-5]], [[IRTF-CFRG-BBS-Signatures]]

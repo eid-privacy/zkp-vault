@@ -59,7 +59,7 @@ All DOIs are in the [eid-privacy community on Zenodo](https://zenodo.org/communi
 | [noir (tom-256)](https://github.com/eid-privacy/noir/tree/tom-256) · [notes](Resources/code/eid-privacy-noir-tom256.md) | Fork of [noir-lang/noir](https://github.com/noir-lang/noir): the `tom-256` branch adds Tom-256 / P-256 support (`nargo-t256`) |
 | [vega-prover](https://github.com/eid-privacy/vega-prover) · [notes](Resources/code/eid-privacy-vega-prover.md) | Fork of [microsoft/vega-prover](https://github.com/microsoft/vega-prover): the `raw-serde` branch loads the precomputed prover state about 5× faster |
 
-All repositories: [github.com/eid-privacy](https://github.com/eid-privacy) · archived releases: [Zenodo community](https://zenodo.org/communities/eid-privacy) · overview: [eid-privacy/overview](https://github.com/eid-privacy/overview).
+All repositories: [github.com/eid-privacy](https://github.com/eid-privacy) · archived releases: [Zenodo community](https://zenodo.org/communities/eid-privacy) · source of this site: [eid-privacy/zkp-vault](https://github.com/eid-privacy/zkp-vault).
 
 ## Blog
 

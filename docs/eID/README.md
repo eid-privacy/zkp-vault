@@ -23,7 +23,7 @@ How real systems make these choices. The [Systems Overview](eID-Systems-Overview
 
 ## Building Blocks
 
-The standards these systems share. [Credential Data Structures](Credential-Data-Structures.md) covers SD-JWT VC, ISO mdoc, the W3C VC Data Model, X.509 and DIDs, and how ZKP-friendly each is. [Communication Protocols](Communication-Protocols.md) covers OpenID4VCI / VP, SIOPv2, ISO 18013-5, DIDComm and DID methods, with a library table. [Status Lists](Status-Lists.md) describes how revocation is checked today and why the list index is a linkable identifier. [Hardware Security](Hardware-Security-for-eID.md) covers secure elements, TEEs, the Secure Enclave and HSMs, and why ECDSA P-256 is the common denominator on phones.
+The standards these systems share. [Credential Data Structures](Credential-Data-Structures.md) covers SD-JWT VC, ISO mdoc, the W3C VC Data Model, X.509 and DIDs, and how ZKP-friendly each is. [Communication Protocols](Communication-Protocols.md) covers OpenID4VCI / VP, SIOPv2, ISO 18013-5, DIDComm and DID methods, with a library table. [Library Evaluation](Library-Evaluation.md) rates ZKP, circuit, DIDComm and VC-format libraries on six criteria (structure, tests, license, maintenance, documentation, expected support). [Status Lists](Status-Lists.md) describes how revocation is checked today and why the list index is a linkable identifier. [Hardware Security](Hardware-Security-for-eID.md) covers secure elements, TEEs, the Secure Enclave and HSMs, and why ECDSA P-256 is the common denominator on phones.
 
 ## Regulation
 

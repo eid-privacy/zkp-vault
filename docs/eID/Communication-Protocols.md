@@ -64,6 +64,7 @@ From the eid-privacy WP2 survey ([[eid-privacy-WP2-Libraries]]):
 
 ## Related
 - [[Credential-Data-Structures]]
+- [[Library-Evaluation]]
 - [[eID-Systems-Overview]]
 - [[Holder-Binding]]
 - [[ZKP-on-Mobile]]

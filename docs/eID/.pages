@@ -13,6 +13,7 @@ nav:
   - Building Blocks:
       - Credential Data Structures: Credential-Data-Structures.md
       - Communication Protocols: Communication-Protocols.md
+      - Library Evaluation: Library-Evaluation.md
       - Status Lists: Status-Lists.md
       - Hardware Security: Hardware-Security-for-eID.md
   - Regulation:

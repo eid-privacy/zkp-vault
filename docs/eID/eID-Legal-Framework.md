@@ -22,14 +22,14 @@ The higher levels use general language and are rarely modified; ordinances and i
 
 ## Switzerland
 - A first E-ID Act, which foresaw issuance by private companies, was rejected by referendum in 2021; issuance and data handling by private actors was one of the main criticisms.
-- The new **E-ID Act (BGEID)** is based on government-run services: a state-issued E-ID, a public trust infrastructure (base and trust registries) and a state wallet (swiyu). It mandates privacy by design, data minimisation and decentralised storage of credentials in the holder's wallet. It was adopted by Parliament in December 2024 and accepted in the referendum of 28 September 2025 ([[Swiss-E-ID-Act-BGEID]]).
+- The new **E-ID Act (BGEID)** is based on government-run services: a state-issued E-ID, a public trust infrastructure (base and trust registries) and a state wallet (swiyu). It mandates privacy by design, data minimisation and decentralised storage of credentials in the holder's wallet. It was adopted by Parliament in December 2024 and accepted in the referendum of 28 September 2025 ([[Swiss-E-ID-Act-BGEID]]). The launch planned for 2026 was postponed in June 2026 for extra security measures; the trust infrastructure, and with it at least part of the act, is expected in the first half of 2027 ([[FOJ-E-ID-Timeline-2026]]).
 - The **E-ID Ordinance (VEID)**, consulted from June 2025, details eligibility and issuance, how verifiers use the trust infrastructure, limits on the data verifiers may request and keep, and a complaint procedure that can flag over-asking verifiers in the trust registry. Unregistered verifiers may request data, but the wallet warns the holder (Art. 14).
 - Switzerland develops swiyu publicly on GitHub, building on its experience with the open SwissCovid app ([[SwissCovid-Keeps-Your-Secrets]]).
 
 ## European Union
 - **eIDAS (2014)** created the legal framework for electronic identification and trust services and the mutual recognition of notified national eID schemes; offering an eID was not mandatory.
-- **EUDI regulation (2024/1183, "eIDAS 2")**, in force since May 2024, amends eIDAS and makes it mandatory for member states to offer a European Digital Identity Wallet within 24 months (counted from the entry into force of the implementing acts, i.e. by the end of 2026; earlier summaries cite May 2026). It requires selective disclosure and that relying parties must not be able to link or track users, and explicitly mentions zero-knowledge proofs as a possible means ([[EU-Digital-Identity-Regulation-2024-1183]]).
-- **Implementing regulations** adopted on 28 November 2024: integrity and core functionality (2024/2979), protocols and interfaces (2024/2982), person identification data and electronic attestations of attributes (2024/2977), certification (2024/2981) and notifications to the Commission (2024/2980). The first four are to be updated regularly and kept in sync with the ARF.
+- **EUDI regulation (2024/1183, "eIDAS 2")**, in force since May 2024, amends eIDAS and makes it mandatory for member states to offer a European Digital Identity Wallet within 24 months (counted from the entry into force of the implementing acts, i.e. by 24 December 2026; earlier summaries cite May 2026). It requires selective disclosure and that relying parties must not be able to link or track users, and explicitly mentions zero-knowledge proofs as a possible means ([[EU-Digital-Identity-Regulation-2024-1183]]).
+- **Implementing regulations** adopted on 28 November 2024: integrity and core functionality (2024/2979), protocols and interfaces (2024/2982), person identification data and electronic attestations of attributes (2024/2977), certification (2024/2981) and notifications to the Commission (2024/2980). The first four are to be updated regularly and kept in sync with the ARF. The first amending acts were published in 2026 (2026/1730, 2026/1731, 2026/1735), and relying-party registration is covered by 2025/848.
 - High-assurance attestations such as the PID must be issued with certified HSMs, like (qualified) trust service providers ([[Hardware-Security-for-eID]]).
 
 ## Interplay with technology
@@ -46,5 +46,5 @@ The higher levels use general language and are rarely modified; ordinances and i
 ## Resources
 - Paper: [[GHE25-Taxonomy]]
 - Wiki: [[Swiss-E-ID-Act-BGEID]], [[Swiss-E-ID-Ordinance-VEID]], [[eIDAS-Regulation-910-2014]], [[EU-Digital-Identity-Regulation-2024-1183]]
-- Docs: [[EUDI-ARF]], [[swiyu-Technical-Documentation]]
+- Docs: [[EUDI-ARF]], [[swiyu-Technical-Documentation]], [[FOJ-E-ID-Timeline-2026]]
 - Paper: [[KVRSCLT26-EUDIF-Harms]], [[BBC+24-ARF-Feedback]], [[BRD+24-SoK-Privacy-Regulations]], [[ABCD25-PETs-Payments]]

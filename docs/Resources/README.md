@@ -13,7 +13,7 @@ tags:
 
 # ZKP Resources
 
-Curated external resources for Zero-Knowledge Proofs — 272 entries across papers, blogs, books, courses, wikis, docs, and code repositories.
+Curated external resources for Zero-Knowledge Proofs — 274 entries across papers, blogs, books, courses, wikis, docs, and code repositories.
 
 _This file is auto-generated. Run `devbox run summaries` to update._
 
@@ -295,7 +295,9 @@ _This file is auto-generated. Run `devbox run summaries` to update._
 - [[eid-privacy-spartan-backend|eid-privacy/spartan-backend]] (code, 2026)
 - [[eid-privacy-zkp-android|eid-privacy/zkp-android]] (code, 2026)
 - [[eid-privacy-zkp-android-spartan|eid-privacy/zkp-android-spartan]] (code, 2026)
+- [[EUDI-ARF|EUDI Wallet Architecture and Reference Framework (ARF)]] (doc, 2026)
 - [[IETF-draft-google-cfrg-libzk|Longfellow ZK — IETF draft-google-cfrg-libzk]] (wiki, 2026)
+- [[FOJ-E-ID-Timeline-2026|New timeline for the introduction of the e-ID and the trust infrastructure (FOJ, 2026-06-30)]] (doc, 2026)
 - [[KVRSCLT26-EUDIF-Harms|On the (Privacy) Harms of the European Digital Identity Framework (Knabenhans, Veitch, Raynal, Stadler, Chatel, Lueks, Troncoso 2026)]] (paper, 2026)
 - [[ENRTTX26-OpenAC|OpenAC: Open Design for Transparent and Lightweight Anonymous Credentials (Eagen, Ngo, Rushi, Tong, Tsai, Xia 2026)]] (paper, 2026)
 - [[eid-privacy-poc-report|Proof-of-Concept for ZKPs (eid-privacy, 2026)]] (blog, 2026)
@@ -314,7 +316,6 @@ _This file is auto-generated. Run `devbox run summaries` to update._
 - [[FHLL25-AnonCreds-TrustedHW|Device-Bound Anonymous Credentials With(out) Trusted Hardware (Friedrichs, Harding, Lehmann, Lysyanskaya 2025)]] (paper, 2025)
 - [[eid-privacy-SWIYU-Demo|eid-privacy/SWIYU-Demo]] (code, 2025)
 - [[eid-privacy-zkp-pocs|eid-privacy/zkp-pocs]] (code, 2025)
-- [[EUDI-ARF|EUDI Wallet Architecture and Reference Framework (ARF)]] (doc, 2025)
 - [[Mom25-GP-ZKP-VCs|General-Purpose Zero-Knowledge Proofs for Verifiable Credentials (Mombelli 2025)]] (paper, 2025)
 - [[heidiverse-zkattest-rs|heidiverse/zkattest-rs (formerly UbiqueInnovation/zkattest-rs)]] (code, 2025)
 - [[google-longfellow-zk|longfellow-zk (Google)]] (code, 2025)
@@ -359,6 +360,7 @@ _This file is auto-generated. Run `devbox run summaries` to update._
 - [[Android-Keystore-Implementer-Reference|Android Keystore — KeyMint/Keymaster implementer's reference]] (doc)
 - [[Apple-CryptoKit-SecureEnclave|Apple CryptoKit — SecureEnclave]] (doc)
 - [[Apple-Platform-Security-Secure-Enclave|Apple Platform Security — The Secure Enclave]] (doc)
+- [[Austria-bPK-Description|Description of sector-specific person identifiers (bPK), Austria]] (doc)
 - [[swiyu-Technical-Documentation|swiyu Technical Documentation and GitHub Organisation]] (doc)
 
 ### elliptic-curves
@@ -746,7 +748,7 @@ _This file is auto-generated. Run `devbox run summaries` to update._
 
 ### privacy
 
-- [[EUDI-ARF|EUDI Wallet Architecture and Reference Framework (ARF)]] (doc, 2025)
+- [[EUDI-ARF|EUDI Wallet Architecture and Reference Framework (ARF)]] (doc, 2026)
 - [[IES25-SoK-Unusable-Privacy|SoK: (Un)usable Privacy: the Lack of Overlap between Privacy-Aware Sensing and Usable Privacy Research (Iravantchi, Emami-Naeini, Sample 2025)]] (paper, 2025)
 - [[UZ25-SoK-Threat-Modeling|SoK: A Framework and Guide for Human-Centered Threat Modeling in Security and Privacy Research (Usman, Zappala 2025)]] (paper, 2025)
 - [[EU-Digital-Identity-Regulation-2024-1183|Regulation (EU) 2024/1183 (European Digital Identity Framework) and implementing acts 2024/2977–2982]] (wiki, 2024)
@@ -760,6 +762,7 @@ _This file is auto-generated. Run `devbox run summaries` to update._
 - [[CPZ20-Signal-Groups|The Signal Private Group System and Anonymous Credentials Supporting Efficient Verifiable Encryption (Chase, Perrin, Zaverucha 2020)]] (paper, 2020)
 - [[BCD+14-ABC4Trust|D2.2 Architecture for Attribute-based Credential Technologies — Final Version (ABC4Trust) (Bichsel et al. 2014)]] (paper, 2014)
 - [[Shostack-Threat-Modeling|Threat Modeling: Designing for Security]] (book, 2014)
+- [[Austria-bPK-Description|Description of sector-specific person identifiers (bPK), Austria]] (doc)
 
 ### prover-backend
 
@@ -806,6 +809,7 @@ _This file is auto-generated. Run `devbox run summaries` to update._
 
 ### regulation
 
+- [[FOJ-E-ID-Timeline-2026|New timeline for the introduction of the e-ID and the trust infrastructure (FOJ, 2026-06-30)]] (doc, 2026)
 - [[Swiss-E-ID-Ordinance-VEID|Ordinance on the E-ID Act (E-ID-Verordnung, VEID) — consultation draft]] (wiki, 2025)
 - [[EU-Digital-Identity-Regulation-2024-1183|Regulation (EU) 2024/1183 (European Digital Identity Framework) and implementing acts 2024/2977–2982]] (wiki, 2024)
 - [[Swiss-E-ID-Act-BGEID|Swiss Federal Act on Electronic Identity and Other Electronic Credentials (E-ID Act, BGEID)]] (wiki, 2024)
@@ -946,6 +950,7 @@ _This file is auto-generated. Run `devbox run summaries` to update._
 ### standard
 
 - [[W3C-VC-DI-BBS|Data Integrity BBS Cryptosuites v1.0 (W3C)]] (wiki, 2026)
+- [[EUDI-ARF|EUDI Wallet Architecture and Reference Framework (ARF)]] (doc, 2026)
 - [[IETF-draft-google-cfrg-libzk|Longfellow ZK — IETF draft-google-cfrg-libzk]] (wiki, 2026)
 - [[IETF-SD-JWT-VC|SD-JWT-based Verifiable Digital Credentials (SD-JWT VC) — IETF draft]] (wiki, 2026)
 - [[swiyu-Trust-Protocol|swiyu Trust Protocol 2.0 Specification]] (doc, 2026)
@@ -954,7 +959,6 @@ _This file is auto-generated. Run `devbox run summaries` to update._
 - [[IRTF-CFRG-BBS-Per-Verifier-Linkability|BBS per Verifier Linkability — IRTF CFRG draft]] (wiki, 2025)
 - [[W3C-Bitstring-Status-List|Bitstring Status List v1.0 (W3C Recommendation)]] (wiki, 2025)
 - [[IRTF-CFRG-BBS-Blind-Signatures|Blind BBS Signatures — IRTF CFRG draft]] (wiki, 2025)
-- [[EUDI-ARF|EUDI Wallet Architecture and Reference Framework (ARF)]] (doc, 2025)
 - [[OpenID4VCI|OpenID for Verifiable Credential Issuance 1.0]] (wiki, 2025)
 - [[OpenID4VP|OpenID for Verifiable Presentations 1.0]] (wiki, 2025)
 - [[IETF-RFC9901-SD-JWT|RFC 9901: Selective Disclosure for JSON Web Tokens (SD-JWT)]] (wiki, 2025)

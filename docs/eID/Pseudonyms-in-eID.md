@@ -21,7 +21,12 @@ In general terms, the holder holds a secret `k` inside a credential (or derived 
 - Uniqueness ("this person has not voted yet") follows from the determinism of `nym` for a fixed context; unlinkability across contexts follows from the PRF.
 
 ## Sector-specific identifiers in Austria (bPK)
-ID Austria derives *bereichsspezifische Personenkennzeichen* (bPK) from a lifelong unique person identifier, the *Stammzahl*, per service sector (e.g. health, finance), so that services within a sector share an identifier while sectors are not directly linkable. The eid-privacy WP1 survey could not find public documentation of how the bPK is derived. If it were a plain hash such as `H(Stammzahl | sector)`, anyone knowing the Stammzahl and sector could recompute it; and if the Stammzahl had low entropy, enumeration would allow linking bPKs across sectors. Unlike ZKP pseudonyms, the derivation is performed centrally by the state, which therefore sees every login (see [[eID-Systems-Overview]]).
+ID Austria derives *bereichsspezifische Personenkennzeichen* (bPK) from a lifelong unique person identifier, the *Stammzahl*, per service sector (e.g. health, finance), so that services within a sector share an identifier while sectors are not directly linkable. The derivation is public ([[Austria-bPK-Description]]):
+
+- `Stammzahl = Base64(3DES-CBC_K(ZMR-number | seed))`: the central register number, extended with a secret seed and encrypted with a Triple-DES key, both kept by the Stammzahlenregisterbehörde (§ 6 E-GovG).
+- `bPK = Base64(SHA-1(Stammzahl + "+urn:publicid:gv.at:cdid+" + sector))`: a plain hash of the Stammzahl and the sector code.
+
+So the bPK is exactly the simple `H(Stammzahl | sector)` construction. Unlinkability across sectors rests entirely on the Stammzahl being secret: the register number has low entropy, but the secret seed and key make enumeration infeasible for outsiders. Anyone who learns a person's Stammzahl can compute all their bPKs, and the authority holding the key can link everything. Transfers between sectors use encrypted bPKs (vbPK, RSA with at least 1024 bits). The primitives (SHA-1, 3DES, RSA-1024) are dated. Unlike ZKP pseudonyms, the derivation is performed centrally by the state, which therefore sees every login (see [[eID-Systems-Overview]]).
 
 ## Considerations
 - A pseudonym is only as unlinkable as the rest of the presentation: other disclosed attributes, the holder-binding artefacts and revocation data must also be unlinkable ([[Unlinkable-Anonymous-Credentials]], [[Holder-Binding]]).
@@ -37,6 +42,6 @@ ID Austria derives *bereichsspezifische Personenkennzeichen* (bPK) from a lifelo
 ## Resources
 - Paper: [[DHG26-MS4]], [[GHE25-Taxonomy]], [[MMZ+21-CanDID]] (Sybil resistance with accountability)
 - Paper: [[PH10-Privacy-Terminology]] (definition of pseudonymity)
-- Docs: [[EUDI-ARF]]
+- Docs: [[EUDI-ARF]], [[Austria-bPK-Description]]
 - Wiki: [[W3C-VC-DI-BBS]]
 - Blog: [[eid-privacy-privacy-unlinkability]]

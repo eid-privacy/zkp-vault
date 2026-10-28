@@ -10,7 +10,7 @@ tags: []
 
 # ZKP Documentation
 
-24 entries.
+26 entries.
 
 _This file is auto-generated. Run `devbox run summaries` to update._
 
@@ -21,22 +21,24 @@ _This file is auto-generated. Run `devbox run summaries` to update._
 
 ## Navigation
 
-| A | A–G | H–P | R–S | S–Z |
+| A | C–G | H–O | P–S | S–Z |
 | --- | --- | --- | --- | --- |
-| [[Android-Keystore-Implementer-Reference|Android Keystore — KeyMint/Keymaster implementer's reference]] | [[matter-labs-awesome-zero-knowledge-proofs|Awesome Zero-Knowledge Proofs (matter-labs)]] | [[Halo2-Docs|Halo2 Documentation (Zcash)]] | [[R1CS-Docs|R1CS Explainer (0xPARC / Circom)]] | [[swiyu-Technical-Documentation|swiyu Technical Documentation and GitHub Organisation]] |
-| [[Android-Trusty-TEE|Android Trusty TEE]] | [[Circom2-Docs|Circom2 Documentation]] | [[Ligero-Prover-Docs|Ligetron Marketplace Documentation]] | [[RISC-Zero-Docs|RISC Zero Documentation]] | [[swiyu-Trust-Protocol|swiyu Trust Protocol 2.0 Specification]] |
-| [[Apple-CryptoKit-SecureEnclave|Apple CryptoKit — SecureEnclave]] | [[docknetwork-crypto-library|DockNetwork Crypto Library Analysis]] | [[Noir-Docs|Noir Documentation]] | [[SP1-Docs|SP1 Documentation (Succinct Labs)]] | [[eid-privacy-WP2-Libraries|WP2 Libraries and Protocols — evaluated libraries tables (eid-privacy)]] |
-| [[Apple-Platform-Security-Secure-Enclave|Apple Platform Security — The Secure Enclave]] | [[EUDI-ARF|EUDI Wallet Architecture and Reference Framework (ARF)]] | [[OpenVM-Docs|OpenVM Documentation]] | [[AIR-Docs|STARK 101 — AIR Tutorial (StarkWare)]] | [[ZoKrates-Docs|ZoKrates Documentation]] |
-| [[ARM-TrustZone|Arm TrustZone for Cortex-A]] | [[gnark-Docs|gnark Documentation (Consensys)]] | [[plonkish_arithmetization|PLONKish Arithmetization — ZK Jargon]] | [[swiyu-Beta-ID-Cookbook|swiyu Cookbook — How to use Beta-ID for my business]] |  |
+| [[Android-Keystore-Implementer-Reference|Android Keystore — KeyMint/Keymaster implementer's reference]] | [[Circom2-Docs|Circom2 Documentation]] | [[Halo2-Docs|Halo2 Documentation (Zcash)]] | [[plonkish_arithmetization|PLONKish Arithmetization — ZK Jargon]] | [[swiyu-Beta-ID-Cookbook|swiyu Cookbook — How to use Beta-ID for my business]] |
+| [[Android-Trusty-TEE|Android Trusty TEE]] | [[Austria-bPK-Description|Description of sector-specific person identifiers (bPK), Austria]] | [[Ligero-Prover-Docs|Ligetron Marketplace Documentation]] | [[R1CS-Docs|R1CS Explainer (0xPARC / Circom)]] | [[swiyu-Technical-Documentation|swiyu Technical Documentation and GitHub Organisation]] |
+| [[Apple-CryptoKit-SecureEnclave|Apple CryptoKit — SecureEnclave]] | [[docknetwork-crypto-library|DockNetwork Crypto Library Analysis]] | [[FOJ-E-ID-Timeline-2026|New timeline for the introduction of the e-ID and the trust infrastructure (FOJ, 2026-06-30)]] | [[RISC-Zero-Docs|RISC Zero Documentation]] | [[swiyu-Trust-Protocol|swiyu Trust Protocol 2.0 Specification]] |
+| [[Apple-Platform-Security-Secure-Enclave|Apple Platform Security — The Secure Enclave]] | [[EUDI-ARF|EUDI Wallet Architecture and Reference Framework (ARF)]] | [[Noir-Docs|Noir Documentation]] | [[SP1-Docs|SP1 Documentation (Succinct Labs)]] | [[eid-privacy-WP2-Libraries|WP2 Libraries and Protocols — evaluated libraries tables (eid-privacy)]] |
+| [[ARM-TrustZone|Arm TrustZone for Cortex-A]] | [[gnark-Docs|gnark Documentation (Consensys)]] | [[OpenVM-Docs|OpenVM Documentation]] | [[AIR-Docs|STARK 101 — AIR Tutorial (StarkWare)]] | [[ZoKrates-Docs|ZoKrates Documentation]] |
+| [[matter-labs-awesome-zero-knowledge-proofs|Awesome Zero-Knowledge Proofs (matter-labs)]] |  |  |  |  |
 
 ## All Documentation
 
 | Resource | Year | Authors | Tags |
 |---|---|---|---|
 | [[docknetwork-crypto-library|DockNetwork Crypto Library Analysis]] | 2026 | eid-privacy project | library, implementations, sigma, commitment, eid |
+| [[EUDI-ARF|EUDI Wallet Architecture and Reference Framework (ARF)]] | 2026 | European Commission, eu-digital-identity-wallet contributors | eid, standard, privacy |
+| [[FOJ-E-ID-Timeline-2026|New timeline for the introduction of the e-ID and the trust infrastructure (FOJ, 2026-06-30)]] | 2026 | Swiss Federal Office of Justice (FOJ) | eid, regulation |
 | [[swiyu-Beta-ID-Cookbook|swiyu Cookbook — How to use Beta-ID for my business]] | 2026 | Swiss Federal Office of Information Technology, Systems and Telecommunication (FOITT) | eid, tutorials |
 | [[swiyu-Trust-Protocol|swiyu Trust Protocol 2.0 Specification]] | 2026 | Swiss Federal Office of Information Technology, Systems and Telecommunication (FOITT) | eid, did, standard |
-| [[EUDI-ARF|EUDI Wallet Architecture and Reference Framework (ARF)]] | 2025 | European Commission, eu-digital-identity-wallet contributors | eid, standard, privacy |
 | [[eid-privacy-WP2-Libraries|WP2 Libraries and Protocols — evaluated libraries tables (eid-privacy)]] | 2025 | eid-privacy project | eid, library, implementations, overview |
 | [[Ligero-Prover-Docs|Ligetron Marketplace Documentation]] | 2024 | Ligetron | implementations, prover-backend |
 | [[OpenVM-Docs|OpenVM Documentation]] | 2024 | Axiom / OpenVM Team | zkvm, implementations, stark, llvm |
@@ -56,4 +58,5 @@ _This file is auto-generated. Run `devbox run summaries` to update._
 | [[Apple-CryptoKit-SecureEnclave|Apple CryptoKit — SecureEnclave]] |  | Apple | hardware, eid, reference |
 | [[Apple-Platform-Security-Secure-Enclave|Apple Platform Security — The Secure Enclave]] |  | Apple | hardware, eid |
 | [[ARM-TrustZone|Arm TrustZone for Cortex-A]] |  | Arm | hardware, reference |
+| [[Austria-bPK-Description|Description of sector-specific person identifiers (bPK), Austria]] |  | Austrian Stammzahlenregisterbehörde | eid, privacy |
 | [[swiyu-Technical-Documentation|swiyu Technical Documentation and GitHub Organisation]] |  | Swiss Federal Office of Information Technology, Systems and Telecommunication (FOITT) | eid, reference, implementations |

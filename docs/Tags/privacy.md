@@ -13,6 +13,7 @@ Entries about privacy notions, threats and regulations beyond a single cryptogra
 
 - [[AC-Features|Anonymous Credential Features]]
 - [[BCD+14-ABC4Trust|D2.2 Architecture for Attribute-based Credential Technologies — Final Version (ABC4Trust) (Bichsel et al. 2014)]]
+- [[Austria-bPK-Description|Description of sector-specific person identifiers (bPK), Austria]]
 - [[eID-Actors-and-Trust-Goals|e-ID Actors and Trust Goals]]
 - [[eID-Open-Questions|e-ID Open Questions]]
 - [[eID-Systems-Overview|e-ID Systems Overview and Comparison]]

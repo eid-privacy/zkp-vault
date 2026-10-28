@@ -15,6 +15,7 @@ Tags legal texts and regulatory frameworks governing electronic identity, such a
 - [[eID-Legal-Framework|e-ID Legal Framework (EU and Switzerland)]]
 - [[eID-Systems-Overview|e-ID Systems Overview and Comparison]]
 - [[EUDI-ARF|EUDI Wallet and the ARF (European Union)]]
+- [[FOJ-E-ID-Timeline-2026|New timeline for the introduction of the e-ID and the trust infrastructure (FOJ, 2026-06-30)]]
 - [[Swiss-E-ID-Ordinance-VEID|Ordinance on the E-ID Act (E-ID-Verordnung, VEID) — consultation draft]]
 - [[EU-Digital-Identity-Regulation-2024-1183|Regulation (EU) 2024/1183 (European Digital Identity Framework) and implementing acts 2024/2977–2982]]
 - [[eIDAS-Regulation-910-2014|Regulation (EU) No 910/2014 (eIDAS)]]
